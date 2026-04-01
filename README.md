@@ -8,8 +8,28 @@ Guia passo a passo para migrar dados de um workspace Zazos para o Supabase.
 
 - Python 3.9+
 - Dependências: `pip install requests`
+- Node.js 18+ (para Claude Code)
 - Acesso ao workspace Zazos (conta com permissão de leitura)
 - Acesso ao projeto Supabase de destino
+
+---
+
+## Passo 0 — Instalar o Claude Code (macOS)
+
+O Claude Code é o agente que conduz o mapeamento, geração e ajuste dos CSVs.
+
+```bash
+# Instalar via npm (requer Node.js 18+)
+npm install -g @anthropic-ai/claude-code
+```
+
+Após instalar, autentique com sua conta Anthropic:
+
+```bash
+claude
+```
+
+> Alternativamente, baixe o app desktop em **claude.ai/code** e instale normalmente como qualquer app macOS (.dmg).
 
 ---
 
@@ -37,41 +57,23 @@ Guarde esse arquivo — ele é a referência para o mapeamento.
 
 ---
 
-## Passo 3 — Identificar os sheets relevantes para o módulo
+## Passo 3 — Agente identifica os sheets e cria o mapping
 
-Abra o `sheets_default_views.json` e localize os sheets que correspondem ao app
-que você quer migrar. Use o `system_name` como guia:
+**Esta etapa é conduzida pelo agente (Claude Code).** Diga ao agente qual módulo migrar e forneça o token do Zazos. O agente vai:
 
-| App novo (Supabase) | Sheet(s) Zazos típicos |
-|---|---|
-| pessoas / z_shared | `people`, `contracts`, `companies`, `other_people` |
-| admissao / z_admissao | `onboarding` |
-| pagamentos / z_financeiro | `payments` |
-| ferias / z_recessos | `paid_time_off`, `paid_time_off_periodos_aquisitivos_sheet` |
+1. Ler o `sheets_default_views.json` e localizar os sheets relevantes pelo nome/`system_name`
+2. Ler o `schema.json` do módulo para entender as tabelas e colunas de destino
+3. Cruzar os `field_id`s do Zazos com as colunas do schema
+4. Criar o arquivo `output/<cliente>/<modulo>/mapping.json` pronto para uso
 
-Anote o `default_view_id` de cada sheet relevante.
+Exemplo de instrução ao agente:
+> "Vamos migrar o módulo admissao. O token é `Bearer eyJ...`"
 
----
+O agente devolve o `mapping.json` e explica as decisões de mapeamento (campos nulos, estratégias de extração, FKs identificadas).
 
-## Passo 4 — Entender o schema de destino
+**Estratégias de extração disponíveis:**
 
-Cada módulo tem um `schema.json` em `output/<cliente>/<modulo>/schema.json`.
-
-Para cada tabela no schema, você precisa identificar qual sheet Zazos tem os dados
-e qual `field_id` corresponde a cada coluna.
-
-**Como encontrar o field_id certo:**
-
-No `sheets_default_views.json`, cada sheet tem uma lista de `fields`:
-```json
-{ "id": "abc123", "type": "String", "name": "Nome Completo" }
-```
-
-O `id` aqui é o `field_id` que vai no script.
-
-**Estratégias de extração por tipo de campo Zazos:**
-
-| Tipo Zazos | Estratégia no script |
+| Tipo Zazos | Estratégia |
 |---|---|
 | String | `"string"` |
 | Number | `"number"` |
@@ -80,9 +82,20 @@ O `id` aqui é o `field_id` que vai no script.
 | Link (FK simples) | `"link"` → retorna o `foreign_record_id` |
 | Link (FK múltipla) | `"link_array"` → retorna JSON array de IDs |
 | Formula | `"formula"` |
-| Lookup | `"string"` ou `"formula"` |
-| Attachment | `"attachment"` → retorna o filename |
 | Markdown | `"markdown"` |
+| Select booleano | `"bool_select"` → Sim/Não → true/false |
+
+---
+
+## Passo 4 — Agente gera os CSVs e devolve prontos para importar
+
+**Esta etapa também é conduzida pelo agente.** Com o `mapping.json` criado, o agente:
+
+1. Executa `generate_csvs_generic.py` passando o mapping e o token
+2. Aplica post-processing necessário (dedup, normalização de enums, derivação de campos)
+3. Devolve os CSVs em `output/<cliente>/<modulo>/` prontos para importar no Supabase
+
+Se houver erros de constraint na importação, cole a mensagem de erro para o agente — ele consulta a constraint, mapeia os valores e corrige o CSV.
 
 ---
 
