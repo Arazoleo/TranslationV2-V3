@@ -1,0 +1,410 @@
+id,colaborador_profile_id,lider_profile_id,tipo_day_off,data_solicitacao,data_inicio,data_fim,data_retorno,descricao,referencia_feriado,status_aprovacao,tipo_contrato,motivo_cancelamento,deseja_cancelar,created_at,updated_at
+1f90ef9a-c725-453c-b218-241f9df2a113,,,Aniversário,2024-07-16,2024-07-15,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+f097a61a-3b43-4419-8712-4f286934774f,,,Aniversário,2024-07-18,2024-07-05,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+03eb6249-f5b9-4533-9360-5c8521dbeb96,,,Aniversário,2024-08-09,2024-08-16,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d4748819-02d5-48c0-86fa-f5fbfad4ae66,,,Banco de Horas - Dia Normal,2024-09-09,2024-09-20,,2024-09-23,,,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+ca1a65a2-b3e1-45ac-aff0-3e405efa836e,,,Aniversário,2024-09-10,2024-09-16,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d16a1d72-3e06-4542-9c68-3d9e0f3aa779,,,Aniversário,2024-09-20,2024-10-04,,,,,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+b838a4f0-4a82-4379-8a87-890f673eb84d,,,Outro,2024-10-01,2024-09-16,,,Folga,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a4eee51a-f169-4a60-9ca1-198c60a88338,,,Banco de Horas - Dia Normal,2024-10-01,2024-09-20,,2024-09-23,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+3297ce37-9600-4f47-8b64-03a553be5357,,,Aniversário,2024-10-01,2024-10-04,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a51d109b-6518-49c3-94dc-832056514318,,,Aniversário,2024-10-07,2024-10-21,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+8ff19040-a92a-4a16-8d11-387755378f0d,,,Aniversário,2024-10-07,2024-12-10,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d945df46-75de-4332-8eb2-f17383366789,,,Banco de Horas - Dia Normal,2024-10-08,2024-11-08,,2024-11-11,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+590be57f-54d7-4213-a7c9-507eaa43995d,,,Aniversário,2024-10-15,2024-11-25,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+50ac3473-19f8-47ae-972a-e30f14bd454d,,,Aniversário,2024-10-16,2024-11-04,,,,,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+e2faecd2-ffdb-46ec-93b1-60887bf9e73f,,,Aniversário,2024-10-21,2024-11-18,,,,,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+6cec2c97-13a4-4284-b31b-da38c01b49b6,,,Aniversário,2024-10-30,2024-11-04,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+b6a79c31-d8c0-49c4-8bab-a170cc6edb40,,,Aniversário,2024-11-13,2024-11-25,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+2e458364-3efd-4f9a-bd93-1ce8142fb6d6,,,Aniversário,2024-11-13,2024-11-22,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+83989bdf-2992-4e9f-8381-5a25370581f0,,,Banco de Horas - Dia Normal,2024-11-14,2024-12-26,,2025-01-06,,,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+03adec29-c714-40e4-a11e-3e984b4cd71a,,,Banco de Horas - Dia Normal,2024-11-19,2024-12-26,,2024-12-28,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a4c2ac1a-3dbe-4940-a55b-334f2a505af2,,,Banco de Horas - Dia Normal,2024-11-19,2024-12-30,,2025-01-04,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+1c99be13-6eee-420d-bb87-1fe9e6f9fc1d,,,Banco de Horas - Dia Normal,2024-11-19,2025-01-06,,2025-01-09,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+c2fc3a72-d532-4997-813e-124db4cd47fa,,,Banco de Horas - Dia Normal,2024-11-14,2024-12-26,,2025-01-02,Folga Banco de Horas,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+17049f39-47d5-4e04-beb0-f0fdc96eae85,,,Aniversário,2024-12-02,2024-12-06,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+44ec3a0d-57e8-4961-bf25-7cf607f2c4b8,,,Aniversário,2024-12-10,2024-12-13,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+1e86cb3e-b15e-4439-8b18-2b168521c045,,,Licença Pet,2024-12-11,2024-12-13,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+1f705ff6-62e7-4bf2-9584-87eabded92a6,,,Aniversário,2024-12-18,2025-01-03,,2025-01-06,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d871c97e-75ec-4ca9-b2e5-3474eafec15e,,,Outro,2025-01-02,2024-12-24,,,Véspera de Natal,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a5ba9ed7-e97d-4663-98dd-d7496b224713,,,Outro,2025-01-02,2024-12-31,,,Véspera de Ano Novo,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+cb7c480b-ed8f-43be-b64c-dfc357acfc71,,,Banco de Horas - Dia Normal,2025-01-11,2025-04-15,,2025-04-23,,,Cancelada,,,true,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+c0810083-d26d-47dd-9657-c43ce7a8e0c4,,,Aniversário,2025-01-13,2025-01-24,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+452b9a22-7d8c-4bce-aa4a-368272471fe3,,,Aniversário,2025-01-13,2025-01-16,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+85ae7972-b31e-4755-b58f-62539ceefb21,,,Aniversário,2025-01-20,2025-01-31,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+52f97a98-5b7f-4105-91f2-b690c7f75a25,,,Aniversário,2025-01-27,2025-02-07,,,,,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+ad2b2464-6364-42ff-bd79-6ad1a143d4e9,,,Aniversário,2025-02-03,2025-02-07,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+9e9665c2-e503-403b-8589-6490f8278da5,,,Outro,2025-02-19,2025-03-03,,,Carnaval,,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+e70b2eab-73bd-472d-aac7-980f44321ac8,,,Outro,2025-02-19,2025-03-04,,,Carnaval,,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d5c7783a-cf97-4582-83a1-5c9bd4c81da2,,,Outro,2025-02-20,2025-03-17,,2025-03-18,Semana de folga on-calls DevOps,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a7860817-464d-4dc9-8b6c-6b0a53966f22,,,Folga Banco de Horas - Carnaval 2025,2025-02-20,2025-03-03,,,,,Cancelada,CLT,,true,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+508ac820-f6cf-49b2-819a-29b69eefa624,,,Folga Banco de Horas - Carnaval 2025,2025-02-20,2025-03-03,,2025-03-05,,,Cancelada,CLT,,true,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+9b1f63e1-1563-4ba1-8dae-7160c57a4716,,,Folga Banco de Horas - Carnaval 2025,2025-02-21,2025-02-28,,2025-02-28,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+20149344-b3cd-4148-8462-7077cf0570df,,,Folga Banco de Horas - Carnaval 2025,2025-02-24,2025-03-03,2025-03-04,2025-03-05,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+15202dd8-5c43-417a-b7df-932876a67667,,,Folga Banco de Horas - Carnaval 2025,2025-02-24,2025-03-03,2025-03-04,2025-03-05,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+fa84b38c-afbe-4630-8765-f0294dafa29d,,,Folga Banco de Horas - Carnaval 2025,2025-02-24,2025-03-03,2025-03-04,2025-03-05,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a1d750fa-733d-4341-959c-34132b56cef1,,,Banco de Horas - Dia Normal,2025-02-24,2025-03-03,,2025-03-05,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+7c5d61f0-4411-46a5-a402-3a8e2f9aee99,,,Folga Banco de Horas - Carnaval 2025,2025-02-24,2025-03-03,,2025-03-04,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d2d37e99-3ff4-46ca-a2d7-07d232000eac,,,Folga Banco de Horas - Carnaval 2025,2025-02-25,2025-03-03,,2025-03-04,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+1c7fd223-35e8-4701-9799-daae9845dd3c,,,Folga Banco de Horas - Carnaval 2025,2025-02-25,2025-03-03,,2025-03-05,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+1924c9d2-1774-4d1c-9c3f-fa5a4ab96693,,,Folga Banco de Horas - Carnaval 2025,2025-02-25,2025-03-03,,2025-03-04,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a172fa63-dd9c-48ff-8b23-a7393a508f62,,,Folga Banco de Horas - Carnaval 2025,2025-02-25,2025-03-03,,2025-03-05,,,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+8b53e036-944a-4277-99b1-4beff23828da,,,Folga Banco de Horas - Carnaval 2025,2025-02-25,2025-03-03,,2025-03-04,,,Cancelada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+162d2266-ea27-4ec8-93dd-82ec5b64574b,,,Folga Banco de Horas - Carnaval 2025,2025-02-25,2025-03-03,,2025-03-05,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+bd19fef5-5e19-4ec9-a47a-8c4eaa0be10a,,,Folga Banco de Horas - Carnaval 2025,2025-02-25,2025-03-03,2025-03-04,2025-03-05,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a28c2ded-573f-42af-b405-9867feb0ca4c,,,Folga Banco de Horas - Carnaval 2025,2025-02-25,2025-03-03,2025-03-05,2025-03-06,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+bc8cee60-b788-4431-b36c-948594bdf53f,,,Folga Banco de Horas - Carnaval 2025,2025-02-25,2025-03-03,,2025-03-05,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+04f220ab-af63-44a7-96bb-38a04db3b019,,,Folga Banco de Horas - Carnaval 2025,2025-02-25,2025-03-03,,2025-03-04,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+45771e6d-dbb5-4130-aa6a-304554c4c788,,,Folga Banco de Horas - Carnaval 2025,2025-02-25,2025-03-03,,2025-03-05,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+b55ce20c-9a76-4af9-9309-735aad88d6ca,,,Folga Banco de Horas - Carnaval 2025,2025-02-25,2025-03-03,,2025-03-05,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+52e21bae-530b-4210-a8a4-efefa1e8ac39,,,Folga Banco de Horas - Carnaval 2025,2025-02-26,2025-03-03,2025-03-05,2025-03-06,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+efc30904-b421-4aee-8b93-7c7d8884f504,,,Aniversário,2025-02-26,2025-03-07,2025-03-07,2025-03-10,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+5cd45a38-bb3b-4b80-9bbb-bd7b581b799f,,,Folga Banco de Horas - Carnaval 2025,2025-02-26,2025-03-03,,2025-03-05,,,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+50a1ee22-50ba-4a99-a60f-31906defcbd0,,,Folga Banco de Horas - Carnaval 2025,2025-02-27,2025-03-03,2025-03-05,2025-03-06,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+01008fb3-2f15-429c-ba54-2a2994ce7fc1,,,Folga Banco de Horas - Carnaval 2025,2025-02-27,2025-03-03,,2025-03-04,,,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+2e04928b-b95b-420c-beca-76763004720f,,,Folga Banco de Horas - Carnaval 2025,2025-02-27,2025-03-03,,2025-03-04,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+069e870b-7b3b-492b-b9c1-dd15df4c966a,,,Folga Banco de Horas - Carnaval 2025,2025-02-28,2025-03-03,,2025-03-04,,,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+3f5021b5-5709-4755-928e-07b3052896a0,,,Aniversário,2025-03-10,2025-05-09,,2025-05-09,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+208ef6c6-3a8d-4b4a-96f4-9232dd06a90b,,,Aniversário,2025-03-12,2025-03-17,,2025-03-18,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d709ea6d-df19-4af8-b83d-32539b956b44,,,Aniversário,2025-03-13,2025-03-14,,2025-03-14,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a9e7da9c-dd37-441f-aedf-47bfed4bcb9c,,,Banco de Horas - Dia Normal,2025-03-17,2025-04-17,,2025-04-17,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+7b0df647-b703-42a0-9ad5-c91fc6eebc82,,,Aniversário,2025-03-20,2025-07-21,,2025-07-21,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+dd77203f-4a2c-4575-b3ab-3522b786d79b,,,Licença Casamento,2025-04-14,2025-04-18,,2025-04-22,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+8b370758-5646-4e60-a837-7adff63c3d21,,,Banco de Horas - Dia Normal,2025-04-08,2025-05-05,,2025-05-06,,,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+8c7eb36b-a619-42b8-a63e-767c16e90127,,,Aniversário,2025-04-17,2025-05-02,,2025-05-02,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+6d065ed4-ecb0-4ef2-95d7-62628e1f2a43,,,Aniversário,2025-05-05,2025-05-05,,2025-05-05,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+c786263f-4752-42c1-8b85-ef6419f61b28,,,Troca de Feriado,2025-04-28,2025-05-02,,2025-05-05,Troca do feriado,,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+6c8d3311-e646-4af3-b9af-421262640a4a,,,Troca de Feriado,2025-04-28,2025-05-02,,2025-05-05,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+66657c3f-f46d-4400-b04b-27d81ac09583,,,Troca de Feriado,2025-04-28,2025-05-02,,2025-05-05,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+fcf9d4e6-46d9-4525-8412-7ac91f9f604e,,,Aniversário,2025-04-29,2025-05-14,,2025-05-15,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+2785027e-7907-4a48-b6af-ffacfca2f011,,,Banco de Horas - Dia Normal,2025-04-29,2025-05-05,,2025-05-06,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+1a16ace4-8f30-4b37-80f2-b4c1f682486f,,,Banco de Horas - Dia Normal,2025-04-29,2025-05-15,,2025-05-19,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+76b8b0a2-ab60-439b-8560-be9efb7d93eb,,,Banco de Horas - Dia Normal,2025-04-29,2025-05-02,,2025-05-02,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+9fde78ac-8699-4a11-94de-9d8c59c2c75c,,,Troca de Feriado,2025-04-30,2025-05-02,,2025-05-02,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+f823bd48-7f49-48b3-af3f-bd935959db11,,,Troca de Feriado,2025-04-30,2025-05-02,,2025-05-02,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a343b293-ffb2-4282-8e09-f0a563f44a5f,,,Aniversário,2025-06-02,2025-06-27,,2025-06-28,,,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d38cb9c0-aa02-4acd-897e-b7a5181ce1da,,,Aniversário,2025-06-02,2025-06-03,2025-06-03,2025-06-04,,,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+5913ebbc-87b8-4b3e-8bff-0357a12320a6,,,Outro,2025-06-09,2025-06-19,,2025-06-24,"Um dia no dia 19 e outro no dia 24, com as folgas de mesário",,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a3d70e08-360b-443e-be91-72290a1575aa,,,Banco de Horas - Dia Normal,2025-06-11,2025-06-20,,2025-06-20,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+838ba64b-9789-4075-af28-f7633d71b44f,,,Banco de Horas - Dia Normal,2025-06-11,2025-06-23,,2025-06-23,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+37e4e972-e0da-4b04-b569-2ddf4e341287,,,Troca de Feriado,2025-06-13,2025-06-20,,2025-06-20,,Teste,Cancelada,CLT,Teste,true,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+21b777d2-f8ca-45e5-a2bc-1454da640371,,,Troca de Feriado,2025-06-13,2025-06-20,,2025-06-20,,Feriado do dia 19 de junho,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+9a08a564-3886-44f5-86c4-8b3a2cb00b70,,,Troca de Feriado,2025-07-03,2025-06-23,,,,24/06/2025,pendente,CLT,,true,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+0dbf3442-1386-4c8f-9fdd-cb3a1f0b6707,,,Troca de Feriado,2025-06-13,2025-06-23,,2025-06-23,,Feriado do dia 24 de junho,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+c2f64429-7b1e-4740-b0d7-9b158e4a2dd1,,,Troca de Feriado,2025-06-13,2025-06-23,,2025-06-23,,Gostaria de trocar o feriado do dia 19 para o dia 23. Já está tudo alinhado com a wework e zig. ,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+c60627cc-e558-48a4-b00b-1222fcd0cae8,,,Troca de Feriado,2025-06-13,2025-06-20,,2025-06-20,,19/06/2025,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+9949ca0b-798b-4666-b31a-7f8f37892db8,,,Troca de Feriado,2025-06-13,2025-06-23,,2025-06-23,,Corpus Christi,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+0effb415-6340-44e3-a977-6f88e095a8a0,,,Troca de Feriado,2025-06-13,2025-06-23,,2025-06-23,,Corpo de Deus,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+3023fd05-4d50-4ca4-8489-2693a12d937c,,,Aniversário,2025-06-13,2025-06-23,,2025-06-23,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+bbc2ca23-1ddf-4f08-8b70-c17027896e9a,,,Troca de Feriado,2025-06-13,2025-06-23,,2025-06-23,,"Corpus Christi, 19/06/2025",Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+5b4fa3e6-b90e-4ced-8057-031295da5fa5,,,Troca de Feriado,2025-06-13,2025-06-23,,2025-06-23,,Corpus Christi - 19/06,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+81bbd1a5-20ad-41c2-a0fb-b730fb3b4b9b,,,Outro,2025-06-13,2025-06-23,,2025-06-24,"Feriado do Corpus Christi que seria dia 19/06, iremos passar para o dia 23/06.",,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+e3eda130-cc74-49bf-a026-99ce4fa32496,,,Troca de Feriado,2025-06-13,2025-06-19,,2025-06-23,,Corpus Christ,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+0a7cfe74-0e62-4b21-a0fe-282a8613304b,,,Troca de Feriado,2025-06-17,2025-06-20,,,,19/06/2025,Cancelada,CLT,Teste,true,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+3b702a08-aff9-4067-833a-52fc67894027,,,Aniversário,2025-06-17,2025-06-23,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+8becb5eb-473a-4454-9827-f1748d8ae7ab,,,Troca de Feriado,2025-06-17,2025-06-20,,,,24/06/2025,pendente,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+6e0a947e-cc66-478f-a523-87089a5d95a2,,,Troca de Feriado,2025-06-18,2025-06-20,,,,24/06,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+82dbc1f1-2f19-444a-b99a-006b599e3767,,,Troca de Feriado,2025-06-18,2025-06-23,,,,Corpus Christi,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+dde6f667-433b-4aca-8eff-32794a81ae20,,,Troca de Feriado,2025-06-18,2025-06-23,,,,19/06/2025,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+462cc1f9-65a9-47ed-b0e6-619bed51c773,,,Troca de Feriado,2025-06-20,2025-06-23,,,,24/06/2025,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+735193f0-096e-47be-9c82-ba505ac59ede,,,Troca de Feriado,2025-06-20,2025-06-23,,,,24/06/2025,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+6c2e9b0a-900b-46d1-b0fe-d79646b347d0,,,Aniversário,2025-06-26,2025-06-30,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+2ee36e5e-1a79-4fba-8a73-9e83d623a8e5,,,Troca de Feriado,2025-06-27,2025-07-04,,,,2 de Julho (Independência da Bahia),Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+f510e493-73a7-4feb-82d4-9246740d3d8a,,,Troca de Feriado,2025-06-27,2025-07-04,,,,2 de Julho,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+be2bb508-ebe8-4d0d-a345-2b8597348566,,,Troca de Feriado,2025-06-27,2025-07-04,,,,2 de Julho - Independência da Bahia,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+f495dd94-4a6f-45d3-8b20-b650b81240d3,,,Troca de Feriado,2025-06-27,2025-07-04,,,,Dois de Julho - Independência da Bahia,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+84128893-996b-45e7-b36b-64876ab0d591,,,Troca de Feriado,2025-06-27,2025-07-04,,,,Independencia da Bahia,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+6bf3b4a8-8f65-431b-8add-ded597844a9b,,,Troca de Feriado,2025-06-27,2025-07-04,,,,02/07/2025,pendente,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+15758e02-b41c-460c-83c9-bd27f11c2e4f,,,Troca de Feriado,2025-06-27,2025-07-04,,,,Dois de Julho,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+7a5c8aef-8935-4051-abcc-fcf51757b4e6,,,Troca de Feriado,2025-06-27,2025-07-04,,,,Troca de feriado do dia 02.07 para o dia 04.07,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+c1a77a0e-84d7-447b-ada4-68d91637e8ad,,,Troca de Feriado,2025-06-27,2025-07-04,,,,Independência da Bahia,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+e9cf9e7f-6cd0-4f84-8f6b-1d5a60b61163,,,Troca de Feriado,2025-06-27,2025-07-04,,,,Independência da Bahia - 02/07,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+029c495c-9dbe-438b-b0be-ad56ec1486ba,,,Troca de Feriado,2025-06-30,2025-07-04,,,,02/07/2025,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+3471ec10-a3ce-49be-ba44-d8f2b3dad6ff,,,Troca de Feriado,2025-06-30,2025-07-04,,,,Independência da Bahia (02/07),Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+f893019d-eb77-403f-ac37-0b92425b6d81,,,Troca de Feriado,2025-06-30,2025-07-09,,,,19/06/2025,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+7775c187-d832-447f-84e0-143981a7abfd,,,Troca de Feriado,2025-06-30,2025-07-25,,,,02/07/2025,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+8fe3f948-d175-4120-b798-e9d16dbca126,,,Troca de Feriado,2025-06-30,2025-06-20,,,,24/06/2025,pendente,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+f65de9b7-dba9-4200-835b-583494d8af36,,,Troca de Feriado,2025-06-30,2025-07-07,,,,02/07/2025,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+83aa4f8d-1b68-4710-b399-0ac41e4d93c9,,,Troca de Feriado,2025-07-01,2025-07-04,,,,02/07/2025,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+209dd838-20fb-4b2b-889f-3156f28f320c,,,Troca de Feriado,2025-07-01,2025-07-04,,,,Independência da Bahia,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+0860ac57-08c2-4c3e-9e81-f6b6cd7b1627,,,Troca de Feriado,2025-07-01,2025-07-09,,,,02/07/2025,Cancelada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+89893d82-8e33-484a-a6e7-b4b57f731ef1,,,Troca de Feriado,2025-07-01,2025-07-04,,,,Independência da Bahia | 2 de julho ,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+4d3fd081-4d6e-432a-a100-dc41ce413196,,,Troca de Feriado,2025-07-01,2025-07-07,,,,Independência da Bahia,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+b892e9b6-860f-427a-8810-0518b18d288d,,,Troca de Feriado,2025-07-01,2025-07-04,,,,Independência da Bahia,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+2f538f48-0fa3-42d1-9d04-b30c8224926b,,,Outro,2025-07-01,2025-07-04,,,Troca de Dia,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+8e47edfe-689e-4a54-a743-40043d941ef3,,,Troca de Feriado,2025-07-01,2025-07-04,,,,2 de Julho,pendente,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+349bbb36-268e-460a-817e-a598a7b8fc2f,,,Troca de Feriado,2025-07-01,2025-07-04,,,,02/07/2025,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+8faac9db-2749-47bf-a872-8d27750522dc,,,Troca de Feriado,2025-07-02,2025-07-04,,,,[Feriado] Independência da Bahia,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+8105a59a-a3f7-497f-b092-9c025422ef8e,,,Troca de Feriado,2025-07-02,2025-07-04,,,,Independência da Bahia,Esperando aprovação da liderança,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+6c19eedb-323e-485f-a745-00e481c7c920,,,Troca de Feriado,2025-07-03,2025-07-04,,,,02/07/2025,pendente,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+52d29c51-1ea6-4a5b-a93b-af2158a83209,,,Troca de Feriado,2025-07-03,2025-07-04,,,,Feriado do São João,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+99a177ba-a16b-4ac1-8f54-b990f31a724e,,,Troca de Feriado,2025-07-03,2025-07-04,,,,Feriado de São João,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+b1259029-9d5d-476d-8315-b5215e5bf2da,,,Aniversário,2025-07-16,2025-07-18,,,,,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+53525766-4f6c-4ec1-9e54-1a64ffd3b151,,,Banco de Horas - Dia Normal,2025-07-21,2025-08-29,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+31e2370a-7ab0-45fc-8617-1b3e77204941,,,Aniversário,2025-07-21,2025-07-29,,,,,Aprovada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+3a144a2b-7c80-49ec-adfb-f3179834f4be,,,Aniversário,2025-08-07,2025-09-08,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+64a8229e-12de-45a0-b881-bbfbca7d7faf,,,Banco de Horas - Dia Normal,2025-08-11,2025-11-14,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+0eccfb8b-d6cc-4e24-9d22-a70d5ed94c00,,,Aniversário,2025-08-12,2025-08-15,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+6aadfc15-d0c1-46a4-a49f-0c74a618f831,,,Licença Casamento,2025-10-13,2025-10-17,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+ca986fe0-d522-4cb6-88f2-95f1389e3684,,,Outro,2025-09-15,2025-09-29,,,"Irei precisar ficar off nesse dia por motivos pessoais, mais irei compensar nos outros dias da semana",,Negada,,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d66fca2d-1afb-4b07-b694-ab6b5c8e67cc,,,Aniversário,2025-09-24,2025-12-05,,,,,Cancelada,CLT,é o dia do plan da empresa,true,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+4c4e44a7-2a52-4ac9-bf4d-47dd20f9143c,,,Banco de Horas - Dia Normal,2025-09-24,2025-11-28,,,,,Cancelada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+ba13ce82-72ff-4fc8-b4bc-b3a9132caaa6,,,Aniversário,2025-10-01,2025-10-06,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a1140c20-8412-4cd0-87f0-20d8a927515f,,,Aniversário,2025-10-04,2025-10-10,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+11613f09-e77c-4ade-a8eb-d763187e159a,,,Aniversário,2025-10-08,2025-10-10,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+607d0d52-88ae-4289-8836-9af27df86d95,,,Licença Casamento,2025-10-15,2025-10-22,,2025-10-29,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+19aae9c8-9aa5-42bd-990f-3bb19b380409,,,Banco de Horas - Dia Normal,2025-10-16,2025-11-07,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+3766cbe5-1a57-48eb-b597-e301d0bee2b4,,,Outro,2025-10-17,2025-10-20,,,Folga na VTEX relativa ao Dia do Profissional de Informática,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+97bd610f-9f95-4db1-86db-461e6b1de55d,,,Banco de Horas - Dia Normal,2025-10-07,2025-10-10,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+5684c9c1-f7b9-4579-983a-5642c3e8da73,,,Aniversário,2025-10-21,2025-11-28,,,,,Cancelada,PJ,Não aparece para o gestor aprovar,true,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+9d43c09f-6584-4d3e-a92d-3116a38f44d6,,,Aniversário,2025-10-26,2025-11-18,,,,,pendente,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+9eed30f0-59b5-4987-98ee-37f6add4cb67,,,Banco de Horas - Dia Normal,2025-10-27,2025-11-21,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+ecf20253-ef9e-4982-bf0d-38c1e15b6709,,,Aniversário,2025-10-30,2025-12-19,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+2e6a3d60-7e53-43ed-8849-a88f05faec6a,,,Aniversário,2025-11-10,2025-11-28,,,,,pendente,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+551ae6ab-791d-4d52-86c4-d0c0860a9dfd,,,Banco de Horas - Dia Normal,2025-11-12,2025-12-12,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+de89015a-0a9f-4a17-bee3-00423fe74d4f,,,Banco de Horas - Dia Normal,2025-11-12,2025-12-15,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+1ea778dc-7c5b-4378-bd9e-bce9a32afe63,,,Aniversário,2025-11-13,2025-11-21,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+43c6c6eb-4322-4fdd-a355-6c8326244b74,,,Banco de Horas - Dia Normal,2025-11-13,2025-11-21,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+665fa425-2ced-4635-a6f2-d6ef72b9bdf3,,,Troca de Feriado,2025-11-14,2025-11-21,,,,Dia da Consciência Negra,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+31fef6cd-eb24-4b5f-b421-a65fd01b73a0,,,Troca de Feriado,2025-11-20,2025-11-21,,,,Dia da Consciência Negra,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+2579b052-a4fc-4ab8-9d52-058a8bd85fc7,,,Aniversário,2025-11-14,2025-11-25,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+f46eb572-f91e-41ab-afe5-51b1a6fcca82,,,Troca de Feriado,2025-11-18,2025-11-21,,,,20/11/2025,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+6ecebf4f-6e1a-4190-9f4a-1dd27756c83b,,,Aniversário,2025-11-18,2025-12-01,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+13a46356-fcfb-4495-8ef0-51f6fe0424bd,,,Troca de Feriado,2025-11-18,2025-11-21,,,,20/11/2025,pendente,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+ccc5b359-7993-425b-9b63-e07cb69aee06,,,Troca de Feriado,2025-11-18,2025-11-21,,,,20/11/2025,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+2bfca262-c8b8-424e-a876-6afb087e7291,,,Troca de Feriado,2025-11-18,2025-11-21,,,,Dia Nacional de Zumbi e da Consciência Negra,pendente,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+239a28a6-7539-45ff-b3e7-0fe37ef147a7,,,Troca de Feriado,2025-11-18,2025-11-21,,,,20/11/2025 ,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d8a7922c-359b-4b0a-b1d4-8f683516526f,,,Troca de Feriado,2025-11-18,2025-11-21,,,,20/11/2025,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+4f280038-585f-4710-96b9-fee2d5841894,,,Troca de Feriado,2025-11-20,2025-11-21,,,,Consciencia Negra,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d1f5d611-ac0e-49d4-a583-1df03c8fd1b8,,,Banco de Horas - Dia Normal,2025-11-19,2025-11-21,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+e43d3136-9249-4068-9b32-10715ce5935f,,,Troca de Feriado,2025-11-24,2025-11-21,,,,COnsciencia negra,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+84cfd473-0f29-44e7-997d-d4a14129924c,,,Banco de Horas - Dia Normal,2025-11-25,2025-12-26,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+f572b65b-20e4-493c-a412-f997525d1758,,,Banco de Horas - Dia Normal,2025-11-25,2025-12-29,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+62ba8179-73a2-4649-95cf-b723dc119b29,,,Banco de Horas - Dia Normal,2025-11-25,2025-12-30,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+685d3c9f-4477-44d6-926e-ef159e0819d8,,,Banco de Horas - Dia Normal,2025-11-25,2026-01-02,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a089eaa1-6e3d-44f0-8b46-f7ab2c41175d,,,Outro,2025-11-25,2025-12-22,,,folga mesário,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+42666fb2-5c6b-4f38-85ed-1f999ebffe21,,,Outro,2025-11-25,2025-12-23,,,folga mesário,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+70cb835a-38ed-4282-9882-4f6804f3925a,,,Aniversário,2025-11-25,2026-01-23,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+c7bd85da-2bf6-4257-9ffa-6282152480f8,,,Troca de Feriado,2025-11-27,2025-12-12,,,,Dia de Nossa Senhora da Conceição,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+7de551a6-fc75-457f-adac-5ad0a077fb05,,,Troca de Feriado,2025-11-27,2025-12-12,,,,08/12/2025,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+b9732747-5769-4181-805b-281665621e77,,,Banco de Horas - Dia Normal,2025-11-27,2026-01-02,,2026-01-02,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+b14896b6-e099-4eec-a648-b856111d4485,,,Troca de Feriado,2025-11-27,2025-12-12,,,,Nossa senhora da Praia,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+c4a0c2d6-59e3-417b-8c5b-db0dab2e24a4,,,Aniversário,2025-11-28,2025-12-29,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+e9198771-e3a4-49c8-aea9-cf52b6d500bd,,,Outro,2025-12-01,2025-12-22,,,Dayoff do Plan,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+cbc4bd6a-29af-4336-9756-25fa11fe754b,,,Troca de Feriado,2025-12-01,2025-12-24,,,,Dia de Nossa Senhora da Conceição,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+b8fdc78d-22e5-4808-8b23-d396cc2912a3,,,Troca de Feriado,2025-12-02,2025-12-26,,,,08/12 - Conceição da Praia,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+f6701177-29e0-4f79-9526-667db0b4944f,,,Banco de Horas - Dia Normal,2025-12-02,2025-12-24,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+7f89551e-afa0-47c3-bca1-504a2df3f0b8,,,Banco de Horas - Dia Normal,2025-12-02,2025-12-29,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+0da43908-5bbe-494c-aa2d-9803c1e9e29c,,,Banco de Horas - Dia Normal,2025-12-02,2025-12-30,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+f85e4973-2ee4-4b66-b891-695b82061a53,,,Banco de Horas - Dia Normal,2025-12-02,2026-01-02,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+b5b22665-6eef-4747-85c4-775c2d9563d9,,,Troca de Feriado,2025-12-03,2025-12-30,,,,08/12/2025,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+5e371639-13ba-40d1-b53d-3411f459f344,,,Banco de Horas - Dia Normal,2025-12-03,2025-12-24,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+cfa9d07d-bf7f-4145-af67-3023d4de6761,,,Troca de Feriado,2025-12-03,2025-12-24,,,,08/12/2025,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+be47f74d-a6dc-4008-94ce-9fbfff7aa79d,,,Aniversário,2025-12-04,2025-12-09,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+b49ec88f-c8c9-4ce2-b354-548efd06c72f,,,Troca de Feriado,2025-12-08,2025-12-30,,,,08/12/2025,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+1c773e30-835c-45e2-8dc1-fbe330172bef,,,Troca de Feriado,2025-12-04,2025-12-30,,,,08/12/2025,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+4e8191a5-5af5-4e75-bf3d-0977ee588cf1,,,Troca de Feriado,2025-12-05,2025-12-30,,,,08/12/2025,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a5fb8cfa-8993-4f04-819d-4c08c0556562,,,Outro,2025-12-05,2025-12-12,,,"Boa tarde, conversamos com o Yuri Torralbo (Da Zig), onde resolvemos deixar o feriado de segunda-feira (08/12) para sexta-feira (12/12), já falamos com a Jojô (Joana Mendes), e ela pediu para fazer a solicitação.",,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+3abde6fe-3ab5-4ccc-8f0e-0ee81e92539c,,,Troca de Feriado,2025-12-05,2025-12-12,,,,08/12/2025,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+6b1c5c7e-091a-4ada-a980-afe71c82127d,,,Troca de Feriado,2025-12-05,2025-12-30,,,,08/12/2025,pendente,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+4465e21c-77ba-4d84-b06b-420d33b5c749,,,Troca de Feriado,2025-12-08,2025-12-26,,,,08/12/25,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+e6ded040-89dc-4b51-95a9-ddc60acda23f,,,Troca de Feriado,2025-12-08,2025-12-12,,,,Dia 08/12/25,Negada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+47e1ebfa-a32c-4818-8231-9a6ff7061708,,,Banco de Horas - Dia Normal,2025-12-11,2025-12-26,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+83268157-db23-48bd-b206-d26b752d87bf,,,Banco de Horas - Dia Normal,2025-12-12,2025-12-24,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+0bb0046c-5fbc-435c-acff-840d0120a46a,,,Banco de Horas - Dia Normal,2025-12-12,2025-12-26,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a195854d-4373-4de6-8ae2-0c45d0ed22a7,,,Banco de Horas - Dia Normal,2025-12-12,2025-12-29,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+81eeb01c-6cce-433b-b035-67a322b16278,,,Banco de Horas - Dia Normal,2025-12-12,2025-12-30,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+fba78fbb-480c-4cbe-8c68-bef8611f4168,,,Banco de Horas - Dia Normal,2025-12-12,2026-01-02,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+2f69e9a8-4628-4497-a684-34b2430a9b0f,,,Outro,2025-12-12,2025-12-29,,,fim de ano,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+007f3c91-3fd0-46b0-98ef-2d03a4dfdfec,,,Outro,2025-12-12,2026-01-02,,,ano novo,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+729bc215-e6c9-45d6-b122-b72eb773fb01,,,Banco de Horas - Dia Normal,2025-12-12,2025-12-26,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+27969130-fadc-42c6-b242-3820c2761fd0,,,Banco de Horas - Dia Normal,2025-12-12,2025-12-29,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+be71a311-3689-46d9-9cf2-2da63ea4e53b,,,Banco de Horas - Dia Normal,2025-12-12,2025-12-30,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+cbc4b49d-3e78-4a8e-8334-4e2e2d390ba8,,,Banco de Horas - Dia Normal,2025-12-12,2026-01-02,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d9f38574-e545-4773-bf31-f93f1224f9ed,,,Troca de Feriado,2025-12-16,2025-12-26,,,,08/12,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+dd8fc51f-41ad-4a5a-947b-16adadda6cc2,,,Day Off - Festividades Final de Ano,2025-12-16,2026-02-02,,,Zapeg vai folgar dia 02/01/2026,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+40e1c0af-bc27-4763-92f5-c55f0180a0b1,,,Aniversário,2025-12-18,2026-01-30,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+7fcdbac1-8ee0-4683-aae6-84c29c2af8b8,,,Banco de Horas - Dia Normal,2025-12-18,2026-02-02,,,,,pendente,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+692e09cd-e04e-44d7-adf1-c40449c3da8d,,,Banco de Horas - Dia Normal,2025-12-19,2025-12-24,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+03576d4b-a85a-49e9-9732-22f6b4985653,,,Banco de Horas - Dia Normal,2025-12-19,2025-12-26,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+41a32e37-cb77-4244-b0ba-34be76dedc8e,,,Banco de Horas - Dia Normal,2025-12-19,2026-01-02,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+de2e5a00-2117-4c55-bff4-fdb1cd4de782,,,Banco de Horas - Dia Normal,2025-12-19,2025-12-26,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+bfb506a0-56ed-4628-b12b-8cb7ca2d046c,,,Banco de Horas - Dia Normal,2025-12-19,2026-01-02,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+899fa2ca-bc54-45b4-8fde-bf259ed70969,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-24,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+e4bdb824-1a06-4de7-8884-7df8afd95878,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-31,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+52cd8c7d-8b80-455a-9235-9475fee1dbd0,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-23,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+f0139266-8727-4ac1-a849-4316dfa474d5,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-23,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d3af9fe1-0d88-4928-bcbe-c42ae9d61c21,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-24,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d04780d7-53eb-4516-aa35-aa03954318a2,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-26,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+52566f24-36c5-40d6-bfab-17d18c9ecb7d,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-29,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+9c9df5f0-3da1-45a2-a782-b8e15361aa45,,,Banco de Horas - Dia Normal,2025-12-22,2026-01-02,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+2ba9bf34-fcca-412b-8973-b6bc41fbbf1b,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-23,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+343dc5a2-0f56-4778-aedb-fb4909ee4b0d,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-24,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+9fc157b0-3fd3-4def-8d5a-23b7b8f73bf7,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-26,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+08451fcb-d2d1-4db5-bcdb-a89ee1122d00,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-29,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+3c5fc8b6-d0fd-43e0-8ddb-1dd75f7390a4,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-30,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+5b5f60e3-bd10-45d0-99f4-062ccc6be1bb,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-30,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+54a5d331-cdd8-4692-a9cd-fc12a4e0c8fd,,,Banco de Horas - Dia Normal,2025-12-22,2026-01-02,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+536b1fb6-de0f-4740-80a1-706ef3b3e57b,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-23,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+25e1031c-cdb7-45c2-9f2c-eae34566c23f,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-24,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+677afef8-eed8-4f9d-9541-5e083c455288,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-26,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+7e97ab83-b791-4e15-8035-ce2b3c4f13d1,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-29,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+af57dba7-eb69-4ebe-b7c1-bb91102393a8,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-30,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+0a45b1f5-89e0-4b62-8b5c-2707cd802a38,,,Banco de Horas - Dia Normal,2025-12-22,2026-01-02,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+849f8eef-f1bb-4f5a-ba5a-71f87bcbe729,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-24,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d09c54f0-9348-4e0a-9602-f9ea3ecf71f1,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-29,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+85324204-ffb1-4e53-b7c5-888de4e1ab49,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-30,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+84579b92-1689-4f1d-8c03-67eab658720c,,,Banco de Horas - Dia Normal,2025-12-22,2025-12-31,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+8c68544a-1c9b-458b-b750-c80abe7a3d26,,,Banco de Horas - Dia Normal,2025-12-22,2026-01-02,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+29c0a748-1d12-442b-825d-609642f2b0eb,,,Banco de Horas - Dia Normal,2025-12-23,2025-12-26,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+88e04303-c761-4f4e-877a-36e0f549b504,,,Banco de Horas - Dia Normal,2025-12-23,2026-01-02,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+1a493b25-5ca4-473e-9cc1-343e3418b471,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-24,,,,,Esperando aprovação da liderança,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+5d087e43-96b7-4f4c-9f34-2f11d98875c3,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-31,,,,,Esperando aprovação da liderança,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+f1ead81e-5090-4395-b967-05c218d49eb7,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-24,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+cf21fa9b-b720-466d-ab4e-f5f8144dc215,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-31,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+33a2dcb5-f6cb-433d-a893-8d93b32d7d92,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-24,,,,,Esperando aprovação da liderança,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+630abd2a-9e37-441a-9159-57d68f9d9a48,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-31,,,,,Esperando aprovação da liderança,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+4acf09a6-7df8-490c-b39e-873869c148dd,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-26,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+ef97de15-a3ac-4332-8d7b-491df85487bc,,,Day Off - Festividades Final de Ano,2025-12-23,2026-01-02,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+932a001c-0794-4eab-b631-722d994ec6b6,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-24,,,,,pendente,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+5631877f-d4cc-433e-bd2d-6f18fe650775,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-31,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+daf873df-d4b2-4d61-a5bd-96d1f45d3fe3,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-24,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+1d850c53-2f35-4e8f-9f31-9ab23194cf17,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-31,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+0b6ff4ef-57af-4e8a-9591-b5594417a598,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-26,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+1245824b-1c3e-46c2-915f-463b4633b900,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-24,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+c862fd6a-5084-466d-8092-a94692ff29ab,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-31,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+db214024-11a2-4af1-998b-9b795bd86f63,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-26,,,,,Esperando aprovação da liderança,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+6c802ba1-fc65-4709-8b76-98221df99b31,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-24,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+e4f0d560-d648-4c3f-81b7-86b4b7d86fb0,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-31,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a1a9001a-768e-4bec-90a6-4782c92e1658,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-24,,,,,Esperando aprovação da liderança,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+3666ddea-0610-4dbd-b6d9-174714f4c1aa,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-26,,,,,Esperando aprovação da liderança,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+55d4eefa-018f-44a5-8d08-2f525ab3e0ad,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-31,,,,,Esperando aprovação da liderança,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+055a24ea-6aa6-4379-9b58-09414ebd8e9b,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-26,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+04a035c3-179b-4ec0-b8ea-4d4f0964095f,,,Day Off - Festividades Final de Ano,2025-12-23,2026-01-02,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+119ee2b5-b9c7-4455-8a67-f97692d95972,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-24,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+c06c8e3e-30dd-420c-8031-e631184bf283,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-31,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+5e3e669d-3f25-4311-8c4b-10a322c2ea40,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-24,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+8e55c93b-3265-44ab-9821-c14839c5fc64,,,Banco de Horas - Dia Normal,2025-12-23,2025-12-26,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d0d18a73-b28a-4cb8-aa55-0c9202b11f69,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-31,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+8bdca7cb-7ae2-4bc9-a8e5-c8f196e7512e,,,Banco de Horas - Dia Normal,2025-12-23,2026-01-02,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+372993c1-068e-4d42-9fbc-0d8039749254,,,Day Off - Festividades Final de Ano,2025-12-23,2025-12-26,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+ac55777c-bbc0-4d9e-b020-655f68da04d9,,,Day Off - Festividades Final de Ano,2025-12-24,2025-12-26,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+2d9a8903-b14b-4d62-9034-7c4ec7e2cb29,,,Day Off - Festividades Final de Ano,2025-12-24,2026-01-02,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+1d48ebe2-e0ad-4a4f-9592-9657efa50811,,,Day Off - Festividades Final de Ano,2025-12-29,2025-12-26,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+3a34d0c5-481e-4e16-8d75-e9b48df5eac8,,,Day Off - Festividades Final de Ano,2025-12-29,2026-01-02,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+ff0cd38f-4aa3-4347-b3c0-800f6faf646d,,,Day Off - Festividades Final de Ano,2025-12-26,2025-12-26,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d1509ea0-7e84-4a08-af88-0fcf647808fe,,,Day Off - Festividades Final de Ano,2025-12-29,2025-12-26,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+e719f2bc-51d2-4dad-bf45-0c74173e4550,,,Troca de Feriado,2025-12-29,2026-01-02,,,,Dia de Nossa Senhora da Conceição,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+fe6e71c8-9aa4-4956-afde-ff95783df777,,,Day Off - Festividades Final de Ano,2025-12-29,2025-12-26,,,,,Negada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+3ca6739e-87a3-478c-9591-1b0dc413ada2,,,Day Off - Festividades Final de Ano,2025-12-29,2026-01-02,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+717d9a0f-5852-424a-86c8-c643022caa05,,,Day Off - Festividades Final de Ano,2025-12-30,2025-12-26,,,,,Negada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+dfbc87a7-2223-422b-8068-05a2d47fa2db,,,Day Off - Festividades Final de Ano,2025-12-30,2026-01-02,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+97877384-206a-445f-a580-982b73938acd,,,Banco de Horas - Dia Normal,2025-12-30,2026-01-02,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+7f179729-2d40-4460-bd13-6dba79c62a05,,,Day Off - Festividades Final de Ano,2025-12-30,2026-01-02,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+713e6f63-33c3-4724-a825-33beb25a6357,,,Day Off - Festividades Final de Ano,2025-12-30,2026-01-02,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+11768ddd-79cf-454d-8846-0302bd7ea8eb,,,Day Off - Festividades Final de Ano,2025-12-30,2025-12-31,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+35bb8e55-a5b8-41bd-a213-c1f6339f38dc,,,Banco de Horas - Dia Normal,2025-12-30,2026-01-02,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+e35137ce-c9fa-4457-9529-d82706e143d2,,,Day Off - Festividades Final de Ano,2025-12-31,2025-12-24,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+5f680173-61dd-458c-ada4-d867a0aab70b,,,Banco de Horas - Dia Normal,2025-12-31,2025-12-26,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d1e337c5-c7f3-44b0-962a-d028bc421bd7,,,Day Off - Festividades Final de Ano,2025-12-30,2025-12-31,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+896b7fe5-0542-4cc5-bbb9-26ca8ecd65da,,,Day Off - Festividades Final de Ano,2025-12-30,2026-01-02,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+c54d96ed-69d2-4ecb-8a1a-88cc132dbd08,,,Day Off - Festividades Final de Ano,2025-12-30,2026-01-02,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d1b5a593-dfc2-4395-b20e-16f36e7eefaa,,,Troca de Feriado,2026-01-05,2025-12-26,,,,Feriado do dia 08/12 (não conseguimos folgar dia 12/12),Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+748dd643-0092-47cf-817a-740e997835d3,,,Troca de Feriado,2026-01-05,2025-12-26,,,,Referente ao feriado do dia 8/11/25,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+3c6abbd9-cafa-4eb8-87a7-4e98affb5a41,,,Aniversário,2026-01-05,2026-01-15,,,,,Cancelada,CLT,Alteração de data,true,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+06035b08-fd83-4087-9c6c-16ab0e359065,,,Day Off - Festividades Final de Ano,2026-01-06,2026-01-02,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+75e413b0-524f-4052-94bf-2e5a362863c8,,,Banco de Horas - Dia Normal,2026-01-13,2026-01-15,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+358d7be4-0ed9-496d-a3bd-18424d1d7b91,,,Aniversário,2026-01-14,2026-01-16,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+5433529d-3a9a-494f-b115-e3629f9df5a6,,,Aniversário,2026-01-20,2026-01-27,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+929847f2-017e-4d04-a44a-2ff3c37542a3,,,Aniversário,2026-01-23,2026-02-16,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+53d99f97-a69e-4513-8441-d1dc1ca3edb8,,,Aniversário,2026-02-02,2026-02-20,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+aeac0f77-2ea1-4a68-b5bf-fc864e28eac4,,,Folga Banco de Horas - Carnaval 2026,2026-02-06,2026-02-16,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+42fbfcec-ac8d-4632-8f6e-9808b36aa428,,,Folga Banco de Horas - Carnaval 2026,2026-02-06,2026-02-17,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+8898294a-f930-41f1-a508-639f230da126,,,Folga Banco de Horas - Carnaval 2026,2026-02-06,2026-02-18,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+600b57ed-c8ce-418e-8cab-b7837dc8949b,,,Folga Banco de Horas - Carnaval 2026,2026-02-06,2026-02-16,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+9902fb2a-3cb4-4206-af2b-219e137f3c4a,,,Folga Banco de Horas - Carnaval 2026,2026-02-06,2026-02-17,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+5f75371b-db3d-433a-b074-99c400126717,,,Folga Quarta de Cinzas - Integral,2026-02-06,2026-02-18,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+6a38a983-b7a6-411d-9446-a66ab9e4c39e,,,Folga Quarta de Cinzas - Integral,2026-02-06,2026-02-18,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+36a08b37-4fcc-45c9-84d4-f838e37de0ed,,,Folga Banco de Horas - Carnaval 2026,2026-02-06,2026-02-18,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+5df3cba7-ffa8-4318-8da0-acddec095e2f,,,Folga Quarta de Cinzas - Integral,2026-02-06,2026-02-18,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+98ef53e6-5fc8-4337-a3a3-668eb25dab13,,,Folga Banco de Horas - Carnaval 2026,2026-02-06,2026-02-16,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+fa665a5e-2b1a-497a-b49e-4b37a0a39bf5,,,Folga Banco de Horas - Carnaval 2026,2026-02-06,2026-02-17,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+54bed6c6-3f7a-4559-bcbb-e63f37f42d6d,,,Folga Quarta de Cinzas - Integral,2026-02-06,2026-02-18,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+01c9b0a3-b6d2-410f-a530-2406ec2c1c9e,,,Folga Quarta de Cinzas - Integral,2026-02-06,2026-02-18,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+4a780e41-fb92-4215-81d5-f9207ca962c4,,,Folga Banco de Horas - Carnaval 2026,2026-02-06,2026-02-16,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+994e2d58-bd1d-4ad1-887d-fb15f77b15fb,,,Folga Banco de Horas - Carnaval 2026,2026-02-06,2026-02-17,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d548c1d3-58d9-428d-bb86-0addcf011321,,,Folga Quarta de Cinzas - Integral,2026-02-06,2026-02-18,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+0eeebf8a-3466-46a6-9cce-6fa8c8f7a8ca,,,Folga Quarta de Cinzas - Integral,2026-02-09,2026-02-18,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+6aa1e8cb-1972-4932-9e23-d5f6c22c3e5b,,,Folga Quarta de Cinzas - Integral,2026-02-09,2026-02-18,,,,,Esperando aprovação da liderança,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+0c8c2bd9-5d59-43f7-95e5-008b8eec31e0,,,Folga Banco de Horas - Carnaval 2026,2026-02-09,2026-02-16,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+43507dd1-5a2a-4e10-89fb-443132638b90,,,Folga Banco de Horas - Carnaval 2026,2026-02-09,2026-02-17,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+e217bf74-38e1-4c32-967e-4ef9b659196f,,,Folga Quarta de Cinzas - Parcial,2026-02-09,2026-02-18,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+272c5cb1-9daa-4505-bb51-f66eacff5c7a,,,Folga Quarta de Cinzas - Integral,2026-02-09,2026-02-18,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+837b44ea-151b-478c-aa54-56ee4c40c52c,,,Folga Banco de Horas - Carnaval 2026,2026-02-09,2026-02-16,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+6b3b3657-0331-4d6a-9c49-ad1a91bc5b76,,,Folga Banco de Horas - Carnaval 2026,2026-02-09,2026-02-17,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+409e03d5-a0ba-4a8d-99c6-064defdf9f27,,,Folga Banco de Horas - Carnaval 2026,2026-02-09,2026-02-18,,,,,Negada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+e5c06dc7-bed6-4d99-8af3-65fd09ccb581,,,Folga Banco de Horas - Carnaval 2026,2026-02-10,2026-02-17,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+ef25fbec-0885-4f0f-bb56-3703774194be,,,Folga Banco de Horas - Carnaval 2026,2026-02-10,2026-02-18,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+f46c23c6-bbd7-4cdf-b7dc-89cfba11ed5d,,,Folga Quarta de Cinzas - Integral,2026-02-10,2026-02-18,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+5f2c9925-f958-4458-970d-43049434f507,,,Aniversário,2026-02-10,2026-02-11,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+204afd99-3dda-43bb-aa9f-f623c53a4b09,,,Folga Banco de Horas - Carnaval 2026,2026-02-10,2026-02-17,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+9c0dfe50-6d2a-4e9d-bc5e-b362d7e621f8,,,Folga Quarta de Cinzas - Integral,2026-02-10,2026-02-18,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+8b6d7c1a-4e8a-49fc-ad17-83fdd53c4b57,,,Folga Quarta de Cinzas - Integral,2026-02-10,2026-02-18,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+7c93fafb-623d-4db9-9ffe-c540c9724b94,,,Folga Banco de Horas - Carnaval 2026,2026-02-11,2026-02-16,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+4df3677f-7b27-4cad-9f5b-1689af879676,,,Folga Banco de Horas - Carnaval 2026,2026-02-11,2026-02-17,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+30d53b7f-67d9-4efb-a4a9-0b5fc57b41df,,,Folga Quarta de Cinzas - Integral,2026-02-11,2026-02-18,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+832db435-f8e8-496a-b5de-bdbff55b90ae,,,Day Off - Festividades Final de Ano,2026-02-11,2026-02-16,,,,,Negada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+80f7a313-5db9-4c1f-a875-90bbd00c8ca7,,,Day Off - Festividades Final de Ano,2026-02-11,2026-02-17,,,,,Negada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+11c340fb-fdb9-467a-9b7f-ee7cee6e08c2,,,Folga Quarta de Cinzas - Parcial,2026-02-11,2026-02-18,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+3e8b6d6c-babd-4683-bedc-fa0c9961b6b5,,,Folga Banco de Horas - Carnaval 2026,2026-02-11,2026-02-16,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+1fa421a4-f6c5-4c0f-895d-03e23a897c1b,,,Folga Banco de Horas - Carnaval 2026,2026-02-11,2026-02-17,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+ae35acb8-ea8f-43ca-898a-c50025ecbce6,,,Folga Quarta de Cinzas - Integral,2026-02-11,2026-02-18,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+68381c81-a3a8-40c6-a1b0-db5b89cda158,,,Aniversário,2026-02-16,2026-02-16,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+f00c2ce8-f1d1-47a0-8618-cbdaea70ad6b,,,Folga Banco de Horas - Carnaval 2026,2026-02-11,2026-02-16,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+e76949a5-14d4-4f5a-aa10-8fb6d5af80d2,,,Folga Banco de Horas - Carnaval 2026,2026-02-11,2026-02-16,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+0f418de1-1ead-4046-bbaf-0d90a20877db,,,Folga Banco de Horas - Carnaval 2026,2026-02-11,2026-02-17,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+eb8a0c04-1c6a-4504-8735-6d23c13a82c6,,,Folga Banco de Horas - Carnaval 2026,2026-02-11,2026-02-17,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a9a53cd5-2b3d-4a0a-9069-2b6d65bfa565,,,Folga Banco de Horas - Carnaval 2025,2026-02-11,2026-02-17,,,,,Negada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+296a8c4b-33bd-44a8-bb12-5ffa43deac5b,,,Folga Banco de Horas - Carnaval 2026,2026-02-11,2026-02-17,,,,,Aprovada,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d3e486c3-0cbf-4058-a63b-649b4ae75649,,,Folga Quarta de Cinzas - Integral,2026-02-11,2026-02-18,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+8c7904e2-bb2d-43be-b71a-50062dada5dc,,,Folga Banco de Horas - Carnaval 2026,2026-02-11,2026-02-16,,,,,Esperando aprovação da liderança,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+e2a6ac41-213c-40e4-9707-e244de8e1ed2,,,Folga Banco de Horas - Carnaval 2026,2026-02-11,2026-02-17,,,,,Esperando aprovação da liderança,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a246d2f0-1d07-4e53-857b-ad81d0b0744a,,,Folga Quarta de Cinzas - Parcial,2026-02-11,2026-02-18,,,,,Esperando aprovação da liderança,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+b92d520d-fffc-4d0d-a0da-21545f28fcf1,,,Folga Banco de Horas - Carnaval 2026,2026-02-12,2026-02-16,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+429073f2-0b61-49d4-955f-7a8e3df87813,,,Folga Banco de Horas - Carnaval 2026,2026-02-12,2026-02-17,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+6a65bd1a-31bb-4e42-a6d0-f2137dc1e403,,,Folga Quarta de Cinzas - Integral,2026-02-12,2026-02-18,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+f2521f51-be69-426c-ad0e-75495059451e,,,Folga Quarta de Cinzas - Parcial,2026-02-12,2026-02-18,,,,,Esperando aprovação da liderança,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+6e24b0ac-2a1e-4843-a8f5-1c67764e04d9,,,Folga Banco de Horas - Carnaval 2026,2026-02-12,2026-02-16,,,,,Esperando aprovação da liderança,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+b30a6704-bc19-4174-9917-3c91b65689d3,,,Folga Banco de Horas - Carnaval 2026,2026-02-12,2026-02-17,,,,,Esperando aprovação da liderança,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+05a856fd-2792-43e9-b426-eb40cf6264fc,,,Folga Quarta de Cinzas - Integral,2026-02-12,2026-02-18,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+83d27802-9bc2-4b8e-8603-b7bbd8b02266,,,Folga Banco de Horas - Carnaval 2025,2026-02-13,2026-02-16,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+aefe49b9-0465-4331-925e-d730082c594a,,,Folga Banco de Horas - Carnaval 2025,2026-02-13,2026-02-17,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a0d0d04b-b41f-4c08-ab2f-86811a712d5a,,,Folga Banco de Horas - Carnaval 2026,2026-02-13,2026-02-16,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+c21f9d73-27f1-48af-8b05-909c9caa5d8f,,,Folga Banco de Horas - Carnaval 2026,2026-02-13,2026-02-17,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+8d3c7246-a4a2-4a6e-a0ce-3c571bd8217d,,,Folga Quarta de Cinzas - Integral,2026-02-13,2026-02-18,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+f662efd2-8381-4725-9226-dfe1b0da10bf,,,Banco de Horas - Dia Normal,2026-02-13,2026-02-16,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+8eb051a8-bfbd-442d-8850-cedaaefcdb50,,,Banco de Horas - Dia Normal,2026-02-13,2026-02-17,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+c4a22df3-df8b-479e-81eb-9cef145c7dac,,,Folga Quarta de Cinzas - Integral,2026-02-13,2026-02-18,,,,,Esperando aprovação da liderança,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+2649be22-98b8-46ec-b554-eae761f7ce9a,,,Folga Banco de Horas - Carnaval 2026,2026-02-15,2026-02-16,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+0159f826-5815-49dc-9376-3d2951fe8273,,,Folga Banco de Horas - Carnaval 2026,2026-02-15,2026-02-17,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+3db43bc4-ed01-4d85-9f2d-d9db9cd88a01,,,Outro,2026-02-17,2026-02-18,,,Carnaval,,Esperando aprovação da liderança,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+b949a85b-dc45-4899-9dc8-fadf15b01d43,,,Aniversário,2026-02-24,2026-03-13,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+8f51ca78-0b67-4741-a3e7-b6fd8ab3836e,,,Banco de Horas - Dia Normal,2026-02-24,2026-03-13,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d05d5fa1-f3d6-4557-bba8-f7ca868c1295,,,Folga Banco de Horas - Carnaval 2026,2026-02-26,2026-02-16,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+80049cf9-cb3e-4314-9084-cf885060d1bd,,,Folga Banco de Horas - Carnaval 2026,2026-02-26,2026-02-17,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+f219f1ca-ea73-457b-b111-74200757a106,,,Folga Quarta de Cinzas - Parcial,2026-02-26,2026-02-18,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+3c7b0ad9-d760-41c5-83b6-fe355c986d8c,,,Aniversário,2026-02-26,2025-11-21,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+a39d261b-1306-49ed-bc0a-86e8cc3c71c6,,,Folga Quarta de Cinzas - Parcial,2026-02-26,2026-02-18,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+d87f91b7-a17e-4493-94bc-2419f886bffa,,,Folga Banco de Horas - Carnaval 2025,2026-02-26,2026-02-16,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+e8435479-7108-4ba0-bb9f-66e183d1c2cd,,,Folga Banco de Horas - Carnaval 2026,2026-02-26,2026-02-17,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+91ad8926-0b02-4e3d-8c9b-2f88067be1e8,,,Folga Quarta de Cinzas - Parcial,2026-02-26,2026-02-18,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+c661a28b-c7c1-4fe4-a4b2-1f3bf45ecfb9,,,Banco de Horas - Dia Normal,2026-03-10,2026-12-24,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+c00a29b8-4529-4f53-9d71-c151f4c18685,,,Aniversário,2026-03-13,2026-03-28,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+c2db595c-c468-449b-96e3-a638bb6da081,,,Aniversário,2026-03-13,2026-04-30,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+689c8ac8-6ffb-4487-8b19-fedca340e597,,,Aniversário,2026-03-17,2026-03-20,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+2717d273-e23c-4b54-8ce5-29fee3318771,,,Banco de Horas - Dia Normal,2026-03-19,2026-03-26,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+33b28850-efdd-483d-88cd-971672a77faa,,,Banco de Horas - Dia Normal,2026-03-19,2026-05-04,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+5e92ad21-65f7-466b-ac72-2d97f90411ce,,,Troca de Feriado,2026-03-24,2026-04-27,,,,21/04 TIRADENTES - FERIADO NACIONAL,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+15971f5a-3829-4988-b11a-c28925d0ef5f,,,Aniversário,2026-03-24,2026-07-20,,,,,Esperando aprovação da liderança,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+43d3ede3-0103-47c0-9f29-65665d20af82,,,Aniversário,2026-03-27,2026-03-30,,,,,Aprovada,CLT,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00
+ab48f778-ab42-445a-bf7a-438300098bbf,,,Aniversário,2026-03-30,2026-04-16,,,,,Esperando aprovação da liderança,PJ,,false,2026-03-31T03:22:27+00:00,2026-03-31T03:22:27+00:00

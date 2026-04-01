@@ -1,0 +1,83 @@
+{
+  "output_dir": "output/cubos/pesquisa_de_clima",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "pesquisa_de_clima",
+      "view_id": "c193ba32-699d-4fbc-adca-601176326834",
+      "_sheet": "Pesquisa de Clima (58 records)",
+      "columns": {
+        "id":                       { "default": "__record_id__" },
+        "titulo":                   { "field_id": null, "extract": null, "default": "" },
+        "ciclo":                    { "field_id": "35419111-db64-4a80-8f24-875266715dd3", "extract": "select" },
+        "data_envio":               { "field_id": "373b4e9f-5751-4732-93a3-a6393e669039", "extract": "date" },
+        "status":                   { "field_id": "d86d3eb5-6b64-4926-9bd2-034f329963ed", "extract": "select" },
+        "area":                     { "field_id": "2f13aaf8-2e8d-4014-9512-0283987f2488", "extract": "select" },
+        "tempo_de_cubos":           { "field_id": "cd6d352c-cb15-4ef5-aad4-8602f5075942", "extract": "select" },
+        "colaborador_profile_id":   { "field_id": null, "extract": null, "default": "" },
+
+        "_group_engajamento": {},
+        "engajamento_pergunta_1":   { "field_id": "bb78d5c2-8b47-4030-af21-6c2fafd1584e", "extract": "select" },
+        "engajamento_pergunta_2":   { "field_id": "ceaa12ba-9324-4451-b5c2-beabb551d56c", "extract": "select" },
+        "engajamento_pergunta_3":   { "field_id": "24fb204e-fda6-4afe-a9a7-752febc00fa9", "extract": "select" },
+        "engajamento_pergunta_4":   { "field_id": "07942526-57c0-4509-a15e-96253da69633", "extract": "select" },
+
+        "_group_cultura": {},
+        "cultura_pergunta_5":       { "field_id": "5963b923-bd77-4190-8d94-2815d2889026", "extract": "select" },
+        "cultura_pergunta_6":       { "field_id": "8062223c-dee0-46a4-a211-ae405984125a", "extract": "select" },
+        "cultura_pergunta_7":       { "field_id": "384c29d6-f56d-43b5-913c-2746d1c9ec00", "extract": "select" },
+        "cultura_pergunta_8":       { "field_id": "255a3b9c-d324-4471-a063-9934b482b71b", "extract": "select" },
+
+        "_group_comunicacao": {},
+        "comunicacao_pergunta_1":   { "field_id": "471a4513-e291-4f0a-b87a-9e2bcee4ea10", "extract": "select" },
+        "comunicacao_pergunta_2":   { "field_id": "0d4ffbd1-2259-4e35-ae77-a0c5f7614c81", "extract": "select" },
+        "comunicacao_pergunta_3":   { "field_id": "db94bab7-83c0-4f31-894d-578ceb4c1f2c", "extract": "select" },
+        "comunicacao_pergunta_4":   { "field_id": "1d18d8d9-78ed-4816-9c34-5c7ffa83bbe5", "extract": "select" },
+
+        "_group_desenvolvimento": {},
+        "desenvolvimento_pergunta_1": { "field_id": "29f5ca5b-a3d7-4019-8deb-24808b5a0e50", "extract": "select" },
+        "desenvolvimento_pergunta_2": { "field_id": "b2bbbcb9-5cda-4a50-944a-3f14d170d736", "extract": "select" },
+        "desenvolvimento_pergunta_3": { "field_id": "9c3f3e44-7a82-4630-ac91-3fcd6d734537", "extract": "select" },
+        "desenvolvimento_pergunta_4": { "field_id": "f220b01e-bc17-4823-b41c-cef48fea6cc6", "extract": "select" },
+        "desenvolvimento_pergunta_5": { "field_id": "1dda9b7f-06b1-4e68-bfcf-b36efbfc9916", "extract": "select" },
+        "desenvolvimento_pergunta_6": { "field_id": "fec28ef3-72ae-4a9a-9188-c1d4622f48d4", "extract": "select" },
+        "desenvolvimento_pergunta_7": { "field_id": "ceb91889-d3e4-4021-9ee4-fc536f570337", "extract": "select" },
+
+        "_group_bem_estar": {},
+        "bem_estar_pergunta_1":     { "field_id": "cd88f45f-d867-4d49-8663-c92457e889a7", "extract": "select" },
+        "bem_estar_pergunta_2":     { "field_id": "b2e9eb36-3689-4a91-9ab4-391c10a10178", "extract": "select" },
+        "bem_estar_pergunta_3":     { "field_id": "8f9e3de3-c674-4d9f-9d76-2255615e0b04", "extract": "select" },
+        "bem_estar_pergunta_4":     { "field_id": "3f7ca485-547d-4acc-9996-2da692ba712c", "extract": "select" },
+        "bem_estar_pergunta_5":     { "field_id": "e8d31d19-fb2b-4b5a-9a84-760c5e9a2f36", "extract": "select" },
+        "bem_estar_pergunta_6":     { "field_id": "e990f193-1827-493a-a9fa-c26b122ab4cc", "extract": "select" },
+
+        "_group_lideranca": {},
+        "lideranca_pergunta_1":     { "field_id": "cbb724f4-6a0f-4098-8747-64bb394ed4b8", "extract": "select" },
+        "lideranca_pergunta_2":     { "field_id": "f0872800-1c35-4bbc-ba0a-131bbfb2d6cd", "extract": "select" },
+        "lideranca_pergunta_3":     { "field_id": "0b933314-ae87-4302-93fe-f29006b2d5f0", "extract": "select" },
+        "lideranca_pergunta_4":     { "field_id": "1e0d3769-f453-44fc-98a9-c623a73bee1a", "extract": "select" },
+        "lideranca_pergunta_5":     { "field_id": "0f095eab-143f-4a03-b73a-ab55d9528cff", "extract": "select" },
+        "lideranca_pergunta_6":     { "field_id": "928477c7-b628-4cff-a98f-f8ec8bcd4d07", "extract": "select" },
+        "lideranca_pergunta_7":     { "field_id": "8e4935e5-6bad-4290-8fe6-9de8624e8666", "extract": "select" },
+        "lideranca_pergunta_8":     { "field_id": "60ca4ec3-da47-4c0a-9b7f-f6ffae99d6c6", "extract": "select" },
+        "lideranca_pergunta_9":     { "field_id": "090a8911-d0f6-4853-9cf1-9f8e37a404f3", "extract": "select" },
+        "lideranca_pergunta_10":    { "field_id": "25888669-ea46-4e30-84a3-4d879c59e13b", "extract": "select" },
+
+        "_group_colaboracao": {},
+        "colaboracao_pergunta_1":   { "field_id": "82d135c3-b5d7-4587-b8c7-ed0251c20d46", "extract": "select" },
+        "colaboracao_pergunta_2":   { "field_id": "e164e8ab-bc63-47d2-822f-ceb67c51e786", "extract": "select" },
+        "colaboracao_pergunta_3":   { "field_id": "c628eb58-9e69-4267-a324-c546a18f78b5", "extract": "select" },
+        "colaboracao_pergunta_4":   { "field_id": "fc1683f7-2077-4f10-9114-da2761147431", "extract": "select" },
+        "colaboracao_pergunta_5":   { "field_id": "78480312-9b95-4318-8fc2-43ca49202380", "extract": "select" },
+        "colaboracao_pergunta_6":   { "field_id": "28f96739-f156-43c1-a04d-fa9c7f1b415b", "extract": "select" },
+
+        "_group_ambiente": {},
+        "ambiente_pergunta_1":      { "field_id": "025b61fc-50ca-4ff0-83fd-6f80d3ce871d", "extract": "select" },
+        "ambiente_pergunta_2":      { "field_id": "39481119-bf57-4c7f-94e4-01d2a4d048d1", "extract": "select" },
+
+        "created_at":               { "default": "__timestamptz__" },
+        "updated_at":               { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

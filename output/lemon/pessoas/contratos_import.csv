@@ -1,0 +1,942 @@
+id,created_at,status,tipo_contrato,data_inicio,data_fim,salario,colaborador_id,notas,salario_variavel,cargo
+716,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-02-03,2025-06-25,350000,265c5ff4-79e1-48a5-9c5b-6696b81b74ce,"Contrato solicitado via onboarding
+
+Líder: Siranny Guillaumon Pereira da Silva 
+Colaborador: ",,
+717,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-02-03,2025-07-31,800000,0f99b83a-ace9-44c2-b554-ef31f2fb4bd5,"Contrato solicitado via onboarding
+
+Líder: Wesley Lossani 
+Colaborador: ",,
+718,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-02-10,2025-07-31,1700000,c15c1f3d-ddac-4ef9-83c7-22cfc7a1b1aa,"Contrato solicitado via onboarding
+
+Líder: Wesley Lossani 
+Colaborador: ",,
+719,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-07-07,2025-11-30,270000,f157e8bf-6d79-4067-93ab-fb0cf7389718,,,
+720,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-02-01,2025-03-31,800000,7e5f06e3-f7b6-4664-a281-7e855a7b77a3,,,
+721,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-10,2025-07-31,900000,12343070-12cb-4f7a-9d67-70bad9f827b5,"Contrato solicitado via onboarding
+
+Líder: Felipe Sebastião da Silva Ferreira 
+Colaborador: ",,
+722,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-02-01,2025-07-31,1459500,b64b2a42-812b-4947-baeb-ac5e2e0b8aca,,,
+723,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-02-01,2025-04-04,2263500,e8dbf5b1-c62d-4e7a-acb6-34e6b63ea24e,"Contrato solicitado via onboarding
+
+Líder: Lucas Mottin Corbellini 
+Colaborador: ",,
+724,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-02-01,2025-07-31,600000,4815549d-bdc4-4ac2-af46-babb873fa0f2,"Contrato solicitado via onboarding
+
+Líder: Hannah Dias Rabe 
+Colaborador: ",,
+725,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-02-01,2025-07-31,289900,13a52a9a-f4a7-4248-8980-e3d90fb5a04f,,,
+726,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-02-01,2025-02-28,272900,6dd6885c-489e-45a1-9279-c6959c0420fe,"Contrato solicitado via onboarding
+
+Líder: Nickolas Caldeira Freire da Costa 
+Colaborador: ",,
+727,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-02-01,2025-07-31,3648100,dd9f1e21-2284-4cb7-b6dc-9fb6c2f9a658,,,
+728,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-24,2025-07-31,500000,bcb4191c-33ca-4a3d-be00-97db433ef4e8,"Contrato solicitado via onboarding
+
+Líder: Siranny Guillaumon Pereira da Silva 
+Colaborador: ",,
+729,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-24,2025-04-15,450000,d1d33b4a-d5b0-467c-85a8-4161c5e3f179,"Contrato solicitado via onboarding
+
+Líder: Siranny Guillaumon Pereira da Silva 
+Colaborador: ",,
+730,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-24,2025-07-31,1500000,ade07a8e-4045-4ff9-8dc5-03f48269c621,"Contrato solicitado via onboarding
+
+Líder: Daniela Ramirez Navarro 
+Colaborador: ",,
+731,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-07-31,1500000,d9821cd7-6b79-4af8-abd4-d6094ae055ab,,,
+732,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-07-31,612800,e24224aa-dfc0-4e01-9952-e301d328efa5,,,
+733,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-03-31,373400,ee574932-0de9-4a5f-8548-fa9fd96f65df,,,
+734,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-07-31,1372800,2a7d19ff-e42e-4b32-bb18-a5a79492e2e2,,,
+735,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-04-30,1642100,e08e1baf-843f-49b8-8241-fe2dd763b134,,,
+736,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-04-30,997200,22de8d58-0c90-4282-97f6-7e1bd3448d4b,,,
+737,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-07-31,1371300,ff072adc-7f13-4644-9cf2-7bac3ec1ad91,,,
+738,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-07-31,444600,ab5773d3-51c8-4722-ac3e-e5b6ec028945,,,
+739,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-03-31,1505900,8cff519e-d1cd-4330-b736-60a81c216c7b,"Contrato solicitado via onboarding
+
+Líder: Fernando Otsubo Iwano 
+Colaborador: ",,
+740,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-07-31,2137100,b84c6f4d-fd1f-4bb8-9540-76af58cdbc8f,"Contrato solicitado via onboarding
+
+Líder: Carolina Andrade Silva Bigonha 
+Colaborador: ",,
+741,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-04-30,942100,90a556b9-3cfc-408a-b7b3-b36eec1ffa7f,,,
+742,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-07-31,393500,b60be20a-01bd-4c4a-b661-342fab3771c3,,,
+743,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-07-31,572300,f10c8319-e4c8-47cb-bda8-b70f3300437b,,,
+744,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-07-31,552800,bc7998e9-4c38-4eff-86dc-013e60bb4cd4,,,
+745,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-04-30,1201900,b508cafe-720d-4142-a125-55959da6a137,,,
+746,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-08-31,1328500,9f492dc9-9a2e-49d0-b6ce-befa30592587,,,
+747,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-07-31,300200,6dd6885c-489e-45a1-9279-c6959c0420fe,"Contrato solicitado via onboarding
+
+Líder: Nickolas Caldeira Freire da Costa 
+Colaborador: ",,
+748,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-06-30,2284600,a0444794-3dea-4d85-8b78-76b8875ce91f,,,
+749,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-05-30,2023900,bc340daa-a6ef-42c7-b5de-38fb35844040,,,
+750,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-05-09,600000,ec508ead-163b-49cb-8e8b-4aa9598243e5,"Contrato solicitado via onboarding
+
+Líder: Talles Villalva Caceta 
+Colaborador: ",,
+751,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-03-31,900000,0ba763c5-3496-411c-9819-683f19f2813d,"Contrato solicitado via onboarding
+
+Líder: Talles Villalva 
+Colaborador: ",,
+752,2026-03-30T18:10:25+00:00,inativo,Estágio,2025-03-01,2025-03-31,180000,e3a505eb-d220-42fd-be38-ee59a23d78eb,"Contrato solicitado via onboarding
+
+Líder: Talles Villalva Caceta 
+Colaborador: ",,
+753,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-06-30,1800000,feb1bfbd-a38a-451c-a3d4-aba5d1dfaa36,"Contrato solicitado via onboarding
+
+Líder: Gabriel Resende de Melo 
+Colaborador: ",,
+754,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-04-30,1500000,b27c9edc-072c-4624-85bb-125a416ba7f2,"Contrato solicitado via onboarding
+
+Líder: Talles Villalva Caceta 
+Colaborador: ",,
+755,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-03-31,2056400,bed94071-eab9-4e38-bdb2-100766987276,"Contrato solicitado via onboarding
+
+Líder: Amanda Rodrigues Luhmann de Jesuz Alberto 
+Colaborador: ",,
+756,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-06-30,1711800,bb243bda-9fe2-4512-a21d-6dbb3e804550,,,
+757,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-04-11,1521200,30dd4acc-dd4e-4b6a-af66-f8f3c7122682,"Contrato solicitado via onboarding
+
+Líder: Fernando Otsubo Iwano 
+Colaborador: ",,
+758,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-07-31,2370500,9734853f-4956-467b-9217-536015ee1a3d,"Contrato solicitado via onboarding
+
+Líder: Rafael Zanardo Nascimento 
+Colaborador: ",,
+759,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-04-30,900000,22772011-b44b-4870-90c2-770ee1d1c668,"Contrato solicitado via onboarding
+
+Líder: Talles Villalva 
+Colaborador: ",,
+760,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-07-31,1166200,58ad8da1-a6b0-476e-bf53-d7431a639eb6,,,
+761,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-07-31,3073100,46d0df03-7246-4ce4-9ee3-821d15001e50,,,
+762,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-03-01,2025-07-31,890000,e36725ad-bb02-4691-91c1-cb034a67b057,"Contrato solicitado via onboarding
+
+Líder: Nathani Aires  Bolletta 
+Colaborador: ",,
+763,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-16,2025-07-31,550000,0c34481a-76fc-4bda-ae10-8250ca06ce99,"Contrato solicitado via onboarding
+
+Líder: Siranny Guillaumon Pereira da Silva 
+Colaborador: ",,
+764,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-01,2025-07-31,2467700,bed94071-eab9-4e38-bdb2-100766987276,"Contrato solicitado via onboarding
+
+Líder: Amanda Rodrigues Luhmann de Jesuz Alberto 
+Colaborador: ",,
+765,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-07,2025-07-05,270000,29a5b925-8e82-4dd1-af57-15ab993a1b1a,Temporário - 90 dias,,
+766,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-02-03,2025-05-03,270000,af7a87a5-929e-4d8a-88b5-3e6ab208bd70,Temporário - 90 dias,,
+767,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-07,2025-07-05,270000,f248872e-f872-4dd2-b1fb-9d8fe8b6ede4,Temporário - 90 dias,,
+768,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-02-03,2025-05-03,270000,090099ff-e3c7-4068-b018-0b6ef7bf6b04,Temporário - 90 dias,,
+769,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-28,2025-07-31,600000,1e189327-7fe8-412f-a87d-38db04fcc76a,"Contrato solicitado via onboarding
+
+Líder: Hannah Dias Rabe 
+Colaborador: ",,
+770,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-01,2025-04-30,2280000,4d9c09cf-ea7b-4ad9-8a95-a14f8946beb2,"Contrato solicitado via onboarding
+
+Líder: Gabriel Resende de Melo 
+Colaborador: ",,
+771,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-01,2025-07-31,520000,ae1d495a-c300-4ac7-8050-ec83ee09419e,,,
+772,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-01,2025-07-31,1209649,3f4491ca-1e9d-4bf0-97bc-8266b21e5607,"Contrato solicitado via onboarding
+
+Líder: Siranny Guillaumon Pereira da Silva 
+Colaborador: ",,
+773,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-01,2025-07-31,373400,ee574932-0de9-4a5f-8548-fa9fd96f65df,,,
+774,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-01,2025-07-10,277600,bba8e787-cff8-4224-a92b-9c3d3a467e37,"Contrato solicitado via onboarding
+
+Líder: Alexia de Souza Lima Capuano 
+Colaborador: ",,
+775,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-01,2025-06-05,309700,4225726a-60f4-4a4e-941e-9d5969d19cab,,,
+776,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-01,2025-08-07,322528,51729047-d90a-4b0f-9a48-715c40979bc4,,,
+777,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-01,2025-07-31,1505900,8cff519e-d1cd-4330-b736-60a81c216c7b,"Contrato solicitado via onboarding
+
+Líder: Fernando Otsubo Iwano 
+Colaborador: ",,
+778,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-01,2025-07-31,800000,7e5f06e3-f7b6-4664-a281-7e855a7b77a3,,,
+779,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-01,2025-05-23,852200,ce9a43b6-8bd7-48f2-9548-617d150fd029,,,
+780,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-01,2025-07-31,1160700,8ba2ff05-4a55-41b9-977b-7ca68c74208e,,,
+781,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-01,2025-05-31,1537000,d5599357-16cd-4243-bf53-9e02bcc05e9d,,,
+782,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-01,2025-07-31,2852000,33699f28-cce3-4195-9586-f21ebbaad1b7,,,
+783,2026-03-30T18:10:25+00:00,inativo,Estágio,2025-04-01,2025-08-31,180000,e3a505eb-d220-42fd-be38-ee59a23d78eb,"Contrato solicitado via onboarding
+
+Líder: Talles Villalva Caceta 
+Colaborador: ",,
+784,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-04-01,2025-07-31,900000,0ba763c5-3496-411c-9819-683f19f2813d,"Contrato solicitado via onboarding
+
+Líder: Talles Villalva 
+Colaborador: ",,
+785,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-05-12,2025-07-31,350000,66fd98dc-9788-4b49-8db9-b063c1bcf0ac,"Contrato solicitado via onboarding
+
+Líder: Habiner Michel Zavani Santos 
+Colaborador: ",,
+786,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-05-26,,1200000,b370c164-8b1b-4afd-8d19-5618c1444a39,"Contrato solicitado via onboarding
+
+Líder: Victor Fabricio Cicuto Landim 
+Colaborador: ",,
+787,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-05-12,2025-11-30,270000,2f793595-e789-443d-b8c7-e95f99954c48,Contrato período determinado - 45 +45 dias.,,
+788,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-05-12,2025-11-07,270000,535a29ce-84e5-4cbe-bdbe-834e5a4818b7,Contrato período determinado - 45 +45 dias.,,
+789,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-06-09,2025-06-25,1800000,486d1e63-ed70-4d65-8d2a-a253ea3ad788,"Contrato solicitado via onboarding
+
+Líder: Wesley Lossani 
+Colaborador: ",,
+790,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-05-01,2025-07-31,3626900,2be23925-ff1d-4489-a15c-682eb14131a5,,,
+791,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-05-01,2025-07-31,900000,22772011-b44b-4870-90c2-770ee1d1c668,"Contrato solicitado via onboarding
+
+Líder: Talles Villalva 
+Colaborador: ",,
+792,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-05-01,2025-07-31,2036200,3a8a88b7-3c62-4678-b293-bb998549e216,,,
+793,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-05-01,2025-06-30,2280000,4d9c09cf-ea7b-4ad9-8a95-a14f8946beb2,"Contrato solicitado via onboarding
+
+Líder: Gabriel Resende de Melo 
+Colaborador: ",,
+794,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-05-01,2025-06-30,1573300,57804e36-120b-4381-9524-8823206d97de,,,
+795,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-05-01,2025-07-31,1015600,4a43c54c-0bd4-4743-8acb-efda552cee7f,,,
+796,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-05-01,2025-07-31,942100,90a556b9-3cfc-408a-b7b3-b36eec1ffa7f,,,
+797,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-05-01,2025-07-31,859800,7b9cd134-0206-4690-b2f8-06f7b6020854,,,
+798,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-05-01,2025-07-31,1400000,2b8a3a51-9b66-4c10-aff2-1b638635cbbe,"Contrato solicitado via onboarding
+
+Líder: Paulo Ricardo Xavier Giusti 
+Colaborador: ",,
+799,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-05-01,2025-07-31,1201900,b508cafe-720d-4142-a125-55959da6a137,,,
+800,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-05-01,2025-08-15,997200,22de8d58-0c90-4282-97f6-7e1bd3448d4b,,,
+801,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-05-01,2025-07-31,1642100,e08e1baf-843f-49b8-8241-fe2dd763b134,,,
+802,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-05-01,2025-07-31,1500000,b27c9edc-072c-4624-85bb-125a416ba7f2,"Contrato solicitado via onboarding
+
+Líder: Talles Villalva Caceta 
+Colaborador: ",,
+803,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-06-02,2025-08-20,350000,528116fd-1176-4def-9052-98f3b76c3efb,"Contrato solicitado via onboarding
+
+Líder: Habiner Michel Zavani Santos 
+Colaborador: ",,
+804,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-06-02,2025-07-31,350000,859aa9b3-b511-475e-a6f1-5165a74cf7dc,"Contrato solicitado via onboarding
+
+Líder: Habiner Michel Zavani Santos 
+Colaborador: ",,
+805,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-06-02,2025-07-31,8000000,17504bb7-3c6f-4f39-bb18-e6e2917b6b2c,"Contrato solicitado via onboarding
+
+Líder: Rafael da Rosa Vignoli 
+Colaborador: ",,
+806,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-06-09,2025-07-31,550000,e5b93de6-de3d-41d0-8d8d-bb6df2424c3b,"Contrato solicitado via onboarding
+
+Líder: Siranny Guillaumon Pereira da Silva 
+Colaborador: ",,
+807,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-06-16,2025-08-31,270000,2edcbe14-b658-45ca-bfa4-6434ac47dcec,,,
+808,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-06-10,2025-07-31,350000,896f1786-3719-4e0e-9bbc-fb9276fd78cd,"Contrato solicitado via onboarding
+
+Líder: Habiner Michel Zavani Santos 
+Colaborador: ",,
+809,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-06-01,2025-07-31,1650000,d5599357-16cd-4243-bf53-9e02bcc05e9d,,,
+810,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-07-01,2025-07-31,900000,5a4195a9-90fa-4b9f-b685-15c94d952adc,"Contrato solicitado via onboarding
+
+Líder: Talles Villalva Caceta 
+Colaborador: ",,
+811,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-07-07,2025-07-18,350000,56aa3e56-3d8c-45b0-990b-a970ceb56f80,"Contrato solicitado via onboarding
+
+Líder: Kamilla Coutinho Nilo Edreira Cosac 
+Colaborador: ",,
+812,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-07-07,2025-07-31,350000,24f52952-d5ae-4a79-97ba-759cc3aa574c,"Contrato solicitado via onboarding
+
+Líder: Kamilla Coutinho Nilo Edreira Cosac 
+Colaborador: ",,
+813,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-07-14,2025-07-31,400000,0a12b33a-8d6e-4640-8870-aec828c20175,"Contrato solicitado via onboarding
+
+Líder: Simone Moratelli 
+Colaborador: ",,
+817,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-07-01,2025-08-31,270000,229e5986-022a-42d4-b487-979e2a1dfd81,,,
+818,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-07-01,2025-07-31,270000,0d4becba-a8fd-4f8c-ad4d-6399c5f097cb,,,
+819,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-07-21,2025-07-24,350000,8fb466a6-aef0-4ee9-bdc0-40bd2d72526a,"Contrato solicitado via onboarding
+
+Líder: Kamilla Coutinho Nilo Edreira Cosac 
+Colaborador: ",,
+820,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-07-21,2025-07-31,270000,8537e2aa-8568-4644-9b52-e9b19d3387cc,"Contrato solicitado via onboarding
+
+Líder: Ariane Fernanda Cidral 
+Colaborador: ",,
+821,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-07-21,2025-07-31,270000,4ce11f5a-bc27-427d-9ba5-e6a817297fc8,"Contrato solicitado via onboarding
+
+Líder: Ariane Fernanda Cidral 
+Colaborador: ",,
+822,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-07-07,2025-07-31,270000,5ff5d7aa-55ac-4327-a38b-f5bce2c8c064,"Contrato solicitado via onboarding
+
+Líder: Jessica Hohlenwerger Rosa Nascimento 
+Colaborador: ",,
+823,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-07-01,2025-07-31,1573300,57804e36-120b-4381-9524-8823206d97de,,,
+824,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-07-01,2025-07-31,2280000,4d9c09cf-ea7b-4ad9-8a95-a14f8946beb2,"Contrato solicitado via onboarding
+
+Líder: Gabriel Resende de Melo 
+Colaborador: ",,
+825,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-07-01,2025-07-31,1800000,feb1bfbd-a38a-451c-a3d4-aba5d1dfaa36,"Contrato solicitado via onboarding
+
+Líder: Gabriel Resende de Melo 
+Colaborador: ",,
+826,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-07-01,2025-07-31,1711800,bb243bda-9fe2-4512-a21d-6dbb3e804550,,,
+827,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-07-01,2026-02-28,630000,ff32dec6-f841-47ad-b6f0-be8438d51075,,,
+828,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-07-01,2025-07-31,2284600,a0444794-3dea-4d85-8b78-76b8875ce91f,,,
+829,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-18,,2900000,0576bd44-96e7-4896-b9c1-0e9370b02cf5,"Contrato solicitado via onboarding
+
+Líder: Marcos Augusto Loiola 
+Colaborador: ",,
+830,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-07-31,1015600,4a43c54c-0bd4-4743-8acb-efda552cee7f,,,
+831,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-10-27,2974300,8f7f08c9-5b8d-47c4-900a-b4c167181ac4,"Contrato solicitado via onboarding
+
+Líder: Carolina Andrade Silva Bigonha 
+Colaborador: ",,
+832,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,2248870,b84c6f4d-fd1f-4bb8-9540-76af58cdbc8f,"Contrato solicitado via onboarding
+
+Líder: Carolina Andrade Silva Bigonha 
+Colaborador: ",,
+833,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-26,1801300,bb243bda-9fe2-4512-a21d-6dbb3e804550,,,
+834,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-30,1535800,b64b2a42-812b-4947-baeb-ac5e2e0b8aca,,,
+835,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-25,2025-09-30,500000,e8e519c8-c1bd-48e7-94e0-5e037b0e8180,"Contrato solicitado via onboarding
+
+Líder: Siranny Guillaumon Pereira da Silva 
+Colaborador: ",,
+836,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-12-05,3816600,2be23925-ff1d-4489-a15c-682eb14131a5,,,
+837,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-11-30,8069600,17504bb7-3c6f-4f39-bb18-e6e2917b6b2c,"Contrato solicitado via onboarding
+
+Líder: Rafael da Rosa Vignoli 
+Colaborador: ",,
+838,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-12-01,4224000,c523e7b0-bee7-4af5-9178-531e2aa93b30,"Contrato solicitado via onboarding
+
+Líder: Rafael da Rosa Vignoli 
+Colaborador: ",,
+839,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,270000,26b4af41-f634-48e3-85ce-52094c5c9a59,,,
+840,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-10-31,270000,0d4becba-a8fd-4f8c-ad4d-6399c5f097cb,,,
+841,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-10-31,3838900,c51df459-9c1f-4108-9dd4-55215d952710,,,
+842,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,1578500,d9821cd7-6b79-4af8-abd4-d6094ae055ab,,,
+843,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,1744500,c15c1f3d-ddac-4ef9-83c7-22cfc7a1b1aa,"Contrato solicitado via onboarding
+
+Líder: Wesley Lossani 
+Colaborador: ",,
+844,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-11-17,824400,0fb1b223-a6ab-4d3b-97ce-e62e8ff4e5ee,"Contrato solicitado via onboarding
+
+Líder: Maria Luiza Fialho de Lima Simões 
+Colaborador: ",,
+845,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,919600,12343070-12cb-4f7a-9d67-70bad9f827b5,"Contrato solicitado via onboarding
+
+Líder: Felipe Sebastião da Silva Ferreira 
+Colaborador: ",,
+846,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-02-13,1736300,d5599357-16cd-4243-bf53-9e02bcc05e9d,,,
+847,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-10-10,547200,ae1d495a-c300-4ac7-8050-ec83ee09419e,,,
+848,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,644800,e24224aa-dfc0-4e01-9952-e301d328efa5,,,
+849,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-30,392900,ee574932-0de9-4a5f-8548-fa9fd96f65df,,,
+850,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-10-31,2201900,b755ec89-0784-400e-9de6-1906b531622e,,,
+851,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,401800,0a12b33a-8d6e-4640-8870-aec828c20175,"Contrato solicitado via onboarding
+
+Líder: Simone Moratelli 
+Colaborador: ",,
+852,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,3091500,ab33a624-f93e-4415-a82e-e044f80fb827,"Contrato solicitado via onboarding
+
+Líder: Alessandra Perez Mak 
+Colaborador: ",,
+853,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,391590,ce87348f-e82e-4647-bb77-3edcfb260e25,,,
+854,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,1200100,1edf275e-3e1e-4b76-991b-d613b37092cd,,,
+855,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,284100,7b5677de-16f1-4eb4-a249-129185b01779,"Contrato solicitado via onboarding
+
+Líder: Nickolas Caldeira Freire da Costa 
+Colaborador: ",,
+856,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-30,1682400,af114df9-375c-44e9-a64c-180f8cf7bd63,,,
+857,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-10-31,1444600,2a7d19ff-e42e-4b32-bb18-a5a79492e2e2,,,
+858,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,1728000,e08e1baf-843f-49b8-8241-fe2dd763b134,,,
+859,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-30,2404100,a0444794-3dea-4d85-8b78-76b8875ce91f,,,
+860,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,1925288,4967318a-8b3f-4ef8-8f22-2f05e03b0a0c,1.500 units adicionais,,
+861,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-30,271200,8537e2aa-8568-4644-9b52-e9b19d3387cc,"Contrato solicitado via onboarding
+
+Líder: Ariane Fernanda Cidral 
+Colaborador: ",,
+862,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,904800,7b9cd134-0206-4690-b2f8-06f7b6020854,,,
+863,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-02-28,1443000,ff072adc-7f13-4644-9cf2-7bac3ec1ad91,,,
+864,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,,747028,36a4568a-8ffc-4be6-b804-3f8cf469864c,"Contrato solicitado via onboarding
+
+Líder: Yumi Cavalcanti Tagawa 
+Colaborador: ",,
+865,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,467900,ab5773d3-51c8-4722-ac3e-e5b6ec028945,,,
+866,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,610400,1e189327-7fe8-412f-a87d-38db04fcc76a,"Contrato solicitado via onboarding
+
+Líder: Hannah Dias Rabe 
+Colaborador: ",,
+867,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-30,2142700,3a8a88b7-3c62-4678-b293-bb998549e216,,,
+868,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-19,559600,0c34481a-76fc-4bda-ae10-8250ca06ce99,"Contrato solicitado via onboarding
+
+Líder: Siranny Guillaumon Pereira da Silva 
+Colaborador: ",,
+869,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-30,1584700,8cff519e-d1cd-4330-b736-60a81c216c7b,"Contrato solicitado via onboarding
+
+Líder: Fernando Otsubo Iwano 
+Colaborador: ",,
+870,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-30,271200,4ce11f5a-bc27-427d-9ba5-e6a817297fc8,"Contrato solicitado via onboarding
+
+Líder: Ariane Fernanda Cidral 
+Colaborador: ",,
+871,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,2509525,2c9242c8-0803-40db-ba27-d1637c018242,,,
+872,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,821320,d6c18a62-9986-42ad-b9fe-b55848aef389,,,
+873,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,824400,0d6ba27f-9747-4aec-8b37-0ad3c5eda611,"Contrato solicitado via onboarding
+
+Líder: Hugo Pedrosa Barreto Joanine 
+Colaborador: ",,
+874,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,287173,35cfaeb1-e46e-4faa-8581-bd87db1252c1,"Contrato solicitado via onboarding
+
+Líder: Nickolas Caldeira Freire da Costa 
+Colaborador: ",,
+875,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-11-03,987000,80940a1a-19c7-4995-ab6b-664de0dfe98f,,,
+876,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,1532700,ade07a8e-4045-4ff9-8dc5-03f48269c621,"Contrato solicitado via onboarding
+
+Líder: Daniela Ramirez Navarro 
+Colaborador: ",,
+877,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,618300,4815549d-bdc4-4ac2-af46-babb873fa0f2,"Contrato solicitado via onboarding
+
+Líder: Hannah Dias Rabe 
+Colaborador: ",,
+878,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-26,554800,e5b93de6-de3d-41d0-8d8d-bb6df2424c3b,"Contrato solicitado via onboarding
+
+Líder: Siranny Guillaumon Pereira da Silva 
+Colaborador: ",,
+879,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,305062,13a52a9a-f4a7-4248-8980-e3d90fb5a04f,,,
+880,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,931410,0ba763c5-3496-411c-9819-683f19f2813d,"Contrato solicitado via onboarding
+
+Líder: Talles Villalva 
+Colaborador: ",,
+881,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-02-28,1215720,b370c164-8b1b-4afd-8d19-5618c1444a39,"Contrato solicitado via onboarding
+
+Líder: Victor Fabricio Cicuto Landim 
+Colaborador: ",,
+882,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-30,821000,7e5f06e3-f7b6-4664-a281-7e855a7b77a3,,,
+883,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,827105,e5a43741-013e-4f64-b1b9-78aa82092881,,,
+884,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,3001200,33699f28-cce3-4195-9586-f21ebbaad1b7,,,
+885,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-02,353000,896f1786-3719-4e0e-9bbc-fb9276fd78cd,"Contrato solicitado via onboarding
+
+Líder: Habiner Michel Zavani Santos 
+Colaborador: ",,
+886,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-30,353000,859aa9b3-b511-475e-a6f1-5165a74cf7dc,"Contrato solicitado via onboarding
+
+Líder: Habiner Michel Zavani Santos 
+Colaborador: ",,
+887,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,271200,5ff5d7aa-55ac-4327-a38b-f5bce2c8c064,"Contrato solicitado via onboarding
+
+Líder: Jessica Hohlenwerger Rosa Nascimento 
+Colaborador: ",,
+888,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,3794400,16c916d8-28cb-44f4-b02d-69ee047174ce,,,
+889,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-09,3117600,81426015-035f-420e-b4f0-36422ec6fd6b,"Contrato solicitado via onboarding
+
+Líder: Jessica Kaori Kunii 
+Colaborador: ",,
+890,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,1473200,2b8a3a51-9b66-4c10-aff2-1b638635cbbe,"Contrato solicitado via onboarding
+
+Líder: Paulo Ricardo Xavier Giusti 
+Colaborador: ",,
+891,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,991400,90a556b9-3cfc-408a-b7b3-b36eec1ffa7f,,,
+892,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,414080,b60be20a-01bd-4c4a-b661-342fab3771c3,,,
+893,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,1894140,feb1bfbd-a38a-451c-a3d4-aba5d1dfaa36,"Contrato solicitado via onboarding
+
+Líder: Gabriel Resende de Melo 
+Colaborador: ",,
+894,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-12-31,2027600,7673125c-83da-4b54-98b6-1765324891f4,"Contrato solicitado via onboarding
+
+Líder: Pedro Temer Santelmo 
+Colaborador: ",,
+895,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,602231,f10c8319-e4c8-47cb-bda8-b70f3300437b,,,
+896,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-17,1571900,b27c9edc-072c-4624-85bb-125a416ba7f2,"Contrato solicitado via onboarding
+
+Líder: Talles Villalva Caceta 
+Colaborador: ",,
+897,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,2596800,bed94071-eab9-4e38-bdb2-100766987276,"Contrato solicitado via onboarding
+
+Líder: Amanda Rodrigues Luhmann de Jesuz Alberto 
+Colaborador: ",,
+898,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,581711,bc7998e9-4c38-4eff-86dc-013e60bb4cd4,,,
+899,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,936500,e36725ad-bb02-4691-91c1-cb034a67b057,"Contrato solicitado via onboarding
+
+Líder: Nathani Aires  Bolletta 
+Colaborador: ",,
+900,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-30,1655600,57804e36-120b-4381-9524-8823206d97de,,,
+901,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,3794400,e2c609cc-e42a-49f2-945e-121db208d7df,,,
+902,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,1221400,8ba2ff05-4a55-41b9-977b-7ca68c74208e,,,
+903,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,3838900,dd9f1e21-2284-4cb7-b6dc-9fb6c2f9a658,,,
+904,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,947070,51475395-84a5-48a1-9c77-b7e115df6af3,,,
+905,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,1127100,51475395-84a5-48a1-9c77-b7e115df6af3,,,
+906,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-26,351500,24f52952-d5ae-4a79-97ba-759cc3aa574c,"Contrato solicitado via onboarding
+
+Líder: Kamilla Coutinho Nilo Edreira Cosac 
+Colaborador: ",,
+907,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,821000,0f99b83a-ace9-44c2-b554-ef31f2fb4bd5,"Contrato solicitado via onboarding
+
+Líder: Wesley Lossani 
+Colaborador: ",,
+908,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,1264800,b508cafe-720d-4142-a125-55959da6a137,,,
+909,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,1398000,9f492dc9-9a2e-49d0-b6ce-befa30592587,,,
+910,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-30,510900,bcb4191c-33ca-4a3d-be00-97db433ef4e8,"Contrato solicitado via onboarding
+
+Líder: Siranny Guillaumon Pereira da Silva 
+Colaborador: ",,
+911,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-31,2494500,9734853f-4956-467b-9217-536015ee1a3d,"Contrato solicitado via onboarding
+
+Líder: Rafael Zanardo Nascimento 
+Colaborador: ",,
+912,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-12,2891300,d199cbe9-afad-4723-b39b-7e75eb99ae18,"Contrato solicitado via onboarding
+
+Líder: Gabriel Resende de Melo 
+Colaborador: ",,
+913,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,904000,5a4195a9-90fa-4b9f-b685-15c94d952adc,"Contrato solicitado via onboarding
+
+Líder: Talles Villalva Caceta 
+Colaborador: ",,
+914,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,935280,22772011-b44b-4870-90c2-770ee1d1c668,"Contrato solicitado via onboarding
+
+Líder: Talles Villalva 
+Colaborador: ",,
+915,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,315900,6dd6885c-489e-45a1-9279-c6959c0420fe,"Contrato solicitado via onboarding
+
+Líder: Nickolas Caldeira Freire da Costa 
+Colaborador: ",,
+916,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,3233800,46d0df03-7246-4ce4-9ee3-821d15001e50,,,
+917,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,1227192,58ad8da1-a6b0-476e-bf53-d7431a639eb6,,,
+918,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-10-17,1272900,3f4491ca-1e9d-4bf0-97bc-8266b21e5607,"Contrato solicitado via onboarding
+
+Líder: Siranny Guillaumon Pereira da Silva 
+Colaborador: ",,
+919,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-03,354600,66fd98dc-9788-4b49-8db9-b063c1bcf0ac,"Contrato solicitado via onboarding
+
+Líder: Habiner Michel Zavani Santos 
+Colaborador: ",,
+920,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-01,1068716,4a43c54c-0bd4-4743-8acb-efda552cee7f,,,
+921,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-30,1267200,79000e35-6501-4806-a5af-3929867add0a,"Contrato solicitado via onboarding
+
+Líder: Gabriel Resende de Melo 
+Colaborador: ",,
+922,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,2389200,4d9c09cf-ea7b-4ad9-8a95-a14f8946beb2,"Contrato solicitado via onboarding
+
+Líder: Gabriel Resende de Melo 
+Colaborador: ",,
+923,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-08-29,718600,8b1831cc-b08e-4eda-a314-f8e409d50900,,,
+924,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,530200,06e2e250-dc1b-479b-8b1d-6b89ba868c5c,,,
+925,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-12-31,429600,ce87348f-e82e-4647-bb77-3edcfb260e25,,,
+926,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-09-30,3391500,ab33a624-f93e-4415-a82e-e044f80fb827,"Contrato solicitado via onboarding
+
+Líder: Alessandra Perez Mak 
+Colaborador: ",,
+927,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,2108200,4967318a-8b3f-4ef8-8f22-2f05e03b0a0c,1.500 units adicionais,,
+928,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,889000,36a4568a-8ffc-4be6-b804-3f8cf469864c,"Contrato solicitado via onboarding
+
+Líder: Yumi Cavalcanti Tagawa 
+Colaborador: ",,
+929,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,2748000,2c9242c8-0803-40db-ba27-d1637c018242,,,
+930,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,1000800,d6c18a62-9986-42ad-b9fe-b55848aef389,,,
+931,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,920400,0d6ba27f-9747-4aec-8b37-0ad3c5eda611,"Contrato solicitado via onboarding
+
+Líder: Hugo Pedrosa Barreto Joanine 
+Colaborador: ",,
+932,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,314500,35cfaeb1-e46e-4faa-8581-bd87db1252c1,"Contrato solicitado via onboarding
+
+Líder: Nickolas Caldeira Freire da Costa 
+Colaborador: ",,
+933,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,708300,4815549d-bdc4-4ac2-af46-babb873fa0f2,"Contrato solicitado via onboarding
+
+Líder: Hannah Dias Rabe 
+Colaborador: ",,
+934,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,334100,13a52a9a-f4a7-4248-8980-e3d90fb5a04f,,,
+935,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,976400,0ba763c5-3496-411c-9819-683f19f2813d,"Contrato solicitado via onboarding
+
+Líder: Talles Villalva 
+Colaborador: ",,
+936,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,2676300,b84c6f4d-fd1f-4bb8-9540-76af58cdbc8f,"Contrato solicitado via onboarding
+
+Líder: Carolina Andrade Silva Bigonha 
+Colaborador: ",,
+937,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,916700,e5a43741-013e-4f64-b1b9-78aa82092881,,,
+938,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,492800,b60be20a-01bd-4c4a-b661-342fab3771c3,,,
+939,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,2398100,feb1bfbd-a38a-451c-a3d4-aba5d1dfaa36,"Contrato solicitado via onboarding
+
+Líder: Gabriel Resende de Melo 
+Colaborador: ",,
+940,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-08-01,,659500,f10c8319-e4c8-47cb-bda8-b70f3300437b,,,
+941,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,1115300,22772011-b44b-4870-90c2-770ee1d1c668,"Contrato solicitado via onboarding
+
+Líder: Talles Villalva 
+Colaborador: ",,
+942,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,1343800,58ad8da1-a6b0-476e-bf53-d7431a639eb6,,,
+943,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2025-10-31,1271800,4a43c54c-0bd4-4743-8acb-efda552cee7f,,,
+944,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,637000,bc7998e9-4c38-4eff-86dc-013e60bb4cd4,,,
+945,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-09-10,2025-09-30,350000,d698738e-2d36-4265-a40a-a320db57c323,"Contrato solicitado via onboarding
+
+Líder: Kamilla Coutinho Nilo Edreira Cosac 
+Colaborador: ",,
+946,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-09-10,2025-09-30,420000,f310ecd4-4c9b-4fd7-81dc-1219eba94939,"Contrato solicitado via onboarding
+
+Líder: Habiner Michel Zavani Santos 
+Colaborador: ",,
+947,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-09-01,,500000,e3a505eb-d220-42fd-be38-ee59a23d78eb,,,
+948,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-09-01,,270000,229e5986-022a-42d4-b487-979e2a1dfd81,,,
+949,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-09-01,,270000,2edcbe14-b658-45ca-bfa4-6434ac47dcec,,,
+950,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-09-15,,2500000,2128639d-53d7-4a09-bc00-db3ba63c3ad3,"Contrato solicitado via onboarding
+
+Líder: Daniela Ramirez Navarro 
+Colaborador: ",,
+951,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-09-15,,2500000,c7f0fcb0-339f-4479-91f4-bf8ead7ae458,"Contrato solicitado via onboarding
+
+Líder: Jessica Kaori Kunii 
+Colaborador: ",,
+952,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-10-06,,3000000,575038c7-3473-4017-8c66-bdd694e5f65a,"Contrato solicitado via onboarding
+
+Líder: Alessandra Perez Mak 
+Colaborador: ",,
+953,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-09-29,,2800000,185a890b-a873-42ac-a55f-3f272dbc9228,"Contrato solicitado via onboarding
+
+Líder: Marcos Augusto Loiola 
+Colaborador: ",,
+954,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-09-01,,2494500,9734853f-4956-467b-9217-536015ee1a3d,"Contrato solicitado via onboarding
+
+Líder: Rafael Zanardo Nascimento 
+Colaborador: ",,
+955,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-08-01,2026-01-31,2843600,bed94071-eab9-4e38-bdb2-100766987276,"Contrato solicitado via onboarding
+
+Líder: Amanda Rodrigues Luhmann de Jesuz Alberto 
+Colaborador: ",,
+956,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-10-13,,1550000,35fd3ebb-28af-41a8-8951-a2cda6da4018,"Contrato solicitado via onboarding
+
+Líder: Marcus Rodrigo Guidoti Soares 
+Colaborador: ",,
+957,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-10-13,,800000,413eff69-aa4d-4907-a3bf-acd79104a480,"Contrato solicitado via onboarding
+
+Líder: Alexia Ysabelli Antunes Werneck 
+Colaborador: ",,
+958,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-10-08,,370000,dd0a3104-e079-4a07-bc35-45d957c39f83,"Contrato solicitado via onboarding
+
+Líder: Bruno Salado 
+Colaborador: ",,
+959,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-10-08,2026-02-02,370000,46435752-6955-4696-a19b-414f711262b0,"Contrato solicitado via onboarding
+
+Líder: Bruno Salado 
+Colaborador: Bibiane Carolina Lombardoso dos Santos",,
+960,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-10-20,,1400000,a55eef8d-c1e4-4ae1-bfc6-7fe8e2be94e4,"Contrato solicitado via onboarding
+
+Líder: Bruno Salado 
+Colaborador: ",,
+961,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-10-20,,300000,6c86aa3b-e727-4c16-bb7a-2203cb22fbad,"Contrato solicitado via onboarding
+
+Líder: Bruno Salado 
+Colaborador: ",,
+962,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-10-20,,300000,7a4d7b42-a382-450e-bf2f-6903e833101d,"Contrato solicitado via onboarding
+
+Líder: Bruno Salado 
+Colaborador: ",,
+963,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-10-20,,300000,b455277d-7e99-4d95-88c6-af0c13bc6fc7,"Contrato solicitado via onboarding
+
+Líder: Bruno Salado 
+Colaborador: ",,
+964,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-10-20,,300000,d7c850da-1778-4e5e-8cb8-c5e75992c86c,"Contrato solicitado via onboarding
+
+Líder: Bruno Salado 
+Colaborador: ",,
+965,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-11-03,2025-11-30,1600000,0f84ebc3-13b3-4efd-a960-c3c72f376c27,"Contrato solicitado via onboarding
+
+Líder: Marcus Rodrigo Guidoti Soares 
+Colaborador: ",,
+966,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-10-22,,2500000,ad972b8c-6032-44f2-80cb-86fe1ee1826e,"Contrato solicitado via onboarding
+
+Líder: Daniela Ramirez Navarro 
+Colaborador: ",,
+967,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-10-22,,300000,45a44e83-45ab-48f7-8388-3355b6c188dc,"Contrato solicitado via onboarding
+
+Líder: Bruno Salado 
+Colaborador: ",,
+968,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-10-27,,1200000,2a448135-af0b-4560-8c98-56a9ce890075,"Contrato solicitado via onboarding
+
+Líder: Bruno Salado 
+Colaborador: ",,
+969,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-10-01,,2142700,3a8a88b7-3c62-4678-b293-bb998549e216,,,
+970,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-10-01,,1267200,79000e35-6501-4806-a5af-3929867add0a,"Contrato solicitado via onboarding
+
+Líder: Gabriel Resende de Melo 
+Colaborador: ",,
+971,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-10-01,2026-02-26,1682400,af114df9-375c-44e9-a64c-180f8cf7bd63,,,
+972,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-10-01,,1655600,57804e36-120b-4381-9524-8823206d97de,,,
+973,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-10-01,2026-02-02,2404100,a0444794-3dea-4d85-8b78-76b8875ce91f,,,
+974,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-10-01,2025-12-03,821000,7e5f06e3-f7b6-4664-a281-7e855a7b77a3,,,
+975,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-10-01,2025-11-07,1584700,8cff519e-d1cd-4330-b736-60a81c216c7b,"Contrato solicitado via onboarding
+
+Líder: Fernando Otsubo Iwano 
+Colaborador: ",,
+976,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-10-01,2025-11-28,353000,859aa9b3-b511-475e-a6f1-5165a74cf7dc,"Contrato solicitado via onboarding
+
+Líder: Habiner Michel Zavani Santos 
+Colaborador: ",,
+977,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-10-01,2025-11-10,420000,f310ecd4-4c9b-4fd7-81dc-1219eba94939,"Contrato solicitado via onboarding
+
+Líder: Habiner Michel Zavani Santos 
+Colaborador: ",,
+978,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-10-01,2025-11-28,350000,d698738e-2d36-4265-a40a-a320db57c323,"Contrato solicitado via onboarding
+
+Líder: Kamilla Coutinho Nilo Edreira Cosac 
+Colaborador: ",,
+979,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-10-01,2025-11-24,392900,ee574932-0de9-4a5f-8548-fa9fd96f65df,,,
+980,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-10-01,2026-01-31,271200,8537e2aa-8568-4644-9b52-e9b19d3387cc,"Contrato solicitado via onboarding
+
+Líder: Ariane Fernanda Cidral 
+Colaborador: ",,
+981,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-10-01,2025-12-31,271200,4ce11f5a-bc27-427d-9ba5-e6a817297fc8,"Contrato solicitado via onboarding
+
+Líder: Ariane Fernanda Cidral 
+Colaborador: ",,
+982,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-10-01,2025-10-28,500000,e8e519c8-c1bd-48e7-94e0-5e037b0e8180,"Contrato solicitado via onboarding
+
+Líder: Siranny Guillaumon Pereira da Silva 
+Colaborador: ",,
+983,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-10-01,2025-10-24,510900,bcb4191c-33ca-4a3d-be00-97db433ef4e8,"Contrato solicitado via onboarding
+
+Líder: Siranny Guillaumon Pereira da Silva 
+Colaborador: ",,
+984,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-10-01,,1535800,b64b2a42-812b-4947-baeb-ac5e2e0b8aca,,,
+985,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-10-01,2026-01-31,3391500,ab33a624-f93e-4415-a82e-e044f80fb827,"Contrato solicitado via onboarding
+
+Líder: Alessandra Perez Mak 
+Colaborador: ",,
+986,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-11-10,,350000,bc57e711-6b26-4442-8512-1c9bba8027b6,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+987,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-11-10,,350000,cf275709-3df9-4901-8f4b-4c33495a7dbd,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+988,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-11-10,2026-01-08,350000,ccef8268-9d1d-4cd0-be63-f7a4e148afdd,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+989,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-11-24,,1400000,2cf22d1f-4998-4256-b730-45164eeef44b,"Contrato solicitado via onboarding
+
+Líder: Jessica Kaori Kunii 
+Colaborador: ",,
+990,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-11-10,2025-12-19,350000,3193cf3d-dfac-4b15-9d85-c27d542f6734,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+991,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-11-10,,350000,0e583373-db91-448f-a17c-9ccfb23c1aad,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+992,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2025-11-10,2026-03-23,350000,5fd0b919-dedc-4225-89a4-36683fa5c781,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+993,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-11-17,,1700000,db702e69-f5c9-46d9-a59a-a1e074a091a7,"Contrato solicitado via onboarding
+
+Líder: Andre Luiz Monteiro de Castro 
+Colaborador: ",,
+994,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-12-01,,1450000,2a927225-5f59-46ae-969c-aa34e2c8b32e,"Contrato solicitado via onboarding
+
+Líder: Wesley Lossani 
+Colaborador: ",,
+995,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-11-01,,1444600,2a7d19ff-e42e-4b32-bb18-a5a79492e2e2,,,
+996,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-11-01,,1550000,4a43c54c-0bd4-4743-8acb-efda552cee7f,,,
+997,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-12-01,,350000,85517731-6de3-4e14-abff-07b11ccbe188,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+998,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-12-01,,350000,91470ce8-62f5-43b9-b826-f988f260120a,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+999,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-12-01,,350000,a935646e-5478-41ad-9cb7-81ecea8ff15f,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+1000,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-11-01,,4000000,c51df459-9c1f-4108-9dd4-55215d952710,,,
+1001,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-12-09,,270000,d32eede8-f093-42b4-8210-7be8597297cd,"Contrato solicitado via onboarding
+
+Líder: Marcelo Gasparotto Teixeira 
+Colaborador: ",,
+1003,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-12-01,,270000,5afd0dc4-8542-42cd-8ac9-acc013a042cd,,,
+1004,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-12-01,,270000,7627858e-c350-4eaf-a614-14430e9705e4,,,
+1005,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-12-16,,350000,2c828264-48dd-4b6a-bfa2-8d2c3b218269,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+1006,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-12-01,,270000,f87292a4-916a-4689-9838-4a90bfa56f45,,,
+1007,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-12-01,,270000,73fd3b7a-88d6-4f94-abb7-e62a959f7d62,,,
+1008,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-12-01,,1600000,0f84ebc3-13b3-4efd-a960-c3c72f376c27,"Contrato solicitado via onboarding
+
+Líder: Marcus Rodrigo Guidoti Soares 
+Colaborador: ",,
+1009,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2025-12-01,,8069600,17504bb7-3c6f-4f39-bb18-e6e2917b6b2c,"Contrato solicitado via onboarding
+
+Líder: Rafael da Rosa Vignoli 
+Colaborador: ",,
+1010,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-01-12,,2800000,1127a708-900b-4097-953a-8794887a03b6,"Contrato solicitado via onboarding
+
+Líder: Marcos Augusto Loiola 
+Colaborador: ",,
+1011,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-01-06,,500000,abf61ad0-3d1c-456e-903c-f0632aa770dd,"Contrato solicitado via onboarding
+
+Líder: Eduardo Tadeu Cirillo 
+Colaborador: ",,
+1012,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-01-26,,350000,fb2c4712-c593-42d7-a845-d4dbc8ff0f36,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+1013,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-01-26,,350000,5b37a510-33a5-4468-9083-ab5c4a577e37,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+1014,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2026-01-26,2026-02-10,350000,1e3e06d8-d3ca-4e8a-9ed5-d87feb5c1b4c,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+1015,2026-03-30T18:10:25+00:00,inativo,Pessoa Jurídica,2026-01-26,2026-03-03,350000,bf59148b-1f48-4513-b492-00f2dc4aee9c,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+1016,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-01-26,,350000,a573ac90-5169-4cf9-9796-87d3d4b13147,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+1017,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-01-26,,350000,6b060a4e-8f82-47cd-afc6-e0a11952d23d,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+1018,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-01-26,,350000,061e1da4-9654-4191-ada1-4e1930163b48,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+1019,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-01-01,,420000,4ce11f5a-bc27-427d-9ba5-e6a817297fc8,"Contrato solicitado via onboarding
+
+Líder: Ariane Fernanda Cidral 
+Colaborador: ",,
+1020,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-02,,1400000,981730d1-26d5-4e1f-a9f6-3a2b5a9a3ba1,"Contrato solicitado via onboarding
+
+Líder: Andre Luiz Monteiro de Castro 
+Colaborador: ",,
+1021,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-02,,1700000,fc7e0b46-f62e-4697-a58f-dcdbea02c314,"Contrato solicitado via onboarding
+
+Líder: Danilo Ribeiro da Silva 
+Colaborador: ",,
+1022,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-09,,270000,4c6633da-71cd-44de-ab38-7cf776dcfe7d,,,
+1023,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-09,,270000,73b50f4f-16ac-4c1b-bc5a-f2a1ce3a5638,,,
+1024,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-23,,350000,00f2f4c9-c16a-47c2-8c64-2b7d237913c6,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+1025,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,2748000,2c9242c8-0803-40db-ba27-d1637c018242,,,
+1026,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,300000,8537e2aa-8568-4644-9b52-e9b19d3387cc,"Contrato solicitado via onboarding
+
+Líder: Ariane Fernanda Cidral 
+Colaborador: ",,
+1027,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,1500000,1edf275e-3e1e-4b76-991b-d613b37092cd,,,
+1028,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,1900000,e08e1baf-843f-49b8-8241-fe2dd763b134,,,
+1029,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,1100000,e36725ad-bb02-4691-91c1-cb034a67b057,"Contrato solicitado via onboarding
+
+Líder: Nathani Aires  Bolletta 
+Colaborador: ",,
+1030,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,1650000,b508cafe-720d-4142-a125-55959da6a137,,,
+1031,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,1537800,9f492dc9-9a2e-49d0-b6ce-befa30592587,,,
+1032,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,1300000,22772011-b44b-4870-90c2-770ee1d1c668,"Contrato solicitado via onboarding
+
+Líder: Talles Villalva 
+Colaborador: ",,
+1033,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,1550000,58ad8da1-a6b0-476e-bf53-d7431a639eb6,,,
+1034,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,1800000,d9821cd7-6b79-4af8-abd4-d6094ae055ab,,,
+1035,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,502600,ce87348f-e82e-4647-bb77-3edcfb260e25,,,
+1036,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,1050000,7b9cd134-0206-4690-b2f8-06f7b6020854,,,
+1037,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,1380000,0d6ba27f-9747-4aec-8b37-0ad3c5eda611,"Contrato solicitado via onboarding
+
+Líder: Hugo Pedrosa Barreto Joanine 
+Colaborador: ",,
+1038,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,393000,35cfaeb1-e46e-4faa-8581-bd87db1252c1,"Contrato solicitado via onboarding
+
+Líder: Nickolas Caldeira Freire da Costa 
+Colaborador: ",,
+1039,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,400000,13a52a9a-f4a7-4248-8980-e3d90fb5a04f,,,
+1040,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,800000,bc7998e9-4c38-4eff-86dc-013e60bb4cd4,,,
+1041,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,393000,6dd6885c-489e-45a1-9279-c6959c0420fe,"Contrato solicitado via onboarding
+
+Líder: Nickolas Caldeira Freire da Costa 
+Colaborador: ",,
+1042,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-03-16,,1300000,ab4e431d-b01e-49a1-bb71-1b52edf4783e,"Contrato solicitado via onboarding
+
+Líder: Marcelo Gasparotto Teixeira 
+Colaborador: ",,
+1043,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-03-02,,720000,0ef20660-5e04-4518-9da4-0721f080faca,"Contrato solicitado via onboarding
+
+Líder: Felipe Sebastião da Silva Ferreira 
+Colaborador: ",,
+1044,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-04-01,,1080000,8fbab3a8-e2ad-4705-adf7-d9d0adea5703,"Contrato solicitado via onboarding
+
+Líder: Alessandra Perez Mak 
+Colaborador: ",,
+1045,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-03-23,,1900000,ec65b757-60ef-4640-8b5d-a8446266a37a,"Contrato solicitado via onboarding
+
+Líder: Marcos Augusto Loiola 
+Colaborador: ",,
+1046,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-03-16,,4000000,a6c1a3a0-d169-4f14-a6a4-6980bf2b3973,"Contrato solicitado via onboarding
+
+Líder: Rafael da Rosa Vignoli 
+Colaborador: ",,
+1047,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-04-06,,1500000,bad81273-7b61-47e6-b753-9a0fbf3e9ea8,"Contrato solicitado via onboarding
+
+Líder: Romulo dos Santos Lebre 
+Colaborador: ",,
+1048,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-03-16,,400000,9afcdfbc-c302-4bcd-8d46-21bdbaa57796,"Contrato solicitado via onboarding
+
+Líder: Nathani Aires Bolletta 
+Colaborador: ",,
+1049,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-03-23,,2200000,1beedd66-d3a2-4507-8e51-25eeaa0572f5,"Contrato solicitado via onboarding
+
+Líder: Daniela Ramirez Navarro 
+Colaborador: ",,
+1050,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-03-23,,350000,a1cef1d7-934e-4eb8-9e10-b61dd3aecc1d,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+1051,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-04-06,,500000,4ce5b507-689c-4c38-a6a8-4e904bb97ed7,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+1052,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-04-06,,350000,10465321-cfc6-4e00-a4f3-56062cbc4378,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+1053,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-04-06,,350000,a84efb6e-f5cd-4c1f-a421-779112254542,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+1054,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-04-06,,350000,ff81d856-aabc-4ef9-84a4-4086ab2d2e91,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+1055,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-04-06,,350000,da8aa782-dfd7-4340-a026-fb37bda06354,"Contrato solicitado via onboarding
+
+Líder: Vanessa Braz Santos 
+Colaborador: ",,
+1056,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,3630000,ab33a624-f93e-4415-a82e-e044f80fb827,"Contrato solicitado via onboarding
+
+Líder: Alessandra Perez Mak 
+Colaborador: ",,
+1057,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,3150000,bed94071-eab9-4e38-bdb2-100766987276,"Contrato solicitado via onboarding
+
+Líder: Amanda Rodrigues Luhmann de Jesuz Alberto 
+Colaborador: ",,
+1058,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-03-01,,1350000,b370c164-8b1b-4afd-8d19-5618c1444a39,"Contrato solicitado via onboarding
+
+Líder: Victor Fabricio Cicuto Landim 
+Colaborador: ",,
+1059,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,1800000,ff072adc-7f13-4644-9cf2-7bac3ec1ad91,,,
+1060,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,2700000,4d9c09cf-ea7b-4ad9-8a95-a14f8946beb2,"Contrato solicitado via onboarding
+
+Líder: Gabriel Resende de Melo 
+Colaborador: ",,
+1061,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,2200000,7673125c-83da-4b54-98b6-1765324891f4,"Contrato solicitado via onboarding
+
+Líder: Pedro Temer Santelmo 
+Colaborador: ",,
+1062,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,2700000,feb1bfbd-a38a-451c-a3d4-aba5d1dfaa36,"Contrato solicitado via onboarding
+
+Líder: Gabriel Resende de Melo 
+Colaborador: ",,
+1063,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,544000,b60be20a-01bd-4c4a-b661-342fab3771c3,,,
+1064,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,544000,06e2e250-dc1b-479b-8b1d-6b89ba868c5c,,,
+1065,2026-03-30T18:10:25+00:00,ativo,Pessoa Jurídica,2026-02-01,,1870000,c15c1f3d-ddac-4ef9-83c7-22cfc7a1b1aa,"Contrato solicitado via onboarding
+
+Líder: Wesley Lossani 
+Colaborador: ",,
+1066,2026-03-30T18:10:25+00:00,ativo,,2026-04-06,,310000,0c49301c-b88c-4f6e-8c43-37e0813fa111,"Contrato solicitado via onboarding
+
+Líder: Simone Moratelli 
+Colaborador: ",,

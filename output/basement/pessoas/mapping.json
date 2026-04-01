@@ -1,0 +1,193 @@
+{
+  "output_dir": "output/basement/pessoas",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "n2",
+      "view_id": "9d08150d-8e8f-4896-a7c9-f653221f9c16",
+      "_sheet": "Times (10 records)",
+      "columns": {
+        "id":         { "default": "__seq__" },
+        "created_at": { "default": "__timestamptz__" },
+        "nome":       { "field_id": "c7b9a3ed-4ced-4b57-b381-db22da6199c8", "extract": "string" },
+        "archived_at":{ "field_id": null, "extract": null, "default": "" }
+      }
+    },
+    {
+      "name": "n1",
+      "view_id": "b5c0def4-41c5-4bce-8951-86dd0ece4418",
+      "_sheet": "Área (0 records)",
+      "columns": {
+        "id":         { "default": "__seq__" },
+        "created_at": { "default": "__timestamptz__" },
+        "nome":       { "field_id": "a74f8008-f557-480a-b205-5c39cb55eeb5", "extract": "string" },
+        "archived_at":{ "field_id": null, "extract": null, "default": "" }
+      }
+    },
+    {
+      "name": "n3",
+      "view_id": "e68cb4a5-e2da-4d26-910d-1f242db81ed9",
+      "_sheet": "Centro de Custos (0 records)",
+      "columns": {
+        "id":         { "default": "__seq__" },
+        "created_at": { "default": "__timestamptz__" },
+        "nome":       { "field_id": "627824d3-fb26-4a4d-9641-72439ef01dd4", "extract": "string" },
+        "archived_at":{ "field_id": null, "extract": null, "default": "" }
+      }
+    },
+    {
+      "name": "senioridade",
+      "view_id": "cbe89c35-138b-4f95-97cc-551cf2d85e50",
+      "_sheet": "Níveis de Senioridade (0 records)",
+      "columns": {
+        "id":         { "default": "__seq__" },
+        "nome":       { "field_id": "236db9dc-1600-4af8-a458-5573b684c0fd", "extract": "string" },
+        "created_at": { "default": "__timestamptz__" },
+        "archived_at":{ "field_id": null, "extract": null, "default": "" }
+      }
+    },
+    {
+      "name": "cargos",
+      "view_id": "5784fb4d-a7f7-4825-8fb7-b402c16dc65c",
+      "_sheet": "Cargos (206 records)",
+      "columns": {
+        "id":                    { "default": "__seq__" },
+        "created_at":            { "default": "__timestamptz__" },
+        "nome":                  { "field_id": "4ec302f3-d1c7-499d-9e3c-7b1ac5b75326", "extract": "string" },
+        "faixa_salarial_inicio": { "field_id": null, "extract": null, "default": "" },
+        "faixa_salarial_centro": { "field_id": null, "extract": null, "default": "" },
+        "faixa_salarial_topo":   { "field_id": null, "extract": null, "default": "" },
+        "senioridade_id":        { "field_id": null, "extract": null, "default": "" },
+        "archived_at":           { "field_id": null, "extract": null, "default": "" }
+      }
+    },
+    {
+      "name": "profiles",
+      "view_id": "3644810e-3763-4acb-9fd5-f04ab9c0f7d2",
+      "_sheet": "Pessoas (100 records)",
+      "columns": {
+        "id":                           { "default": "__record_id__" },
+        "created_at":                   { "default": "__timestamptz__" },
+        "updated_at":                   { "default": "__timestamptz__" },
+        "email":                        { "field_id": "148fdf07-0c46-45e1-9d03-773e99f76185", "extract": "string" },
+        "full_name":                    { "field_id": "82ce1402-ce62-46ec-aa8a-cba78c0c0732", "extract": "string" },
+        "avatar_url":                   { "field_id": "eefd4771-0bdd-4c14-ba26-210ac3c6c047", "extract": "string" },
+        "n1_id":                        { "field_id": null, "extract": null, "default": "" },
+        "n2_id":                        { "field_id": null, "extract": null, "default": "" },
+        "n3_id":                        { "field_id": null, "extract": null, "default": "" },
+        "cnh_categoria":                { "field_id": null, "extract": null, "default": "" },
+        "cnh_num":                      { "field_id": null, "extract": null, "default": "" },
+        "ctps_emissao":                 { "field_id": null, "extract": null, "default": "" },
+        "ctps_estado":                  { "field_id": null, "extract": null, "default": "" },
+        "ctps_num":                     { "field_id": null, "extract": null, "default": "" },
+        "ctps_serie":                   { "field_id": null, "extract": null, "default": "" },
+        "doc_militar_num":              { "field_id": null, "extract": null, "default": "" },
+        "pis_num":                      { "field_id": null, "extract": null, "default": "" },
+        "titulo_eleitor_num":           { "field_id": null, "extract": null, "default": "" },
+        "titulo_eleitor_secao":         { "field_id": null, "extract": null, "default": "" },
+        "titulo_eleitor_zona":          { "field_id": null, "extract": null, "default": "" },
+        "cpf":                          { "field_id": "03614045-bc63-434c-b34e-dc266547948d", "extract": "string" },
+        "genero":                       { "field_id": "444e4495-143b-41dc-a483-79a2bec8aa61", "extract": "select" },
+        "estado_civil":                 { "field_id": "63c00eb9-c54e-4438-bbc2-34a1538b5e4e", "extract": "select" },
+        "nome_mae":                     { "field_id": null, "extract": null, "default": "" },
+        "nome_pai":                     { "field_id": null, "extract": null, "default": "" },
+        "raca_etnia":                   { "field_id": "ca1f9c16-ca42-45b5-acef-32a63f88845b", "extract": "select" },
+        "pcd":                          { "field_id": "2857902c-3cdd-4caa-a089-bdaea6bca59c", "extract": "select" },
+        "pcd_tipo":                     { "field_id": null, "extract": null, "default": "" },
+        "pcd_observacoes":              { "field_id": "c30595ad-2dab-4764-91e4-03be2c3541ff", "extract": "string" },
+        "rg_numero":                    { "field_id": "ee4a75d9-a5eb-4837-a3cc-b5711c5968d9", "extract": "string" },
+        "rg_orgao_emissor":             { "field_id": "cc949b02-e6d5-4263-9331-cc13e49be470", "extract": "string" },
+        "rg_uf":                        { "field_id": null, "extract": null, "default": "" },
+        "rg_data_emissao":              { "field_id": "cdcdd106-590f-44b1-bcb9-712b3790c3aa", "extract": "date" },
+        "formacao_instituicao":         { "field_id": "1ebaa4c0-59ba-4984-a770-41b0aeb02772", "extract": "string" },
+        "formacao_curso":               { "field_id": "21e8a7d5-f061-420a-936f-984021b869b8", "extract": "string" },
+        "formacao_ano_conclusao":       { "field_id": "fc81b20b-c487-42a0-9d65-7aa9564946cd", "extract": "string" },
+        "banco":                        { "field_id": "a85bb583-be86-4d0c-919f-09ef20dd2509", "extract": "string" },
+        "agencia":                      { "field_id": "6d3f7399-2b71-4127-8386-5b3e9115971b", "extract": "string" },
+        "numero_conta":                 { "field_id": "e6517f71-ca3e-439f-97b1-b5a408d50f2d", "extract": "string" },
+        "tipo_conta":                   { "field_id": "9e0ab85a-6f09-467c-bffe-051e0beb4853", "extract": "select" },
+        "chave_pix":                    { "field_id": "90966331-b645-41a9-b8f2-74f727bd1784", "extract": "string" },
+        "endereco_logradouro":          { "field_id": "060a50da-dd5e-4db7-a088-fe808cb2c3d3", "extract": "string" },
+        "endereco_numero":              { "field_id": "98e4f68c-b205-4c6e-8e61-27f47cac601a", "extract": "string" },
+        "endereco_complemento":         { "field_id": "d90142f1-2684-4cf1-97c6-f6f55df316c6", "extract": "string" },
+        "endereco_bairro":              { "field_id": "c8bd3728-f847-4090-8f1b-b56ee3434719", "extract": "string" },
+        "endereco_cidade":              { "field_id": "b0493cc1-dcfd-4df2-89cc-74189fbde349", "extract": "string" },
+        "endereco_uf":                  { "field_id": "3d8a01dc-4bff-4075-8127-96a3f7d482ff", "extract": "string" },
+        "endereco_cep":                 { "field_id": "50acb39a-d390-4ccf-b927-49a4eac0bb88", "extract": "string" },
+        "contato_emergencia_nome":      { "field_id": null, "extract": null, "default": "" },
+        "contato_emergencia_parentesco":{ "field_id": null, "extract": null, "default": "" },
+        "contato_emergencia_telefone":  { "field_id": null, "extract": null, "default": "" },
+        "telefone_residencial":         { "field_id": "896bc4af-c4b8-46d5-ab16-5ff46666d431", "extract": "string" },
+        "leader_id":                    { "field_id": null, "extract": null, "default": "" }
+      }
+    },
+    {
+      "name": "dependentes",
+      "view_id": "654f1917-7957-4326-b291-58f6c042e90f",
+      "_sheet": "Dependentes e Conexões (5 records)",
+      "columns": {
+        "id":                  { "default": "__seq__" },
+        "nome":                { "field_id": "9fc3023e-b444-4b30-80cc-e29b7baf61db", "extract": "string" },
+        "colaborador":         { "field_id": null, "extract": null, "default": "" },
+        "tipo_de_relacao":     { "field_id": "8475691d-8693-47e7-aaa1-e71c3ef8a2c6", "extract": "select" },
+        "dependente_direto":   { "field_id": "cff469cd-3831-44fe-be9b-b3b350912209", "extract": "select" },
+        "data_de_nascimento":  { "field_id": "f6bdfcfc-4a20-44d4-8751-41dc9cdef5c4", "extract": "date" },
+        "created_at":          { "default": "__timestamptz__" },
+        "rg":                  { "field_id": "f2feeec7-4122-4fea-83fb-797e638b4c17", "extract": "string" },
+        "cpf":                 { "field_id": "56089972-2dc7-4718-ab39-9637443ce6a1", "extract": "string" },
+        "sexo":                { "field_id": null, "extract": null, "default": "" },
+        "possui_deficiencia":  { "field_id": "515ab2ea-8991-4302-9735-5125660d50a1", "extract": "select" },
+        "declarar_ir":         { "field_id": null, "extract": null, "default": "" },
+        "plano_saude":         { "field_id": null, "extract": null, "default": "" },
+        "salario_familia":     { "field_id": null, "extract": null, "default": "" },
+        "pensao_alimenticia":  { "field_id": null, "extract": null, "default": "" }
+      }
+    },
+    {
+      "name": "empresas",
+      "view_id": "21f230a3-8c68-4d54-a496-05dde9c5658f",
+      "_sheet": "Empresas (4 records)",
+      "columns": {
+        "id":             { "default": "__seq__" },
+        "created_at":     { "default": "__timestamptz__" },
+        "cnpj":           { "field_id": "4e579acc-82b2-4443-92dc-130abdb09a22", "extract": "string" },
+        "razao_social":   { "field_id": "c7a41a50-278e-455c-8748-261f0e6f6d0e", "extract": "string" },
+        "cnae_principal": { "field_id": "da8e6f3e-5c2d-4801-9d8e-3065624c2217", "extract": "string" },
+        "nome_fantasia":  { "field_id": "6e708cfa-38d7-4011-8ad4-da48972a5605", "extract": "string" },
+        "cnae_secundario":{ "field_id": "038fe9ad-8dc1-4bb3-951f-9a41e73cf5f0", "extract": "string" },
+        "data_abertura":  { "field_id": "ea9f603d-36e5-45e2-8ecb-f89456f058b0", "extract": "date" },
+        "logradouro":     { "field_id": "a3b13025-bb84-437b-8ed4-6330cf09b8ea", "extract": "string" },
+        "complemento":    { "field_id": "d7e9a727-d464-448a-8085-fbf2d54fb95b", "extract": "string" },
+        "cep":            { "field_id": "c5a52411-5b3a-4fa1-a876-7fd293638ce4", "extract": "string" },
+        "bairro":         { "field_id": "572e78be-c707-4093-89f6-fbf80b449a4a", "extract": "string" },
+        "cidade":         { "field_id": "eb8d8d0e-29c2-4af8-8441-6caab8f82615", "extract": "string" },
+        "uf":             { "field_id": "56fbc414-da88-4a99-bff2-af638f09e445", "extract": "string" },
+        "colaborador_id": { "field_id": null, "extract": null, "default": "" },
+        "banco_nome":     { "field_id": "d0f105d7-c6ad-467f-aa6b-a008261c336d", "extract": "string" },
+        "banco_num":      { "field_id": "bf72e7a2-6098-4616-9ab2-1de76318af42", "extract": "number" },
+        "banco_tipo_conta":{ "field_id": "c0376ab9-64d8-4650-bdc8-f4cee0c650b0", "extract": "select" },
+        "banco_agencia":  { "field_id": "80e8291e-6a46-4665-b5a7-f101b41600b7", "extract": "string" },
+        "banco_conta":    { "field_id": "73076df3-8aeb-4c0b-bc56-13c6245d8064", "extract": "string" },
+        "banco_pix":      { "field_id": "219363cf-d592-4556-a8e3-523bf13bce7d", "extract": "string" }
+      }
+    },
+    {
+      "name": "contratos",
+      "view_id": "2020990a-2803-402e-a8b0-63036bdaa564",
+      "_sheet": "Contratos (302 records)",
+      "columns": {
+        "id":               { "default": "__seq__" },
+        "created_at":       { "default": "__timestamptz__" },
+        "status":           { "field_id": "d52fd3cc-8291-49c3-b04c-5655e412461e", "extract": "select" },
+        "tipo_contrato":    { "field_id": "b201fea4-14e6-43b8-a418-a288224c0d76", "extract": "select" },
+        "data_inicio":      { "field_id": "e09efdfc-c57d-4f6c-aeb8-3f7f8131d468", "extract": "date" },
+        "data_fim":         { "field_id": "eb655767-67ff-482a-a003-90c114058aad", "extract": "date" },
+        "salario":          { "field_id": "5257d442-2864-481d-b9cc-6428f7fe57d3", "extract": "number" },
+        "colaborador_id":   { "field_id": null, "extract": null, "default": "" },
+        "notas":            { "field_id": "cb297c12-72eb-4dce-bb61-794614b84f4e", "extract": "markdown" },
+        "salario_variavel": { "field_id": null, "extract": null, "default": "" },
+        "cargo":            { "field_id": null, "extract": null, "default": "" }
+      }
+    }
+  ]
+}

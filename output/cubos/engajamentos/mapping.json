@@ -1,0 +1,152 @@
+{
+  "output_dir": "output/cubos/engajamentos",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "termometro_cubico",
+      "view_id": "b83dfa02-c4ec-48ee-b122-07e32fbfb463",
+      "_sheet": "Termômetro cúbico (514 records)",
+      "columns": {
+        "id":                      { "default": "__record_id__" },
+        "colaborador_profile_id":  { "field_id": null, "extract": null, "default": "" },
+        "ciclo":                   { "field_id": null, "extract": null, "default": "" },
+        "status":                  { "field_id": "0c8c6c45-60e2-4100-aaa8-9dabc7d66634", "extract": "select" },
+        "nota_recomendacao":       { "field_id": "33e3da5b-beed-45b1-abf5-4afeef510a27", "extract": "select" },
+        "comentario_nota":         { "field_id": "f89a3743-2e05-4421-bc78-5c6fc0ad16a8", "extract": "markdown" },
+        "nota_plan":               { "field_id": "93e128dd-e989-4e24-b813-628d95d45646", "extract": "select" },
+        "comentario_plan":         { "field_id": "00585376-c668-4311-a208-e49bfa2c1840", "extract": "markdown" },
+        "data_envio":              { "field_id": "1ac80e70-c965-4bed-bcf5-84e779d5af53", "extract": "date" },
+        "created_at":              { "default": "__timestamptz__" },
+        "updated_at":              { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "pesquisa_avd",
+      "view_id": "2a5dcf20-c5df-47ab-a93e-0a38d285e0bf",
+      "_sheet": "Pesquisa da AvD (223 records)",
+      "columns": {
+        "id":                            { "default": "__record_id__" },
+        "colaborador_profile_id":        { "field_id": null, "extract": null, "default": "" },
+        "ciclo":                         { "field_id": "cf4d0eb7-33a3-4308-93e8-bd704a69655c", "extract": "select" },
+        "status":                        { "field_id": "dc14e25d-3852-4f84-b2a4-34313c9334fd", "extract": "select" },
+        "clareza_apresentacao":          { "field_id": "1cc0cb6b-8880-46b0-9632-75bdeb46445a", "extract": "select" },
+        "conforto_avaliacao_pares":      { "field_id": "2be9db2b-712c-4b74-9c1d-fef579fe4c71", "extract": "select" },
+        "conforto_autoavaliacao":        { "field_id": "fe04bce4-9cda-47b0-9b38-80d12220b7af", "extract": "select" },
+        "tempo_suficiente":              { "field_id": "8c72f8a9-4b52-4e44-bf43-2ab96eee36fc", "extract": "select" },
+        "clareza_lideranca":             { "field_id": "c1d8429a-6ccc-4138-964b-537a14c65eb5", "extract": "select" },
+        "representatividade_feedback":   { "field_id": "dec76cd6-a2e9-4245-b94e-1b30f2fe9c6f", "extract": "select" },
+        "surpresa_devolutiva":           { "field_id": "7f8a5208-c98e-4adc-8a3d-6c8b48bf7cda", "extract": "select" },
+        "conforto_devolutiva":           { "field_id": "1ff9004c-c718-49fa-9364-ce12e27d7f8e", "extract": "select" },
+        "efetividade_programa":          { "field_id": "3e457129-e645-4362-a663-55dcd1c624ec", "extract": "select" },
+        "clareza_proximos_passos":       { "field_id": "d7e6b5ec-98b4-49b7-9f76-f24a3f308539", "extract": "select" },
+        "falta_apresentacao_captura":    { "field_id": "ff8131aa-169f-4233-a759-805c3af5a692", "extract": "string" },
+        "falta_devolutivas":             { "field_id": "3efc6f46-4c4c-42fc-b5fa-de7afaebcf49", "extract": "string" },
+        "falta_perguntas_gerais":        { "field_id": "21d55358-9087-46aa-ae3e-4351828507c8", "extract": "string" },
+        "data_envio":                    { "field_id": "e45d1f78-de38-46d7-bfef-185e52ddb1a4", "extract": "date" },
+        "created_at":                    { "default": "__timestamptz__" },
+        "updated_at":                    { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "check_in",
+      "view_id": "f584771f-79e5-40f1-8fb1-87b8d74d04d5",
+      "_sheet": "Check in Cubos (2 records)",
+      "columns": {
+        "id":                     { "default": "__record_id__" },
+        "colaborador_profile_id": { "field_id": null, "extract": null, "default": "" },
+        "tipo_evento":            { "field_id": "d656d3bb-f377-49de-8d13-19e29e92b6b5", "extract": "select" },
+        "nome_evento":            { "field_id": "115d0dff-f2fb-4984-b01e-1ca8c108a7a8", "extract": "string" },
+        "data_evento":            { "field_id": "0683e6e1-77f1-46e9-932f-949cf905106b", "extract": "date" },
+        "stack":                  { "field_id": "1cf4c387-a720-40be-b856-52e0c9542471", "extract": "select" },
+        "created_at":             { "default": "__timestamptz__" },
+        "updated_at":             { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "avaliacao_checkin",
+      "view_id": "c4180adf-d9d0-47cf-beb6-529e64563627",
+      "_sheet": "Avaliações Check in (1 record)",
+      "columns": {
+        "id":                       { "default": "__record_id__" },
+        "colaborador_profile_id":   { "field_id": null, "extract": null, "default": "" },
+        "check_in_id":              { "field_id": null, "extract": null, "default": "" },
+        "nota_como_pessoa":         { "field_id": "0e5b7fff-3518-404c-b9fb-15ce94330a31", "extract": "select" },
+        "nota_como_profissional":   { "field_id": "180b9def-be78-4d44-8b44-3589224cbf50", "extract": "select" },
+        "nota_conteudo":            { "field_id": "e3e13b06-79d6-4bc0-9e97-2deb93b6eb20", "extract": "select" },
+        "nota_dinamica":            { "field_id": "a67a30fd-0c16-423d-9c1e-b7f484a89efe", "extract": "select" },
+        "feedback":                 { "field_id": "62b4b945-54de-4aee-b194-6144db259a76", "extract": "string" },
+        "elogio":                   { "field_id": "8cb92a89-b42c-44d0-9a39-ad561c5dd80e", "extract": "string" },
+        "created_at":               { "default": "__timestamptz__" },
+        "updated_at":               { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "indicacao_awards",
+      "view_id": "b6b069fb-6a5c-47f1-b413-4c7d0f708b8f",
+      "_sheet": "Indicação | Awards (74 records)",
+      "columns": {
+        "id":                                  { "default": "__record_id__" },
+        "colaborador_profile_id":              { "field_id": null, "extract": null, "default": "" },
+        "ciclo":                               { "field_id": "e8910dc9-f1c2-427a-b6de-9899efc5da23", "extract": "string" },
+        "area":                                { "field_id": "70f1072f-fe9c-49cc-a118-0f9ae3bbfa71", "extract": "select" },
+        "e_lideranca":                         { "field_id": "485ffa43-17ad-4160-8d9d-8c96059f38ef", "extract": "select" },
+        "trofeu_esponja_id":                   { "field_id": null, "extract": null, "default": "" },
+        "trofeu_esponja_justificativa":        { "field_id": "ec2a1507-fbd6-45bf-b387-cf004efb2177", "extract": "string" },
+        "trofeu_saiu_da_caixa_id":             { "field_id": null, "extract": null, "default": "" },
+        "trofeu_saiu_da_caixa_justificativa":  { "field_id": "47bf663f-91c6-403b-9377-6e523cb8be1a", "extract": "string" },
+        "trofeu_nao_tem_medo_id":              { "field_id": null, "extract": null, "default": "" },
+        "trofeu_nao_tem_medo_justificativa":   { "field_id": "4e1455e4-011c-41ba-b538-5b792f6ecc3f", "extract": "string" },
+        "trofeu_cerejinha_id":                 { "field_id": null, "extract": null, "default": "" },
+        "trofeu_cerejinha_justificativa":      { "field_id": "72b6ffdc-7ec7-4bcd-9b1c-515fd5edaf14", "extract": "string" },
+        "trofeu_maestria_id":                  { "field_id": null, "extract": null, "default": "" },
+        "trofeu_maestria_justificativa":       { "field_id": "13dd91fe-d9e9-4127-b29c-238b61d775fe", "extract": "string" },
+        "trofeu_extra_nome":                   { "field_id": null, "extract": null, "default": "" },
+        "trofeu_extra_indicado_id":            { "field_id": null, "extract": null, "default": "" },
+        "trofeu_extra_justificativa":          { "field_id": null, "extract": null, "default": "" },
+        "status":                              { "field_id": null, "extract": null, "default": "" },
+        "created_at":                          { "default": "__timestamptz__" },
+        "updated_at":                          { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "votacao_awards",
+      "view_id": "80b10674-cb4a-45e3-a26f-cc6d3eef3fd4",
+      "_sheet": "Votação | Awards (55 records)",
+      "columns": {
+        "id":                     { "default": "__record_id__" },
+        "colaborador_profile_id": { "field_id": null, "extract": null, "default": "" },
+        "ciclo":                  { "field_id": null, "extract": null, "default": "" },
+        "area":                   { "field_id": "fbe40136-1919-462f-bdb3-349614bd48f4", "extract": "select" },
+        "status":                 { "field_id": "ae3a6a66-7a75-44f7-9e3c-c42bb0e4a2a8", "extract": "select" },
+        "trofeu_esponja_id":      { "field_id": null, "extract": null, "default": "" },
+        "trofeu_saiu_da_caixa_id":{ "field_id": null, "extract": null, "default": "" },
+        "trofeu_nao_tem_medo_id": { "field_id": null, "extract": null, "default": "" },
+        "trofeu_cerejinha_id":    { "field_id": null, "extract": null, "default": "" },
+        "trofeu_maestria_id":     { "field_id": null, "extract": null, "default": "" },
+        "created_at":             { "default": "__timestamptz__" },
+        "updated_at":             { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "nps_plan",
+      "view_id": "0494a539-9b51-492a-9e71-90a16780e5d8",
+      "_sheet": "NPS do Plan (57 records)",
+      "columns": {
+        "id":                    { "default": "__record_id__" },
+        "colaborador_profile_id":{ "field_id": null, "extract": null, "default": "" },
+        "ciclo":                 { "field_id": null, "extract": null, "default": "" },
+        "status":                { "field_id": "b44f5fe0-b6ed-4c1d-8e36-ba0d66f6e5c1", "extract": "select" },
+        "sentimentos":           { "field_id": "d8e04339-6b43-4a80-a989-61fc6384a6d7", "extract": "string" },
+        "nota_pre_plan":         { "field_id": "9fd3a893-c72d-4c5f-a21e-cb75b33a899e", "extract": "select" },
+        "nota_brindes":          { "field_id": "9f1a9032-f7ed-45a2-ae56-24289c297fa7", "extract": "select" },
+        "nota_retrospectivas":   { "field_id": "0b93bf15-a8d8-4b3d-891d-c1f8563413af", "extract": "select" },
+        "nota_alinhamento":      { "field_id": "7ea56ea6-7e58-42ff-8282-a69334483817", "extract": "select" },
+        "nota_mini_pitch":       { "field_id": "005cb83f-c310-4643-a5a2-4a8b955d18d6", "extract": "select" },
+        "nota_momentos_finais":  { "field_id": "58b19304-1dc6-4ed1-81b0-052270ff489a", "extract": "select" },
+        "feedback_geral":        { "field_id": "782b94a3-6eee-4b75-be33-31cad55c01b4", "extract": "string" },
+        "created_at":            { "default": "__timestamptz__" },
+        "updated_at":            { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

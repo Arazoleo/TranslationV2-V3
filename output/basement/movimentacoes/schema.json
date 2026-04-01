@@ -1,0 +1,276 @@
+{
+    "name": "z_movimentacoes",
+    "version": "1.0",
+    "tables": {
+      "movimentacao": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "pessoa_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_shared",
+              "table": "profiles",
+              "column": "id"
+            }
+          },
+          "tipo_movimentacao": {
+            "type": "text",
+            "required": false
+          },
+          "data_solicitacao": {
+            "type": "date",
+            "required": false
+          },
+          "data_efetivacao": {
+            "type": "date",
+            "required": false
+          },
+          "valor_anterior": {
+            "type": "numeric",
+            "required": false
+          },
+          "valor_novo": {
+            "type": "numeric",
+            "required": false
+          },
+          "cargo_anterior_id": {
+            "type": "bigint",
+            "required": false,
+            "references": {
+              "schema": "z_shared",
+              "table": "cargos",
+              "column": "id"
+            }
+          },
+          "cargo_novo_id": {
+            "type": "bigint",
+            "required": false,
+            "references": {
+              "schema": "z_shared",
+              "table": "cargos",
+              "column": "id"
+            }
+          },
+          "marca_anterior_id": {
+            "type": "bigint",
+            "required": false,
+            "references": {
+              "schema": "z_shared",
+              "table": "marcas",
+              "column": "id"
+            }
+          },
+          "marca_nova_id": {
+            "type": "bigint",
+            "required": false,
+            "references": {
+              "schema": "z_shared",
+              "table": "marcas",
+              "column": "id"
+            }
+          },
+          "departamento_anterior_id": {
+            "type": "bigint",
+            "required": false,
+            "references": {
+              "schema": "z_shared",
+              "table": "departamentos",
+              "column": "id"
+            }
+          },
+          "departamento_novo_id": {
+            "type": "bigint",
+            "required": false,
+            "references": {
+              "schema": "z_shared",
+              "table": "departamentos",
+              "column": "id"
+            }
+          },
+          "unidade_negocio_anterior_id": {
+            "type": "bigint",
+            "required": false,
+            "references": {
+              "schema": "z_shared",
+              "table": "unidade_negocio",
+              "column": "id"
+            }
+          },
+          "unidade_negocio_nova_id": {
+            "type": "bigint",
+            "required": false,
+            "references": {
+              "schema": "z_shared",
+              "table": "unidade_negocio",
+              "column": "id"
+            }
+          },
+          "empresa_contratante_anterior_id": {
+            "type": "bigint",
+            "required": false,
+            "references": {
+              "schema": "z_shared",
+              "table": "empresas_contratantes",
+              "column": "id"
+            }
+          },
+          "empresa_contratante_nova_id": {
+            "type": "bigint",
+            "required": false,
+            "references": {
+              "schema": "z_shared",
+              "table": "empresas_contratantes",
+              "column": "id"
+            }
+          },
+          "tipo_contrato_anterior": {
+            "type": "text",
+            "required": false
+          },
+          "tipo_contrato_novo": {
+            "type": "text",
+            "required": false
+          },
+          "motivo_movimentacao": {
+            "type": "text",
+            "required": false
+          },
+          "solicitante": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_shared",
+              "table": "profiles",
+              "column": "id"
+            }
+          },
+          "aprovador": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_shared",
+              "table": "profiles",
+              "column": "id"
+            }
+          },
+          "status": {
+            "type": "status_movimentacoes",
+            "required": false
+          },
+          "observacoes": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "manager_anterior_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_movimentacoes",
+              "table": "profiles",
+              "column": "id"
+            }
+          },
+          "manager_novo_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_movimentacoes",
+              "table": "profiles",
+              "column": "id"
+            }
+          },
+          "justificativa_rejeicao": {
+            "type": "text",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "configs": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "features": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'[]'::jsonb"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "emails": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'{}'::jsonb"
+          },
+          "settings": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'{}'::jsonb"
+          }
+        },
+        "metadata": {}
+      },
+      "profiles": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome_completo": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      }
+    },
+    "enums": {
+      "status_movimentacoes": [
+        "Pendente",
+        "Aprovado",
+        "Rejeitado",
+        "Efetivado"
+      ]
+    },
+    "jsonTypes": {}
+  }

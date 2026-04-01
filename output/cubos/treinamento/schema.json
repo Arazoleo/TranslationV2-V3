@@ -1,0 +1,165 @@
+{
+    "name": "cubos_treinamento",
+    "version": "1.0",
+    "tables": {
+      "configs": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "features": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'[]'::jsonb"
+          },
+          "settings": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'{}'::jsonb"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "programas_de_capacitacoes": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "colaborador_profile_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "tipo": {
+            "type": "text",
+            "required": true
+          },
+          "status": {
+            "type": "text",
+            "required": true,
+            "default": "'pendente'::text"
+          },
+          "sponges_titulo": {
+            "type": "text",
+            "required": false
+          },
+          "sponges_qual_sponge": {
+            "type": "text",
+            "required": false
+          },
+          "sponges_sobre_o_que_falar": {
+            "type": "text",
+            "required": false
+          },
+          "sponges_prazo_interesse": {
+            "type": "text[]",
+            "required": false
+          },
+          "sponges_ciente_contato": {
+            "type": "text",
+            "required": false
+          },
+          "sponges_data_realizacao": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "sponges_status": {
+            "type": "text",
+            "required": false,
+            "default": "'pendente'::text"
+          },
+          "capacitacoes_assunto": {
+            "type": "text",
+            "required": false
+          },
+          "capacitacoes_conhece_ministrador": {
+            "type": "text",
+            "required": false
+          },
+          "capacitacoes_nome_indicado": {
+            "type": "text",
+            "required": false
+          },
+          "capacitacoes_linkedin_indicado": {
+            "type": "text",
+            "required": false
+          },
+          "capacitacoes_status": {
+            "type": "text",
+            "required": false,
+            "default": "'pendente'::text"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "cubosflix": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": false
+          },
+          "autoria": {
+            "type": "text",
+            "required": false
+          },
+          "imagem_de_capa": {
+            "type": "text",
+            "required": false
+          },
+          "titulo": {
+            "type": "text",
+            "required": true
+          },
+          "conteudo": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      }
+    },
+    "enums": {},
+    "jsonTypes": {}
+  }

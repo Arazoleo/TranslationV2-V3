@@ -1,0 +1,160 @@
+{
+  "output_dir": "output/basement/avd",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "escalas",
+      "view_id": "2ca6d38e-5159-499c-8e79-0450187fc215",
+      "_sheet": "Escalas (2 records)",
+      "columns": {
+        "id":         { "default": "__record_id__" },
+        "nome":       { "field_id": "310e9412-ca0a-4138-befb-fb2d0c2e6e44", "extract": "string" },
+        "ativo":      { "field_id": null, "extract": null, "default": "true" },
+        "created_at": { "default": "__timestamptz__" },
+        "updated_at": { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "opcoes_de_resposta",
+      "view_id": "baad5179-99ce-4848-a648-3b50bf0aea41",
+      "_sheet": "Opções de resposta (15 records)",
+      "columns": {
+        "id":                  { "default": "__record_id__" },
+        "texto":               { "field_id": "7fd0931d-a3eb-4a38-9c44-d4a51f93211b", "extract": "string" },
+        "valor":               { "field_id": "027ff5ff-7d22-448d-8e4f-0947b66f8334", "extract": "number" },
+        "escala_id":           { "field_id": "e3face12-4282-4867-a84a-e9927e4a4932", "extract": "link" },
+        "descricao_tooltip":   { "field_id": null, "extract": null, "default": "" },
+        "created_at":          { "default": "__timestamptz__" },
+        "updated_at":          { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "ciclos",
+      "view_id": "bc8c506d-e221-4a28-8633-4f42cb2908a9",
+      "_sheet": "Ciclo (3 records)",
+      "columns": {
+        "id":                           { "default": "__record_id__" },
+        "nome":                         { "field_id": "d54c7970-f9ed-4590-884d-ca822893f55a", "extract": "string" },
+        "data_inicio":                  { "field_id": null, "extract": null, "default": "" },
+        "data_fim":                     { "field_id": "4977a317-93e9-416a-9353-81d6ece7b204", "extract": "date" },
+        "valor_min_nota_final":         { "field_id": null, "extract": null, "default": "" },
+        "valor_max_nota_final":         { "field_id": null, "extract": null, "default": "" },
+        "tempo_minimo_de_casa_meses":   { "field_id": null, "extract": null, "default": "" },
+        "tem_classificacao_final":      { "field_id": null, "extract": null, "default": "" },
+        "tem_nine_box":                 { "field_id": null, "extract": null, "default": "" },
+        "nine_box_labels":              { "field_id": null, "extract": null, "default": "" },
+        "temas_selecionados":           { "field_id": null, "extract": null, "default": "" },
+        "classificacoes_finais":        { "field_id": null, "extract": null, "default": "" },
+        "tipos_avaliacao_config":       { "field_id": null, "extract": null, "default": "" },
+        "relatorio_config":             { "field_id": null, "extract": null, "default": "" },
+        "Status":                       { "field_id": "bf598ac9-9703-4a98-a75c-b6947c3b2bd4", "extract": "select" },
+        "data_fim_alinhamento":         { "field_id": null, "extract": null, "default": "" },
+        "data_inicio_alinhamento":      { "field_id": null, "extract": null, "default": "" },
+        "status_alinhamento":           { "field_id": null, "extract": null, "default": "" },
+        "created_at":                   { "default": "__timestamptz__" },
+        "updated_at":                   { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "perfis_de_avaliacao",
+      "view_id": "3a9777a5-63ac-4f18-8050-4503c77933a3",
+      "_sheet": "Tipos de Avaliação (5 records)",
+      "columns": {
+        "id":         { "default": "__record_id__" },
+        "nome":       { "field_id": "3aad8534-ef21-4945-ad29-90e8f883f52b", "extract": "string" },
+        "descricao":  { "field_id": null, "extract": null, "default": "" },
+        "ativo":      { "field_id": null, "extract": null, "default": "true" },
+        "created_at": { "default": "__timestamptz__" },
+        "updated_at": { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "times",
+      "view_id": "9d08150d-8e8f-4896-a7c9-f653221f9c16",
+      "_sheet": "Times (10 records)",
+      "columns": {
+        "id":           { "default": "__record_id__" },
+        "nome":         { "field_id": "c7b9a3ed-4ced-4b57-b381-db22da6199c8", "extract": "string" },
+        "lideranca_id": { "field_id": null, "extract": null, "default": "" },
+        "created_at":   { "default": "__timestamptz__" },
+        "updated_at":   { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "perguntas",
+      "view_id": "c5b35e58-e7f5-450b-be17-ad5dd95ea681",
+      "_sheet": "Perguntas (26 records)",
+      "columns": {
+        "id":        { "default": "__record_id__" },
+        "texto":     { "field_id": "8ebf8c2d-8b02-4b26-b4dd-f146e2db7448", "extract": "string" },
+        "tema_id":   { "field_id": null, "extract": null, "default": "" },
+        "tipo":      { "field_id": "286fd253-9351-45c9-9f77-481c322e54e1", "extract": "select" },
+        "escala_id": { "field_id": "e41b6705-e7f5-4c77-bead-be5d58bee19e", "extract": "link" },
+        "ativa":     { "field_id": null, "extract": null, "default": "true" },
+        "descricao": { "field_id": "9f6a373c-da1d-489f-9d7c-a96765ecb609", "extract": "markdown" },
+        "created_at":{ "default": "__timestamptz__" },
+        "updated_at":{ "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "relatorio",
+      "view_id": "eee60860-f15a-4e5c-bdd2-5db29499ba71",
+      "_sheet": "Relatório (117 records)",
+      "columns": {
+        "id":                            { "default": "__record_id__" },
+        "avaliado_id":                   { "field_id": null, "extract": null, "default": "" },
+        "ciclo_id":                      { "field_id": "c7b762fb-02b1-450b-a2a4-b8de847eee04", "extract": "link" },
+        "nota_final":                    { "field_id": "e7103c4f-4ad2-4f18-baca-0146975fc17f", "extract": "number" },
+        "nota_eixox":                    { "field_id": "12105291-5d17-4253-9413-aedaf4249e0c", "extract": "number" },
+        "nota_eixoy":                    { "field_id": "a8668d7c-abdc-4d1d-bd29-6d8aee79faf1", "extract": "number" },
+        "calibrado":                     { "field_id": null, "extract": null, "default": "" },
+        "classificacao_final":           { "field_id": "7843f828-afdc-43c1-8998-b93eca5c14f9", "extract": "select" },
+        "perfil_id":                     { "field_id": null, "extract": null, "default": "" },
+        "classificacao_final_calibrado": { "field_id": "ccb2ae7b-661f-4cd6-8d41-336614cefdd5", "extract": "select" },
+        "nota_final_calibrado":          { "field_id": null, "extract": null, "default": "" },
+        "feedback_lideranca":            { "field_id": "3be49e63-8426-4a1f-9dfe-7c7cd7d1456c", "extract": "markdown" },
+        "calibrado_nota_eixox":          { "field_id": null, "extract": null, "default": "" },
+        "calibrado_nota_eixoy":          { "field_id": null, "extract": null, "default": "" },
+        "feedback_colaboraodr":          { "field_id": null, "extract": null, "default": "" },
+        "status_relatorio":              { "field_id": "2a183f19-fbab-4053-8368-07f48c7746a5", "extract": "select" },
+        "manager_id":                    { "field_id": null, "extract": null, "default": "" },
+        "feedback_RH":                   { "field_id": null, "extract": null, "default": "" },
+        "grupo_calibragem_id":           { "field_id": null, "extract": null, "default": "" },
+        "created_at":                    { "default": "__timestamptz__" },
+        "updated_at":                    { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "avaliacoes",
+      "view_id": "b95602be-09c7-4a2f-b59f-b6204597e619",
+      "_sheet": "Avaliações (570 records)",
+      "columns": {
+        "id":               { "default": "__record_id__" },
+        "ciclo_id":         { "field_id": "5875d915-d9b6-4be9-957e-100d5fbebdbf", "extract": "link" },
+        "avaliador_id":     { "field_id": null, "extract": null, "default": "" },
+        "avaliado_id":      { "field_id": null, "extract": null, "default": "" },
+        "relatorio_id":     { "field_id": "d9b28241-e32f-4e24-a5c3-e8d4a2bbd071", "extract": "link" },
+        "tipo_id":          { "field_id": null, "extract": null, "default": "" },
+        "status_avaliacao": { "field_id": "8bbf870c-9588-4f30-925c-7f3b979e6e9b", "extract": "select" },
+        "created_at":       { "default": "__timestamptz__" },
+        "updated_at":       { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "respostas",
+      "view_id": "907572ab-d5b3-4c9f-b616-f93eee96a9ac",
+      "_sheet": "Respostas (21383 records)",
+      "columns": {
+        "id":                    { "default": "__record_id__" },
+        "avaliacao_id":          { "field_id": "75f47141-fea8-40d1-ad73-d7b9f0d58db3", "extract": "link" },
+        "pergunta_id":           { "field_id": "3b7ff704-4587-4226-93e9-1db04ea1ec6a", "extract": "link" },
+        "resposta":              { "field_id": "7c654bc5-9dfe-4153-a866-b79c0d0f8ad8", "extract": "markdown" },
+        "resposta_seletor":      { "field_id": "0d75cbce-c743-4d95-90e8-cc7fc2bdf699", "extract": "link" },
+        "resposta_pessoa":       { "field_id": null, "extract": null, "default": "" },
+        "resposta_multiseletor": { "field_id": null, "extract": null, "default": "" },
+        "created_at":            { "default": "__timestamptz__" },
+        "updated_at":            { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

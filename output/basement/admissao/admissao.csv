@@ -1,0 +1,14 @@
+id,pessoa_id,tipo_admissao_id,tipo_contrato,n1_id,n2_id,n3_id,responsavel_rh_id,cargo_id,beneficios_ids,status_dados_pessoais,etapa_atual_id,observacao,gestor_id,primeiro_emprego_clt,created_at,updated_at
+b7dace08-8a0a-4495-9b23-2ab4a15a2ae4,c07306c1-3f2d-4386-b079-baf529912554,,PJ,,,,664663e4-106e-4e23-9e75-1e91207e9ccd,,,Preenchido,,"Keli, colocamos um telefone fictício e aí depois podemos alterar para o seu pessoal.",,false,2026-03-31T20:17:45+00:00,2026-03-31T20:17:45+00:00
+edea0b09-bc72-45c0-97e4-a7225f62c20c,6b3ba823-38bd-4ae7-96c2-d0b3d8b9bd12,,PJ,,,,664663e4-106e-4e23-9e75-1e91207e9ccd,,,Preenchido,,"Dani, com as datas de recesso coletivo se aproximando, fico à disposição para te orientar no que precisar, ok?
+
+Pode mandar mensagem via email, linkedin ou telefone pessoal (consta nos emails que mando). Fique à vontade para tirar dúvidas :)",,false,2026-03-31T20:17:45+00:00,2026-03-31T20:17:45+00:00
+d90cfb85-3ed9-46a3-999d-8c3e7c839cce,01cd14e4-83dc-4016-8dbc-3f21dd9d5c31,,PJ,,,,664663e4-106e-4e23-9e75-1e91207e9ccd,,,Preenchido,,,,false,2026-03-31T20:17:45+00:00,2026-03-31T20:17:45+00:00
+38e46fde-6014-462d-a373-bc34b8c64160,b0044afa-e736-4425-8df4-0a4d4a5cba29,,PJ,,,,664663e4-106e-4e23-9e75-1e91207e9ccd,,,Preenchido,,,,false,2026-03-31T20:17:45+00:00,2026-03-31T20:17:45+00:00
+0e84b784-7771-483e-bc22-eb0907e98688,fcc3bdb0-f9b2-4a50-873f-8d40c1935f18,,PJ,,,,664663e4-106e-4e23-9e75-1e91207e9ccd,,,Preenchido,,,,false,2026-03-31T20:17:45+00:00,2026-03-31T20:17:45+00:00
+4367805f-ae30-4af6-849c-3aaf22d3dccb,b45aa390-8c63-4fd5-a29b-05189bdecd96,,PJ,,,,664663e4-106e-4e23-9e75-1e91207e9ccd,,,Preenchido,,,,false,2026-03-31T20:17:45+00:00,2026-03-31T20:17:45+00:00
+a6ca2530-9c8b-4bb4-be43-cd85c3481f33,,,PJ,,,,e6dd2cfe-7d08-48b6-8b6b-ecb28bf0850a,,,Aguardando Preenchimento,,,,false,2026-03-31T20:17:45+00:00,2026-03-31T20:17:45+00:00
+06eb4436-935f-4fb6-869d-a2bed3aa6e4f,168f808a-aae3-4171-bb65-53ad75336e31,,PJ,,,,9fbc0f93-1b30-4a4c-b469-6f7529bb8c7d,,,Aguardando Preenchimento,,,,false,2026-03-31T20:17:45+00:00,2026-03-31T20:17:45+00:00
+8232fcab-1b79-4336-8c63-c4d7b7448d44,764a1a3b-6280-499f-a7a5-a650d832d8a3,,PJ,,,,9fbc0f93-1b30-4a4c-b469-6f7529bb8c7d,,,Preenchido,,,,false,2026-03-31T20:17:45+00:00,2026-03-31T20:17:45+00:00
+c87b01d2-a23a-43d1-90ad-215477202e9c,51f59cff-c317-4d1d-974e-83f6225418c0,,PJ,,,,9fbc0f93-1b30-4a4c-b469-6f7529bb8c7d,,,Aguardando Preenchimento,,O cargo correto é trainee de CS,,false,2026-03-31T20:17:45+00:00,2026-03-31T20:17:45+00:00
+aa882d61-2d99-473f-8d23-9099144a6634,27426186-7e4a-48de-8240-8d8fcb64d70a,,PJ,,,,9fbc0f93-1b30-4a4c-b469-6f7529bb8c7d,,,Aguardando Preenchimento,,,,false,2026-03-31T20:17:45+00:00,2026-03-31T20:17:45+00:00

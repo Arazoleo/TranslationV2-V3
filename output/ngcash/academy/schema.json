@@ -1,0 +1,488 @@
+{
+    "name": "z_academy",
+    "version": "1.0",
+    "tables": {
+      "configs": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "features": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'[]'::jsonb"
+          },
+          "access": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'{}'::jsonb"
+          },
+          "settings": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'{}'::jsonb"
+          }
+        },
+        "metadata": {}
+      },
+      "videos": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "content_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_academy",
+              "table": "contents",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "titulo": {
+            "type": "text",
+            "required": true
+          },
+          "storage_path": {
+            "type": "text",
+            "required": true
+          },
+          "duracao_segundos": {
+            "type": "integer",
+            "required": false
+          },
+          "ordem": {
+            "type": "integer",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "for_leader": {
+            "type": "boolean",
+            "required": false,
+            "default": "false"
+          },
+          "tipo_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_academy",
+              "table": "video_tipos",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "bu_responsavel_id": {
+            "type": "uuid",
+            "required": false
+          },
+          "formato": {
+            "type": "text",
+            "required": false
+          },
+          "tema": {
+            "type": "text",
+            "required": false
+          },
+          "custo": {
+            "type": "numeric",
+            "required": false
+          },
+          "descricao": {
+            "type": "text",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "video_progress": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "user_id": {
+            "type": "uuid",
+            "required": true,
+            "unique": true,
+            "references": {
+              "schema": "z_academy",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "video_id": {
+            "type": "uuid",
+            "required": true,
+            "unique": true,
+            "references": {
+              "schema": "z_academy",
+              "table": "videos",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "progresso_percentual": {
+            "type": "numeric",
+            "required": false,
+            "default": "0"
+          },
+          "concluido": {
+            "type": "boolean",
+            "required": false,
+            "default": "false"
+          },
+          "last_watched_at": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "profiles": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "primaryKey": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "app_role": {
+            "type": "text",
+            "required": false
+          },
+          "ativo": {
+            "type": "boolean",
+            "required": false,
+            "default": "true"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "course_enrollments": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "user_id": {
+            "type": "uuid",
+            "required": true,
+            "unique": true,
+            "references": {
+              "schema": "z_academy",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "course_id": {
+            "type": "uuid",
+            "required": true,
+            "unique": true,
+            "references": {
+              "schema": "z_academy",
+              "table": "courses",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "status": {
+            "type": "text",
+            "required": false,
+            "default": "'ativo'::text"
+          },
+          "enrolled_at": {
+            "type": "timestamptz",
+            "required": false,
+            "default": "now()"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "courses": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "titulo": {
+            "type": "text",
+            "required": true
+          },
+          "descricao": {
+            "type": "text",
+            "required": false
+          },
+          "ativo": {
+            "type": "boolean",
+            "required": false,
+            "default": "true"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "for_leader": {
+            "type": "boolean",
+            "required": false,
+            "default": "false"
+          },
+          "image_path": {
+            "type": "text",
+            "required": false
+          },
+          "image_url": {
+            "type": "text",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "modules": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "course_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "z_academy",
+              "table": "courses",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "titulo": {
+            "type": "text",
+            "required": true
+          },
+          "descricao": {
+            "type": "text",
+            "required": false
+          },
+          "ordem": {
+            "type": "integer",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "n1_ids": {
+            "type": "uuid[]",
+            "required": false,
+            "default": "'{}'::uuid[]"
+          },
+          "n2_ids": {
+            "type": "uuid[]",
+            "required": false,
+            "default": "'{}'::uuid[]"
+          },
+          "n3_ids": {
+            "type": "uuid[]",
+            "required": false,
+            "default": "'{}'::uuid[]"
+          }
+        },
+        "metadata": {}
+      },
+      "contents": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "module_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "z_academy",
+              "table": "modules",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "titulo": {
+            "type": "text",
+            "required": true
+          },
+          "descricao": {
+            "type": "text",
+            "required": false
+          },
+          "ordem": {
+            "type": "integer",
+            "required": false
+          },
+          "materials": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'[]'::jsonb"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "content_videos": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "content_id": {
+            "type": "uuid",
+            "required": true,
+            "unique": true,
+            "references": {
+              "schema": "z_academy",
+              "table": "contents",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "video_id": {
+            "type": "uuid",
+            "required": true,
+            "unique": true,
+            "references": {
+              "schema": "z_academy",
+              "table": "videos",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "ordem": {
+            "type": "integer",
+            "required": false,
+            "default": "0"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "video_tipos": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": true,
+            "unique": true
+          },
+          "ativo": {
+            "type": "boolean",
+            "required": false,
+            "default": "true"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      }
+    },
+    "enums": {},
+    "jsonTypes": {}
+  }

@@ -1,0 +1,37 @@
+{
+  "output_dir": "output/ngcash/ferias_e_ausencias",
+  "uuid_remap": {
+    "enabled": false
+  },
+  "tables": [
+    {
+      "name": "pessoa",
+      "view_id": "a5573f48-3062-430b-9f53-7e5e86e4a08f",
+      "_sheet": "Pessoas (257 records)",
+      "dedup_by": ["id"],
+      "columns": {
+        "id":                 { "default": "__record_id__" },
+        "nome_completo":      { "field_id": "ecbb74a9-0621-4e0c-8fc9-24be99899ccc", "extract": "string" },
+        "email_corporativo":  { "field_id": "cd646fee-aa9d-4179-83e9-593e2a99642f", "extract": "string" },
+        "created_at":         { "default": "__timestamptz__" },
+        "updated_at":         { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "ausencia_p_j",
+      "view_id": "4c9ebd56-895e-452d-8dfc-aa8ebc7a7793",
+      "_sheet": "Férias (258 records)",
+      "columns": {
+        "id":             { "default": "__record_id__" },
+        "pessoa_id":      { "field_id": "062e5466-ee52-4c64-8774-98c2508efa4d", "extract": "link" },
+        "periodo_inicio": { "field_id": "f6e1296c-6c4d-4ee9-8772-5e65bf81bf68", "extract": "date" },
+        "periodo_fim":    { "field_id": "50fd904b-7e84-45ad-ae61-98b8594e85e4", "extract": "date" },
+        "duracao_dias":   { "field_id": "013bf499-08e2-44c3-b340-8d59e6ecef49", "extract": "number" },
+        "status":         { "field_id": "41ad6632-adb2-453d-950b-da25aebeb667", "extract": "select" },
+        "observacoes":    { "field_id": "0070d05d-ae41-4026-983d-594f0713ca0e", "extract": "string" },
+        "created_at":     { "default": "__timestamptz__" },
+        "updated_at":     { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

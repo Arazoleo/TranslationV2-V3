@@ -1,0 +1,84 @@
+{
+  "output_dir": "output/cubos/principal",
+  "uuid_remap": {
+    "enabled": false
+  },
+  "tables": [
+    {
+      "name": "calendario_cubos",
+      "view_id": "b3e02e93-0bc7-4b61-9b33-d1254205ee8e",
+      "_sheet": "Calendário Cubos (56 records)",
+      "columns": {
+        "id":            { "default": "__record_id__" },
+        "nome":          { "field_id": "5c7d7795-e9f5-49cf-a7e4-a8fdf81f44ef", "extract": "string" },
+        "ano":           { "field_id": "3a16c40e-0fcb-4332-b9db-7e1a12e9a2b5", "extract": "string" },
+        "tipo":          { "field_id": "6f2d2ae1-b0f7-45dd-8c76-bd1be0c9e6d8", "extract": "string" },
+        "classificacao": { "field_id": "c2ac6f19-ca13-4d98-ba71-71abf5102e5a", "extract": "select" },
+        "data":          { "field_id": "61a14fb1-ebae-4372-8f66-f4dc3d85ceed", "extract": "date" },
+        "data_final":    { "field_id": "f27e578f-cbaa-4b63-ae75-b8965812e047", "extract": "date" },
+        "created_at":    { "default": "__timestamptz__" },
+        "updated_at":    { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "diretrizes_jornada_trabalho",
+      "view_id": "a2b58d4f-f3dd-4f03-af12-9041a3d7814e",
+      "_sheet": "Diretrizes de Jornada de Trabalho (7 records)",
+      "columns": {
+        "id":                                        { "default": "__record_id__" },
+        "nome":                                      { "field_id": null, "extract": null, "default": "" },
+        "imagem_capa_url":                           { "field_id": null, "extract": null, "default": "" },
+        "imagem_icone_url":                          { "field_id": null, "extract": null, "default": "" },
+        "titulo_md":                                 { "field_id": "a72d244f-659e-4acc-8985-4dc8d0cf905c", "extract": "markdown" },
+        "descricao_md":                              { "field_id": "87572b3c-00a6-424c-a8ed-1743a3fc8387", "extract": "markdown" },
+        "conteudo_regra_banco_horas_md":             { "field_id": "71036293-5c45-4a79-bf06-0fc7bf58e30b", "extract": "markdown" },
+        "conteudo_tique_taque_md":                   { "field_id": "83bb7408-6502-4686-ac63-02f6da0e31db", "extract": "markdown" },
+        "conteudo_atestado_medico_md":               { "field_id": "2cc936aa-0349-4a58-8761-0800868fbd6c", "extract": "markdown" },
+        "conteudos_folgas_licencas_md":              { "field_id": "d7f2124c-22d9-492c-9809-379a475421e6", "extract": "markdown" },
+        "jornada_trabalho_md":                       { "field_id": "77c6c4f6-3ec2-4d5e-a699-83ea50ec2707", "extract": "markdown" },
+        "intervalo_intrajornada_md":                 { "field_id": "70900fab-1581-468e-ba65-fcf61fa4b353", "extract": "markdown" },
+        "intervalo_interjornada_md":                 { "field_id": "bc51475a-58ab-4d3a-9081-26d2f20327a9", "extract": "markdown" },
+        "horario_noturno_md":                        { "field_id": "a4d0524f-4022-4bd4-a70a-b26492caff59", "extract": "markdown" },
+        "banco_horas_md":                            { "field_id": "78cfd972-ec67-4475-a817-d5183e882f30", "extract": "markdown" },
+        "compensacao_horas_md":                      { "field_id": "b78792f5-fe0d-4a79-a72c-242f90ae413d", "extract": "markdown" },
+        "conteudo_responsabilidade_colaboradores_md":{ "field_id": "b06b5f8d-e064-472d-a652-2601a5492452", "extract": "markdown" },
+        "conteudo_responsabilidade_lideranca_md":    { "field_id": "30ef1e9c-be76-4754-a53f-0a855d5a37f6", "extract": "markdown" },
+        "created_at":                                { "default": "__timestamptz__" },
+        "updated_at":                                { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "tique_taque",
+      "view_id": "d30471b7-8032-436a-bbdb-ff6e0142dc89",
+      "_sheet": "Tique Taque (5 records)",
+      "columns": {
+        "id":                        { "default": "__record_id__" },
+        "nome":                      { "field_id": null, "extract": null, "default": "" },
+        "imagem_icone_url":          { "field_id": null, "extract": null, "default": "" },
+        "titulo_md":                 { "field_id": "28b4bb53-759a-4692-8ffe-5b7dad02da77", "extract": "markdown" },
+        "app_tique_taque_md":        { "field_id": "f0b393a5-470f-479e-ae07-02070c850d72", "extract": "markdown" },
+        "esquecimento_ajustes_md":   { "field_id": "4798b69a-53e7-4bca-a71e-e9dc08f88a5b", "extract": "markdown" },
+        "funcionalidade_web_md":     { "field_id": "b9661df9-346f-43c8-8c62-5d9ffae8e404", "extract": "markdown" },
+        "registro_ponto_md":         { "field_id": "ca4b4983-b726-453e-b7f6-96b27e4874cb", "extract": "markdown" },
+        "revisao_fechamento_ponto_md":{ "field_id": "89233279-591c-4f9f-9b8e-cd9cebd0363d", "extract": "markdown" },
+        "created_at":                { "default": "__timestamptz__" },
+        "updated_at":                { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "mural_avisos",
+      "view_id": "49e14fcd-2b74-4fb9-a80c-d8b71e5dccbb",
+      "_sheet": "Mural de Avisos (11 records)",
+      "columns": {
+        "id":                     { "default": "__record_id__" },
+        "titulo":                 { "field_id": "68340669-ec63-496c-a870-e9faf05e98e2", "extract": "string" },
+        "imagem_url":             { "field_id": null, "extract": null, "default": "" },
+        "ultima_data_atualizacao":{ "field_id": null, "extract": null, "default": "" },
+        "aviso_md":               { "field_id": "92ac405b-4dc3-4cb2-919d-520375737725", "extract": "markdown" },
+        "artigo_util":            { "field_id": "1eb30b91-24e9-4456-88bf-61352f223d74", "extract": "number" },
+        "created_at":             { "default": "__timestamptz__" },
+        "updated_at":             { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

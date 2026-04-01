@@ -1,0 +1,458 @@
+{
+    "name": "z_admissao",
+    "version": "1.0",
+    "tables": {
+      "profiles": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome_completo": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "tipo_admissao": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "ativo": {
+            "type": "boolean",
+            "required": false
+          },
+          "blocos_dados": {
+            "type": "jsonb",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "pergunta_admissao": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "pergunta": {
+            "type": "text",
+            "required": false
+          },
+          "tipo_resposta": {
+            "type": "text",
+            "required": false
+          },
+          "opcoes_selecao": {
+            "type": "jsonb",
+            "required": false
+          },
+          "tipo_admissao": {
+            "type": "jsonb",
+            "required": false
+          },
+          "obrigatoria": {
+            "type": "boolean",
+            "required": false,
+            "default": "false"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "secao": {
+            "type": "text",
+            "required": false,
+            "default": "'personalizadas'::text"
+          }
+        },
+        "metadata": {}
+      },
+      "resposta_admissao": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "admissao_id": {
+            "type": "uuid",
+            "required": false
+          },
+          "pergunta_id": {
+            "type": "uuid",
+            "required": false
+          },
+          "resposta_texto": {
+            "type": "text",
+            "required": false
+          },
+          "resposta_seletor": {
+            "type": "text",
+            "required": false
+          },
+          "resposta_arquivo_url": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "template_contrato": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": false
+          },
+          "descricao": {
+            "type": "text",
+            "required": false
+          },
+          "ativo": {
+            "type": "boolean",
+            "required": false,
+            "default": "true"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "campos_mapeamento": {
+            "type": "jsonb",
+            "required": false
+          },
+          "tipo_admissao_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_admissao",
+              "table": "tipo_admissao",
+              "column": "id"
+            }
+          },
+          "tipo_contrato": {
+            "type": "text",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "configs": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome_empresa": {
+            "type": "text",
+            "required": false
+          },
+          "features": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'[]'::jsonb"
+          },
+          "access": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'{}'::jsonb"
+          },
+          "settings": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'{}'::jsonb"
+          },
+          "timezone": {
+            "type": "text",
+            "required": false,
+            "default": "'America/Sao_Paulo'::text"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "etapa_admissao": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": false
+          },
+          "descricao": {
+            "type": "text",
+            "required": false
+          },
+          "ordem": {
+            "type": "numeric",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "acoes": {
+            "type": "jsonb",
+            "required": false
+          },
+          "ativo": {
+            "type": "boolean",
+            "required": false
+          },
+          "is_final": {
+            "type": "boolean",
+            "required": false,
+            "default": "false"
+          },
+          "sla_horas": {
+            "type": "integer",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "template_email": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": false
+          },
+          "destinatario_tipo": {
+            "type": "text",
+            "required": false
+          },
+          "assunto": {
+            "type": "text",
+            "required": false
+          },
+          "corpo_email": {
+            "type": "text",
+            "required": false
+          },
+          "etapa_disparo": {
+            "type": "uuid",
+            "required": false
+          },
+          "status": {
+            "type": "text",
+            "required": false,
+            "default": "'active'::text"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "slug": {
+            "type": "text",
+            "required": false
+          },
+          "parceiros_destinatarios": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'[]'::jsonb"
+          }
+        },
+        "metadata": {}
+      },
+      "admissao": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "pessoa_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_admissao",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "tipo_admissao_id": {
+            "type": "uuid",
+            "required": false
+          },
+          "tipo_contrato": {
+            "type": "text",
+            "required": false
+          },
+          "n1_id": {
+            "type": "bigint",
+            "required": false
+          },
+          "n2_id": {
+            "type": "bigint",
+            "required": false
+          },
+          "n3_id": {
+            "type": "bigint",
+            "required": false
+          },
+          "responsavel_rh_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_admissao",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "cargo_id": {
+            "type": "uuid",
+            "required": false
+          },
+          "beneficios_ids": {
+            "type": "jsonb",
+            "required": false
+          },
+          "status_dados_pessoais": {
+            "type": "text",
+            "required": false,
+            "default": "'Aguardando Preenchimento'::text"
+          },
+          "etapa_atual_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_admissao",
+              "table": "etapa_admissao",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "observacao": {
+            "type": "text",
+            "required": false
+          },
+          "gestor_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "primeiro_emprego_clt": {
+            "type": "boolean",
+            "required": false,
+            "default": "false"
+          }
+        },
+        "metadata": {}
+      }
+    },
+    "enums": {},
+    "jsonTypes": {}
+  }

@@ -1,0 +1,4 @@
+{
+    "schema": "cubos_engajamentos",
+    "tables": ["termometro_cubico", "pesquisa_avd", "check_in", "avaliacao_checkin", "indicacao_awards", "votacao_awards", "nps_plan", "configs"]
+  }

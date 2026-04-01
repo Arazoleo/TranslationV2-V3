@@ -1,0 +1,1 @@
+id,pessoa_id,contrato_id,periodo_aquisitivo_id,tipo_solicitacao,titulo_ausencia,inicio_ausencia,fim_ausencia,data_retorno,dias_selecionados,dias_vendidos,adiantamento_13,valor_ferias,mes_ano_referencia,status,observacoes,comentario_gestor,comentario_rh,aprovado_gestor_em,aprovado_rh_em,data_cancelamento,motivo_reprovacao,validacoes,created_at,updated_at

@@ -1,0 +1,4 @@
+id,nome,data_inicio,data_fim,valor_min_nota_final,valor_max_nota_final,tempo_minimo_de_casa_meses,tem_classificacao_final,tem_nine_box,nine_box_labels,temas_selecionados,classificacoes_finais,tipos_avaliacao_config,relatorio_config,Status,data_fim_alinhamento,data_inicio_alinhamento,status_alinhamento,created_at,updated_at
+9dacc860-8518-4d0b-bff6-557ffcf3506c,2025.1,,2025-01-20,,,,,,,,,,,Finalizado,,,,2026-03-31T20:00:09+00:00,2026-03-31T20:00:09+00:00
+a2d62e61-f1b8-4a48-a525-c6afa7e61641,2025.2,,2025-09-02,,,,,,,,,,,Finalizado,,,,2026-03-31T20:00:09+00:00,2026-03-31T20:00:09+00:00
+8cc25e36-9338-4edb-9de9-b5f4bb3122f9,2026.1,,2026-02-06,,,,,,,,,,,Em andamento,,,,2026-03-31T20:00:09+00:00,2026-03-31T20:00:09+00:00

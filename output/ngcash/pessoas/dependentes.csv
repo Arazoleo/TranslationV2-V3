@@ -1,0 +1,10 @@
+id,nome,colaborador,tipo_de_relacao,dependente_direto,data_de_nascimento,created_at,rg,cpf,sexo,possui_deficiencia,declarar_ir,plano_saude,salario_familia,pensao_alimenticia
+1,Jeff Alysson Moura de Azevedo,c30e40b2-0cad-4870-9d5f-5e6d4b5242ff,União Estável,Dependente,2000-02-15,2026-03-30T19:59:59+00:00,285248373,17619776796,,false,false,false,false,false
+2,Ana Luíza Alves Dias,2fe54c2b-719f-4c2c-9185-4c14f0961da6,Filho / Filha,Dependente,2018-02-24,2026-03-30T19:59:59+00:00,,20610618776,,false,false,false,false,false
+3,Maria Rejane Vieira da Silva,04e44750-211b-43a3-a6f6-6cd6b5d17d80,Pai / Mãe,Dependente,1968-05-31,2026-03-30T19:59:59+00:00,230558847,12720918806,,false,false,false,false,false
+4,Alex Matheus Ferreira Machado ,,Filho / Filha,Dependente,2008-04-11,2026-03-30T19:59:59+00:00,26834002-3,22559878720,,false,false,false,false,false
+5,Maria Alice dos Reis Capinan ,fed60a92-177c-4509-82f7-1f5faf91011d,Filho / Filha,Dependente,2020-07-09,2026-03-30T19:59:59+00:00,2416056107,12078807524,,false,false,false,false,false
+6,Heitor Guimarães Borges ,d579ba56-890f-471a-ac7b-eeed140b7395,Filho / Filha,Dependente,2017-07-27,2026-03-30T19:59:59+00:00,,,,false,false,false,false,false
+7,Heloísa Guimarães de Lá Roque ,d579ba56-890f-471a-ac7b-eeed140b7395,Filho / Filha,Dependente,2023-02-26,2026-03-30T19:59:59+00:00,,,,false,false,false,false,false
+8,Rafael da Silva Sanchez,5153a261-7b35-415a-88d4-e754d3d60318,Cônjuge,Dependente,1989-12-30,2026-03-30T19:59:59+00:00,246572275,12901181759,,false,false,false,false,false
+9,HENZO GABRIEL CONCEIÇÃO DE JESUS SANTOS,721c5d7e-1f64-463d-a82d-945dbc53d0d7,Filho / Filha,Dependente,1992-02-10,2026-03-30T19:59:59+00:00,1206927402,04281266500,,false,false,false,false,false

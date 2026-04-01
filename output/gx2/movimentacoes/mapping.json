@@ -1,0 +1,53 @@
+{
+  "output_dir": "output/gx2/movimentacoes",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "profiles",
+      "view_id": "dcc91c7c-4fb4-49c1-8ebe-c2f29f0a6ccf",
+      "_sheet": "Pessoas (288 records)",
+      "columns": {
+        "id":            { "default": "__record_id__" },
+        "nome_completo": { "field_id": "8e6e12a7-d7f3-4b02-937b-feb5b03a5b3c", "extract": "string" },
+        "created_at":    { "default": "__timestamptz__" },
+        "updated_at":    { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "movimentacao",
+      "view_id": "f762087d-3d44-4af9-b06a-ee455671f4b1",
+      "_sheet": "Movimentações (51 records)",
+      "columns": {
+        "id":                             { "default": "__record_id__" },
+        "pessoa_id":                      { "field_id": "850e2cf7-92dd-4f57-9a68-96db34c1ce08", "extract": "link" },
+        "tipo_movimentacao":              { "field_id": "781797d6-c340-49b0-89ea-578ea744f48d", "extract": "select" },
+        "data_solicitacao":               { "field_id": "f0562f65-3539-46ce-a947-b2d9393ac992", "extract": "date" },
+        "data_efetivacao":                { "field_id": "b49ecd2b-8fc0-4b13-8a81-25b5ff5c9122", "extract": "date" },
+        "valor_anterior":                 { "field_id": "f53ffaa7-1733-4efe-8a72-f04ab63ccbef", "extract": "number" },
+        "valor_novo":                     { "field_id": "1677374f-5902-400f-8c6c-d7340fbd6736", "extract": "number" },
+        "cargo_anterior_id":              { "field_id": null, "extract": null, "default": "" },
+        "cargo_novo_id":                  { "field_id": null, "extract": null, "default": "" },
+        "marca_anterior_id":              { "field_id": null, "extract": null, "default": "" },
+        "marca_nova_id":                  { "field_id": null, "extract": null, "default": "" },
+        "departamento_anterior_id":       { "field_id": null, "extract": null, "default": "" },
+        "departamento_novo_id":           { "field_id": null, "extract": null, "default": "" },
+        "unidade_negocio_anterior_id":    { "field_id": null, "extract": null, "default": "" },
+        "unidade_negocio_nova_id":        { "field_id": null, "extract": null, "default": "" },
+        "empresa_contratante_anterior_id":{ "field_id": null, "extract": null, "default": "" },
+        "empresa_contratante_nova_id":    { "field_id": null, "extract": null, "default": "" },
+        "tipo_contrato_anterior":         { "field_id": "fce3bf5c-f2fb-437b-a4a9-29776228397e", "extract": "select" },
+        "tipo_contrato_novo":             { "field_id": "d1ced77c-d59f-46a7-ad98-100cf4411bb9", "extract": "select" },
+        "motivo_movimentacao":            { "field_id": "b4cf3abb-cbab-413f-b288-96cffd20936f", "extract": "select" },
+        "solicitante":                    { "field_id": "2af1a2db-be5c-4612-9ec6-18c959fa7333", "extract": "link" },
+        "aprovador":                      { "field_id": null, "extract": null, "default": "" },
+        "status":                         { "field_id": "5ae7187b-910f-4421-a8ca-36272b085573", "extract": "select" },
+        "observacoes":                    { "field_id": "6c3593c4-cc3d-46ca-b999-0ac9d5118d02", "extract": "markdown" },
+        "manager_anterior_id":            { "field_id": "58d90cf3-11de-4121-a7a3-2de3a559ca52", "extract": "link" },
+        "manager_novo_id":                { "field_id": "1c90e759-6a8f-448f-9bdf-065d728d5d80", "extract": "link" },
+        "justificativa_rejeicao":         { "field_id": null, "extract": null, "default": "" },
+        "created_at":                     { "default": "__timestamptz__" },
+        "updated_at":                     { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

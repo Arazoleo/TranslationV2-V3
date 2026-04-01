@@ -1,0 +1,59 @@
+id,nome,tipo,status,descricao,aplicavel_dependentes,fornecedor_id,obrigatorio,pagina_publica_habilitada,solicitacao_habilitada,plano_unico,carencia_habilitada,dias_carencia,created_at,updated_at
+9fd3764d-18d0-4595-b09c-c6633ce8fdce,Plano Odontológico Qualimais,saude,ativo,"**Prestador de Serviço: Unimed Porto Alegre**
+
+**Plano ofertado:** Odonto Qualimais
+
+**Cobertura:** Nacional
+
+**Rede de atendimento:** Uniodonto
+
+**Mensalidade:** valor fixo R$25,02
+
+**Desconto titular:** 20% da mensalidade em folha de pagamento realizado em folha de pagamento
+
+**Desconto dependentes:** valor integral da mensalidade realizado em folha de pagamento",,,false,false,true,false,false,0,2026-03-31T23:36:55+00:00,2026-03-31T23:36:55+00:00
+7d993b22-34db-4d93-8bc3-4285251187ed,Vale Alimentação,vale_alimentacao,ativo,"**Prestador de Serviço:** Caju
+
+**Valor:** R$31,50/dia útil (média de 21 dias = R$661,50)
+
+**Desconto:** 20% do valor total disponibilizado realizado em folha de pagamento
+
+**Restrição de utilização apenas para estabelecimentos que forneçam itens de gênero alimentício**",,,false,false,true,false,false,0,2026-03-31T23:36:55+00:00,2026-03-31T23:36:55+00:00
+48ab489f-39f5-4c6b-9f15-1f3b7d94271e,Vale Transporte,vale_transporte,ativo,"**Benefício obrigatório por lei**
+
+**Desconto:** 6% do salário bruto – limitado ao valor do depósito, realizado em folha de pagamento
+
+**Concedido para colaboradores das modalidades presencial e híbrido, quando necessário**",,,false,false,true,false,false,0,2026-03-31T23:36:55+00:00,2026-03-31T23:36:55+00:00
+d1460642-095a-4ee5-a691-af28de8ffa20,Auxílio Home Office,outro,ativo,"**Depósito:** em folha de pagamento
+
+Sem tributação de IR 
+
+Sem incidência trabalhista  
+
+Sem desconto
+
+**Valor:** negociável ( 10% do salário, limitado a R$500,00 )",,,false,false,true,false,false,0,2026-03-31T23:36:55+00:00,2026-03-31T23:36:55+00:00
+9bb4ae4e-486b-4438-a890-9a88c692ee09,Saldo Livre,outro,ativo,"**Prestador de Serviço:** Caju
+
+**Valor:** negociável
+
+**Sem desconto**
+
+**Funciona em qualquer estabelecimento que aceite cartão de Crédito Visa, à vista, independente da classificação**",,,false,false,true,false,false,0,2026-03-31T23:36:55+00:00,2026-03-31T23:36:55+00:00
+757b752f-6804-41c2-a6ab-ace5efe0e1d0,Auxílio Creche,outro,ativo,"É instituído o benefício de auxílio creche para funcionárias, com salário de até 03 (três) pisos mínimos da categoria, para filhos com idade de 04 (quatro) meses até a criança completar 06 (seis) anos de idade, limitado a 1 (um) auxílio por funcionária.
+
+O valor do benefício será de R$ 462,00 (quatrocentos e sessenta e dois reais), reembolsados mediante comprovação do pagamento à creche. O presente benefício não se estenderá para além do contrato de trabalho, e não terá natureza salarial para quaisquer efeitos.
+
+O auxílio creche convencionado não desobriga os empregadores do cumprimento das normas legais mínimas de proteção à maternidade e do trabalho da mulher.
+
+Ficam ressalvadas as condições mais benéficas porventura já existentes em empresas abrangidas por esta Convenção, do que se conclui que a presente cláusula não autoriza qualquer redução de benefício de mesma natureza que já vem sendo concedido aos empregados.
+
+**Obs:** O benefício do auxílio creche também será disponibilizado ao funcionário homem, nas mesmas condições descritas na cláusula, desde que possua a guarda regulamentada do filho.",,,false,false,true,false,false,0,2026-03-31T23:36:55+00:00,2026-03-31T23:36:55+00:00
+a5eb393e-10fe-4c7e-ace8-d11892a25832,Auxílio Terapia Moodar,saude,ativo,"Benefício de apoio emocional, direcionado apenas para alguns colaboradores, mediante definição do RH.",,,false,false,true,false,false,0,2026-03-31T23:36:55+00:00,2026-03-31T23:36:55+00:00
+e481bb58-e679-4194-ab79-b9b831ab4228,Programa de idiomas,educacao,ativo,"Direcionado apenas para alguns colaboradores, mediante definição do RH.
+
+**Valor:** R$85,00/hora aula
+
+**Coparticipação:** 20% do valor aula, descontado em folha de pagamento",,,false,false,true,false,false,0,2026-03-31T23:36:55+00:00,2026-03-31T23:36:55+00:00
+34f8b519-c07e-49eb-bac9-242f2ee02ce3,Plano de Saúde Unimed Unipart,saude,ativo,,,,false,false,true,false,false,0,2026-03-31T23:36:55+00:00,2026-03-31T23:36:55+00:00
+6b920e3c-1fff-453a-b5d7-29b5f8aa927a,Plano de Saúde Unimed Unimax,saude,ativo,,,,false,false,true,false,false,0,2026-03-31T23:36:55+00:00,2026-03-31T23:36:55+00:00

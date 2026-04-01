@@ -1,0 +1,22 @@
+id,nome,descricao,created_at,updated_at
+8e109190-4adf-4be8-9356-243e695589ff,Liderança,,2026-03-30T23:08:56+00:00,2026-03-30T23:08:56+00:00
+9e468edd-304c-496f-9a63-74c978029960,Comunicação,,2026-03-30T23:08:56+00:00,2026-03-30T23:08:56+00:00
+ac828ffa-9017-428f-8986-052185bda9e4,CX,,2026-03-30T23:08:56+00:00,2026-03-30T23:08:56+00:00
+176dd91d-baf2-4f7c-869e-66e2c451340e,Tecnologia,,2026-03-30T23:08:56+00:00,2026-03-30T23:08:56+00:00
+ecf8ee6e-4d4e-4239-b519-48c9e5d45961,People,,2026-03-30T23:08:56+00:00,2026-03-30T23:08:56+00:00
+adc65351-493b-4216-bc49-e84b504aaa91,Mercado ,Tudo sobre o mercado de meios de pagamento e serviços financeiros,2026-03-30T23:08:56+00:00,2026-03-30T23:08:56+00:00
+7f5b8764-9550-45c8-b21c-89cd170fe649,Produto,Todo material sobre o nosso produto e modelo de negócio,2026-03-30T23:08:56+00:00,2026-03-30T23:08:56+00:00
+2238d9f6-7e71-4e7e-b6a9-7499c1e79e3d,Cultura,Cultura,2026-03-30T23:08:56+00:00,2026-03-30T23:08:56+00:00
+665b43f9-94bb-409d-9b38-24d2ac430e22,CX,"Atendimento, processos, fluxos, boas práticas",2026-03-30T23:08:56+00:00,2026-03-30T23:08:56+00:00
+e657be16-499a-4305-85ea-0ea06e1d408c,Logística - Alterar Endereço,"1. Verificar no Backoffice o Código de Rastreio na aba ""Cartão"" &gt;&gt; Card Request
+2. Acessar o [Jall](https://jall.com.br/) e digita o Cód Rastreio em \[Nº Encomenda Cliente\]
+3. Alterar o endereço:
+
+3.1. Se estiver durante o Ciclo Operacional na Jall &gt;&gt; Abrir Ocorrência &gt;&gt; Nova ocorrência &gt;&gt; Colar novo endereço + Anexar comprovante (se tiver)
+
+3.2. Se estiver em ""Custódia"" &gt;&gt; Abrir [Pegasus](https://www.flashpegasus.com.br/) &gt;&gt; Telemarketing &gt;&gt; Seleção Mais Antigos &gt;&gt; Avançar &gt;&gt; Colar Cód Rastreio em ""Palavra Chave"" &gt;&gt; Alterar endereço e gravar
+
+**Importante:**
+
+* _Avisar para cliente que o endereço não vai alterar no app_
+* _Se houver qualquer problema do nosso lado em relação à entrega, liberar gratuidade no Backoffice para cliente._",2026-03-30T23:08:56+00:00,2026-03-30T23:08:56+00:00

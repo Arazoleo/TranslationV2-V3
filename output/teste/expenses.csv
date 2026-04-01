@@ -1,0 +1,5 @@
+id,expense_description,tipo_de_lancamento,expense_value_v2,expense_date,expense_person,expense_receipt,budget_id,expense_status,expense_refundable,valor_reembolso_parcial,expense_payment_date,expense_notes,comentarios_lideranca,deseja_alocar_o_reembolso_em_um_centro_de_custo_diferente_do_se,centro_de_custo_realocacao,cost_center,created_at,updated_at
+f6e140b3-bae2-48bc-bf7c-b2eb15988ec5,,Mobilidade - Aplicativo ,1000,2026-02-13,af43efcd-0c01-4b05-8372-25213d7251d8,image (13).png,,Aguardando validação da liderança,,,,,,Não,,,now(),now()
+5e72f95d-0516-4263-96a7-f43e3f3c8ed4,,Mobilidade - Aplicativo ,1,2026-02-13,5a5b4483-ad9e-4b72-88fa-dbe53858651e,Reembolso CRCSP - Ana Pierini 2026.jpg,,Aguardando validação da liderança,,,,,,Não,,,now(),now()
+12d49a48-6aa9-40d2-8c16-dfb5cc298f15,,Mobilidade - Aplicativo ,7981,2026-01-15,1a28bb64-c4a8-47e4-a867-f5564668eb95,IMG_3668.png,,Aguardando validação da liderança,,,,,,Não,,,now(),now()
+3567e509-8269-4c88-a7f7-dd364e06d666,,Mobilidade - Aplicativo ,1594,2026-01-16,1a28bb64-c4a8-47e4-a867-f5564668eb95,IMG_3670.png,,Aguardando validação da liderança,,,,,,Não,,,now(),now()

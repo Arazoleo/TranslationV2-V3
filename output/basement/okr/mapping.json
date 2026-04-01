@@ -1,0 +1,79 @@
+{
+  "output_dir": "output/basement/okr",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "teams",
+      "view_id": "9d08150d-8e8f-4896-a7c9-f653221f9c16",
+      "_sheet": "Times (10 records)",
+      "columns": {
+        "id":             { "default": "__record_id__" },
+        "name":           { "field_id": "c7b9a3ed-4ced-4b57-b381-db22da6199c8", "extract": "string" },
+        "description":    { "field_id": null, "extract": null, "default": "" },
+        "leader_id":      { "field_id": null, "extract": null, "default": "" },
+        "parent_team_id": { "field_id": null, "extract": null, "default": "" },
+        "is_active":      { "field_id": null, "extract": null, "default": "true" },
+        "created_at":     { "default": "__timestamptz__" },
+        "updated_at":     { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "profiles",
+      "view_id": "3644810e-3763-4acb-9fd5-f04ab9c0f7d2",
+      "_sheet": "Pessoas (100 records)",
+      "columns": {
+        "id":         { "default": "__record_id__" },
+        "app_role":   { "field_id": null, "extract": null, "default": "" },
+        "settings":   { "field_id": null, "extract": null, "default": "{}" },
+        "created_at": { "default": "__timestamptz__" },
+        "updated_at": { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "objectives",
+      "view_id": "40737f48-839c-4ed2-9c5e-a312d13154c8",
+      "_sheet": "Objectives (200 records)",
+      "columns": {
+        "id":               { "default": "__record_id__" },
+        "title":            { "field_id": "8fb8b585-5760-46c1-8f38-806804ee0c56", "extract": "string" },
+        "description":      { "field_id": "7546fe71-765b-4242-b4e0-479b79d3959c", "extract": "markdown" },
+        "owner_id":         { "field_id": "0b5cd1e8-e319-4aaa-9565-10a74c3d296a", "extract": "link" },
+        "cycle_id":         { "field_id": null, "extract": null, "default": "" },
+        "periodo_temp":     { "field_id": "751aace7-5804-4b43-a02e-62adb3c1a843", "extract": "select" },
+        "team_id":          { "field_id": null, "extract": null, "default": "" },
+        "alignment_id":     { "field_id": "6a9d8203-92dc-43f7-8d9a-fe8f7bf57cc8", "extract": "link" },
+        "status":           { "field_id": "cd27d3c9-3f0d-4a08-bfe3-865eb831f993", "extract": "select" },
+        "health":           { "field_id": null, "extract": null, "default": "verde" },
+        "health_override":  { "field_id": null, "extract": null, "default": "false" },
+        "progress":         { "field_id": "02f31fe8-d78c-408c-a1af-3cbcf8b1d02a", "extract": "number" },
+        "is_top_down":      { "field_id": null, "extract": null, "default": "false" },
+        "requires_manager_approval": { "field_id": null, "extract": null, "default": "false" },
+        "created_at":       { "default": "__timestamptz__" },
+        "updated_at":       { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "key_results",
+      "view_id": "ee390b0e-0eb6-47d9-bfc8-1bc75a2f863c",
+      "_sheet": "Key Results (580 records)",
+      "columns": {
+        "id":                      { "default": "__record_id__" },
+        "objective_id":            { "field_id": "739360dd-3b08-4485-b81b-b20efe8d3c46", "extract": "link" },
+        "title":                   { "field_id": "4c2e6f59-1c34-47ca-908f-667bd20fe74a", "extract": "string" },
+        "description":             { "field_id": null, "extract": null, "default": "" },
+        "type":                    { "field_id": null, "extract": null, "default": "metrica" },
+        "baseline":                { "field_id": "bbb1d8ef-82b0-4926-bb40-0d9870307eb7", "extract": "number" },
+        "target":                  { "field_id": "e2ccf474-cb29-4628-bbee-041b5cda23f7", "extract": "number" },
+        "current_value":           { "field_id": "23dece58-4c88-4932-86b7-35ab0e896fab", "extract": "number" },
+        "progress":                { "field_id": "68c67342-4e8f-4c0b-9412-23ae6e2fe923", "extract": "number" },
+        "health":                  { "field_id": null, "extract": null, "default": "verde" },
+        "health_override":         { "field_id": null, "extract": null, "default": "false" },
+        "dependencies":            { "field_id": null, "extract": null, "default": "[]" },
+        "is_external_dependency":  { "field_id": null, "extract": null, "default": "false" },
+        "sort_order":              { "field_id": null, "extract": null, "default": "0" },
+        "created_at":              { "default": "__timestamptz__" },
+        "updated_at":              { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

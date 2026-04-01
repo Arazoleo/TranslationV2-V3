@@ -1,0 +1,32 @@
+{
+  "output_dir": "output/gx2/despesas",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "expenses",
+      "view_id": "5d2647ef-f27a-4306-86e0-370d236dd659",
+      "_sheet": "Despesas e Reembolsos (108 records)",
+      "columns": {
+        "id":                    { "default": "__record_id__" },
+        "expense_description":   { "field_id": "d31743df-c62a-44ff-800e-9492bb51b21c", "extract": "string" },
+        "tipo_de_lancamento":    { "field_id": "8cf86c3c-8474-49ed-b853-74c6380d1bec", "extract": "select" },
+        "expense_category":      { "field_id": null, "extract": null, "default": "" },
+        "expense_value_v2":      { "field_id": "6c1cd5a2-0fb8-4c86-9733-d8558b6856f4", "extract": "number" },
+        "expense_date":          { "field_id": "0de9c8f6-c49a-4097-9ffb-84c818c8a317", "extract": "date" },
+        "expense_person":        { "field_id": null, "extract": null, "default": "" },
+        "expense_receipt":       { "field_id": null, "extract": null, "default": "" },
+        "budget_id":             { "field_id": null, "extract": null, "default": "" },
+        "expense_status":        { "field_id": "7232b6b5-6058-4023-94a8-e34c3bcadf33", "extract": "select" },
+        "expense_refundable":    { "field_id": "97cc4669-6fb9-4ce6-a7ac-519b189aabf1", "extract": "select" },
+        "valor_reembolso_parcial":{ "field_id": "4062e185-6ccf-494d-b836-59597f5eb8a8", "extract": "number" },
+        "expense_notes":         { "field_id": "055e0a6a-5fd5-44a3-b889-92893ba9e5e2", "extract": "string" },
+        "comentarios_lideranca": { "field_id": "0d5da556-9ad0-4974-9a3f-a8d16ba56019", "extract": "string" },
+        "deseja_alocar_o_reembolso_em_um_centro_de_custo_diferente_do_se": { "field_id": "60d8ccf5-a94a-4fa1-8782-8b6dddbcb73c", "extract": "select" },
+        "centro_de_custo_realocacao": { "field_id": "6066fa4a-f149-4099-be02-38b1ddd430ef", "extract": "select" },
+        "cost_center":           { "field_id": null, "extract": null, "default": "" },
+        "created_at":            { "default": "__timestamptz__" },
+        "updated_at":            { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

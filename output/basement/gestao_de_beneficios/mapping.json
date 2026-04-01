@@ -1,0 +1,49 @@
+{
+  "output_dir": "output/basement/gestao_de_beneficios",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "beneficio",
+      "view_id": "918bc154-9b07-4d04-ac54-b78f1ff2e3f7",
+      "_sheet": "Benefícios (10 records)",
+      "columns": {
+        "id":                         { "default": "__record_id__" },
+        "nome":                       { "field_id": "122eb371-18f0-4144-a7d4-77f8b4e2ff0b", "extract": "string" },
+        "tipo":                       { "field_id": "c7f3eb82-782b-4e90-9174-ffe46a4e7af9", "extract": "select" },
+        "aplicavel_dependentes":      { "field_id": null, "extract": null, "default": "" },
+        "descricao":                  { "field_id": "ae5f18fc-de66-4740-9071-e147fe8033c0", "extract": "markdown" },
+        "status":                     { "field_id": "9539ce03-711d-4f4b-b31b-e131b3e93ab5", "extract": "select" },
+        "fornecedor_id":              { "field_id": null, "extract": null, "default": "" },
+        "icone":                      { "field_id": null, "extract": null, "default": "" },
+        "obrigatorio":                { "field_id": null, "extract": null, "default": "false" },
+        "pagina_publica_habilitada":  { "field_id": null, "extract": null, "default": "false" },
+        "solicitacao_habilitada":     { "field_id": null, "extract": null, "default": "true" },
+        "plano_unico":                { "field_id": null, "extract": null, "default": "false" },
+        "carencia_habilitada":        { "field_id": null, "extract": null, "default": "false" },
+        "dias_carencia":              { "field_id": null, "extract": null, "default": "0" },
+        "created_at":                 { "default": "__timestamptz__" },
+        "updated_at":                 { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "adesao_beneficio",
+      "view_id": "9f4f5b69-de22-4897-910b-f04c7556bb74",
+      "_sheet": "Adesão a benefícios (119 records)",
+      "columns": {
+        "id":                    { "default": "__record_id__" },
+        "beneficio_id":          { "field_id": "4b8f776b-5490-4df1-ab0f-1d2bd71147ae", "extract": "link" },
+        "pessoa_id":             { "field_id": null, "extract": null, "default": "" },
+        "valor_beneficio_id":    { "field_id": null, "extract": null, "default": "" },
+        "data_adesao":           { "field_id": "35f5152a-9b2f-41d8-99db-39dc5c09ace2", "extract": "date" },
+        "data_termino":          { "field_id": "f69f5911-5174-4453-8a93-75442a4874a3", "extract": "date" },
+        "status_adesao":         { "field_id": "c8347d13-a049-44d2-9da0-5ad57baf0117", "extract": "select" },
+        "observacoes":           { "field_id": "386845fa-af6d-483a-b509-a80600579cdf", "extract": "markdown" },
+        "migracoes_programadas": { "field_id": null, "extract": null, "default": "[]" },
+        "dependente_ids":        { "field_id": null, "extract": null, "default": "{}" },
+        "dependentes":           { "field_id": null, "extract": null, "default": "[]" },
+        "created_at":            { "default": "__timestamptz__" },
+        "updated_at":            { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

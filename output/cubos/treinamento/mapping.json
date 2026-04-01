@@ -1,0 +1,46 @@
+{
+  "output_dir": "output/cubos/treinamento",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "cubosflix",
+      "view_id": "825ac558-9863-45f3-8435-7403b5eb8ccd",
+      "_sheet": "CubosFlix (5 records)",
+      "columns": {
+        "id":            { "default": "__record_id__" },
+        "nome":          { "field_id": null, "extract": null, "default": "" },
+        "autoria":       { "field_id": "6445a8e3-43b3-42de-bebf-b83bb939d5e4", "extract": "select" },
+        "imagem_de_capa":{ "field_id": null, "extract": null, "default": "" },
+        "titulo":        { "field_id": "bec38aea-cd74-4773-b436-4dafd1259c4c", "extract": "string" },
+        "conteudo":      { "field_id": "df487e6d-4629-43a7-b27f-28a4f3d3d2ce", "extract": "markdown" },
+        "created_at":    { "default": "__timestamptz__" },
+        "updated_at":    { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "programas_de_capacitacoes",
+      "view_id": "e9705e10-2641-4c88-93f0-aa817391944b",
+      "_sheet": "Programas de Capacitações (5 records)",
+      "columns": {
+        "id":                              { "default": "__record_id__" },
+        "colaborador_profile_id":          { "field_id": null, "extract": null, "default": "" },
+        "tipo":                            { "field_id": null, "extract": null, "default": "" },
+        "status":                          { "field_id": "72869416-bd2b-43cc-930a-df94fc4e9037", "extract": "select" },
+        "sponges_titulo":                  { "field_id": "b5d0c308-5012-45d8-a499-261dffd81323", "extract": "string" },
+        "sponges_qual_sponge":             { "field_id": "45e7558d-d88e-4efe-9f5f-d4983ddfcc6c", "extract": "select" },
+        "sponges_sobre_o_que_falar":       { "field_id": "06d4b7a4-0006-47a1-a1d3-7760a0654e02", "extract": "string" },
+        "sponges_prazo_interesse":         { "field_id": null, "extract": null, "default": "" },
+        "sponges_ciente_contato":          { "field_id": "c47ffc86-6cb5-4a94-99ad-9ae401341f89", "extract": "select" },
+        "sponges_data_realizacao":         { "field_id": "e54fa73d-b2e2-411a-9335-a88edccf79dc", "extract": "date" },
+        "sponges_status":                  { "field_id": "a2c08d95-5c1c-4bca-a94c-7f0f88687b2b", "extract": "select" },
+        "capacitacoes_assunto":            { "field_id": "43fdc430-4db3-44bd-907f-63fd83f700a7", "extract": "string" },
+        "capacitacoes_conhece_ministrador":{ "field_id": "0e9a1a16-7c75-4643-9c41-6c276e2280bc", "extract": "select" },
+        "capacitacoes_nome_indicado":      { "field_id": "50a1dcc3-bd0b-431d-b157-1afc40005c55", "extract": "string" },
+        "capacitacoes_linkedin_indicado":  { "field_id": "ca51c576-afe4-408a-9b79-a79083f293a9", "extract": "string" },
+        "capacitacoes_status":             { "field_id": null, "extract": null, "default": "" },
+        "created_at":                      { "default": "__timestamptz__" },
+        "updated_at":                      { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

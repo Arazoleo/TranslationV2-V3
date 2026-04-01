@@ -1,0 +1,54 @@
+id,person_profile_id,from_profile_id,note_date,feedback_note,period,created_at
+71f52399-a03d-4db9-b14b-98ba41510d35,,,2024-09-02,Bla bla bla,,2026-03-31T04:12:27+00:00
+baea3f98-d218-4bd8-b63a-57f5d66b48ed,,,2024-09-04,Extremamente interessado em aprender e se envolver no novo desafio com o VTEX Faststore.,,2026-03-31T04:12:27+00:00
+7464c775-ab2f-43e9-9b71-de23a0714ae5,,,2024-09-18,"conduzindo muito bem o CMS, se interessou pelo backend, me pediu acesso e configurou o portfowarding em sua maquina",,2026-03-31T04:12:27+00:00
+daba19eb-7864-4bc9-aece-f361940444ce,,,2024-09-24,"Deixou passar um problema no nextBooking que era possível de ser replicado apenas chamando o endpoint. Isso na tarefa de ajuste de anfitirão (eu peguei o bug em stg);
+
+Conseguiu entregar as demais tarefas bem;
+
+Ajudou nos bugs relacionados a tarefa de ajustes gerenciais que estava com Renato (ocasionado pelo fato de não termos NFs em stg/dev). Pessoalmente eu esperava que ele propusesse uma solução para isso, mas não o fez.",,2026-03-31T04:12:27+00:00
+d5305430-91a0-412f-a48a-e849e29a0eb8,,,2024-09-24,"Após ocasionar problemas em produção por falta de teste cuidadoso das suas tarefas, vem propondo formas de evitar isso a acontecer novamente (que é o que eu esperava), através de shorebird. Também propôs e implementou uma arquitetura melhor para o aplicativo, também esperava isso.",,2026-03-31T04:12:27+00:00
+b0e34a49-540c-481d-b030-71024c37a8af,,,2024-09-24,"Está com fome de atividades, voltou das férias matando bugs e ajudando em tudo que pode no backend, seja station ou cms. Ele está fazendo isso além das suas atividades mapeadas na sprint (que foram poucas e deram mais abertura para isso, ainda assim é impressionante).",,2026-03-31T04:12:27+00:00
+8aebb3ab-e421-4d0d-9969-5f9bf06a8126,,,2024-09-24,"Passou o mês trabalhando nas melhorias da v2 do PWA; Atuou muito bem, trabalhando junto com o time da WeWork para ajustar as pontas soltas da v2, tanto em problemas de UI/UX quanto em débitos técnicos da plataforma",,2026-03-31T04:12:27+00:00
+264e4e15-514e-4e75-bf41-5e7677656dfa,,,2024-10-14,Implementação de testes do projeto do BomConsórcio,,2026-03-31T04:12:27+00:00
+d182e0e1-1817-43fd-a5b0-ebdf140d9ddd,,,2024-10-29,"segue bem confiante e passa confiança para o cliente em relação ao (principalmente) Admin e CMS;
+
+Começou (após eu dar acesso) a tocar até as subidas do CMS
+
+Não avançou nos proximos passos da AvD",,2026-03-31T04:12:27+00:00
+93a40ed9-b9f8-4c05-977f-ed88ac62f831,,,2024-10-29,"Fez a subida com pouquissima intervenção do relayout no pwa
+
+Se manteve sendo coringa entre pwa e adminsobre os proximos passos
+
+ainda não andou nos proximos passos",,2026-03-31T04:12:27+00:00
+d5bf1b94-7009-4cba-9910-0e69e045b182,,,2024-10-29,"Primordial para o time, divide bem a responsabilidade com Nando
+
+Consegue sanar as duvidas de produto e do proprio time de dev
+
+Não andou nos proximos passos",,2026-03-31T04:12:27+00:00
+4b20cd71-1acb-48e5-9334-d2ebfb16dbfa,,,2024-10-29,"Melhorou muito a interação com o time, em threads, reviews e reuniões
+
+Se manteve muito atento a produção, sendo normalmente o primeiro ou segundo a pegar notar algum erro
+
+Opina mais tanto dentro do time quanto em reuniões fora do time
+
+Não andou nos proximos passos",,2026-03-31T04:12:27+00:00
+b197ba14-2b51-4a19-baf9-fbb88854dbbe,,,2024-11-01,"Melhorou muito a comunicação e transparência, em meio ao seu período difícil da depressão.
+
+Organização mental e de esforço vem melhorando, mas é importante priorizar melhor as coisas e otimizar o tempo, por consequência",,2026-03-31T04:12:27+00:00
+0f393245-aa47-4b01-912a-a0ff6ff1a750,,,2024-11-01,"**Sem evolução:**
+
+Relacionamento com cliente
+
+Participação ativa
+
+Análise crítica
+
+Feedbacks
+
+**Ponto evolução:** Documentação.
+
+\*Talvez seja melhor focar nos pontos fortes dela, do que dar murro em ponta de faca.",,2026-03-31T04:12:27+00:00
+9cb4d422-2b3f-4eb3-b1e9-c7ad8d81f32c,,,2024-11-14,aaaaaaaaaaaaa,,2026-03-31T04:12:27+00:00
+53ae1150-407a-485f-abcb-bea9ab2bf1b4,,,2024-11-19,Oioioioioi,,2026-03-31T04:12:27+00:00
+5cdd0631-6ad8-42b8-b942-e4a6e6ce5acc,,,2025-01-14,No ínicio do projeto fez perguntas importantes e necessárias ao cliente VTEX que nos ajudou a esclarecer melhor o projeto. Comunicação fácil e segura.,,2026-03-31T04:12:27+00:00

@@ -1,0 +1,33 @@
+{
+  "output_dir": "output/ngcash/admissao",
+  "uuid_remap": {
+    "enabled": false
+  },
+  "tables": [
+    {
+      "name": "profiles",
+      "view_id": "a5573f48-3062-430b-9f53-7e5e86e4a08f",
+      "_sheet": "Pessoas (257 records)",
+      "dedup_by": ["id"],
+      "columns": {
+        "id":           { "default": "__record_id__" },
+        "nome_completo":{ "field_id": "ecbb74a9-0621-4e0c-8fc9-24be99899ccc", "extract": "string" },
+        "created_at":   { "default": "__timestamptz__" },
+        "updated_at":   { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "admissao",
+      "view_id": "68f7dace-af7e-4ab7-961e-2f91fb8e9a47",
+      "_sheet": "Onboarding (162 records)",
+      "columns": {
+        "id":            { "default": "__record_id__" },
+        "pessoa_id":     { "field_id": "33e01eef-1397-44ef-9eb6-b8095d4eb918", "extract": "link" },
+        "tipo_contrato": { "field_id": "6f028f53-f4b5-415a-b212-e2c51a420f25", "extract": "select" },
+        "gestor_id":     { "field_id": null, "extract": null, "default": "" },
+        "created_at":    { "default": "__timestamptz__" },
+        "updated_at":    { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

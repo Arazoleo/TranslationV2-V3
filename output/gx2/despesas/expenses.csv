@@ -1,0 +1,109 @@
+id,expense_description,tipo_de_lancamento,expense_value_v2,expense_date,expense_person,expense_receipt,budget_id,expense_status,expense_refundable,valor_reembolso_parcial,expense_notes,comentarios_lideranca,deseja_alocar_o_reembolso_em_um_centro_de_custo_diferente_do_se,centro_de_custo_realocacao,cost_center,created_at,updated_at
+b66af636-a91c-4641-a3cc-9e4b4346b38f,,,500000,2025-06-20,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+6ed704ce-95be-4ffc-9cce-e48ae81ac39b, Compra Canecas (pt1) - Kit Onboarding,Despesa,139500,2025-06-26,,,,Finalizado,,,Nota Fiscal recebida -> Comprovante de pagamento enviado,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+8f93848b-bdba-4e52-8455-c4f57e4f7908,Compra Mouse Pad | Kit onboarding,Despesa,133857,2025-06-16,,,,Finalizado,,,NF OK,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+747df30c-5b9e-4ca1-85b9-b0b54d2a6246,,Despesa,503300,2025-06-24,,,,Finalizado,,,Nota Fiscal recebida -> Comprovante de pagamento enviado,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+5f4c7ac8-ebbd-4b65-85d7-9fb0cdb153d7,,Despesa,182229,2025-06-26,,,,Finalizado,,,"Comprovante de pagamento enviado -> Pendente de NF -> Compra cancelada, aguardando devolução do valor -> Valor devolvido",,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+8df56962-4e17-4835-87de-4c7d514a1553,,Despesa,132473,2025-07-02,,,,Finalizado,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+636b454c-14d5-4ac0-85a6-bb2c061813fa,,Despesa,83500,2025-07-15,,,,Finalizado,,,Pendente de NF,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+e0e5d022-2af4-46fd-be6d-e43901c87412,Compra via Mercado Livre,Despesa,129649,2025-07-17,,,,Finalizado,,,Pendente de NF,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+774e3157-174d-460f-84ef-b50a08ed3e97,,Despesa,1900,2025-07-18,,,,Finalizado,,,NF recebida,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+61c66398-5ab3-443a-8908-c63f1f6b403b,,Despesa,62000,2025-07-21,,,,Finalizado,,,NF recebida,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+88500ed2-9c83-4fd0-9bc1-9fabf187af8f,Compra realizada via mercado livre pago com cartão Elo,Despesa,5779,2025-07-31,,,,Finalizado,,,Pagamento realizado diretamente pelo MKT -> NF recebida,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+3e010b9b-ddec-46f6-a4de-3c25315334fa,Compra Carimbo - MKT,Despesa,4350,2025-08-11,,,,Finalizado,,,NF OK,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+32a19613-059b-4c1f-a549-67c1d2b7dd20,Compra via mercado livre - cartão Elo,Despesa,5484,2025-08-12,,,,Finalizado,,,NF recebida,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+41d32c9a-8642-4ee7-9d6d-1659af3e2835,Impressão + plastificação | Manual Sala Caldeira - Click Impresso,Despesa,13000,2025-08-13,,,,Finalizado,,,NF anexada,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+52c924ca-df32-4839-997a-492679f4c028,Compra carimbo + almofada,Despesa,5100,2025-09-03,,,,Finalizado,,,NF OK,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+a5efe374-5b72-492e-884d-e30beec72c12,,Despesa,56400,2025-09-22,,,,Finalizado,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+facf6bb9-7392-4f51-b8b4-aa2e71af6acf,O pagamento também pode ser feito através do Link: https://www.clickimpresso.com.br/client/segunda_via.php?job_id=528580,Despesa,9500,2025-09-22,,,,Finalizado,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+e3708604-277e-467e-8c17-85958dddccf8,Pago no dia 18/09/2025 autorizado pela Luiza,Despesa,46990,2025-09-18,,,,Finalizado,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+185a4825-eb60-455e-a22c-5b3222d23b7b,,Reembolso,3600,,,,,,,,Programado junto ao próximo salário,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+2ad89890-713d-4f74-ac6e-da682f6e8fe1,Pagamento | Sinal de reserva de data DJ para confraternização final de ano POA ,Despesa,10000,2025-10-04,,,,Finalizado,,,Pendente de NF,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+0003ee44-a416-4a65-9940-868064139128,Pagamento | Adiantamento 30% | BENEDETTA PIZZARIA | Evento final de ano ,Despesa,50280,2025-10-07,,,,Finalizado,,,Pendente de NF,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+1ea3bd48-c455-4780-a978-ad8862543626,,Reembolso,2534,2025-10-06,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+2ee43348-59bb-4119-be96-18c221a9e151,,Reembolso,17528,,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+5d999a6f-7e37-48ec-972e-1c176ebb6f48,"Compra de mimos | reposição de estoque: porta retratos, body, umidifcador, pelúcia",Despesa,66686,2025-10-17,,,,Finalizado,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+15056171-76fe-47f4-bed1-d36a720d3114,Pagamento já realizado,Despesa,2490,2025-10-17,,,,Finalizado,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+c0107778-337e-49d8-85d7-8d6dc3226040,,Reembolso,24377,,,,,,,,Programado junto à próxima prestação de serviços.,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+7647b81b-4bc3-48dc-af74-d1d514cd3a23,,Reembolso,308998,,,,,,,,Programado junto à próxima prestação de serviços.,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+518f04a4-0a28-485b-b850-378f296a4d05,,Reembolso,8682,,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+65842b22-7e9a-4ef5-97f5-964c2f84ee63,,Reembolso,1999,,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+af09c6de-a9c3-4191-9a59-8599943fd14d,,Reembolso,35144,,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+1f307381-d6b6-45e0-9134-728f8aed0727,,Reembolso,18121,,,,,,,,Pagamento agendado,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+127c8c0a-88f9-4794-8689-81dbcd538561,,Reembolso,1060,,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+1376c86f-91c0-4a97-b436-0e7c0d6bf7d1,,Reembolso,4554,,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+1c6f1209-30b8-4279-9f02-40480683f04f,,Reembolso,123214,,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+a7a7a8df-801f-48df-8ff0-f798e0b02c1d,Crachás Banco Nordeste | Produção + envio,Despesa,11800,2025-12-01,,,,Finalizado,,,Programado para pagamento - Falta a NF,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+9606a0c8-7f7b-41c6-bde5-9c3f91c777dd,,Despesa,150625,2025-12-02,,,,Finalizado,,,Programado para pagamento - NF OK,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+a051f7ce-8f61-42af-bafc-5de45b2c0d11,Back Drop - Confraternização Final de ano POA,Despesa,41400,2025-12-03,,,,Finalizado,,,Programdo para pagamento - NF Pendente,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+1350ad0e-29a3-46e7-a6a8-1978b13f7028,,Reembolso,24856,,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+a6d5149f-5ea0-4829-90c5-d6b720a47647,Pagamento Reserva de Hotel | GX2 Day - SP - Colaboradores George Lucas e Raissa Rodrigues,Despesa,52000,2025-12-19,,,,Finalizado,,,Pagamento programado - NF pendente,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+c223416c-d443-4a61-968b-16f36ca50cb5,"Pagamento Reserva de Hotel | GX2 Day - POA - Colaboradores Ricardo Potiguar, Leonardo Feilstrecker, Marcelo Pereira Müller - Faturado após checkout e cobrança via boleto após essa data. ",Despesa,58800,2025-12-22,,,,Finalizado,,,Pagamento agendado - NF pendente,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+9887e734-8de1-4b8d-b74c-34abc5b8ba5e,,Despesa,732345,2025-12-15,,,,Negada pelo líder,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+16b4543d-c7b8-45f2-adb1-4a6fc9407385,,Reembolso,62367,,,,,,,,O reembolso enviado à Cooperativa,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+8e0e1526-53f7-42d8-8f02-1a22ecf44019,,Despesa,1782345,2025-12-15,,,,Finalizado,,,Pagamento agendado - NF OK,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+c5574110-4ef5-4044-8f44-6e9ca6aff336,,Reembolso,3605,,,,,,,,O reembolso enviado à Cooperativa,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+de4fc884-130c-4b30-800c-be617a8199a1,,Reembolso,1193,,,,,,,,Reembolso enviado à cooperativa,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+84ee7019-3469-4ff8-b4af-b54691247530,,Reembolso,22452,,,,,,,,Reembolso enviado à Cooperativa,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+8aecb041-ce5b-4b4a-985e-8559c0640fd8,,Reembolso,352800,,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+92009091-d2e2-4e99-8c44-a254aaad7273,,Reembolso,69609,2025-12-02,,,,,,,"Fred, pode seguir com esse reembolso. Eu, Jéssika já sabia que teria eles, pois foi negociado entre a Gabi e o Luiz para visita no cliente em SP",,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+1ef7fdd5-d51a-4b19-b080-9b93c6d6c3e1,,Despesa,12583,2025-12-22,,,,Finalizado,,,Pagamento programado - NF OK,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+4e472308-2f4d-4183-af02-1845c4055d60,Pagamento Bar Botânico - GX2 Day - Confraternização SP: reserva+ alimentação + bebidas para 10 pessoas,Despesa,220000,2025-12-17,,,,Finalizado,,,Pagamento programado - NF pendente,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+dbae9102-fcf3-498f-81c0-6e0864a6858d,Impressões - GX2 Day POA - Menus e prismas - Pgto alinhado para hoje com a Jéssika via chat,Despesa,6000,2025-12-10,,,,Finalizado,,,NF OK,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+d526cf13-ca01-4af0-befd-0ceacc2aead7,,Reembolso,19836,2025-12-11,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+229baf9d-dd19-4378-93c5-196022b86257,Pagamento Almanque Bar-  GX2 Day - Confraternização BH: reserva+ alimentação + bebidas para 10 pessoas,Despesa,138000,2025-12-18,,,,Finalizado,,,Pagamento programado - NF OK,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+8543d606-e45c-44ac-bf98-7d530b268f58,Pagamento DJ - GX2 Day POA - Valor restante ,Despesa,100000,2025-12-19,,,,Finalizado,,,Pagamento programado - NF OK,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+e2593fe9-9474-4d44-9221-0c1146f22dc5,Pagamento - Benedetta Pizzas - GX2 Day POA - Pagamento final ,Despesa,117320,2025-12-18,,,,Finalizado,,,Pagamento programado - NF pendente,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+7ef401a6-009f-4065-9c4b-25c98b949868,Pagamento - Pagode do Dunker - GX2 Day POA - Valor final,Despesa,143000,2025-12-19,,,,Finalizado,,,Pagamento programado - NF OK,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+9c58ee68-612a-4611-a915-3969156d0709,Pagamento - Pagode do Dunker - GX2 Day POA - Equipamentos + Montagem,Despesa,25000,2025-12-19,,,,Finalizado,,,Pagamento programado - NF OK,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+846b4d4d-cb55-42e2-afe0-087535cbfea4,,Reembolso,34629,2025-12-18,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+bc6a8fc1-b59e-4a80-8481-dd42639cf459,,Reembolso,19289,2025-12-18,,,,,,,,"Favor antecipar o reembolso para essa semana, se possível.",,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+ee8440cf-7882-4ef8-969d-f44d50e78f4b,,Reembolso,20106,2025-12-18,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+9a1c0e1e-8c93-4dab-9af7-7ebe6d2ed786,,Reembolso,57642,2025-12-17,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+c2020f19-e9e0-46db-a93b-671e99a799c4,,Reembolso,7092,2025-11-25,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+f5a9da29-6236-4f51-bacc-c284baaf8b91,Coffe Breaks | Kickoff 2026 [ENTRADA],Despesa,98200,2026-01-05,,,,Finalizado,,,Pagamento programado - NF pendente,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+fa69a82e-5036-44ff-92af-b93256d92b1e,Barlô | Coffe Breaks | Kickoff  [FINAL],Despesa,98200,2026-01-09,,,,Finalizado,,,Pagamento programado - NF pendente,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+72b1fd9b-58d2-448b-8aec-fda655cb9b75,Impressões Kick off,Despesa,9300,2025-12-25,,,,Finalizado,,,Programado para pagamento - NF pendente,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+132b90b2-be75-4fc2-b145-078ebbf1b650,,Reembolso,55446,2025-12-19,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+b1cff36c-bf4b-4994-9f36-c7454be7882a,,Reembolso,101090,2025-12-21,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+1bcca2e7-a819-4ac2-bf19-068fcaefa194,,Reembolso,16237,2025-12-23,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+1a7e39d4-dbae-4cdf-a5b8-e30cb29bc520,Mimo - Carol (people partner) - Envio para acolhida da colaboradora em momento delicado,Despesa,9998,2026-01-07,,,,Finalizado,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+bedbe921-59cb-4834-8397-f450ede843f9,Compra mimo para colaborador William B. que perdeu a mãe no início da semana,Despesa,12500,2026-01-07,,,,Finalizado,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+9e309dc2-6332-4f13-8961-d965661b1760,,Despesa,452400,2026-01-13,,,,Finalizado,,,NF OK - Pagamento programado para 13/01/2026,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+97970ebd-a71c-4b6d-8e14-8fa7be58e89a,Kickoff 2026,Reembolso,19250,2026-01-09,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+31d0ec5d-f9cd-4c93-b20f-d10aa125dcd3,,Reembolso,69254,2026-01-09,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+655c9437-a132-4ae0-9912-c4be212f9ff2,,Reembolso,75495,2026-01-09,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+95f69bc8-483b-4fdb-b7fd-e915bfa1ca1f,,Reembolso,28671,2026-01-09,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+851122cf-9b33-4275-9575-5910283bf00a,,Reembolso,4900,2026-01-09,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+4e9be258-4803-4968-96d7-85b8abab95b5,Compra mimo colaborador - Alan Assis por falecimento de familiar no dia 24/12,Despesa,10980,2026-01-14,,,,Finalizado,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+9824e7d2-08a7-4d54-be6a-cec0eeea3931,,Reembolso,5596,2026-01-09,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+8daadbd0-8992-41ea-9065-8d282b0b1469,,Reembolso,36707,2026-01-09,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+52ef86e2-34ae-4e2b-b303-f885cc087bf8,,Reembolso,15971,2026-01-09,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+c2d2a80c-2d06-4cf3-83aa-1020b215166f,Compra Mimo colaborador - Presente casamento Victoria Becker ,Despesa,14630,2026-01-24,,,,Finalizado,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+863189f2-b18f-43ed-a25f-d15a3fbf485e,,Reembolso,54730,2026-02-02,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+42ae6ca0-cfb2-4e8f-bf03-a6e07ef89f93,Compra itens - Kit Onboarding - Lukka Brindes - compra moleskine+ caneta + ecobag ,Despesa,248350,2026-02-18,,,,Finalizado,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+4e16bb11-cb1b-40ef-96f3-47937f2c5fb0,Compra itens - Kit Onboarding - Lukka Brindes - compra moleskine+ caneta + ecobag [parte 2],Despesa,248350,2026-03-19,,,,Finalizado,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+55dcf14b-753e-494d-8a9d-36e8161748d3,Compra itens - Kit Onboarding - NH Brindes - compra Canecas + squeeze [parte1],Despesa,127233,2026-03-05,,,,Finalizado,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+32be721b-be34-482c-a24e-1d7450f0ff00,Compra itens - Kit Onboarding - NH Brindes - compra Canecas + squeeze [parte 2],Despesa,127233,2026-04-04,,,,Em andamento,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+490191bd-2301-453f-99f6-5978cc9aacb3,Compra itens - Kit Onboarding - NH Brindes - compra Canecas + squeeze [parte 3],Despesa,127234,2026-05-04,,,,Em andamento,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+24e10a19-a547-421b-84e7-8c900a004fac,Compra mimo + entrega | Dia da Mulher 2026 (30 unidades),Despesa,60500,2026-02-11,,,,Pendente de NF,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+8489cf0a-a4b7-4bf6-bbd2-79e2644931d1,,Reembolso,3289,2026-02-04,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+f663816f-1709-45c8-9447-ffe71a6e3247,Compra mimo colaborador - Casa nova Alan Assis,Despesa,8018,2026-02-12,,,,Finalizado,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+06dbd96c-ea1d-4114-9376-b1735ae3df7d,,Reembolso,7798,2026-02-12,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+f15ff755-2055-4aef-b84c-bc4c155b296b,Compra Kit Onboarding - Reposição de estoque - camisetas,Despesa,272619,2026-02-23,,,,Finalizado,,,1ª parcela paga - aguardando aprovação da líder,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+c976b3e4-ce77-4ec2-87c3-7ea8706a86fa,Compra itens - Kit Onboarding - Reposição - camisetas - pt II,Despesa,272619,2026-03-23,,,,Finalizado,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+219fc8e5-57a6-496d-ab62-1710395c285d,Impressões | Dia da Mulher + Kit Onboading,Despesa,9800,2026-03-02,,,,Finalizado,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+dfc1afe4-de7b-44ff-a54a-cf3de7ed2691,Compra dia da Mulher | Envio USA - 2 colaboradoras,Despesa,3913,2026-02-25,,,,Pendente de NF,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+1cc433c5-342a-45ff-8afd-2e301cce4e9f,,Reembolso,23808,2026-02-17,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+823c45ec-0e0a-4fd8-b295-155444a2728c,,Reembolso,32469,2026-03-03,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+27ad64cc-57bc-4ff7-8636-7511e4a8d659,,Reembolso,30509,2026-03-04,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+33fc3429-8cf6-4720-8e29-b54fdde568fd,,Reembolso,39482,2026-03-04,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+3e6525d1-750e-4807-b0c6-6d424b42812a,,Despesa,356832,2026-03-11,,,,Negada pelo líder,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+f9623528-0435-4180-a0e8-c4d84290898a,Páscoa - compra mimo [final],Despesa,178416,2026-03-16,,,,Finalizado,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+b35d13e2-6cfa-4014-8773-84fed7db3e44,Páscoa - compra mimo [Entrada],Despesa,178416,2026-03-11,,,,Finalizado,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+1003d5df-308f-4c83-b9bf-f6783a92c57f,,Reembolso,27287,2026-01-13,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+bbafa1c0-405e-45e0-bab4-ee37c0fc665a,,Reembolso,52961,2026-03-06,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+c301fc40-03dc-4497-ba20-27b3832a4ba1,Compra páscoa - Embalagens para envio,Despesa,16858,2026-03-17,,,,Aprovada pelo líder,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+9da3c9a6-35e0-41d8-9fe3-200eb1dd9403,,Reembolso,3600,2026-03-10,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+cebc9acd-061c-4561-9530-4c9b18532b0a,,Reembolso,35500,2026-03-04,,,,,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00
+6299dc29-6e26-4bd9-9023-a362daee8639,Páscoa - Impressão cards - Click impresso,Despesa,5700,2026-03-20,,,,Aprovada pelo líder,,,,,,,,2026-03-31T23:40:33+00:00,2026-03-31T23:40:33+00:00

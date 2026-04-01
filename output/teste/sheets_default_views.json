@@ -1,0 +1,5849 @@
+[
+  {
+    "sheet_id": "986c0ffb-9192-4f9a-a99e-0e1763d71794",
+    "sheet_name": "Importar pessoas manualmente",
+    "system_name": "ajustes_de_sistema",
+    "default_view_id": "69af0ea5-e738-4c82-8f14-a4391ad0c174",
+    "records_count": 0,
+    "fields": [
+      {
+        "id": "f0baf2c8-2335-4451-867f-66d531efea99",
+        "name": "Nome",
+        "type": "String",
+        "system_name": "bases_compartilhadas_nome_nome_2cc6"
+      },
+      {
+        "id": "0afb1320-0dbf-428b-a02d-53e8a20518b1",
+        "name": "Time",
+        "type": "String",
+        "system_name": "bases_compartilhadas_time_time_a335"
+      },
+      {
+        "id": "eb822de2-2b6f-4995-a1c0-9945cc2ddeaf",
+        "name": "Email",
+        "type": "String",
+        "system_name": "bases_compartilhadas_email_email_2d5b"
+      },
+      {
+        "id": "dd7a9e86-c76a-43f0-b2e2-32e2ed09a1dc",
+        "name": "Criado na tabela pessoas?",
+        "type": "Select",
+        "system_name": "ajustes_de_sistema_importar_pessoas_manualmente_criado_na_tabela_pessoas_field"
+      },
+      {
+        "id": "5d81e377-b47f-457a-8fd6-08a3cb828ab9",
+        "name": "Nível de Acesso",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_nivel_de_acesso_nivel_de_acesso_24c5"
+      },
+      {
+        "id": "2e130e3a-5913-48f4-9974-2507948c8650",
+        "name": "Líder",
+        "type": "Link",
+        "system_name": "ajustes_de_sistema_importar_pessoas_manualmente_lider_field"
+      },
+      {
+        "id": "3bde87f1-6e94-4e98-97fd-2ff35ffe3e8c",
+        "name": "Time",
+        "type": "Link",
+        "system_name": "ajustes_de_sistema_importar_pessoas_manualmente_time_field"
+      }
+    ]
+  },
+  {
+    "sheet_id": "9b5e0ed3-72d4-485a-a1a2-230d719834e0",
+    "sheet_name": "Entrevistas",
+    "system_name": "ats_entrevistas_sheet",
+    "default_view_id": "c74c1b45-31d5-4f2e-98f8-de9618ea76ea",
+    "records_count": 0,
+    "fields": [
+      {
+        "id": "495ada7c-df4a-4259-bb6e-ef0bb5240e33",
+        "name": "Data Entrevista",
+        "type": "Date",
+        "system_name": "ats_entrevistas_data_entrevista_field"
+      },
+      {
+        "id": "2843c572-edf6-4baf-8071-73447fdd31d9",
+        "name": "Anotações",
+        "type": "Markdown",
+        "system_name": "ats_entrevistas_anotacoes_field"
+      },
+      {
+        "id": "8f3e03f1-fa7b-411d-8e73-1a36257157e3",
+        "name": "Classificação",
+        "type": "Select",
+        "system_name": "ats_entrevistas_classificacao_field"
+      },
+      {
+        "id": "fb268468-028b-49b6-bfaf-14c5e9ac6156",
+        "name": "Status",
+        "type": "Select",
+        "system_name": "ats_entrevistas_status_field"
+      },
+      {
+        "id": "f572ba9a-e9bb-45a2-a05c-f2330e45b333",
+        "name": "Aplicação",
+        "type": "Link",
+        "system_name": "ats_entrevistas_aplicacao_field"
+      },
+      {
+        "id": "a3701653-fe80-462f-9d8e-ffb15ff132af",
+        "name": "Entrevistador",
+        "type": "Link",
+        "system_name": "ats_entrevistas_entrevistador_field"
+      },
+      {
+        "id": "f73025e1-0490-4bcd-9301-03d8f16028f1",
+        "name": "Busca Candidato",
+        "type": "Lookup",
+        "system_name": "ats_entrevistas_busca_candidato_field"
+      },
+      {
+        "id": "fc7df165-9486-4258-b28e-780438c05dc2",
+        "name": "Vaga",
+        "type": "Lookup",
+        "system_name": "ats_entrevistas_vaga_field"
+      },
+      {
+        "id": "c923359e-c40b-4c34-83e6-6e1a024b0115",
+        "name": "Título",
+        "type": "Formula",
+        "system_name": "ats_entrevistas_titulo_field"
+      }
+    ]
+  },
+  {
+    "sheet_id": "e5eef223-aafb-4e32-825e-f6ee4f5aa038",
+    "sheet_name": "Indicações de Talentos",
+    "system_name": "ats_indicacoes_de_talentos_sheet",
+    "default_view_id": "c2b86067-e2e4-465e-b305-22033a8eae45",
+    "records_count": 0,
+    "fields": [
+      {
+        "id": "7547005a-4fda-422c-b370-72718187d007",
+        "name": "Nome Completo",
+        "type": "String",
+        "system_name": "ats_indicacoes_de_talentos_nome_completo_field"
+      },
+      {
+        "id": "b3759d66-8dcd-46b9-a294-b5afbd1a78a5",
+        "name": "Linkedin",
+        "type": "String",
+        "system_name": "ats_indicacoes_de_talentos_linkedin_field"
+      },
+      {
+        "id": "e862aadc-1c2e-417e-8107-e244a3a7ceed",
+        "name": "Celular",
+        "type": "String",
+        "system_name": "ats_indicacoes_de_talentos_celular_field"
+      },
+      {
+        "id": "e41ed72e-4271-41fc-9636-54f33ea0eb3b",
+        "name": "Comentários",
+        "type": "Markdown",
+        "system_name": "ats_indicacoes_de_talentos_comentarios_field"
+      },
+      {
+        "id": "7b48d3a7-fd35-467e-be56-81a461cbb0b7",
+        "name": "Localização",
+        "type": "String",
+        "system_name": "ats_indicacoes_de_talentos_localizacao_field"
+      },
+      {
+        "id": "6034e048-6edc-4bd4-8f2a-e094b96cf12c",
+        "name": "Anexo",
+        "type": "Attachment",
+        "system_name": "ats_indicacoes_de_talentos_anexo_field"
+      },
+      {
+        "id": "c7fb8c1b-9836-4124-9035-8b33907e541e",
+        "name": "Data de Indicação",
+        "type": "Date",
+        "system_name": "ats_indicacoes_de_talentos_data_de_indicacao_field"
+      },
+      {
+        "id": "2be8aa79-0354-4071-8178-8b52440159bc",
+        "name": "Vaga",
+        "type": "Link",
+        "system_name": "ats_indicacoes_de_talentos_vaga_field"
+      },
+      {
+        "id": "9f942f7e-89e7-41a8-a057-e9c30d158e89",
+        "name": "Quem Indicou",
+        "type": "Link",
+        "system_name": "ats_indicacoes_de_talentos_quem_indicou_field"
+      }
+    ]
+  },
+  {
+    "sheet_id": "c07222d1-5e78-4324-901a-fe819dfc4560",
+    "sheet_name": "🤝 Propostas",
+    "system_name": "ats_propostas_sheet",
+    "default_view_id": "7f214b3a-bdf9-4b8e-b3e3-bd5d1f9df5cd",
+    "records_count": 0,
+    "fields": [
+      {
+        "id": "fd8f969f-846b-4db0-b498-d2e47847132f",
+        "name": "Proposta Descrição",
+        "type": "Markdown",
+        "system_name": "ats_propostas_proposta_descricao_field"
+      },
+      {
+        "id": "b32be7d0-d8f7-4750-bc24-0a56bb7bc0cd",
+        "name": "Status",
+        "type": "Select",
+        "system_name": "ats_propostas_status_field"
+      },
+      {
+        "id": "b829193e-147c-44ea-98a6-a1adf9f08be9",
+        "name": "Anexo",
+        "type": "Attachment",
+        "system_name": "ats_propostas_anexo_field"
+      },
+      {
+        "id": "d0be68a3-cdbd-42d3-9c10-c85dc2d00524",
+        "name": "Comentários",
+        "type": "Markdown",
+        "system_name": "ats_propostas_comentarios_field"
+      },
+      {
+        "id": "751f5a6e-f715-4153-bdf9-d81a43625e35",
+        "name": "Aplicação",
+        "type": "Link",
+        "system_name": "ats_propostas_aplicacao_field"
+      },
+      {
+        "id": "db239659-4cc4-48b7-a29d-7528d30a99fd",
+        "name": "Gestor",
+        "type": "Link",
+        "system_name": "ats_propostas_gestor_field"
+      },
+      {
+        "id": "dc1a644e-3060-4783-a0b3-ea7ffd952402",
+        "name": "Pessoa Contratada",
+        "type": "Link",
+        "system_name": "ats_propostas_pessoa_contratada_field"
+      },
+      {
+        "id": "ece62b94-923a-4543-a774-2d6343ed19fc",
+        "name": "Lookup Candidato",
+        "type": "Lookup",
+        "system_name": "ats_propostas_lookup_candidato_field"
+      },
+      {
+        "id": "b5c94170-c67e-42c8-a581-dd6bbf03382a",
+        "name": "Vaga",
+        "type": "Lookup",
+        "system_name": "ats_propostas_vaga_field"
+      },
+      {
+        "id": "546e2559-9d99-45d7-9502-029ab7ee19d8",
+        "name": "Título Proposta",
+        "type": "Formula",
+        "system_name": "ats_propostas_titulo_proposta_field"
+      }
+    ]
+  },
+  {
+    "sheet_id": "6e7f6662-8bcb-4dd0-87c8-27e25b86c14e",
+    "sheet_name": "Avaliações",
+    "system_name": "avaliacao_360_avaliacoes_sheet",
+    "default_view_id": "6505f35e-5210-45e8-a34d-a99493108c85",
+    "records_count": 2,
+    "fields": [
+      {
+        "id": "68d5ce92-1c4b-4401-974b-f546d51f7968",
+        "name": "Status",
+        "type": "Select",
+        "system_name": "avaliacao_360_avaliacoes_status_field"
+      },
+      {
+        "id": "86bba76b-029c-4345-8cda-aad2218bef74",
+        "name": "Finalizada em",
+        "type": "Date",
+        "system_name": "avaliacao_360_avaliacoes_finalizada_em_field"
+      },
+      {
+        "id": "cd22dbc9-5889-4c75-8c44-b9c4a2d69c68",
+        "name": "Última atualização",
+        "type": "DateTime",
+        "system_name": "avaliacao_360_avaliacoes_ultima_atualizacao_field"
+      },
+      {
+        "id": "570d3ba4-7349-42db-9502-dc8b846c0379",
+        "name": "Status da alocação",
+        "type": "Select",
+        "system_name": "workspace_avaliacoes_status_da_alocacao_field"
+      },
+      {
+        "id": "52a1c3cf-91fa-469f-9b3c-036584e23e91",
+        "name": "De",
+        "type": "Link",
+        "system_name": "avaliacao_360_avaliacoes_de_field"
+      },
+      {
+        "id": "3bb58534-fe2a-44c0-920c-36d7f9acdb64",
+        "name": "Para",
+        "type": "Link",
+        "system_name": "avaliacao_360_avaliacoes_para_field"
+      },
+      {
+        "id": "81e0af24-cd3c-4af5-b8c4-ab1c565d7788",
+        "name": "Tipo",
+        "type": "Link",
+        "system_name": "workspace_avaliacoes_tipo_field"
+      },
+      {
+        "id": "fd79bcce-20ee-422b-8e86-81f1f71409d1",
+        "name": "Título",
+        "type": "String",
+        "system_name": "avaliacao_360_avaliacoes_titulo_field"
+      },
+      {
+        "id": "688e9793-49c5-4e8c-b8ab-735090a61a3c",
+        "name": "Relatório",
+        "type": "Link",
+        "system_name": "avaliacao_360_avaliacoes_conexoes_reversas_relatorio_avaliacoes_field"
+      },
+      {
+        "id": "5a605ac3-426f-45aa-b191-bdee94b6f59e",
+        "name": "Respostas",
+        "type": "Link",
+        "system_name": "avaliacao_360_avaliacoes_conexoes_reversas_respostas_avaliacao_field"
+      },
+      {
+        "id": "dd158ba2-f995-40d6-8fe4-f4aab89b9820",
+        "name": "Ciclos de AvD (Avaliações)",
+        "type": "Link",
+        "system_name": "avd_basica_avaliacoes_conexoes_reversas_ciclos_de_avd_avaliacoes_field"
+      },
+      {
+        "id": "97d62446-c191-48d5-bf14-b895675e84b5",
+        "name": "Soma dos pesos do eixo X",
+        "type": "Number",
+        "system_name": "avd_basica_avaliacoes_soma_dos_pesos_do_eixo_x_field"
+      },
+      {
+        "id": "3106bfda-0f74-4172-9aca-aa4763640d57",
+        "name": "Média X",
+        "type": "Number",
+        "system_name": "avaliacao_360_avaliacoes_medias_media_cultura_field"
+      },
+      {
+        "id": "cf8a8536-ad1a-4948-b802-75618339e9fb",
+        "name": "Peso da Avaliação",
+        "type": "Number",
+        "system_name": "avd_essencial_avaliacoes_peso_da_avaliacao_field"
+      },
+      {
+        "id": "439634bc-d83f-4aa4-b534-f661481c6b0f",
+        "name": "Média X vezes peso do tipo",
+        "type": "Number",
+        "system_name": "avd_basica_avaliacoes_media_x_vezes_peso_do_tipo_field"
+      },
+      {
+        "id": "a6cc4c30-de15-4fa7-9190-466d97141296",
+        "name": "Entra na média?",
+        "type": "Select",
+        "system_name": "avd_essencial_avaliacoes_entra_na_media_field"
+      },
+      {
+        "id": "a813da11-7b25-4963-bb34-f93dc14bf636",
+        "name": "É pares ou liderado?",
+        "type": "Select",
+        "system_name": "avd_essencial_avaliacoes_e_pares_ou_liderado_field"
+      },
+      {
+        "id": "1ac36a07-1206-49ea-b450-10de17568f4f",
+        "name": "Soma dos pesos do eixo Y",
+        "type": "Number",
+        "system_name": "avd_basica_avaliacoes_soma_dos_pesos_do_eixo_y_field"
+      },
+      {
+        "id": "66166022-ad71-4d10-824b-5372d6e52afd",
+        "name": "Média Y",
+        "type": "Number",
+        "system_name": "avaliacao_360_avaliacoes_medias_media_performance_field"
+      },
+      {
+        "id": "8fe47e06-bf53-4785-9852-030684570aa3",
+        "name": "Média Y vezes peso do tipo",
+        "type": "Number",
+        "system_name": "avd_basica_avaliacoes_media_y_vezes_peso_do_tipo_field"
+      },
+      {
+        "id": "426c62e4-35f9-44d1-a8b9-a280436b040f",
+        "name": "Média",
+        "type": "Number",
+        "system_name": "avd_essencial_avaliacoes_medias_media_field"
+      },
+      {
+        "id": "e107b3d6-6dc4-487a-842b-7ed7571302cf",
+        "name": "Configuração de AvD",
+        "type": "Link",
+        "system_name": "avaliacao_360_avaliacoes_ciclo_field"
+      },
+      {
+        "id": "803e6858-c3cd-466e-9d83-f92986ea6fd9",
+        "name": "Imagem",
+        "type": "CoverImage",
+        "system_name": "avaliacao_360_avaliacoes_imagem_field"
+      },
+      {
+        "id": "27ee0123-5e32-4a53-bd0e-92a2842cca2e",
+        "name": "Prazo",
+        "type": "Date",
+        "system_name": "avaliacao_360_avaliacoes_prazo_field"
+      },
+      {
+        "id": "bd665ca6-1f41-4dee-8d92-21d479c9ef70",
+        "name": "Tipo de Avaliação",
+        "type": "Select",
+        "system_name": "avd_essencial_avaliacoes_tipo_de_avaliacao_field"
+      },
+      {
+        "id": "c3227310-deca-4fde-aade-f2d1e51183b8",
+        "name": "Status do Ciclo",
+        "type": "Select",
+        "system_name": "avd_basica_avaliacoes_status_do_ciclo_field"
+      },
+      {
+        "id": "8fd27950-1182-43eb-9906-74b5b643d46d",
+        "name": "Quem aloca?",
+        "type": "Select",
+        "system_name": "quem_aloca"
+      },
+      {
+        "id": "5d04762d-8473-4f4c-806c-8ea04e35a053",
+        "name": "Média Final vezes o peso do tipo",
+        "type": "Number",
+        "system_name": "avd_basica_avaliacoes_media_final_vezes_o_peso_do_tipo_field"
+      },
+      {
+        "id": "a8d012a7-9ec4-4249-aab1-222567fd01bb",
+        "name": "Comentários confidenciais?",
+        "type": "Select",
+        "system_name": "avd_essencial_avaliacoes_comentarios_confidenciais_field"
+      }
+    ]
+  },
+  {
+    "sheet_id": "893bced6-698d-451b-976a-72d0178073d7",
+    "sheet_name": "Configuração de AvD",
+    "system_name": "avaliacao_360_ciclo_sheet",
+    "default_view_id": "a9adbb82-ca98-4f2c-b72a-dfdcd733ef18",
+    "records_count": 1,
+    "fields": [
+      {
+        "id": "b82a2f89-1d09-4194-8310-bcd0bdbf66a3",
+        "name": "Nome",
+        "type": "String",
+        "system_name": "avaliacao_360_ciclo_nome_field"
+      },
+      {
+        "id": "5df6fe19-f8ef-4f27-ab10-6973b393a539",
+        "name": "Tem 9-Box?",
+        "type": "Select",
+        "system_name": "avd_essencial_configuracao_de_avd_tem_9_box_field"
+      },
+      {
+        "id": "b60a37f1-41a5-4495-a988-cc0585a6a53d",
+        "name": "Configuração de AvD concluída?",
+        "type": "Select",
+        "system_name": "avd_essencial_configuracao_de_avd_configuracao_de_avd_concluida_field"
+      },
+      {
+        "id": "91118c97-e5c8-48f6-bbc7-c2a63c5df410",
+        "name": "Deseja exibir respostas anteriores à pergunta na avaliação do líder?",
+        "type": "Select",
+        "system_name": "deseja_exibir_respostas_anteriores_a_pergunta_na_avaliacao_do_lider"
+      },
+      {
+        "id": "fe8d3220-1a25-4607-9cce-1e948ffeb274",
+        "name": "Deseja enviar uma mensagem automática para que as avaliações sejam respondidas conforme são criadas?",
+        "type": "Select",
+        "system_name": "avd_essencial_configuracao_de_avd_deseja_enviar_uma_mensagem_automatica_para_que_as_avaliacoes_sejam_respondidas_conforme_sao_criadas_field"
+      },
+      {
+        "id": "fdd8007b-e889-415b-9f6c-6dbe0d15261b",
+        "name": "Deseja mostrar os comentários no relatório final do colaborador de maneira confidencial?",
+        "type": "Select",
+        "system_name": "avd_essencial_configuracao_de_avd_deseja_mostrar_os_comentarios_no_relatorio_final_do_colaborador_de_maneira_confidencial_field"
+      },
+      {
+        "id": "37630943-da1d-40a7-bc10-fd3148a54442",
+        "name": "Meses mínimos para participar",
+        "type": "Number",
+        "system_name": "avd_essencial_configuracao_de_avd_meses_minimos_para_participar_field"
+      },
+      {
+        "id": "9b15444d-5182-4d23-a55b-43088c2beb0b",
+        "name": "Realizou o ciclo teste?",
+        "type": "Select",
+        "system_name": "avd_basica_configuracao_de_avd_realizou_o_ciclo_teste_field"
+      },
+      {
+        "id": "5a239592-61a1-4f6b-8155-20e7b54bebcc",
+        "name": "Deseja enviar lembretes diários para avaliações não finalizadas?",
+        "type": "Select",
+        "system_name": "avd_basica_configuracao_de_avd_deseja_enviar_lembretes_diarios_para_avaliacoes_nao_finalizadas_field"
+      },
+      {
+        "id": "e838d450-13ce-433c-984a-14a845a766d2",
+        "name": "Relatório (Configuração de AvD)",
+        "type": "Link",
+        "system_name": "avd_basica_configuracao_de_avd_conexoes_reversas_relatorio_configuracao_de_avd_field"
+      },
+      {
+        "id": "98bfa4c7-253f-4387-9e7a-ddef21b8034b",
+        "name": "Tipos de Avaliação (Ciclo)",
+        "type": "Link",
+        "system_name": "workspace_ciclo_conexoes_reversas_tipos_de_avaliacao_ciclo_field"
+      },
+      {
+        "id": "e73d456f-7af3-4ecc-86a9-028972190a3b",
+        "name": "Avaliações (Configuração de AvD)",
+        "type": "Link",
+        "system_name": "avd_basica_configuracao_de_avd_conexoes_reversas_avaliacoes_configuracao_de_avd_field"
+      },
+      {
+        "id": "8251ea26-4f0b-471d-b37a-1d52b682c5fc",
+        "name": "Ciclos de AvD (Configuração de AvD)",
+        "type": "Link",
+        "system_name": "avd_basica_configuracao_de_avd_conexoes_reversas_ciclos_de_avd_configuracao_de_avd_field"
+      },
+      {
+        "id": "dc3bcb4d-ae81-4663-8e4a-289cac4e79f2",
+        "name": "Participante do ciclo teste",
+        "type": "Link",
+        "system_name": "avd_essencial_configuracao_de_avd_conexoes_reversas_participante_do_ciclo_teste_field"
+      },
+      {
+        "id": "0b37878e-298c-4120-95aa-80c8b548e315",
+        "name": "Escalas (Ciclo)",
+        "type": "Link",
+        "system_name": "workspace_ciclo_conexoes_reversas_escalas_ciclo_field"
+      },
+      {
+        "id": "bd1b1adf-5ce8-4b74-83a8-69d316cddb58",
+        "name": "Temas (Ciclo)",
+        "type": "Link",
+        "system_name": "workspace_ciclo_conexoes_reversas_temas_ciclo_field"
+      },
+      {
+        "id": "a458c387-f3aa-48d4-8fbd-92308fd5faaa",
+        "name": "Perguntas",
+        "type": "Link",
+        "system_name": "avaliacao_360_ciclo_perguntas_field"
+      }
+    ]
+  },
+  {
+    "sheet_id": "924a7af6-66f1-4e02-bea4-1fe64c4f8c01",
+    "sheet_name": "Escalas",
+    "system_name": "avaliacao_360_escalas_sheet",
+    "default_view_id": "2aa062d2-0b72-4885-ad15-f75d2d8aeddc",
+    "records_count": 1,
+    "fields": [
+      {
+        "id": "034106ef-0993-4ed1-b8c5-1b797b3f2ae1",
+        "name": "Nome",
+        "type": "String",
+        "system_name": "avaliacao_360_escalas_nome_field"
+      },
+      {
+        "id": "96e32a30-234d-4598-9f7b-080c70abb758",
+        "name": "Opções de resposta",
+        "type": "Link",
+        "system_name": "avaliacao_360_escalas_opcoes_de_resposta_field"
+      },
+      {
+        "id": "a8b8c51f-2c48-4dff-be75-f43875aa6d81",
+        "name": "Perguntas",
+        "type": "Link",
+        "system_name": "avaliacao_360_escalas_perguntas_field"
+      },
+      {
+        "id": "7628edd5-ac30-4fa5-a569-e283ae07c9e8",
+        "name": "Configuração de AvD",
+        "type": "Link",
+        "system_name": "avd_essencial_escalas_conexoes_reversas_configuracao_de_avd_field"
+      }
+    ]
+  },
+  {
+    "sheet_id": "1c16db43-5482-46a9-bad7-ea6caac2a7df",
+    "sheet_name": "Opções de resposta",
+    "system_name": "avaliacao_360_opcoes_de_resposta_sheet",
+    "default_view_id": "a6ad05b3-8a91-4261-b522-050b29b3797b",
+    "records_count": 5,
+    "fields": [
+      {
+        "id": "4ce8995d-df0a-4b8e-b8ff-2c698e749a1e",
+        "name": "Cor",
+        "type": "Select",
+        "system_name": "avaliacao_360_opcoes_de_resposta_cor_field"
+      },
+      {
+        "id": "691f2d99-964b-4a53-aafb-ce9ace9169e3",
+        "name": "Nome",
+        "type": "String",
+        "system_name": "avaliacao_360_opcoes_de_resposta_nome_field"
+      },
+      {
+        "id": "de8cca8a-f255-439a-bbdd-b7e7af68cff1",
+        "name": "Valor",
+        "type": "Number",
+        "system_name": "avaliacao_360_opcoes_de_resposta_valor_field"
+      },
+      {
+        "id": "665e0d0f-6d7d-413c-9e46-310ec46b75d9",
+        "name": "Resposta única",
+        "type": "Link",
+        "system_name": "avaliacao_360_opcoes_de_resposta_conexoes_reversas_respostas_resposta_field"
+      },
+      {
+        "id": "a4c3e1ca-85ee-4bab-a436-553e5305ca7a",
+        "name": "Resposta múltipla",
+        "type": "Link",
+        "system_name": "avaliacao_360_opcoes_de_resposta_conexoes_reversas_respostas_resposta_multipla_field"
+      },
+      {
+        "id": "d8580773-aacd-4593-af0b-7bc9251d4512",
+        "name": "Escala",
+        "type": "Link",
+        "system_name": "avaliacao_360_opcoes_de_resposta_conexoes_reversas_escalas_opcoes_de_resposta_field"
+      }
+    ]
+  },
+  {
+    "sheet_id": "69548a93-7d4a-44cb-bb98-72cc0a22869e",
+    "sheet_name": "Perguntas",
+    "system_name": "avaliacao_360_perguntas_sheet",
+    "default_view_id": "50fd9720-bc19-4224-8d74-76e8f6ad7354",
+    "records_count": 2,
+    "fields": [
+      {
+        "id": "5fd0ebcb-993e-4880-9462-a89b5c171bef",
+        "name": "Nome",
+        "type": "String",
+        "system_name": "avaliacao_360_perguntas_nome_field"
+      },
+      {
+        "id": "d4909887-d09b-434c-9c0a-3f7d98001ce4",
+        "name": "Descrição",
+        "type": "Markdown",
+        "system_name": "avaliacao_360_perguntas_descricao_field"
+      },
+      {
+        "id": "357eebbe-98ac-4e30-b3a8-a5369db028ed",
+        "name": "Tipo",
+        "type": "Select",
+        "system_name": "avaliacao_360_perguntas_tipo_field"
+      },
+      {
+        "id": "13ea2f23-46ef-4ea9-a325-e2e77885a098",
+        "name": "Respostas",
+        "type": "Link",
+        "system_name": "avaliacao_360_perguntas_respostas_field"
+      },
+      {
+        "id": "aee7f8d0-756e-402a-9e22-3208fac8778b",
+        "name": "Tema",
+        "type": "Link",
+        "system_name": "workspace_perguntas_tema_field"
+      },
+      {
+        "id": "dba8fe51-43d4-49ee-8acd-43d95ced373b",
+        "name": "Tipos de Avaliação (Perguntas)",
+        "type": "Link",
+        "system_name": "workspace_perguntas_conexoes_reversas_tipos_de_avaliacao_perguntas_field"
+      },
+      {
+        "id": "3d1fafc4-d8d2-46b2-8514-9bc560bcfe60",
+        "name": "Escala",
+        "type": "Link",
+        "system_name": "avaliacao_360_perguntas_escala_field"
+      },
+      {
+        "id": "c46fec4e-0954-443e-bed3-ce3085643cd9",
+        "name": "Configuração de Avd",
+        "type": "Link",
+        "system_name": "avaliacao_360_perguntas_ciclo_field"
+      }
+    ]
+  },
+  {
+    "sheet_id": "8ecebbdc-7768-4d10-8b8b-57e9a97c4145",
+    "sheet_name": "Relatório",
+    "system_name": "avaliacao_360_relatorio_sheet",
+    "default_view_id": "6d9a6aee-7132-4221-9331-d1f7ad7c8fc7",
+    "records_count": 2,
+    "fields": [
+      {
+        "id": "6110fb4f-f75b-4278-90d1-39f0c6ac7468",
+        "name": "Status",
+        "type": "Select",
+        "system_name": "avaliacao_360_relatorio_status_field"
+      },
+      {
+        "id": "d3c9cc15-c070-407d-8356-170e762a83ff",
+        "name": "Recomendação",
+        "type": "Select",
+        "system_name": "avaliacao_360_relatorio_calibragem_recomendacao_field"
+      },
+      {
+        "id": "a7f1f9cb-5bea-42ae-9d1c-b47b37030f5b",
+        "name": "Comentários gerais do painel",
+        "type": "Markdown",
+        "system_name": "avaliacao_360_relatorio_comentarios_gerais_do_painel_field"
+      },
+      {
+        "id": "6a9b187b-6a8a-4496-853d-bb3550852316",
+        "name": "Pessoa",
+        "type": "Link",
+        "system_name": "avaliacao_360_relatorio_pessoa_field"
+      },
+      {
+        "id": "75febfc5-e7ba-4de3-8c08-9fad238fa476",
+        "name": "Configuração de AvD",
+        "type": "Link",
+        "system_name": "avaliacao_360_relatorio_ciclo_field"
+      },
+      {
+        "id": "41a735ea-043e-46c8-97b3-6adb491ceb94",
+        "name": "Título",
+        "type": "String",
+        "system_name": "novo_avd_relatorio_titulo_field"
+      },
+      {
+        "id": "4fc35ab4-2030-47e8-aa6d-9960c3669f32",
+        "name": "Líder responsável",
+        "type": "Link",
+        "system_name": "avaliacao_360_relatorio_lider_responsavel_field"
+      },
+      {
+        "id": "f08df90c-b45d-4268-ba04-6f7cee255423",
+        "name": "Imagem da Pessoa",
+        "type": "CoverImage",
+        "system_name": "avaliacao_360_relatorio_imagem_da_pessoa_field"
+      },
+      {
+        "id": "071ad042-a9f3-4b7a-b87f-731f4fb999e1",
+        "name": "Avaliações",
+        "type": "Link",
+        "system_name": "avaliacao_360_relatorio_avaliacoes_field"
+      },
+      {
+        "id": "a4832dde-db95-4c86-89f6-46b903a00e33",
+        "name": "Ciclo tem avaliação de pares?",
+        "type": "Select",
+        "system_name": "ciclo_tem_avaliacao_de_pares"
+      },
+      {
+        "id": "e0cf99c0-3196-4413-aea8-22777a2033c1",
+        "name": "Ciclo tem avaliação de liderados?",
+        "type": "Select",
+        "system_name": "ciclo_tem_avaliacao_de_liderados"
+      },
+      {
+        "id": "39ae0238-693d-4d7e-8982-e6eaf1471a77",
+        "name": "Média X Pares",
+        "type": "Number",
+        "system_name": "avd_essencial_relatorio_media_x_pares_field"
+      },
+      {
+        "id": "a76920c5-51a8-4770-9913-9c4be088e31f",
+        "name": "Média X Liderado - Líder",
+        "type": "Number",
+        "system_name": "avd_essencial_relatorio_media_x_liderado_lider_field"
+      },
+      {
+        "id": "2958fbd6-7bf5-48dd-8dc1-c5e2b2bfd8f4",
+        "name": "Ciclos de AvD (Relatórios)",
+        "type": "Link",
+        "system_name": "avd_basica_relatorio_conexoes_reversas_ciclos_de_avd_relatorios_field"
+      },
+      {
+        "id": "dfa48347-d746-423f-ab90-dfa980a0da33",
+        "name": "Soma dos pesos das avaliações",
+        "type": "Number",
+        "system_name": "avd_basica_relatorio_soma_dos_pesos_das_avaliacoes_field"
+      },
+      {
+        "id": "ccee3971-a210-41c3-afa7-5ca6122ec961",
+        "name": "X Média - Final",
+        "type": "Number",
+        "system_name": "avd_essencial_relatorio_x_media_final_field"
+      },
+      {
+        "id": "a86bcdac-6fc8-4931-b253-1baf88bad639",
+        "name": "Média Y Pares",
+        "type": "Number",
+        "system_name": "avd_essencial_relatorio_media_y_pares_field"
+      },
+      {
+        "id": "f1220341-5dfb-4b05-aeed-5e60dd0a70ea",
+        "name": "Média Y Liderado - Líder",
+        "type": "Number",
+        "system_name": "avd_essencial_relatorio_media_y_liderado_lider_field"
+      },
+      {
+        "id": "d59c0648-76c3-42eb-a193-aa61ec485d62",
+        "name": "Y Média - Final",
+        "type": "Number",
+        "system_name": "avd_essencial_relatorio_y_media_final_field"
+      },
+      {
+        "id": "754271f3-78ac-41d1-8b36-5f239ac82ba5",
+        "name": "Time",
+        "type": "Lookup",
+        "system_name": "avaliacao_360_relatorio_time_field"
+      },
+      {
+        "id": "7dbdab7a-7f1f-48d9-8a95-2c91fe4e18ee",
+        "name": "Tem 9 - Box?",
+        "type": "Select",
+        "system_name": "avd_essencial_relatorio_tem_9_box_field"
+      },
+      {
+        "id": "c71cad92-1d2d-4a3a-9ce9-d1c956649767",
+        "name": "Indicador de par",
+        "type": "Link",
+        "system_name": "workspace_relatorio_indicador_de_par_field"
+      },
+      {
+        "id": "0e4db3b6-140c-48c3-9a38-e0beab6ed1b3",
+        "name": "# pares não alocados",
+        "type": "Number",
+        "system_name": "workspace_relatorio_pares_nao_alocados_field"
+      },
+      {
+        "id": "bbd16a43-10d7-4db3-a113-0deb24d99f6d",
+        "name": "Média Pares",
+        "type": "Number",
+        "system_name": "avd_essencial_relatorio_media_pares_field"
+      },
+      {
+        "id": "47a4e0c9-55d8-419d-82c5-923e929b6d2f",
+        "name": "Média Liderado - Líder",
+        "type": "Number",
+        "system_name": "avd_essencial_relatorio_media_liderado_lider_field"
+      },
+      {
+        "id": "0df85fab-5ba6-44d5-8b0e-6bb980ca3184",
+        "name": "Média Final Total",
+        "type": "Number",
+        "system_name": "avd_essencial_relatorio_media_final_total_field"
+      },
+      {
+        "id": "181eb7e1-177d-44ac-8e43-4b332c01138b",
+        "name": "Avaliações realizadas",
+        "type": "Number",
+        "system_name": "avaliacao_360_relatorio_avaliacoes_realizadas_field"
+      },
+      {
+        "id": "54c43ab6-4e00-485b-81ec-1d0ad51676e3",
+        "name": "Avaliações recebidas",
+        "type": "Number",
+        "system_name": "avaliacao_360_relatorio_avaliacoes_recebidas_field"
+      }
+    ]
+  },
+  {
+    "sheet_id": "ad576b53-5753-4688-a80f-b60946f9055f",
+    "sheet_name": "Respostas",
+    "system_name": "avaliacao_360_respostas_sheet",
+    "default_view_id": "65b029ca-f7b9-490c-a167-fb3d43855a66",
+    "records_count": 4,
+    "fields": [
+      {
+        "id": "98065d86-cde0-41c9-9d9d-42614f6d42fb",
+        "name": "Justificativa",
+        "type": "Markdown",
+        "system_name": "avaliacao_360_respostas_respostas_justificativa_field"
+      },
+      {
+        "id": "7cd012c5-9416-42a6-af87-43ff922142fb",
+        "name": "Pergunta",
+        "type": "Link",
+        "system_name": "avaliacao_360_respostas_pergunta_field"
+      },
+      {
+        "id": "dda10b55-0bc2-42de-8092-316d1f0000b6",
+        "name": "Avaliação",
+        "type": "Link",
+        "system_name": "avaliacao_360_respostas_avaliacao_field"
+      },
+      {
+        "id": "136fe75b-4928-451f-8f4d-7387cb74ad25",
+        "name": "Considerada para eixos?",
+        "type": "String",
+        "system_name": "avd_essencial_respostas_considerada_para_eixos_field"
+      },
+      {
+        "id": "7b0b8f9b-ff55-466e-9c08-a1944350b393",
+        "name": "Tema",
+        "type": "Link",
+        "system_name": "workspace_respostas_tema_field"
+      },
+      {
+        "id": "4fc1d10e-ad5a-44c8-951e-70fefa2748f6",
+        "name": "Peso do Tema",
+        "type": "Number",
+        "system_name": "avd_essencial_respostas_peso_do_tema_field"
+      },
+      {
+        "id": "4a263824-86aa-4090-b8c7-be5d07dc6739",
+        "name": "Resposta Única",
+        "type": "Link",
+        "system_name": "avaliacao_360_respostas_respostas_resposta_unica_field"
+      },
+      {
+        "id": "9cec4f59-3e38-44fa-bda3-960d59100d9c",
+        "name": "Valor",
+        "type": "Number",
+        "system_name": "avaliacao_360_respostas_valor_nota_x_peso_field"
+      },
+      {
+        "id": "bfcd8711-3655-4cbe-b0d7-86373a54b0a4",
+        "name": "Valor Final",
+        "type": "Number",
+        "system_name": "avd_essencial_respostas_valor_final_field"
+      },
+      {
+        "id": "a52764ce-6195-4282-b135-57893b189717",
+        "name": "# perguntas do tema",
+        "type": "Number",
+        "system_name": "avd_basica_respostas_perguntas_do_tema_field"
+      },
+      {
+        "id": "bdc36bd1-17b1-44e5-a000-af79b3847d01",
+        "name": "valor final dividido pela # de perguntas do tema",
+        "type": "Number",
+        "system_name": "avd_basica_respostas_valor_final_dividido_pela_de_perguntas_do_tema_field"
+      },
+      {
+        "id": "eacc6230-1673-4662-82c5-ffc01c458675",
+        "name": "Pergunta (Texto)",
+        "type": "Markdown",
+        "system_name": "avaliacao_360_respostas_pergunta_texto_field"
+      },
+      {
+        "id": "a545fc8e-3f0e-4a3b-bf4e-74f266cbf5a5",
+        "name": "Título da Pergunta",
+        "type": "Markdown",
+        "system_name": "avaliacao_360_respostas_titulo_da_pergunta_field"
+      },
+      {
+        "id": "a06c7887-ef2f-4548-bcf1-97310a4389f4",
+        "name": "Resposta Múltipla",
+        "type": "Link",
+        "system_name": "avaliacao_360_respostas_respostas_resposta_multipla_field"
+      },
+      {
+        "id": "3fbe80d5-0986-47b1-90c2-91f87be06300",
+        "name": "Respostas anteriores da pessoa para essa pergunta",
+        "type": "Link",
+        "system_name": "avaliacao_360_respostas_respostas_anteriores_da_pessoa_para_essa_pergunta_field"
+      },
+      {
+        "id": "d48670cd-3881-4d6b-be88-1e373a807a13",
+        "name": "De",
+        "type": "Link",
+        "system_name": "avaliacao_360_respostas_de_field"
+      },
+      {
+        "id": "72a07aad-f078-4ce1-9cc3-233133fb4167",
+        "name": "Ordem do Tema",
+        "type": "Number",
+        "system_name": "workspace_respostas_ordem_do_tema_field"
+      },
+      {
+        "id": "e731a192-0f98-4852-b788-3ae290677929",
+        "name": "Tipo de Avaliação",
+        "type": "Select",
+        "system_name": "workspace_respostas_tipo_de_avaliacao_field"
+      },
+      {
+        "id": "c0451006-55da-4746-9ec7-61ca92d94d38",
+        "name": "Exibir respostas anteriores?",
+        "type": "Select",
+        "system_name": "workspace_respostas_exibir_respostas_anteriores_field"
+      },
+      {
+        "id": "4972881c-9be5-4bec-bf0e-8c75be6039be",
+        "name": "Tipo de pergunta",
+        "type": "Select",
+        "system_name": "avaliacao_360_respostas_tipo_de_pergunta_field"
+      },
+      {
+        "id": "fe64015e-b2db-4e59-9b80-7b3506779943",
+        "name": "Escala",
+        "type": "Link",
+        "system_name": "avd_essencial_respostas_escala_field"
+      }
+    ]
+  },
+  {
+    "sheet_id": "f10e143e-0f5a-490f-94bb-c96cf92d5ee0",
+    "sheet_name": "Ciclos de AvD",
+    "system_name": "avd_basica_ciclos_de_avd_sheet",
+    "default_view_id": "1165821c-cfea-424f-9fee-43b1746d0339",
+    "records_count": 1,
+    "fields": [
+      {
+        "id": "4982cc38-8169-4004-adf8-f9a8f21a9d60",
+        "name": "Nome do Ciclo",
+        "type": "String",
+        "system_name": "avd_basica_ciclos_de_avd_nome_do_ciclo_field"
+      },
+      {
+        "id": "b627da51-1e70-4017-9dbb-e66aed03c6a5",
+        "name": "Prazo",
+        "type": "Date",
+        "system_name": "avd_basica_ciclos_de_avd_prazo_field"
+      },
+      {
+        "id": "97269045-8574-49b9-8fe9-4c0499175a68",
+        "name": "Status do Ciclo",
+        "type": "Select",
+        "system_name": "avd_basica_ciclos_de_avd_status_do_ciclo_field"
+      },
+      {
+        "id": "1c0f2f63-0a33-4922-ab31-fecd499d7b6e",
+        "name": "Ciclo Teste?",
+        "type": "Select",
+        "system_name": "avd_basica_ciclos_de_avd_ciclo_teste_field"
+      },
+      {
+        "id": "b8a92572-d237-44b6-9b13-7dd22651b3ae",
+        "name": "Andamento das Avaliações - Calculado",
+        "type": "Number",
+        "system_name": "avd_basica_ciclos_de_avd_andamento_das_avaliacoes_calculado_field"
+      },
+      {
+        "id": "23eae3fc-985f-4226-91a0-85ea308ff7fc",
+        "name": "Andamento das Calibrações - Calculado",
+        "type": "Number",
+        "system_name": "avd_basica_ciclos_de_avd_andamento_das_calibracoes_calculado_field"
+      },
+      {
+        "id": "d90897c4-9f81-49d0-978d-9e49a39bd6d2",
+        "name": "Avaliações",
+        "type": "Link",
+        "system_name": "avd_basica_ciclos_de_avd_avaliacoes_field"
+      },
+      {
+        "id": "3922122c-79c0-40fd-814d-26a8adf0527f",
+        "name": "Tipos de Avaliações",
+        "type": "Link",
+        "system_name": "avd_basica_ciclos_de_avd_tipos_de_avaliacoes_field"
+      },
+      {
+        "id": "b2ae7103-7fbb-4b1c-9c88-c476f7c5e3fd",
+        "name": "Temas desse ciclo",
+        "type": "Link",
+        "system_name": "avd_basica_ciclos_de_avd_temas_desse_ciclo_field"
+      },
+      {
+        "id": "bfec8c04-8ab8-44d5-bc88-22c85d59179c",
+        "name": "Soma dos pesos dos temas no eixo X",
+        "type": "Number",
+        "system_name": "avd_basica_ciclos_de_avd_soma_dos_pesos_dos_temas_no_eixo_x_field"
+      },
+      {
+        "id": "d9b4f40b-e9e2-41b8-b856-7d5aa2c9e294",
+        "name": "Relatórios",
+        "type": "Link",
+        "system_name": "avd_basica_ciclos_de_avd_relatorios_field"
+      },
+      {
+        "id": "b26eaafd-fe93-4c93-85ce-9e5139265576",
+        "name": "Soma dos pesos dos temas no eixo Y",
+        "type": "Number",
+        "system_name": "avd_basica_ciclos_de_avd_soma_dos_pesos_dos_temas_no_eixo_y_field"
+      },
+      {
+        "id": "5b7c02e5-aa0d-47a2-8293-38bf42a5d1bd",
+        "name": "Configuração de AvD",
+        "type": "Link",
+        "system_name": "avd_basica_ciclos_de_avd_configuracao_de_avd_field"
+      },
+      {
+        "id": "bd0f0467-7c26-40c1-971b-b14b2ef4b21d",
+        "name": "Resumo",
+        "type": "Markdown",
+        "system_name": "avd_basica_ciclos_de_avd_resumo_field"
+      },
+      {
+        "id": "3922c793-932d-40bf-b425-476fa8a9bc32",
+        "name": "EM ANDAMENTO - Tipos de Avaliação",
+        "type": "Link",
+        "system_name": "avd_basica_ciclos_de_avd_em_andamento_tipos_de_avaliacao_field"
+      }
+    ]
+  },
+  {
+    "sheet_id": "011c6939-3770-47dc-935a-49e46e2074fc",
+    "sheet_name": "Benefícios",
+    "system_name": "benefits",
+    "default_view_id": "e75cb6a7-774b-4034-9809-1b94268da09b",
+    "records_count": 13,
+    "fields": [
+      {
+        "id": "55cc7e98-78f6-4747-8e8f-45e024681ab5",
+        "name": "Título",
+        "type": "String",
+        "system_name": "benefits_title"
+      },
+      {
+        "id": "3ed259ea-3a49-47d5-ad1c-cf6c5d72f418",
+        "name": "Recorrência",
+        "type": "Select",
+        "system_name": "benefits_recurrence"
+      },
+      {
+        "id": "9daba14a-e6cd-48c3-a45b-9093db441294",
+        "name": "Categoria",
+        "type": "Select",
+        "system_name": "benefits_category"
+      },
+      {
+        "id": "c94cd827-33ef-4dd3-bb93-d75f50597bc8",
+        "name": "Imagem",
+        "type": "CoverImage",
+        "system_name": "benefits_image"
+      },
+      {
+        "id": "7769ca64-c537-48c1-b310-fb8732fdcb21",
+        "name": "Descrição",
+        "type": "Markdown",
+        "system_name": "benefits_description"
+      },
+      {
+        "id": "659a4880-1061-481f-9d62-942bb65c3946",
+        "name": "Status",
+        "type": "Select",
+        "system_name": "benefits_status"
+      },
+      {
+        "id": "709cf0f7-b071-4cc7-8168-548c0ca196f8",
+        "name": "Adesão (Benefício)",
+        "type": "Link",
+        "system_name": "benefits_benefits_adhesion"
+      },
+      {
+        "id": "0e8db3c7-1ec2-4c7e-b52b-fa2af57d4148",
+        "name": "É solicitável?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "6648bed3-08bf-41f7-94ad-7cea23672d44",
+        "name": "Mostrar?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "da6e81f6-b90b-4414-bfbf-052ee946b33d",
+        "name": "Admissão (Benefícios do Contrato)",
+        "type": "Link",
+        "system_name": "admissao_beneficios_conexoes_reversas_admissao_beneficios_do_contrato_field"
+      }
+    ]
+  },
+  {
+    "sheet_id": "948c3d86-70fd-4a46-821f-6275e4a4af62",
+    "sheet_name": "Adesão",
+    "system_name": "benefits_adhesion",
+    "default_view_id": "0879f277-ce9c-4d5e-a618-ac7a0deac8c6",
+    "records_count": 322,
+    "fields": [
+      {
+        "id": "dd3aaf91-8bce-430f-beb6-06d9c41c715e",
+        "name": "Pessoa",
+        "type": "Link",
+        "system_name": "benefits_adhesion_person"
+      },
+      {
+        "id": "56596e0a-f3f4-4439-b3fc-09d011a06faa",
+        "name": "Anotações",
+        "type": "Markdown",
+        "system_name": "benefits_adhesion_notes"
+      },
+      {
+        "id": "806f5dc0-9e26-4937-ab65-f4e0da015fa6",
+        "name": "Comprovante",
+        "type": "Attachment",
+        "system_name": "benefits_adhesion_attachment"
+      },
+      {
+        "id": "7e193fe2-f990-4efc-a4f3-ecd8e04aae83",
+        "name": "Data de Início",
+        "type": "Date",
+        "system_name": "benefits_adhesion_start_date"
+      },
+      {
+        "id": "d708acdc-ca48-427a-b0e2-ecf8ac284473",
+        "name": "Status",
+        "type": "Select",
+        "system_name": "benefits_adhesion_status"
+      },
+      {
+        "id": "ddcf7bc2-3966-4b61-a97b-758a19c999a2",
+        "name": "Data de Encerramento",
+        "type": "Date",
+        "system_name": "benefits_adhesion_end_date"
+      },
+      {
+        "id": "4bcc47f3-7022-405b-a9c5-7f0009cd8cdb",
+        "name": "Benefício",
+        "type": "Link",
+        "system_name": "benefits_adhesion_benefit"
+      },
+      {
+        "id": "d95a8a7f-ffc6-4ff7-84e8-10d2d0cc1425",
+        "name": "Recorrência",
+        "type": "Lookup",
+        "system_name": "benefits_adhesion_recurrence_lookup"
+      },
+      {
+        "id": "b4dfb55a-b817-446d-8c55-5c884007659a",
+        "name": "Tipo",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "57504e43-bab8-44ee-a4d7-2358eb5aaa0a",
+        "name": "Nome",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "08c6b8ad-b128-42e0-bacc-7a91e7785f90",
+        "name": "Odonto",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "a4f9fb75-77dc-4f4d-8a0a-639c5a42b0d1",
+        "name": "Matrícula",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "c13ebf01-b316-4d3a-a312-1f4a6ef356f5",
+        "name": "Valor a descontar",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "df817932-8bc3-4660-a03b-f6552ed9e345",
+        "name": "Valor a descontar odonto",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "fdf37721-2dca-4758-ab08-deac0256c89e",
+        "name": "Tipo Alice",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "0915715e-f856-47a5-9d20-1da8ec5adb2a",
+        "name": "Dependentes",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "2178cf78-2f37-477b-a3b9-897e7a9f09e1",
+        "name": "Inclusão para o titular?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "004f32f5-39b5-437f-9bb5-1a08c21b3259",
+        "name": "Office Pass - Woba",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "b8254927-aef5-4547-9f5c-bfca15deb925",
+        "name": "Dependente odonto?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "675155b7-dac5-4d11-b9d4-1e9e07af7446",
+        "name": "Dependente Odonto (Dados)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "f57aec3b-ccdc-410c-b3d1-85d45a2b0259",
+        "name": "Plano Alice ou Sulamérica?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "0be57a02-1c77-4f62-aa49-56f0ab977e11",
+        "name": "Tipo Sulamérica",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "dc6a6f88-b040-44af-af96-43ff4d597883",
+        "name": "Dependente Saúde?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "690dce9c-132f-48ca-aa76-0c5a1e2d3075",
+        "name": "Dependente Saúde (Dados)",
+        "type": "Link",
+        "system_name": null
+      }
+    ]
+  },
+  {
+    "sheet_id": "985431f1-6870-4546-a95d-3cc59ec8543e",
+    "sheet_name": "Budgets",
+    "system_name": "budgets",
+    "default_view_id": "e8bc65ca-982f-4aa6-904b-4477654f44f7",
+    "records_count": 0,
+    "fields": [
+      {
+        "id": "f91981bf-c6ae-475f-b801-2f6b34d7dfca",
+        "name": "Nome do Budget",
+        "type": "String",
+        "system_name": "nome-d668"
+      },
+      {
+        "id": "858c0878-531c-4910-9cb6-02909afb66e0",
+        "name": "Valor do Budget",
+        "type": "Number",
+        "system_name": "valor_do_budget"
+      },
+      {
+        "id": "8a91a643-2678-4b69-9da3-223616cf1c02",
+        "name": "Budget Ativo?",
+        "type": "Select",
+        "system_name": "budget_ativo"
+      },
+      {
+        "id": "5c853dd3-6eca-4d5e-b3f4-56f2e893e098",
+        "name": "Data que foi criado",
+        "type": "Date",
+        "system_name": "data_que_foi_criado"
+      },
+      {
+        "id": "4548ab22-19f0-4a5a-a664-60a443571fe9",
+        "name": "Despesas e Reembolsos (Budgets)",
+        "type": "Link",
+        "system_name": "conexoes_reversas_despesas_e_reembolsos_budgets"
+      },
+      {
+        "id": "f2dc4667-e260-41c2-95d2-dd885e5fac28",
+        "name": "Responsável pelo Budget",
+        "type": "Link",
+        "system_name": "responsavel_pelo_budget"
+      },
+      {
+        "id": "d760e09a-2288-4078-b9b1-10edcb752825",
+        "name": "Valor Consumido",
+        "type": "Number",
+        "system_name": "valor_consumido"
+      },
+      {
+        "id": "0aa27de0-81df-40eb-a768-9934fbd5ef46",
+        "name": "Saldo do Budget",
+        "type": "Number",
+        "system_name": "saldo_do_budget"
+      },
+      {
+        "id": "50d0c63a-ac48-4eaa-ae04-a662e60d7a8c",
+        "name": "Alinhado com",
+        "type": "Link",
+        "system_name": "alinhado_com"
+      },
+      {
+        "id": "9c5401c9-2a19-4781-8c7c-6e79357d578d",
+        "name": "Centro de Custo",
+        "type": "Lookup",
+        "system_name": "centro_de_custo-62ae"
+      }
+    ]
+  },
+  {
+    "sheet_id": "78f80dbe-af43-4155-8368-a58f05a46153",
+    "sheet_name": "Empresas",
+    "system_name": "companies",
+    "default_view_id": "fa29b894-25ed-48f7-b1dd-a635ce3b4211",
+    "records_count": 346,
+    "fields": [
+      {
+        "id": "5ed26893-ebd4-40e9-b188-97d86c56dcdb",
+        "name": "Razão Social",
+        "type": "String",
+        "system_name": "companies_cnpj_razao_social"
+      },
+      {
+        "id": "babe6104-78d9-4152-b096-9a3e10a92e7f",
+        "name": "Pessoa",
+        "type": "Link",
+        "system_name": "companies_person"
+      },
+      {
+        "id": "453f4349-2ef5-4310-b9e4-aaa830d21ad1",
+        "name": "CNPJ",
+        "type": "String",
+        "system_name": "companies_cnpj_cnpj"
+      },
+      {
+        "id": "54e1afc6-8874-4f18-bdcf-1b43ec8de78a",
+        "name": "Nome Fantasia",
+        "type": "String",
+        "system_name": "companies_cnpj_nome_fantasia"
+      },
+      {
+        "id": "82f2006d-deca-4fcf-be16-370336974ad2",
+        "name": "Tipo de empresa",
+        "type": "Select",
+        "system_name": "companies_cnpj_type"
+      },
+      {
+        "id": "2bce9f9c-b5c4-4f15-84b7-ba67ea00860e",
+        "name": "CNAE Principal",
+        "type": "String",
+        "system_name": "companies_cnpj_main_cnae"
+      },
+      {
+        "id": "0546afc0-e285-49ce-bb62-fa91286e3884",
+        "name": "CNAE Secundário",
+        "type": "String",
+        "system_name": "companies_cnpj_secondary_cnae"
+      },
+      {
+        "id": "7a8f50e6-55eb-4704-9481-f9fa6ed15742",
+        "name": "Data de abertura",
+        "type": "Date",
+        "system_name": "companies_incorporation_date"
+      },
+      {
+        "id": "04044d9e-d9c1-48d8-a147-475ae47c27d8",
+        "name": "Anexo CNPJ",
+        "type": "Attachment",
+        "system_name": "companies_cnpj_attachment"
+      },
+      {
+        "id": "439b2a59-ea67-4758-b2a6-35b85f175f15",
+        "name": "Banco - Nome",
+        "type": "String",
+        "system_name": "companies_bank_br_bank_name"
+      },
+      {
+        "id": "d58fa49b-786c-4002-9149-3a4215294af8",
+        "name": "Banco - Número",
+        "type": "Number",
+        "system_name": "companies_bank_br_bank_number"
+      },
+      {
+        "id": "335d24fd-f137-492d-b3a6-d5b701f6e51e",
+        "name": "Agência",
+        "type": "String",
+        "system_name": "companies_bank_br_agencia"
+      },
+      {
+        "id": "60841211-ca0b-40b6-b150-6d48c37d9245",
+        "name": "Conta - Número",
+        "type": "String",
+        "system_name": "companies_bank_br_account"
+      },
+      {
+        "id": "8a5703b6-93d1-465b-8ded-f318dbcee6a4",
+        "name": "Conta - Tipo",
+        "type": "Select",
+        "system_name": "companies_bank_br_account_type"
+      },
+      {
+        "id": "ed70ddc2-b3a2-4567-a0d7-35a3cc1b8b39",
+        "name": "PIX (EMPRESA)",
+        "type": "String",
+        "system_name": "companies_bank_br_pix"
+      },
+      {
+        "id": "c998474e-5205-4452-8d58-748a1643f1a8",
+        "name": "Descrição",
+        "type": "String",
+        "system_name": "companies_description"
+      },
+      {
+        "id": "b7a43728-f27b-4bf4-890c-135747a91d49",
+        "name": "Logradouro",
+        "type": "String",
+        "system_name": "companies_address_br_logradouro"
+      },
+      {
+        "id": "55db440d-4937-4a4e-98f6-dc76626ee528",
+        "name": "Número",
+        "type": "String",
+        "system_name": "companies_address_br_numero"
+      },
+      {
+        "id": "efcb80f6-82bb-4a5d-bebd-77f690adc905",
+        "name": "Complemento",
+        "type": "String",
+        "system_name": "companies_address_br_complemento"
+      },
+      {
+        "id": "48709455-3823-45ae-a80e-3bb59c50c304",
+        "name": "Bairro",
+        "type": "String",
+        "system_name": "companies_address_br_bairro"
+      },
+      {
+        "id": "0a8cbcab-b1da-48a3-ab94-5d5d63c01e02",
+        "name": "CEP",
+        "type": "String",
+        "system_name": "companies_address_br_cep"
+      },
+      {
+        "id": "a65ae96e-3a7c-4a47-81fa-a7b6c8743127",
+        "name": "Cidade",
+        "type": "String",
+        "system_name": "companies_address_br_cidade"
+      },
+      {
+        "id": "0872237d-3f40-45fb-bfaa-47cd2257e5f7",
+        "name": "UF",
+        "type": "String",
+        "system_name": "companies_address_br_uf"
+      },
+      {
+        "id": "80702d5f-d088-401f-b068-fc78d626a236",
+        "name": "Contratos",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "f3d35db3-5808-4073-8c7f-00a6ef5f550e",
+        "name": "Contrato Social ou CCMEI*",
+        "type": "Attachment",
+        "system_name": null
+      },
+      {
+        "id": "501d7bfb-b82e-4198-b65f-972706abe5b6",
+        "name": "Status",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "244904e1-50c3-49c5-9e38-fa7261c52851",
+        "name": "Data da vigência",
+        "type": "Date",
+        "system_name": null
+      }
+    ]
+  },
+  {
+    "sheet_id": "e9486a22-24da-4b3e-850a-9788d5b6ab7a",
+    "sheet_name": "Valores",
+    "system_name": "company_values",
+    "default_view_id": "ae3a02b8-18b4-4e19-9e03-52321436df16",
+    "records_count": 0,
+    "fields": [
+      {
+        "id": "b9113170-466e-420a-93ed-9a18f711c21c",
+        "name": "Nome",
+        "type": "String",
+        "system_name": "company_values_name"
+      },
+      {
+        "id": "b6bb42e9-c2aa-4976-b1a3-deddd6fedb92",
+        "name": "Reconhecimentos (Valores)",
+        "type": "Link",
+        "system_name": "company_values_praises"
+      }
+    ]
+  },
+  {
+    "sheet_id": "22edcf40-e0f9-493a-8cd0-381ffbb8e8b6",
+    "sheet_name": "Contratos",
+    "system_name": "contracts",
+    "default_view_id": "8790fb58-511b-45dc-8a21-8d9f3270cf04",
+    "records_count": 1066,
+    "fields": [
+      {
+        "id": "3a7060a4-b2b2-408c-b680-50d037bbdb6c",
+        "name": "Título",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "719ace5f-aa64-43c3-8c9b-0a47b457df4f",
+        "name": "Colaborador",
+        "type": "Link",
+        "system_name": "contract_person"
+      },
+      {
+        "id": "91007ffa-c677-456d-a417-6be01d6e3390",
+        "name": "Data de admissão",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "58f228c4-88cf-4753-8028-35e8d55efb76",
+        "name": "Status",
+        "type": "Select",
+        "system_name": "contract_status"
+      },
+      {
+        "id": "c70e3444-17c9-4c6f-a644-625b2b425e69",
+        "name": "Forma de contratação",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "1004d7a6-bd56-425a-9423-920b239f6d2d",
+        "name": "Empresa",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "13d12872-a518-44be-a655-48409455e3e8",
+        "name": "Tipo de contrato",
+        "type": "Select",
+        "system_name": "contract_type"
+      },
+      {
+        "id": "a71e0222-ea84-4d3b-92fe-719b35c8d934",
+        "name": "Valor",
+        "type": "Number",
+        "system_name": "contract_value"
+      },
+      {
+        "id": "589766ee-dadc-49a2-ab17-0121977a6c20",
+        "name": "Recorrência",
+        "type": "Select",
+        "system_name": "contract_frequency"
+      },
+      {
+        "id": "040f6b22-f1d4-4952-bf61-6d7279d464e8",
+        "name": "Data da Vigência",
+        "type": "Date",
+        "system_name": null
+      },
+      {
+        "id": "7aa164a0-9849-45db-96e4-8e96084c46ca",
+        "name": "Data de encerramento",
+        "type": "Date",
+        "system_name": "contract_end_date"
+      },
+      {
+        "id": "43afd11d-68db-47da-9411-cf6c514cfddc",
+        "name": "Anotações",
+        "type": "Markdown",
+        "system_name": "contract_notes"
+      },
+      {
+        "id": "1228fa0d-2f8a-485b-acf6-6afe05a8c4ac",
+        "name": "Anexo",
+        "type": "Attachment",
+        "system_name": "contract_attachment_terms"
+      },
+      {
+        "id": "23ac59cc-ddaa-4987-9175-d8bb62c79cd4",
+        "name": "Pagamentos",
+        "type": "Link",
+        "system_name": "contract_payments"
+      },
+      {
+        "id": "f82bcc2a-7e15-4421-8150-a8202f6715d5",
+        "name": "Plano de Saúde - Titular",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "cde3b6cb-479c-4f99-a591-5defb7bb0d47",
+        "name": "Plano de Saúde - Dependente",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "ffd495fc-bf4b-4336-8e4b-1905e716e1c8",
+        "name": "Plano Odonto - Titular",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "1344c789-68bc-4d4c-82e3-282690e4167f",
+        "name": "Plano Odonto - Dependente",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "efa64839-8891-4574-84e6-40eab0798dbf",
+        "name": "Tem comissão?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "ab75cecf-788f-4248-8c51-37040154c669",
+        "name": "Status CNPJ",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "3bb53a10-661d-4d42-ab56-688875886405",
+        "name": "Centro de Custo (CC)",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "0e8eaeaf-c6a0-461b-9336-e545b9a32bc6",
+        "name": "O que faz",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "b5772243-bb39-46e3-a9d1-46c12d1e177a",
+        "name": "Squad",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "fd88a059-3c97-4de3-ac6b-c5aea8ec2767",
+        "name": "Chapter",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "acb9f4be-1577-4870-9302-d6485c2148b7",
+        "name": "Times (Membros)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "5673eb5a-c39c-4872-ae22-a56019b25bce",
+        "name": "Chapter Lead",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "00fe219a-ec50-451a-a611-73857ad5089f",
+        "name": "Líder ",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "55eb0ed2-ac22-4f18-8e1b-8b5032dc0124",
+        "name": "Nível",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "afb296d1-2b89-409e-afce-959d6ef22de7",
+        "name": "Faixa",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "130ac60e-d5fe-4660-9b10-48921d7d7a2c",
+        "name": "Percentil",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "394b09fd-b765-4332-b66a-90cc74ccaa11",
+        "name": "Stock Option?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "42240bd9-42b5-475e-8b39-be8dfa55e6b8",
+        "name": "Stock Option - Quantidade",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "e9f6736d-9c1a-41f0-9f07-bb9333fa5854",
+        "name": "Matrícula",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "6fc41b2b-39aa-413c-9d38-e56f1e5e747f",
+        "name": "Pessoas (O que faz )",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "8439774a-9e13-416f-b9f6-c01707e62f6a",
+        "name": "Motivo da Movimentação",
+        "type": "MultipleSelect",
+        "system_name": null
+      },
+      {
+        "id": "0b7c4c22-e4a1-4ab8-bd7f-ee7b2a7f52a1",
+        "name": "13 Pagamento (Contrato)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "eb2f5a32-a85f-4cc7-afa9-9d8a9e979d0c",
+        "name": "13 Pagamento (Contrato Referência)",
+        "type": "Link",
+        "system_name": null
+      }
+    ]
+  },
+  {
+    "sheet_id": "0fd910da-69a8-43c5-8aef-85999765e9fe",
+    "sheet_name": "Solicitar meus equipamentos",
+    "system_name": "equipamentos_pedidos_de_compra_sheet",
+    "default_view_id": "6651bc00-6b4d-48f4-b323-537d2944f51c",
+    "records_count": 181,
+    "fields": [
+      {
+        "id": "b9d11d36-03c5-4f24-a058-04e7e48e6cbc",
+        "name": "Equipamento",
+        "type": "String",
+        "system_name": "equipamentos_pedidos_de_compra_equipamento_field"
+      },
+      {
+        "id": "263d27c2-f57c-461b-9534-832bea65bd85",
+        "name": "Status",
+        "type": "Select",
+        "system_name": "equipamentos_pedidos_de_compra_status_field"
+      },
+      {
+        "id": "62974a20-60ec-4e4a-9d00-2520d314c644",
+        "name": "Data Pedido",
+        "type": "Date",
+        "system_name": "equipamentos_pedidos_de_compra_data_pedido_field"
+      },
+      {
+        "id": "599ec249-cf60-4bdc-a8a4-89adea1305df",
+        "name": "Pessoa",
+        "type": "Link",
+        "system_name": "equipamentos_pedidos_de_compra_pessoa_field"
+      },
+      {
+        "id": "36fd6a70-1eb5-4a8d-bc50-d59ed8e1cd51",
+        "name": "Líder",
+        "type": "Lookup",
+        "system_name": "equipamentos_pedidos_de_compra_lider_field"
+      },
+      {
+        "id": "bd62e351-b686-4ac4-bb81-a47f9b1274d9",
+        "name": "Logradouro",
+        "type": "Lookup",
+        "system_name": "equipamentos_pedidos_de_compra_logradouro_field"
+      },
+      {
+        "id": "f4c2f833-e69c-462e-9576-34996c1ee816",
+        "name": "Número",
+        "type": "Lookup",
+        "system_name": "equipamentos_pedidos_de_compra_numero_field"
+      },
+      {
+        "id": "dca87775-d310-4e00-bb96-dc1eb8cd346c",
+        "name": "Complemento",
+        "type": "Lookup",
+        "system_name": "equipamentos_pedidos_de_compra_complemento_field"
+      },
+      {
+        "id": "377a23d0-ab97-40c8-82d2-e3796f579380",
+        "name": "Bairro",
+        "type": "Lookup",
+        "system_name": "equipamentos_pedidos_de_compra_bairro_field"
+      },
+      {
+        "id": "a0e9f80a-11c2-4e8a-8bd6-5ecf7ea6e8be",
+        "name": "Cidade",
+        "type": "Lookup",
+        "system_name": "equipamentos_pedidos_de_compra_cidade_field"
+      },
+      {
+        "id": "2f88500d-e3b9-4a22-8ae4-b026b78c381a",
+        "name": "UF",
+        "type": "Lookup",
+        "system_name": "equipamentos_pedidos_de_compra_uf_field"
+      },
+      {
+        "id": "5f71e5cc-4b98-43c1-98d6-f43485c78857",
+        "name": "CEP",
+        "type": "Lookup",
+        "system_name": "equipamentos_pedidos_de_compra_cep_field"
+      },
+      {
+        "id": "347dace5-96ad-4bc9-86b0-7287f3f9517d",
+        "name": "Quais equipamentos?",
+        "type": "MultipleSelect",
+        "system_name": null
+      },
+      {
+        "id": "3b5f5f0c-d1b9-47c9-843c-ce9bdcd28afb",
+        "name": "Você fará parte do time de Produto, Tech ou Design?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "ed5336e3-f0b6-4b4c-bf76-a25978d1f5c9",
+        "name": "Fone?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "f71c3346-f421-4af1-94cf-e2411553385a",
+        "name": "Você fará parte do time de CE?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "10bc0498-6e1e-4626-920d-5d90628ab59a",
+        "name": "Modelo de equipamento",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "a3f81386-ad2d-4ecb-bd50-e25745703893",
+        "name": "Logradouro (entrega)",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "6624fae0-8724-4c21-9e02-2291239feb07",
+        "name": "Número (entrega)",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "297e021b-92bf-46fb-b792-e9ca14955ba6",
+        "name": "Complemento (entrega)",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "079d365c-346a-40c8-935b-cc23c322cdde",
+        "name": "Bairro (entrega)",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "9b062558-faba-4976-8d7f-c66a09deb21e",
+        "name": "Cidade (entrega)",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "35b57206-bd97-45ff-90ca-5e0e5918834e",
+        "name": "UF (entrega)",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "e613db9d-1270-4e82-9a2f-57f2838682ec",
+        "name": "CEP (entrega)",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "f30956a9-c109-4b12-b089-563193bf09c6",
+        "name": "Versão Linux",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "e78f1cdd-4732-4e89-9c7a-3ff79b51cb55",
+        "name": "CPF",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "a0d33b75-81b5-4ed7-9373-6c03864edd27",
+        "name": "E-mail Pessoal",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "928ae045-197c-4836-8599-0d531e9ad036",
+        "name": "Telefone Celular",
+        "type": "Lookup",
+        "system_name": null
+      }
+    ]
+  },
+  {
+    "sheet_id": "8a48dbbb-e0d7-43ce-9a97-08aacbba69f1",
+    "sheet_name": "Equipamentos",
+    "system_name": "equipment",
+    "default_view_id": "ea04085e-1989-4303-8601-e040170d264c",
+    "records_count": 0,
+    "fields": [
+      {
+        "id": "615e553c-a9fd-4474-9ecd-51628d53f70c",
+        "name": "Nome",
+        "type": "String",
+        "system_name": "equipment_name"
+      },
+      {
+        "id": "9cee715f-1984-4d30-9783-364df7fdea18",
+        "name": "Número de série",
+        "type": "String",
+        "system_name": "equipment_serial_number"
+      },
+      {
+        "id": "2866aae4-ae87-49bd-a9a2-9751cfc36683",
+        "name": "Data da distribuição",
+        "type": "Date",
+        "system_name": "equipment_allocation_date"
+      },
+      {
+        "id": "4791e417-ac58-4088-9b57-75cbd1f191ae",
+        "name": "Termo de responsabilidade",
+        "type": "Attachment",
+        "system_name": "equipment_allocation_terms"
+      },
+      {
+        "id": "81673064-871b-4122-9443-db84aea5816f",
+        "name": "Valor de compra",
+        "type": "Number",
+        "system_name": "equipment_purchase_cost"
+      },
+      {
+        "id": "8febc7e5-44a2-4fa5-ba04-8d4200173a88",
+        "name": "Data de compra",
+        "type": "Date",
+        "system_name": "equipment_purchase_date"
+      },
+      {
+        "id": "34146ecc-7c77-49d7-98a2-08814dd15480",
+        "name": "Foto Equipamento",
+        "type": "CoverImage",
+        "system_name": "equipment_picture"
+      },
+      {
+        "id": "00627516-bcac-4b2e-917e-148a620f04a8",
+        "name": "Colaborador",
+        "type": "Link",
+        "system_name": "equipment_allocation_person"
+      }
+    ]
+  },
+  {
+    "sheet_id": "6ee994e1-4f5e-43d6-9cf7-86ba24e0fa23",
+    "sheet_name": "Despesas e Reembolsos",
+    "system_name": "expenses",
+    "default_view_id": "5271fc5a-90ab-49a6-b53a-9243b2c27895",
+    "records_count": 4,
+    "fields": [
+      {
+        "id": "0a68be4b-388a-4e04-bca9-33724f25f341",
+        "name": "Colaborador",
+        "type": "Link",
+        "system_name": "expense_person"
+      },
+      {
+        "id": "b7e46458-f222-41cf-8f35-3a7dd8021f15",
+        "name": "Descrição",
+        "type": "String",
+        "system_name": "expense_description"
+      },
+      {
+        "id": "36a15b39-5353-4c39-92b0-721397f50308",
+        "name": "Tipo de Reembolso",
+        "type": "Select",
+        "system_name": "tipo_de_lancamento"
+      },
+      {
+        "id": "5d8f25c4-4d77-4295-8d2a-c3993b2f533d",
+        "name": "Valor",
+        "type": "Number",
+        "system_name": "expense_value_v2"
+      },
+      {
+        "id": "741200dd-b8cf-4a38-8703-2019fa15e2c6",
+        "name": "Data da Despesa",
+        "type": "Date",
+        "system_name": "expense_date"
+      },
+      {
+        "id": "5e69dea6-e821-4ef2-a43b-19e9e1f0c08b",
+        "name": "Anexo do comprovante e NF",
+        "type": "Attachment",
+        "system_name": "expense_receipt"
+      },
+      {
+        "id": "0f5a0598-c1df-49d6-bcc5-68fdc860ee79",
+        "name": "Centro de custo diferente do seu",
+        "type": "Select",
+        "system_name": "deseja_alocar_o_reembolso_em_um_centro_de_custo_diferente_do_seu"
+      },
+      {
+        "id": "c1fa223f-46c6-4130-8f64-8e31185aca70",
+        "name": "Centro de Custo Realocação",
+        "type": "Select",
+        "system_name": "centro_de_custo-3d98"
+      },
+      {
+        "id": "ba13c390-ac65-4a7f-901c-5697a30aa828",
+        "name": "Status Reembolso",
+        "type": "Select",
+        "system_name": "expense_status"
+      },
+      {
+        "id": "5447ef4e-acc5-4900-9fb5-f348141bd884",
+        "name": "Reembolsável",
+        "type": "Select",
+        "system_name": "expense_refundable"
+      },
+      {
+        "id": "f2bd6b93-0053-4176-a321-8f4bb36a3bb0",
+        "name": "Data do pagamento",
+        "type": "Date",
+        "system_name": "expense_payment_date"
+      },
+      {
+        "id": "bdea3530-8b5b-4120-befe-6d894613701e",
+        "name": "Comentários Financeiro",
+        "type": "String",
+        "system_name": "expense_notes"
+      },
+      {
+        "id": "f69b7bb0-362b-45ef-8b6a-0d265d4515c2",
+        "name": "Comentários Liderança",
+        "type": "String",
+        "system_name": "comentarios_lideranca"
+      },
+      {
+        "id": "47a156ec-57a0-4689-809d-72cc00efe9cc",
+        "name": "Budgets",
+        "type": "Link",
+        "system_name": "budgets"
+      },
+      {
+        "id": "4fca4a9b-9064-4e6c-86d3-5c18682e2070",
+        "name": "Líder",
+        "type": "Lookup",
+        "system_name": "lider-2b8e"
+      },
+      {
+        "id": "edd17dd0-cf97-4ab3-9cdf-c7e2c9218b5c",
+        "name": "Líder responsável",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "201280df-68f9-42fc-b9b5-f5afdbb91fd9",
+        "name": "Responsável pelo Budget",
+        "type": "Lookup",
+        "system_name": "responsavel_pelo_budget-7123"
+      },
+      {
+        "id": "63510626-a08d-46f2-aa3b-a5779fb9d1f6",
+        "name": "Centro de Custo",
+        "type": "Lookup",
+        "system_name": "centro_de_custo-2a7b"
+      },
+      {
+        "id": "38bf33f1-7b05-4b04-b2fd-f878053ec7b5",
+        "name": "Competência",
+        "type": "Formula",
+        "system_name": "expense_fiscal_month"
+      },
+      {
+        "id": "f2cecb2d-53a5-4e76-aecd-4603b2a15003",
+        "name": "Centro de Custo Final",
+        "type": "Formula",
+        "system_name": "centro_de_custo_final"
+      },
+      {
+        "id": "07e8d731-168a-48f8-89f0-4503cc3021a0",
+        "name": "Relatório do percurso ",
+        "type": "Markdown",
+        "system_name": null
+      },
+      {
+        "id": "3407f5fa-de3a-4777-b35b-deffe1b5c297",
+        "name": "Quilometros rodados ",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "180a88ac-c103-4e8f-99b5-02b7b7a5e438",
+        "name": "Pedágio",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "eb7fdcf1-de1c-4754-835f-1dcf3ffe336f",
+        "name": "Justificativa Gestor ",
+        "type": "Markdown",
+        "system_name": null
+      },
+      {
+        "id": "ada0d4f8-a4ea-424d-916f-ac667833586c",
+        "name": "Valor Estacionamento ",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "75d93fd4-d826-494a-a075-7e4a313d7b39",
+        "name": "Justificativa do trajeto",
+        "type": "Markdown",
+        "system_name": null
+      },
+      {
+        "id": "ccb45ad7-9485-4410-984b-2370d74f2009",
+        "name": "Valor app",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "5d540e2b-b87f-47db-8a47-51a3f02b2ff8",
+        "name": "Comprovante Aplicativo",
+        "type": "Attachment",
+        "system_name": null
+      },
+      {
+        "id": "4b7c90aa-2ef8-4d4d-83a6-854e17a12362",
+        "name": "Comprovante Quilometragem",
+        "type": "Attachment",
+        "system_name": null
+      },
+      {
+        "id": "6d1bb2f4-ce7d-4d5f-abc5-9eecd142749a",
+        "name": "Valor AN",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "4163e505-f3b5-48bd-b1c5-d9ed12dad11b",
+        "name": "Comprovante AN",
+        "type": "Attachment",
+        "system_name": null
+      },
+      {
+        "id": "3fcce800-8b2d-4b21-848c-cece21508c93",
+        "name": "Valor AI",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "4c151f59-e5ae-4300-86b1-690dad74e04b",
+        "name": "Comprovante AI",
+        "type": "Attachment",
+        "system_name": null
+      },
+      {
+        "id": "97664833-172d-4e36-ade3-b1fca0461d4f",
+        "name": "Comprovante Estacionamento",
+        "type": "Attachment",
+        "system_name": null
+      },
+      {
+        "id": "9b9377d5-e9a4-4b8b-9378-7cd0ade96822",
+        "name": "Houve pedágio no trajeto?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "3e1c5bbc-02bf-4403-974d-f4d123dd2c41",
+        "name": "Valor Airbnb",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "e0665249-6c89-4b1e-9f82-a2e9f6a8f1a7",
+        "name": "Comprovante e NF Airbnb",
+        "type": "Attachment",
+        "system_name": null
+      },
+      {
+        "id": "fcc70e12-91bd-45ee-8484-1ceb29d8274a",
+        "name": "Justificativa Airbnb",
+        "type": "Markdown",
+        "system_name": null
+      },
+      {
+        "id": "b5b8f85e-5c63-4394-a5ab-222df4d38d0e",
+        "name": "Valor alimentação Representações",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "03ec245c-9451-4dad-9043-189cbbdf736c",
+        "name": "Comprovante Representações",
+        "type": "Attachment",
+        "system_name": null
+      },
+      {
+        "id": "885fbe2f-3e07-4387-be25-3d109f35510a",
+        "name": "Descrição",
+        "type": "Markdown",
+        "system_name": null
+      },
+      {
+        "id": "c148664d-7117-49e8-9a56-5945200a577e",
+        "name": "Justificativa/descrição",
+        "type": "Markdown",
+        "system_name": null
+      }
+    ]
+  },
+  {
+    "sheet_id": "215630ce-6d3c-42c5-92f2-abbed70e8d0f",
+    "sheet_name": "Convidados",
+    "system_name": "guests",
+    "default_view_id": "c83e9f23-91e5-49b3-a2b4-b7d5ce911208",
+    "records_count": 0,
+    "fields": [
+      {
+        "id": "55a900ac-2032-4bb2-9493-decf26c2c4b2",
+        "name": "Nome Completo",
+        "type": "String",
+        "system_name": "guests_name"
+      },
+      {
+        "id": "85070669-ba95-4a90-b91f-1374ff45e6bc",
+        "name": "Usuário",
+        "type": "User",
+        "system_name": "guests_user"
+      },
+      {
+        "id": "ad48042e-97ff-4b00-ac06-919ffa9d0a98",
+        "name": "Formação",
+        "type": "Select",
+        "system_name": "guests_school_education"
+      },
+      {
+        "id": "0e222825-f524-435c-9a0d-3bade00432a8",
+        "name": "Currículo",
+        "type": "Attachment",
+        "system_name": "guests_curriculum"
+      },
+      {
+        "id": "1dacba59-274b-4370-bcdd-f1fbed562009",
+        "name": "Apresentação",
+        "type": "Markdown",
+        "system_name": "guests_presentation"
+      },
+      {
+        "id": "9eccd86b-3ada-4dcc-83af-b7c46b904c4e",
+        "name": "LinkedIn",
+        "type": "String",
+        "system_name": "guests_linkedin"
+      },
+      {
+        "id": "31c3c0c4-82c0-485f-9f6d-16ffd998fc86",
+        "name": "Aplicações (Candidato)",
+        "type": "Link",
+        "system_name": "aplicacoes_candidato"
+      }
+    ]
+  },
+  {
+    "sheet_id": "1453c82a-a969-4de1-a2b9-92c79a511f6f",
+    "sheet_name": "Vagas",
+    "system_name": "jobs",
+    "default_view_id": "7564a8ba-0f79-4455-8c09-9318976e09fd",
+    "records_count": 0,
+    "fields": [
+      {
+        "id": "90937ef0-1f30-4ab2-9ef4-23671adcf514",
+        "name": "Nome",
+        "type": "String",
+        "system_name": "nome_c7e8"
+      },
+      {
+        "id": "67e3ba5a-e59f-459b-99c7-881f14c5f349",
+        "name": "Status",
+        "type": "Select",
+        "system_name": "jobs_status"
+      },
+      {
+        "id": "82fad88d-ed6a-4a87-a57d-11dc3f81a6cf",
+        "name": "Nome",
+        "type": "String",
+        "system_name": "ats_jobs_name"
+      },
+      {
+        "id": "d5c1dd25-ca67-4750-9518-8191e4821671",
+        "name": "Imagem de Capa",
+        "type": "CoverImage",
+        "system_name": "jobs_cover_image"
+      },
+      {
+        "id": "63b29bc1-a87a-4e67-bcc4-9f58cdd77d5e",
+        "name": "Regime de Contratação",
+        "type": "MultipleSelect",
+        "system_name": "jobs_hiring_regime"
+      },
+      {
+        "id": "422e6c4c-19cf-45a6-860a-cbfe73e2bd27",
+        "name": "Imagem de Perfil",
+        "type": "CoverImage",
+        "system_name": "jobs_profile_image"
+      },
+      {
+        "id": "2cc7ced6-44f8-47c9-9c16-3d01ff80e712",
+        "name": "Localidade",
+        "type": "MultipleSelect",
+        "system_name": "jobs_work_location"
+      },
+      {
+        "id": "087efe03-43b0-4812-adee-2f3308e0afc9",
+        "name": "Descrição",
+        "type": "Markdown",
+        "system_name": "jobs_description"
+      }
+    ]
+  },
+  {
+    "sheet_id": "789868b7-ddde-418c-82d5-d2df9d2e55e6",
+    "sheet_name": "Aplicações",
+    "system_name": "jobs_applications",
+    "default_view_id": "8cac4a53-b8e7-4673-b743-4e04f0dd6d57",
+    "records_count": 0,
+    "fields": [
+      {
+        "id": "02a61067-bcab-4aec-89db-da0d12c8eb5c",
+        "name": "Status",
+        "type": "Select",
+        "system_name": "applications_status"
+      },
+      {
+        "id": "fe199b28-c501-4113-93d6-9f185aa75f6f",
+        "name": "Vaga",
+        "type": "Link",
+        "system_name": "applications_job"
+      },
+      {
+        "id": "9c6b22de-0047-4b71-b22e-78d8268d28cc",
+        "name": "Candidato",
+        "type": "Link",
+        "system_name": "application_candidate"
+      },
+      {
+        "id": "ee724ead-ae12-4da4-9c6a-23cb9c467357",
+        "name": "🤝 Propostas (Aplicação)",
+        "type": "Link",
+        "system_name": "ats_aplicacoes_propostas_aplicacao_field"
+      },
+      {
+        "id": "730e8d80-23dc-481b-b24f-bb132a6f5b35",
+        "name": "Entrevistas (Aplicação Conexão)",
+        "type": "Link",
+        "system_name": "ats_aplicacoes_entrevistas_aplicacao_conexao_field"
+      },
+      {
+        "id": "05333c32-7250-4582-a2cc-e1898580b2ca",
+        "name": "Título Aplicação",
+        "type": "Formula",
+        "system_name": "ats_aplicacoes_titulo_aplicacao_field"
+      }
+    ]
+  },
+  {
+    "sheet_id": "13e3abc6-0e4c-4d54-b372-52cbcbbc7ed2",
+    "sheet_name": "Offboarding",
+    "system_name": "offboarding",
+    "default_view_id": "0e80d331-6bb5-4ef8-a1ea-c6b6ed3daddd",
+    "records_count": 12,
+    "fields": [
+      {
+        "id": "308d0709-1814-4e3e-9791-8b3684087c2e",
+        "name": "título",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "a2f5e13a-f3dd-49b8-9e12-14b2db82f998",
+        "name": "Tipo de Desligamento",
+        "type": "Select",
+        "system_name": "zazos_apps_offboarding_offboarding_type"
+      },
+      {
+        "id": "c06e65b1-9719-4fb9-9754-9920aa612e26",
+        "name": "Data de Desligamento (último dia)",
+        "type": "Date",
+        "system_name": "zazos_apps_offboarding_offboarding_terminationdate"
+      },
+      {
+        "id": "bb41e8e3-eb15-4cc7-ba16-c9d26a050318",
+        "name": "Etapas",
+        "type": "Select",
+        "system_name": "zazos_apps_offboarding_offboarding_stage"
+      },
+      {
+        "id": "2b075d2d-e678-4cb1-8846-82939de7c8d6",
+        "name": "Checklist Preparação",
+        "type": "Checklist",
+        "system_name": "zazos_apps_offboarding_offboarding_checklist_preparation"
+      },
+      {
+        "id": "35e94772-191a-4282-bd3d-361b81bd3589",
+        "name": "Checklist - Comunicação",
+        "type": "Checklist",
+        "system_name": "zazos_apps_offboarding_offboarding_checklist_comunication"
+      },
+      {
+        "id": "86d6e9db-f636-40aa-9906-9e034e4ad4de",
+        "name": "Checklist Pós",
+        "type": "Checklist",
+        "system_name": "zazos_apps_offboarding_offboarding_checklist_after"
+      },
+      {
+        "id": "f18b8b80-f45f-4d31-ae44-09617c639c30",
+        "name": "Colaborador",
+        "type": "Link",
+        "system_name": "zazos_apps_offboarding_offboarding_person"
+      },
+      {
+        "id": "4090d9d9-1c5d-4db8-b68e-61d81a44d6b7",
+        "name": "Preenchido por",
+        "type": "Link",
+        "system_name": "zazos_apps_offboarding_offboarding_leader"
+      },
+      {
+        "id": "f24a118d-5417-4690-9e9e-aedcf7557315",
+        "name": "Responsável RH",
+        "type": "Link",
+        "system_name": "zazos_apps_offboarding_offboarding_responsable"
+      },
+      {
+        "id": "56f1777f-7b6f-4d92-823d-d9987714fba0",
+        "name": "Motivo do Desligamento",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "60fe6a95-e185-4130-a36a-196f38c0bee4",
+        "name": "Haverá reposição de vaga?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "e3ed8504-b072-40fd-afee-6ecad63894e1",
+        "name": "Foi alinhado com o time de People um plano de reversão antes da tomada de decisão (desligamento)?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "68d3a697-8c2e-4aa9-b31e-2fd61bdd7fcb",
+        "name": "Houve comunicação prévia, ou seja,  teve o tempo de handover/passagem de bastão de suas responsabilidades e atividades (sugestão: permanecia de pelo menos 15 dias)?",
+        "type": "MultipleSelect",
+        "system_name": null
+      },
+      {
+        "id": "b31ffb9b-da6e-41ca-9c4b-69429f3cd72c",
+        "name": "Observação/Comentários Gerais",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "9b3b5d53-9a87-4cbe-8be7-07f975fc5f14",
+        "name": "Data da comunicação do desligamento",
+        "type": "Date",
+        "system_name": null
+      },
+      {
+        "id": "1921f57a-e649-465a-aaaf-4da8763ee6b4",
+        "name": "Líder",
+        "type": "Lookup",
+        "system_name": null
+      }
+    ]
+  },
+  {
+    "sheet_id": "2cb35c93-15fe-42ea-a12d-18e6662bbabb",
+    "sheet_name": "Onboarding",
+    "system_name": "onboarding",
+    "default_view_id": "e1325bed-fa47-4f86-9e34-6694b70821cb",
+    "records_count": 191,
+    "fields": [
+      {
+        "id": "b6c1f9f4-afa5-4c05-9256-5f220a806147",
+        "name": "Primeiro nome",
+        "type": "String",
+        "system_name": "onboarding_first_name"
+      },
+      {
+        "id": "b327a90b-5cf0-4469-98ea-12b8d20355da",
+        "name": "Nome Completo",
+        "type": "String",
+        "system_name": "onboarding_full_name"
+      },
+      {
+        "id": "974d5e99-96bc-4f3e-a9ee-7d0def363eb2",
+        "name": "Telefone",
+        "type": "String",
+        "system_name": "onboarding_phone"
+      },
+      {
+        "id": "1ffd2501-2749-4f4d-9e7f-82c3029eb9e3",
+        "name": "Email",
+        "type": "String",
+        "system_name": "onboarding_email"
+      },
+      {
+        "id": "12d7bbb3-8c64-4119-8564-b1f80df59e15",
+        "name": "Data de início",
+        "type": "Date",
+        "system_name": "onboarding_start_date"
+      },
+      {
+        "id": "09b5f488-d525-4327-b441-b9e0f6c3c75c",
+        "name": "O que faz",
+        "type": "String",
+        "system_name": "onboarding_role"
+      },
+      {
+        "id": "5177e66f-0800-4226-b3e8-f57ea9e7dc81",
+        "name": "Carta proposta",
+        "type": "Attachment",
+        "system_name": "onboarding_job_offer_letter"
+      },
+      {
+        "id": "a32c32ee-8306-4fcc-8218-13ee71749967",
+        "name": "Status",
+        "type": "Select",
+        "system_name": "onboarding_status"
+      },
+      {
+        "id": "a74025aa-95fb-490d-b5fc-35723bc79e0b",
+        "name": "Valor do contrato",
+        "type": "Number",
+        "system_name": "onboarding_contract_value"
+      },
+      {
+        "id": "cbdffb7a-278c-4497-8d97-7349e22c96b5",
+        "name": "Forma de contratação",
+        "type": "Select",
+        "system_name": "onboarding_contract_type"
+      },
+      {
+        "id": "e6ec26b6-3b3f-40c1-9662-78e6bf5a0fa7",
+        "name": "Pessoa em onboarding",
+        "type": "Link",
+        "system_name": "onboarding_person"
+      },
+      {
+        "id": "1c97a864-e2e1-45d4-ba38-1c5cfa7cc2c2",
+        "name": "Líder",
+        "type": "Link",
+        "system_name": "onboarding_manager"
+      },
+      {
+        "id": "c40aadf9-98e7-4d99-871b-ee51f32fa808",
+        "name": "Nível ",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "e1595359-cd77-4e38-b92a-e837926dbf89",
+        "name": "Stock Option?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "6939989e-e826-49bf-b133-251b8d67b1b7",
+        "name": "Chapter",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "681f97fc-b0b0-409b-aa8f-8edb969c5aa9",
+        "name": "Squad",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "6d6af103-34dc-4f98-bce3-72cb516d65a0",
+        "name": "Percentil",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "d9748d5c-438d-4afe-ae81-394fb988f33e",
+        "name": "Tipo de vaga",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "d206acce-3547-43e9-82a9-74486f08d389",
+        "name": "Stock Option - Quantidade",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "87c057a9-57d5-40c4-880c-c8651eba0c34",
+        "name": "Solicitante",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "b4651654-81a5-4698-8673-d90b6abcbb39",
+        "name": "Checkist primeira semana",
+        "type": "Checklist",
+        "system_name": null
+      },
+      {
+        "id": "028b93a7-bf1b-49c8-9c36-9c7adddcc645",
+        "name": "Matrícula",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "ca8218db-5111-4676-9dbe-053738388a71",
+        "name": "Checkist Pré admissão",
+        "type": "Checklist",
+        "system_name": null
+      },
+      {
+        "id": "f3b24972-dce6-4a06-9267-fa52a3a9d4b3",
+        "name": "Checkist informações conferidas",
+        "type": "Checklist",
+        "system_name": null
+      },
+      {
+        "id": "a6d8a6e1-682e-4cd8-953a-995d2409f455",
+        "name": "Nome da pessoa substituída",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "2e2f3b72-5bc9-4a25-bf52-5882b319cae9",
+        "name": "Faixa",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "f10627a8-1018-4cb3-93d2-e572c0ebd407",
+        "name": "Solicitar meus equipamentos (Telefone)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "53471dca-d335-4bf8-bc9e-8882d42e260a",
+        "name": "Solicitar meus equipamentos (Email)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "8b708515-c86a-4db8-a9bc-8535debc0450",
+        "name": "Descrição de atividades",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "9a7e0208-1363-4303-ace5-ae8d88ca54e5",
+        "name": "Percentil",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "ba3c5c56-ef25-4c14-9b33-edff3f884305",
+        "name": "Auto apresentação (Anexe aqui uma breve auto apresentação contando coisas que caracterizem você, como formação, experiências, hábitos, valores, interesses, hobbies, e até mesmo dividir com o pessoal qual será o seu desafio e quais são suas expectativas.  Essa informação vai ser compartilhada em nosso Slack no seu primeiro dia para o nosso limoeiro te conhecer!)",
+        "type": "Attachment",
+        "system_name": null
+      },
+      {
+        "id": "0482e4f3-c140-4eb9-b535-81d24f1afbd4",
+        "name": "Pós onboarding",
+        "type": "Checklist",
+        "system_name": null
+      },
+      {
+        "id": "64daa85c-b900-42c4-ba06-801d3b2c5f71",
+        "name": "Recrutador Responsável",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "67cf246e-b271-4cc5-bd1a-43bd88947871",
+        "name": "Dias até entrada",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "5f674f93-cd1b-4bbe-bb67-d0fe508a4cbc",
+        "name": "Times",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "93b99698-42e0-433a-b3d6-daa813fef82d",
+        "name": "Anotações",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "22db62d7-6298-416f-8a79-dff08a24f2d8",
+        "name": "Data da Solicitação da Admissão",
+        "type": "Date",
+        "system_name": "data_admissao_solicitada"
+      },
+      {
+        "id": "26602689-c4e5-40fb-bcff-8fde044197db",
+        "name": "Cargo List",
+        "type": "Select",
+        "system_name": "cargo"
+      },
+      {
+        "id": "82e2470f-b53d-4b13-85b5-76e4677880b3",
+        "name": "Nível",
+        "type": "Select",
+        "system_name": "nivel"
+      },
+      {
+        "id": "5dc46abd-0288-46f1-992a-6c96a24c5a22",
+        "name": "Observações",
+        "type": "Markdown",
+        "system_name": "beneficios_solicitados"
+      },
+      {
+        "id": "967b2088-5caf-4617-a667-fc090b63b66e",
+        "name": "Acesso aos Sistemas",
+        "type": "Checklist",
+        "system_name": "sistemas"
+      },
+      {
+        "id": "2af7f932-87ad-4eaa-b432-2647b76124c8",
+        "name": "Contratos",
+        "type": "Checklist",
+        "system_name": "contratos"
+      },
+      {
+        "id": "906a87c7-c38c-49dd-bdae-cfc4c3138559",
+        "name": "Envio de Informações para Terceiros",
+        "type": "Checklist",
+        "system_name": "envio_de_informacoes_para_terceiros"
+      },
+      {
+        "id": "16fd149a-6d99-438d-b20f-af7c464e1c53",
+        "name": "Benefícios Contratados",
+        "type": "Checklist",
+        "system_name": "beneficios"
+      },
+      {
+        "id": "53e4b1ed-da8a-49e3-ad0a-f5b43857e5b8",
+        "name": "Equipamentos ",
+        "type": "Checklist",
+        "system_name": "equipamentos"
+      },
+      {
+        "id": "6d6592b2-0e88-4ff5-8feb-3609f700a819",
+        "name": "Times",
+        "type": "Link",
+        "system_name": "times"
+      },
+      {
+        "id": "107503bc-ca35-4acc-b573-fe2be515604f",
+        "name": "Benefícios do Contrato",
+        "type": "Link",
+        "system_name": "admissao_admissao_beneficios_do_contrato_field"
+      },
+      {
+        "id": "abb9cfca-254b-42e7-8ccf-0b71763fc2b5",
+        "name": "Responsável do RH",
+        "type": "Link",
+        "system_name": "responsavel"
+      },
+      {
+        "id": "1794a8d5-9f95-4aef-94f2-215ab724c338",
+        "name": "Título Admissão",
+        "type": "Formula",
+        "system_name": "titulo_admissao"
+      }
+    ]
+  },
+  {
+    "sheet_id": "dfd79e2e-42a6-44db-abe3-f228d9b5a688",
+    "sheet_name": "Dependentes",
+    "system_name": "other_people",
+    "default_view_id": "4d4962e0-53ac-425f-b9c7-9b95be6d5f85",
+    "records_count": 124,
+    "fields": [
+      {
+        "id": "9a4d9fac-898b-4e4c-a1c7-2fbc7e80c7be",
+        "name": "Nome Completo",
+        "type": "String",
+        "system_name": "other_people_name"
+      },
+      {
+        "id": "b0c003d8-77dd-4cc7-952c-48fb8cb0c5ca",
+        "name": "Tipo",
+        "type": "Select",
+        "system_name": "other_people_type"
+      },
+      {
+        "id": "aa3d6cec-67aa-4173-a4c2-f334e6f91800",
+        "name": "Tipo de relação",
+        "type": "Select",
+        "system_name": "other_people_connection_type"
+      },
+      {
+        "id": "a3814a31-3c22-4ed4-b166-01a2b1664708",
+        "name": "Data de Nascimento",
+        "type": "Date",
+        "system_name": "other_people_date_of_birth"
+      },
+      {
+        "id": "fcce64a3-0040-4525-8bd1-d4da87e5ca99",
+        "name": "RG - Número",
+        "type": "String",
+        "system_name": "other_people_documents_br_rg"
+      },
+      {
+        "id": "b2275c7e-f660-4914-abe1-962a0f9b293d",
+        "name": "CPF - Número",
+        "type": "String",
+        "system_name": "other_people_documents_br_cpf"
+      },
+      {
+        "id": "c63b0f69-fc5f-46c8-9fa2-5a340653f62d",
+        "name": "Telefone Celular",
+        "type": "String",
+        "system_name": "other_people_phone"
+      },
+      {
+        "id": "2d4ef1a4-f81d-42f8-8cd8-bbd7de5fcfc8",
+        "name": "Email Pessoal",
+        "type": "String",
+        "system_name": "other_people_personal_email"
+      },
+      {
+        "id": "ac3a06f2-abf3-41f0-aa32-9a778bc047ba",
+        "name": "Contato de emergência",
+        "type": "Select",
+        "system_name": "other_people_emergeny_contact"
+      },
+      {
+        "id": "f148fa15-f6e1-4de9-bf26-5b09fe625d33",
+        "name": "Colaborador",
+        "type": "Link",
+        "system_name": "other_people_person"
+      },
+      {
+        "id": "aed205fe-db7d-475d-b479-e996e7a5cb0a",
+        "name": "Adesão (Dependentes)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "6da08265-e62b-46bb-95a6-f713a0f4d56f",
+        "name": "Documento com Foto (CNH ou RG)",
+        "type": "Attachment",
+        "system_name": null
+      },
+      {
+        "id": "b33396a3-5147-4f64-bcbb-01d252e02287",
+        "name": "Comprovante de vínculo",
+        "type": "Attachment",
+        "system_name": null
+      },
+      {
+        "id": "385c2e8e-9a39-4cd7-a5b7-457144a5b747",
+        "name": "Adesão (Dependente Odonto (Dados))",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "8222c6e3-f514-4e67-b9f6-651c002d4050",
+        "name": "Adesão (Dependente Saúde (Dados))",
+        "type": "Link",
+        "system_name": null
+      }
+    ]
+  },
+  {
+    "sheet_id": "a7276df9-0ae3-479e-841e-724fb0862c25",
+    "sheet_name": "Ausências",
+    "system_name": "paid_time_off",
+    "default_view_id": "ed074dce-4db5-4c55-a478-3d70d9bb01cc",
+    "records_count": 3093,
+    "fields": [
+      {
+        "id": "a4c17a91-04dd-42bb-a7e6-4a5fb3c3b757",
+        "name": "Título",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "989ca5ac-d98d-4f2f-94f6-bceab843e6a0",
+        "name": "Pessoa",
+        "type": "Link",
+        "system_name": "paid_time_off_person"
+      },
+      {
+        "id": "77755404-3639-4a13-b8e8-e9d1485cbf17",
+        "name": "Tipo",
+        "type": "Select",
+        "system_name": "paid_time_off_type"
+      },
+      {
+        "id": "faa7601f-b85f-4cc1-8a97-cfb6fe5143a9",
+        "name": "Data inicial",
+        "type": "Date",
+        "system_name": "paid_time_off_start_date"
+      },
+      {
+        "id": "4ed2fcb1-d0c7-4f28-b17c-d0bb6cda9a4b",
+        "name": "Data final",
+        "type": "Date",
+        "system_name": "paid_time_off_end_date"
+      },
+      {
+        "id": "4dca2faa-1e4b-49aa-8d59-92c36a23ce5c",
+        "name": "Quantidade de dias",
+        "type": "Number",
+        "system_name": "paid_time_off_amount"
+      },
+      {
+        "id": "6536fbce-ea8d-4273-8d1a-151bd462fcdc",
+        "name": "Comentário",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "e6cebce2-d6ca-4eef-b037-2aaf0940b2a2",
+        "name": "Anexo",
+        "type": "Attachment",
+        "system_name": "paid_time_off_ferias_anexo_field"
+      },
+      {
+        "id": "15869c32-6949-46e6-88f1-274aff3a4b68",
+        "name": "Situação",
+        "type": "Select",
+        "system_name": "paid_time_off_status"
+      },
+      {
+        "id": "bff9f191-0df5-4b68-af75-d8a7a5aae925",
+        "name": "Aprovador",
+        "type": "Link",
+        "system_name": "paid_time_off_approver"
+      },
+      {
+        "id": "91624ec4-c38e-451b-adcf-485712dcafe7",
+        "name": "Líder Atual",
+        "type": "Lookup",
+        "system_name": "paid_time_off_current_manager"
+      },
+      {
+        "id": "b1d1d1b8-9fd2-483d-b1e9-f24c66a6a59a",
+        "name": "Período Aquisitivo",
+        "type": "Link",
+        "system_name": "paid_time_off_ferias_periodo_aquisitivo_field"
+      },
+      {
+        "id": "43bcd64b-6c04-4eef-b478-6ff48d44ef20",
+        "name": "Tipo de contrato",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "37207eda-f09a-41cd-a6d6-f1cea4e2e1fd",
+        "name": "Data admissão",
+        "type": "Lookup",
+        "system_name": "paid_time_off_ferias_data_admissao_field"
+      },
+      {
+        "id": "792c9fad-9c49-4717-af3c-9f6c6722e4af",
+        "name": "Chapter",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "6ce0f6db-477f-452f-acb8-a6edc47135ab",
+        "name": "Tipos de ausência",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "b958593d-c36d-46dd-a3bf-9420906f0fc8",
+        "name": "Status da Conta",
+        "type": "Lookup",
+        "system_name": null
+      }
+    ]
+  },
+  {
+    "sheet_id": "fab61eb4-5316-4a7c-a808-736395fa04bc",
+    "sheet_name": "Períodos Aquisitivos",
+    "system_name": "paid_time_off_periodos_aquisitivos_sheet",
+    "default_view_id": "3d151cae-f52d-4ab9-be27-fad23a39ed93",
+    "records_count": 1630,
+    "fields": [
+      {
+        "id": "276a3d1d-499c-43be-9458-2e838045fd41",
+        "name": "Nome do Período aquisitivo",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "5b87e6c9-3084-4151-aa1e-59cbbb763967",
+        "name": "Pessoa",
+        "type": "Link",
+        "system_name": "paid_time_off_periodos_aquisitivos_pessoa_field"
+      },
+      {
+        "id": "12aa6527-fd2f-43a4-ba97-b5a792c87d2b",
+        "name": "Data de admissão",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "ae3d9774-57b1-4980-b972-8fb2e6fc7561",
+        "name": "Tipo de Ausência",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "0be4d6ca-c178-475d-a24b-c33ab1e30dd5",
+        "name": "Data inicial",
+        "type": "Date",
+        "system_name": "paid_time_off_periodos_aquisitivos_inicio_field"
+      },
+      {
+        "id": "bbe13d26-3ddf-43b8-a896-b3c9c888ef4c",
+        "name": "Data final",
+        "type": "Date",
+        "system_name": "paid_time_off_periodos_aquisitivos_final_field"
+      },
+      {
+        "id": "a9ddc2d7-b9c0-4e56-9d62-d942cb36be82",
+        "name": "Dias adquiridos",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "87e7ddc0-5072-4c26-8bf6-bf5976899f64",
+        "name": "Dias férias",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "b7680367-94c9-41ae-b42e-4c2b60b89c15",
+        "name": "Dias Férias 2",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "32896a53-af4d-41db-a0ee-a8f6a5f5e1ac",
+        "name": "Períodos Tirados",
+        "type": "Number",
+        "system_name": "paid_time_off_periodos_aquisitivos_periodos_validos_field"
+      },
+      {
+        "id": "0a8a79ae-28f2-40d3-8fef-57d8893b5c41",
+        "name": "Dias Tirados + agendados",
+        "type": "Number",
+        "system_name": "paid_time_off_periodos_aquisitivos_dias_tirados_field"
+      },
+      {
+        "id": "715fc845-540a-4e9c-ab22-459778f92544",
+        "name": "Saldo Atual (tirados + agendados)",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "e8916af0-b19a-4d22-b269-7c6a6c16d9fe",
+        "name": "Ausências",
+        "type": "Link",
+        "system_name": "paid_time_off_periodos_aquisitivos_ferias_periodo_aquisitivo_field"
+      },
+      {
+        "id": "5ed145e4-46b2-4faa-b453-e9a8f7f9c2c2",
+        "name": "Frase Periodo Aquisitivo",
+        "type": "Formula",
+        "system_name": "paid_time_off_periodos_aquisitivos_frase_periodo_aquisitivo_field"
+      },
+      {
+        "id": "a06ae21f-685d-4939-9b30-4b566787b6f0",
+        "name": "Status Lemon Feriado",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "1780d849-fee6-459f-b57d-ac153de6ee34",
+        "name": "Mensagem Saldo Lemon Feriado",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "ddcc1a3e-772b-4f1a-bff6-9361b5df9f03",
+        "name": "Status Saldo",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "3bc743e3-cf6a-4914-a55f-2a76010ce0b0",
+        "name": "Primeiro Nome",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "72b8b193-6b44-46ab-850f-3081d816ec1c",
+        "name": "Dias Lemon Feriado",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "99f9f011-6d64-4f34-8238-379068e9272c",
+        "name": "Data Admissão",
+        "type": "Date",
+        "system_name": null
+      },
+      {
+        "id": "2c263c4e-0d09-41f2-a3c8-284490452a72",
+        "name": "Ano",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "5e5a88c8-ca15-407c-a84d-7250bd263987",
+        "name": "Mês ",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "0bed9815-d52c-43e1-8ccb-454856e15821",
+        "name": "Falta Periodo",
+        "type": "Select",
+        "system_name": null
+      }
+    ]
+  },
+  {
+    "sheet_id": "8f45d2d9-3759-4709-b055-067e2a9a18ab",
+    "sheet_name": "Pagamentos",
+    "system_name": "payments",
+    "default_view_id": "0e0c0c77-4573-44ec-8f3d-2f8f21aca2cb",
+    "records_count": 4146,
+    "fields": [
+      {
+        "id": "476803b3-c995-49c2-a86d-34683d31f2fc",
+        "name": "Título",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "6adfd229-78e2-484e-82b4-b6bab1904501",
+        "name": "Colaborador",
+        "type": "Link",
+        "system_name": "payment_person"
+      },
+      {
+        "id": "6661deb5-2f1a-4ad4-8258-a0a810e7074c",
+        "name": "Status",
+        "type": "Select",
+        "system_name": "payment_status"
+      },
+      {
+        "id": "857f26e9-d1d3-45c1-a1a8-f76d25f82b5a",
+        "name": "Contrato",
+        "type": "Link",
+        "system_name": "payment_contract"
+      },
+      {
+        "id": "f5aed61d-f8d4-415f-b05c-42159d6b21aa",
+        "name": "Competência",
+        "type": "Date",
+        "system_name": "payment_fiscal_date"
+      },
+      {
+        "id": "2f09128e-463d-48a4-a8f5-f8b55b0a369d",
+        "name": "Data Limite NF",
+        "type": "Date",
+        "system_name": "payment_nf_deadline"
+      },
+      {
+        "id": "5933ab40-14d4-4902-84fc-18fdc93bb0d9",
+        "name": "Data do Pagamento",
+        "type": "Date",
+        "system_name": "payment_date"
+      },
+      {
+        "id": "5c957b1f-802f-4be3-9afd-c3e5f212e3c7",
+        "name": "Valor Base",
+        "type": "Number",
+        "system_name": "payment_value"
+      },
+      {
+        "id": "fad6d160-0ac3-4052-b03c-f701bccd1d50",
+        "name": "Data de inicio do contrato",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "a8328148-fab8-4885-8b67-34bcf985f8a2",
+        "name": "Valor Proporcional",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "2c61494c-e41d-49de-b397-dfbba729dcd2",
+        "name": "Valor total",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "22558b25-51f5-4a27-978c-e7da7518edfd",
+        "name": "Comissão",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "bbb636ac-9cb8-4cc2-bfec-8aa554a0b18b",
+        "name": "Tem comissão?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "14ed0648-0a73-467c-bc3a-92ff50f59c41",
+        "name": "Adições",
+        "type": "Number",
+        "system_name": "payment_addition"
+      },
+      {
+        "id": "7f41daa3-a976-4f09-9643-c2181ba7201d",
+        "name": "Desc. P Saúde Titular",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "4e56b68e-ba36-4737-98b7-465fa4a92f74",
+        "name": "Desc. P Saúde Dependente",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "d5400182-d908-419f-9eab-962fc9a72f4a",
+        "name": "Desc. P Odonto Titular",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "53cbf405-a167-4912-a8fe-2931085f788b",
+        "name": "Desc. P Odonto Dependente",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "98514ab0-5027-4424-a2dc-7c1714344e4e",
+        "name": "Deduções",
+        "type": "Number",
+        "system_name": "payment_deduction"
+      },
+      {
+        "id": "0733cfa0-afff-487f-bc20-88dbcfa973d4",
+        "name": "Anexo",
+        "type": "Attachment",
+        "system_name": "payment_attachment"
+      },
+      {
+        "id": "e7678c48-25a3-4bf8-8f15-5721c0402ece",
+        "name": "Anotações",
+        "type": "Markdown",
+        "system_name": "payment_notes"
+      },
+      {
+        "id": "07e8afaa-e8ff-4559-91ab-ced74f091f23",
+        "name": "Primeiro Nome",
+        "type": "Lookup",
+        "system_name": "pagamentos_pj_pagamentos_primeiro_nome_field"
+      },
+      {
+        "id": "3ff5c650-7e45-40e8-84cf-96d1c33a268c",
+        "name": "Competência (Mês/Ano)",
+        "type": "Formula",
+        "system_name": "payment_fiscal_date_formula"
+      },
+      {
+        "id": "93658b3c-2ea0-4a19-8e8e-a23161642243",
+        "name": "Tipo de Contrato",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "65bbb1b3-894f-47aa-829e-9f53563078de",
+        "name": "PIX (pessoas)",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "1b800b9a-d870-49e0-90b6-66f8d043d6d0",
+        "name": "PIX (Empresas)",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "c66fb948-312e-4b2a-b644-1df4d8edda15",
+        "name": "Status CNPJ",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "d0a91f82-8c0b-4a9c-87f9-f7c40f8fb971",
+        "name": "Razão Social",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "2299fc80-1258-4fea-9a02-784adfcc43ca",
+        "name": "CNPJ",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "35ae718e-fba6-419a-a667-613826e922e3",
+        "name": "Centro de Custo (CC)",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "9aa3af03-d66c-4025-832a-644f8da37b39",
+        "name": "Tipo de Pagamento",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "9bcd0bc6-cce3-44f6-a90f-0d2b6b6261c9",
+        "name": "Data de Admissão",
+        "type": "Date",
+        "system_name": null
+      },
+      {
+        "id": "2ced386f-1292-4515-a500-34fb6cad133c",
+        "name": "Data de envio",
+        "type": "Date",
+        "system_name": null
+      },
+      {
+        "id": "f4bb1294-e000-4b8a-b152-c2b742ed70f4",
+        "name": "PIX (EMPRESA)",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "308e4ffb-fdff-47f8-bd72-b779481524ba",
+        "name": "status do colaborador",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "fc896019-ec5b-48c9-9bcd-b0ea299b8f46",
+        "name": "Centro de Custo atual",
+        "type": "String",
+        "system_name": null
+      }
+    ]
+  },
+  {
+    "sheet_id": "02df351e-bcb9-4c41-8e57-a612ea36def3",
+    "sheet_name": "Pessoas",
+    "system_name": "people",
+    "default_view_id": "05e81fcf-620c-46e4-af66-e07d82d2ba85",
+    "records_count": 336,
+    "fields": [
+      {
+        "id": "7d7200f3-a3a8-4809-95dd-b87263e3392e",
+        "name": "Nome Completo",
+        "type": "String",
+        "system_name": "people_name"
+      },
+      {
+        "id": "91418d43-ab3f-4ddc-94e5-24207fecf32a",
+        "name": "Nome Completo (Cópia)",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "76947686-623b-4f79-8dfb-388b1c826380",
+        "name": "Usuário",
+        "type": "User",
+        "system_name": "people_user"
+      },
+      {
+        "id": "1d048244-f261-4771-b879-de2415f44e51",
+        "name": "O que faz",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "e24a1dc8-764e-441f-9993-445292bbf092",
+        "name": "Time",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "c485ca19-fa52-4847-8cbe-7e83c076f350",
+        "name": "Time Atual",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "67270dd9-8210-4497-8525-4438b674b79d",
+        "name": "Squad",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "08c5e6ac-5c05-4bf5-8821-6363f0a89613",
+        "name": "Chapter",
+        "type": "Link",
+        "system_name": "teams"
+      },
+      {
+        "id": "cb551e5e-759d-4dd4-a20a-5c6ae283894c",
+        "name": "Chapter (Contratos)",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "b172c0b1-2747-4217-bb72-165accf99747",
+        "name": "Chapter Lead",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "f5af031a-a73b-4239-a6cd-b1b4c6ac8037",
+        "name": "Líder (Contratos)",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "53b89e19-86f8-4de6-9d86-f9386206d148",
+        "name": "Líder",
+        "type": "Link",
+        "system_name": "people_manager"
+      },
+      {
+        "id": "7f407b69-425f-4ff5-887e-9c9ebaf643c8",
+        "name": "É líder?",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "481c9797-60ef-418d-a626-72dcc31937bc",
+        "name": "Liderados",
+        "type": "Link",
+        "system_name": "people_manager_leds"
+      },
+      {
+        "id": "bd7ba7b2-28fd-4115-999b-cee2be2bf7ad",
+        "name": "Imagem de Perfil",
+        "type": "CoverImage",
+        "system_name": "people_picture"
+      },
+      {
+        "id": "c2c46516-c7a6-4d44-bcf5-9c60013836a1",
+        "name": "Primeiro Nome",
+        "type": "String",
+        "system_name": "people_first_name"
+      },
+      {
+        "id": "e2e676bc-d660-4009-84de-0df454199ceb",
+        "name": "Nome Social",
+        "type": "String",
+        "system_name": "people_social_name"
+      },
+      {
+        "id": "4333ed3b-56ea-48ac-806d-949fd9492070",
+        "name": "CPF",
+        "type": "String",
+        "system_name": "people_documents_br_cpf"
+      },
+      {
+        "id": "7aca204c-4ed1-4838-8ab9-20483baa3f8d",
+        "name": "Data de Nascimento",
+        "type": "Date",
+        "system_name": "people_date_of_birth"
+      },
+      {
+        "id": "9c615b21-c409-4eb3-8b33-d4915d44d40d",
+        "name": "Idade",
+        "type": "Formula",
+        "system_name": "people_age"
+      },
+      {
+        "id": "31c2ff23-710f-4408-a2eb-c47a1cb3a890",
+        "name": "Nome da mãe",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "d535e3b2-0540-47e6-8ae7-06716e2105db",
+        "name": "Nome do pai",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "f24f1aa9-86bb-46cb-9e7e-f895b30962c0",
+        "name": "Nacionalidade",
+        "type": "Select",
+        "system_name": "people_nationality"
+      },
+      {
+        "id": "ca8878bb-24d5-4ada-a30d-31198aab15d3",
+        "name": "Naturalidade - Cidade",
+        "type": "String",
+        "system_name": "people_city_of_birth"
+      },
+      {
+        "id": "dc7c7dcb-eb4e-48e5-b12e-6195f137fa2b",
+        "name": "Naturalidade - Estado",
+        "type": "String",
+        "system_name": "people_state_of_birth"
+      },
+      {
+        "id": "905ee042-5a8b-4c9a-b9ff-9423688ffd40",
+        "name": "Pronomes de Tratamento",
+        "type": "Select",
+        "system_name": "people_treatment_pronoun"
+      },
+      {
+        "id": "a754b998-fcb2-4fd9-9dd9-52d6270f40ce",
+        "name": "Gênero",
+        "type": "Select",
+        "system_name": "people_gender"
+      },
+      {
+        "id": "307d8fe2-3499-498b-a6ac-02b378618177",
+        "name": "Raça/Etnia",
+        "type": "Select",
+        "system_name": "people_race_ethnicity"
+      },
+      {
+        "id": "78393797-10cb-481d-a361-70df3a372896",
+        "name": "Estado Civil",
+        "type": "Select",
+        "system_name": "people_marital_status"
+      },
+      {
+        "id": "e40d7083-ac16-4060-9654-e848c6531175",
+        "name": "Tamanho Camiseta",
+        "type": "Select",
+        "system_name": "people_shirt_size"
+      },
+      {
+        "id": "9d205614-c63b-4e1c-8f48-86ebc04882ac",
+        "name": "Restrição Alimentar",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "59cb4db1-81c6-48cc-afd3-79e5775b1e79",
+        "name": "Consumo de bebida alcoolica?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "8205d406-bd3e-4f35-a467-fea5cbcda758",
+        "name": "Possui Deficiência?",
+        "type": "Select",
+        "system_name": "people_has_a_disability"
+      },
+      {
+        "id": "f0c44507-757c-4391-a591-acf5915083b0",
+        "name": "Descrição Deficiência",
+        "type": "String",
+        "system_name": "people_disability_description"
+      },
+      {
+        "id": "f8aa82f3-8640-4e82-8210-2a5850ac0a04",
+        "name": "Grau de Instrução",
+        "type": "Select",
+        "system_name": "people_education_level"
+      },
+      {
+        "id": "8dd6b1d1-2706-455e-810f-bdf8992155fa",
+        "name": "Instituição de ensino",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "8631cdff-4cf3-466e-baed-be07df8dcfaa",
+        "name": "Curso",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "5c8542d0-254f-4888-a86d-4265bbc149e0",
+        "name": "Ano de conclusão",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "f71fd013-f299-4532-b7b1-cc3c5d05778f",
+        "name": "Formação Acadêmica - Anexo",
+        "type": "Attachment",
+        "system_name": null
+      },
+      {
+        "id": "99f6dfe7-fd02-4e19-9675-700d5e9af8b5",
+        "name": "Telefone Celular",
+        "type": "String",
+        "system_name": "people_phone"
+      },
+      {
+        "id": "8eca086d-6f6b-4c7e-b46d-bbcbd840a4ea",
+        "name": "Email Pessoal",
+        "type": "String",
+        "system_name": "people_personal_email"
+      },
+      {
+        "id": "379bfd57-5ff6-4331-a84e-773875595493",
+        "name": "Email Corporativo",
+        "type": "String",
+        "system_name": "people_corporate_email"
+      },
+      {
+        "id": "6814d0af-827f-4ade-b070-8a6b19a97b88",
+        "name": "Endereço - Logradouro",
+        "type": "String",
+        "system_name": "people_address_br_logradouro"
+      },
+      {
+        "id": "1414941f-75ac-46be-9255-466f82db5e10",
+        "name": "Endereço - Número",
+        "type": "String",
+        "system_name": "people_address_br_numero"
+      },
+      {
+        "id": "be68c1dd-90c9-4ff7-a8bf-bcec06e537ae",
+        "name": "Endereço - Complemento",
+        "type": "String",
+        "system_name": "people_address_br_complemento"
+      },
+      {
+        "id": "f5f31a85-e2c4-4e81-86be-b3e4bd1493dc",
+        "name": "Endereço - Bairro",
+        "type": "String",
+        "system_name": "people_address_br_bairro"
+      },
+      {
+        "id": "0a5d9aa9-1f4c-48ba-89f1-3d7fae87d9a0",
+        "name": "Endereço - Cidade",
+        "type": "String",
+        "system_name": "people_address_br_cidade"
+      },
+      {
+        "id": "4769dcc9-e4b5-49db-a434-3defe859f83c",
+        "name": "Estado (UF)",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "384424a1-6507-4760-b9d8-7e033cea68a2",
+        "name": "Endereço - CEP",
+        "type": "String",
+        "system_name": "people_address_br_cep"
+      },
+      {
+        "id": "46a11be2-2e91-41e8-992b-cab637df6f2a",
+        "name": "Endereço - País",
+        "type": "String",
+        "system_name": "people_address_br_pais"
+      },
+      {
+        "id": "2bf1cbc7-c190-4d10-9c94-1ce5975a0d85",
+        "name": "Comprovante de Endereço",
+        "type": "Attachment",
+        "system_name": "people_address_proof_of_residence_attachment"
+      },
+      {
+        "id": "d560c772-2f6e-467b-9d8c-e669f43aba56",
+        "name": "Contato de emergência 1 - Nome",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "9e7bd90d-1cb7-4caa-89b5-d435e6c66244",
+        "name": "Contato de emergência 1 - Relação",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "a695db9c-6c37-458e-8e17-94e6d1da2019",
+        "name": "Contato de emergência 1 - Telefone",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "8a8d3b05-3b53-4324-9a02-c196adb99aa8",
+        "name": "Contato de emergência 1 - Email",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "6ca7c0c1-471f-4cad-9fb5-8ebba567b98b",
+        "name": "Contato de emergência 2 - Nome",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "fb427163-2b98-40f4-bc0f-184879c07c85",
+        "name": "Contato de emergência 2 - Relação",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "6434dd8f-b4c0-4408-8a5a-8c0d97d436bf",
+        "name": "Contato de emergência 2 - Telefone",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "df8a6cd4-4496-4db4-b289-6e510f3b9757",
+        "name": "Contato de emergência 2 - Email",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "3f79ec5d-c270-4c3b-b8b9-f4dae8d21078",
+        "name": "RG - Número",
+        "type": "String",
+        "system_name": "people_documents_br_rg"
+      },
+      {
+        "id": "bfdd0824-2f9a-490a-8b58-2c91851c20c8",
+        "name": "RG - Data de emissão",
+        "type": "Date",
+        "system_name": "people_documents_br_rg_issue_date"
+      },
+      {
+        "id": "de7c57e2-d335-478c-bb44-c00d3477c027",
+        "name": "RG - Orgão Expedidor",
+        "type": "String",
+        "system_name": "people_documents_br_rg_dispatching_agency"
+      },
+      {
+        "id": "4ec30e4b-2e49-40d6-847c-e31ed3799b41",
+        "name": "RG - Estado",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "2aec0227-4a0d-4381-885f-68c341466222",
+        "name": "RG - Anexo",
+        "type": "Attachment",
+        "system_name": "people_documents_br_rg_attachment"
+      },
+      {
+        "id": "4c61c6e5-dac8-4c4f-9fc8-4f5f47789bb7",
+        "name": "CPF - Anexo",
+        "type": "Attachment",
+        "system_name": null
+      },
+      {
+        "id": "2b1bd869-5839-4439-998e-c985a363b9e1",
+        "name": "Título de Eleitor - Número",
+        "type": "String",
+        "system_name": "people_documents_br_titulo"
+      },
+      {
+        "id": "58895d58-ac91-43d7-932d-6e6e61874360",
+        "name": "Título de Eleitor - Zona",
+        "type": "String",
+        "system_name": "people_documents_br_titulo_zona"
+      },
+      {
+        "id": "a2d10b26-7e0c-4084-981f-4e0ed251e6a2",
+        "name": "Título de Eleitor - Seção",
+        "type": "String",
+        "system_name": "people_documents_br_titulo_secao"
+      },
+      {
+        "id": "19005000-2fb6-4246-8153-b4b3db0222a9",
+        "name": "Título de Eleitor - Cidade",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "cfbdeda6-953d-426d-9a40-354ed09c25b7",
+        "name": "Título de Eleitor - Estado",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "f56f57a9-6526-4fa7-b363-494c9d86ce09",
+        "name": "Título de Eleitor - Anexo",
+        "type": "Attachment",
+        "system_name": null
+      },
+      {
+        "id": "ee6fe15b-c628-4c73-81b3-b1e476465716",
+        "name": "CTPS - Número",
+        "type": "String",
+        "system_name": "people_documents_clt_ctps"
+      },
+      {
+        "id": "e25dc355-252b-4172-9e53-566f70b20ae6",
+        "name": "CTPS - Série",
+        "type": "String",
+        "system_name": "people_documents_clt_ctps_serie"
+      },
+      {
+        "id": "0d66349f-edc0-4de7-b530-be792aab28d6",
+        "name": "CTPS - Data de Emissão",
+        "type": "Date",
+        "system_name": "people_documents_clt_ctps_emissao"
+      },
+      {
+        "id": "f1181a04-b49d-4f78-918a-f3f48683e40f",
+        "name": "CTPS - Estado",
+        "type": "String",
+        "system_name": "people_documents_clt_ctps_uf"
+      },
+      {
+        "id": "28346852-0eb0-4c35-9bd0-68adaa26b19e",
+        "name": "PIS - Número",
+        "type": "String",
+        "system_name": "people_documents_clt_pis"
+      },
+      {
+        "id": "5575d79d-e0ac-4132-8ca2-2835fddfe3ea",
+        "name": "CTPS - Anexo",
+        "type": "Attachment",
+        "system_name": null
+      },
+      {
+        "id": "f81f3832-2643-41c2-9242-1da968ae4109",
+        "name": "CNH - Número",
+        "type": "String",
+        "system_name": "people_documents_cnh"
+      },
+      {
+        "id": "a7188063-3cd6-48f7-8058-bc24c89a22ff",
+        "name": "CNH - Categoria",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "045d59c6-dce0-49ed-8ae8-439a98e8f1b1",
+        "name": "CNH - Data de Emissão",
+        "type": "Date",
+        "system_name": null
+      },
+      {
+        "id": "b6dc5681-897e-4618-933f-7914798698ab",
+        "name": "CNH - Data de Validade",
+        "type": "Date",
+        "system_name": null
+      },
+      {
+        "id": "07ff592e-fcb2-47fc-a3a3-a2916e3be30e",
+        "name": "CNH - Anexo",
+        "type": "Attachment",
+        "system_name": "people_documents_cnh_attachment"
+      },
+      {
+        "id": "fb27b9fc-716c-4eea-b053-927ad660fee3",
+        "name": "Reservista - Número",
+        "type": "String",
+        "system_name": "people_documents_br_reservista_number"
+      },
+      {
+        "id": "38ae7d9d-472c-4a13-b227-d2af796c5e64",
+        "name": "Reservista - RA",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "2cb99ae7-7b1f-4c49-aebc-b9168131ea6f",
+        "name": "Reservista - Categoria",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "0b4965b7-67c8-45db-a6c1-24ad23ce341c",
+        "name": "Reservista - Anexo",
+        "type": "Attachment",
+        "system_name": null
+      },
+      {
+        "id": "ee3a7346-146f-48ac-bb68-be8c821b9fe6",
+        "name": "Chave PIX",
+        "type": "String",
+        "system_name": "people_bank_br_pix"
+      },
+      {
+        "id": "d3144b41-6c95-4ba8-b05c-807f6798c52c",
+        "name": "Chave PIX (Pagamentos)",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "2cb3a587-209c-4016-9119-f1474ae4e733",
+        "name": "Nome do Banco",
+        "type": "String",
+        "system_name": "people_bank_br_bank_name"
+      },
+      {
+        "id": "385147c0-b4a3-418d-9ac3-e381bf012676",
+        "name": "Número do Banco",
+        "type": "Number",
+        "system_name": "people_bank_br_bank_number"
+      },
+      {
+        "id": "e7ce11e6-781f-4626-a0eb-e9e0ab315302",
+        "name": "Agência",
+        "type": "String",
+        "system_name": "people_bank_br_agencia"
+      },
+      {
+        "id": "9ef17ec9-9b39-46f2-854c-3d2a9528505f",
+        "name": "Conta Bancária",
+        "type": "String",
+        "system_name": "people_bank_br_account"
+      },
+      {
+        "id": "e92f817f-4d2d-4d8a-bc04-72b299b47360",
+        "name": "Conta Bancária - dígito",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "54f3e932-bc91-46f7-9d00-d46dc6ac655d",
+        "name": "Tipo de Conta",
+        "type": "Select",
+        "system_name": "people_bank_br_account_type"
+      },
+      {
+        "id": "d9396e06-db33-4722-ab85-a177596c55bd",
+        "name": "Modalidade de Conta",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "b2dcec31-916f-4843-b893-851d2a6f62c0",
+        "name": "Status da Conta",
+        "type": "Select",
+        "system_name": "people_status"
+      },
+      {
+        "id": "2abcfe00-4c4c-42f7-a6b4-f588a5d15853",
+        "name": "Tipo do Contrato",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "363f581c-3859-4851-b8de-69a87653119a",
+        "name": "Nível",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "a3227e0e-2b97-4af6-9d4d-45ae94a0cde4",
+        "name": "Faixa",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "83d30ec0-2081-4ae5-a823-7d7d7c050bb4",
+        "name": "Percentil",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "59ced5fb-f9cb-4b79-8f92-2934209991d6",
+        "name": "Meses de empresa",
+        "type": "Number",
+        "system_name": "people_months_in_company"
+      },
+      {
+        "id": "7c09d5b2-86d2-4689-a9bf-d66f457da6ab",
+        "name": "Data de Admissão",
+        "type": "Date",
+        "system_name": "people_admission_date"
+      },
+      {
+        "id": "0ccf8d6a-0a98-4c2a-bde6-7b5dc0939745",
+        "name": "Data de Desligamento",
+        "type": "Date",
+        "system_name": "people_termination_date"
+      },
+      {
+        "id": "f5476fe4-3b88-4bef-b8d4-e92bccc659f4",
+        "name": "Pedidos de Compra (Pessoa)",
+        "type": "Link",
+        "system_name": "equipamentos_pessoas_pedidos_de_compra_pessoa_field"
+      },
+      {
+        "id": "3ca7dd5b-5e87-4b4d-bd54-8bc91b577880",
+        "name": "Equipamentos (Colaborador)",
+        "type": "Link",
+        "system_name": "equipamentos_pessoas_equipamentos_colaborador_field"
+      },
+      {
+        "id": "605bb281-b132-4b3f-9794-8fff818d6585",
+        "name": "Slack",
+        "type": "Link",
+        "system_name": "slack"
+      },
+      {
+        "id": "56775190-214d-466a-a050-b69b69e77146",
+        "name": "Squad (Membros)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "8d14a9ca-8112-4239-b015-b86859d04d98",
+        "name": "Onboarding desta pessoa",
+        "type": "Link",
+        "system_name": "people_onboarding_person"
+      },
+      {
+        "id": "ec19ab07-c31f-43a9-a573-b78111dc77a6",
+        "name": "Onboarding (Líder)",
+        "type": "Link",
+        "system_name": "onboarding_pessoas_onboarding_lider_field"
+      },
+      {
+        "id": "c613d410-9a4c-45e4-b4f0-81c837f71cc2",
+        "name": "Contratos (Colaborador)",
+        "type": "Link",
+        "system_name": "people_contracts"
+      },
+      {
+        "id": "d0d4ade8-fd88-45c6-97df-ce1d59f6cc43",
+        "name": "Empresas (Pessoa)",
+        "type": "Link",
+        "system_name": "people_companies"
+      },
+      {
+        "id": "2fee4241-2e97-4f31-8e42-8ce66f84e384",
+        "name": "Pagamentos (Colaborador)",
+        "type": "Link",
+        "system_name": "people_payments"
+      },
+      {
+        "id": "cd7f9975-56a3-457f-adfc-64f40445a787",
+        "name": "Férias desta pessoa",
+        "type": "Link",
+        "system_name": "persons_paid_time_off"
+      },
+      {
+        "id": "0cd49707-df3c-4083-8917-f2fc924f8e54",
+        "name": "Ausências (Aprovador)",
+        "type": "Link",
+        "system_name": "people_paid_time_off_approver"
+      },
+      {
+        "id": "d9c33862-f0ef-4de3-8f37-2ad3592be14f",
+        "name": "Offboarding (Colaborador)",
+        "type": "Link",
+        "system_name": "offboarding_colaborador"
+      },
+      {
+        "id": "a2332afc-beba-498f-b570-cfd2bf39f636",
+        "name": "Offboarding (Líder Atual)",
+        "type": "Link",
+        "system_name": "offboarding_lider_atual"
+      },
+      {
+        "id": "fb12ee90-9163-431b-b5dd-a161cdd439de",
+        "name": "Offboarding (Responsável RH)",
+        "type": "Link",
+        "system_name": "offboarding_responsavel_rh"
+      },
+      {
+        "id": "0db45403-f746-4929-8683-559a38a5430a",
+        "name": "Períodos Aquisitivos (Pessoa)",
+        "type": "Link",
+        "system_name": "paid_time_off_pessoas_periodos_aquisitivos_pessoa_field"
+      },
+      {
+        "id": "cbe83b13-2324-41b1-9790-29251cb405b3",
+        "name": "Férias (Líder)",
+        "type": "Link",
+        "system_name": "paid_time_off_pessoas_ferias_lider_field"
+      },
+      {
+        "id": "9b93c60c-d4fd-4d9c-be0d-04ff8eee8f82",
+        "name": "Squads (Squad Lead)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "ff47c9a1-dd4a-4983-889c-8a0846874405",
+        "name": "Squads (Tech Lead)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "c67f6374-5f0e-4368-819c-d552aa24e4b5",
+        "name": "Squads (Tech Lead)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "47c525bc-4f76-4b62-90d1-fd2b8449e507",
+        "name": "Chapter (Chapter Lead)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "f9f57ab4-5491-4f57-8531-150683f2ca26",
+        "name": "Adesão (Pessoa)",
+        "type": "Link",
+        "system_name": "person_benefits_adhesion"
+      },
+      {
+        "id": "1b8211f6-f319-4ff5-832b-176658673271",
+        "name": "Outras Pessoas (Conexões)",
+        "type": "Link",
+        "system_name": "people_other_people"
+      },
+      {
+        "id": "e718df20-711f-48ed-89ac-e0275461415c",
+        "name": "Onboarding (Recrutador)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "b4274161-66e9-439c-bd36-d234cd577a01",
+        "name": "🤝 Propostas (Gestor)",
+        "type": "Link",
+        "system_name": "ats_pessoas_propostas_gestor_field"
+      },
+      {
+        "id": "d35320b3-3694-4f17-b4ac-615d3d65ecd6",
+        "name": "🤝 Propostas (Pessoa)",
+        "type": "Link",
+        "system_name": "ats_pessoas_propostas_pessoa_field"
+      },
+      {
+        "id": "c8da4f49-3270-4d26-94e8-75d06ce82584",
+        "name": "Entrevistas (Entrevistador)",
+        "type": "Link",
+        "system_name": "ats_pessoas_entrevistas_entrevistador_field"
+      },
+      {
+        "id": "c55e03fd-2881-4ef0-b99f-e54812d3b808",
+        "name": "Indicações de Talentos (Quem Indicou)",
+        "type": "Link",
+        "system_name": "ats_pessoas_indicacoes_de_talentos_quem_indicou_field"
+      },
+      {
+        "id": "f7caf778-7f87-4b86-affb-939f22c3f88e",
+        "name": "Tipo do desligamento",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "c17106b2-2aa9-47ee-adff-86f8e6c62adc",
+        "name": "Motivo do desligamento",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "faac7cf1-98e2-4380-89f5-e26cbdc5f65b",
+        "name": "Solicitar meus equipamentos (E-mail pessoal)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "d44dfff0-4792-4a36-b339-461a9bdec2e0",
+        "name": "Solicitar meus equipamentos (Telefone Celular)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "b2fc53d9-3717-4b3f-a471-de93caa48026",
+        "name": "Valor Atual",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "39fcf60c-e0fd-4037-b21d-f55f0076bf4d",
+        "name": "Contratos (Líder )",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "d0b33997-d062-448b-a4df-076564b3b05d",
+        "name": "Auto apresentação",
+        "type": "Attachment",
+        "system_name": null
+      },
+      {
+        "id": "6d643981-48e3-49c9-91ba-c5abffb76857",
+        "name": "Você se considera pertencente a algum contexto social ou economicamente vulnerável?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "0084068a-fc57-4065-aa24-dfdba38ad0f0",
+        "name": "Qual sua orientação sexual?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "7e4f6df8-e7d7-4323-939d-f973b28f936f",
+        "name": "13 Pagamento (Pessoa)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "dae9c8c3-4b60-438a-bb91-a2c0b7c907b5",
+        "name": "Comissão (Pessoa)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "4d14169e-2804-4e41-9b8c-a98a8c889cc6",
+        "name": "Chapter Lead Atual",
+        "type": "Formula",
+        "system_name": null
+      },
+      {
+        "id": "d11ebe1e-0259-4990-a6c0-930ad636520d",
+        "name": "Onboarding (Recrutador Responsável)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "ab67c29f-afca-4eed-9b7e-0d43c25fefef",
+        "name": "Anos desde admissão ",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "91184f37-098b-4ea6-b070-afbcc1c94003",
+        "name": "Número de Periodos criados",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "c233cc74-771e-43de-b7b8-a5197d7b288e",
+        "name": "Falta Periodo",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "0ad60335-f041-45c3-bdd0-8ab4b2a43a60",
+        "name": "Avaliações de Desempenho (Para)",
+        "type": "Link",
+        "system_name": "people_performance_review_reviews_person"
+      },
+      {
+        "id": "5a631eb4-b441-48ee-bd6e-55de80f6081b",
+        "name": "Avaliações de Desempenho (De)",
+        "type": "Link",
+        "system_name": "people_performance_review_reviews_reviewer"
+      },
+      {
+        "id": "f514ed5c-c2f8-4481-81b2-bdc356a15a00",
+        "name": "Relatório (Líder responsável)",
+        "type": "Link",
+        "system_name": "people_performance_review_reports_manager"
+      },
+      {
+        "id": "5bda472b-b733-4ef6-8828-d78f432f77b1",
+        "name": "Relatório (Pessoa)",
+        "type": "Link",
+        "system_name": "people_performance_review_reports_person"
+      },
+      {
+        "id": "26fd455d-e059-4bd0-83ab-5df8fd554dc4",
+        "name": "Admissão (Responsável)",
+        "type": "Link",
+        "system_name": "conexoes_reversas_admissao_responsavel"
+      },
+      {
+        "id": "080a7682-7991-4262-a216-ea44158113f1",
+        "name": "Documentos (Signatários)",
+        "type": "Link",
+        "system_name": "zazos_signatures_people_documents"
+      },
+      {
+        "id": "55506546-008a-469f-a238-5e34519d6116",
+        "name": "Tem filhos?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "4e52d5ad-dff7-4f5e-bd7b-ca962a7445ca",
+        "name": "Criado em",
+        "type": "Date",
+        "system_name": "performance_mensal_pessoas_criado_em_field"
+      },
+      {
+        "id": "d48cfc27-080d-4167-b799-ba95eb5b4ff3",
+        "name": "Criação de Usuário",
+        "type": "Select",
+        "system_name": "criacao_de_usuario"
+      },
+      {
+        "id": "a9c66d68-19f4-4312-a334-4ad3be968a3d",
+        "name": "Importar pessoas manualmente (Líder)",
+        "type": "Link",
+        "system_name": "ajustes_de_sistema_pessoas_conexoes_reversas_importar_pessoas_manualmente_lider_field"
+      },
+      {
+        "id": "bd1fc981-0687-4014-a013-b86c6acd9656",
+        "name": "Times (Diretor)",
+        "type": "Link",
+        "system_name": "performance_mensal_pessoas_conexoes_reversas_times_diretor_field"
+      },
+      {
+        "id": "a82ef551-b219-4653-b656-fbfc9ecf2857",
+        "name": "Checkpoint (Liderado)",
+        "type": "Link",
+        "system_name": "performance_mensal_pessoas_conexoes_reversas_checkpoint_liderado_field"
+      },
+      {
+        "id": "435b4754-22c8-4c95-b99e-baedd0ce2f8a",
+        "name": "Checkpoint (Líder)",
+        "type": "Link",
+        "system_name": "performance_mensal_pessoas_conexoes_reversas_checkpoint_lider_field"
+      },
+      {
+        "id": "cad9b26c-2033-4e72-a91c-c59bc51c8885",
+        "name": "Relatórios Mensais Líder (Líder)",
+        "type": "Link",
+        "system_name": "performance_mensal_pessoas_conexoes_reversas_relatorios_mensais_lider_lider_field"
+      },
+      {
+        "id": "08fe37a7-0dfe-4005-a960-e5228134bf0b",
+        "name": "Configurações Performance Mensal (Participantes do Teste)",
+        "type": "Link",
+        "system_name": "configuracoes_performance_mensal_participantes_do_teste"
+      },
+      {
+        "id": "4d9e8e26-5373-475c-9f18-57b5a361278f",
+        "name": "Relatório (Pessoa)",
+        "type": "Link",
+        "system_name": "avaliacao_360_pessoas_conexoes_reversas_relatorio_pessoa_field"
+      },
+      {
+        "id": "5301d419-e7a8-439f-be11-8e3632ea3ae9",
+        "name": "Relatório (Líder responsável)",
+        "type": "Link",
+        "system_name": "avaliacao_360_pessoas_conexoes_reversas_relatorio_lider_responsavel_field"
+      },
+      {
+        "id": "b20e26a5-72a1-423a-8329-34ca51e89dcc",
+        "name": "Avaliações (De)",
+        "type": "Link",
+        "system_name": "avaliacao_360_pessoas_conexoes_reversas_avaliacoes_de_field"
+      },
+      {
+        "id": "45cea362-a9f2-40bf-a64c-5e4854920406",
+        "name": "Avaliações (Para)",
+        "type": "Link",
+        "system_name": "avaliacao_360_pessoas_conexoes_reversas_avaliacoes_para_field"
+      },
+      {
+        "id": "bf0194bf-d209-4e63-ac07-01edac656c67",
+        "name": "Relatório (Indicador de par)",
+        "type": "Link",
+        "system_name": "workspace_pessoas_conexoes_reversas_relatorio_indicador_de_par_field"
+      },
+      {
+        "id": "fa2c5374-e740-41c7-aa6f-227c825b1a87",
+        "name": "Ciclo (Participante do ciclo teste)",
+        "type": "Link",
+        "system_name": "avd_essencial_pessoas_conexoes_reversas_ciclo_participante_do_ciclo_teste_field"
+      },
+      {
+        "id": "4a661ff8-26be-4a18-9621-b33d79d10dfd",
+        "name": "Nome de exibição",
+        "type": "String",
+        "system_name": "nome_de_exibicao"
+      },
+      {
+        "id": "4de93640-635b-4820-9623-d03a7776402f",
+        "name": "Centro de Custo",
+        "type": "Select",
+        "system_name": "centro_de_custo"
+      },
+      {
+        "id": "17dece3b-4471-4824-b41e-9e5315903601",
+        "name": "Despesas (Colaborador)",
+        "type": "Link",
+        "system_name": "despesas_e_reembolsos_pessoas_despesas_colaborador_field"
+      },
+      {
+        "id": "c408cdb3-0f49-4157-8ce5-8990ecc0d609",
+        "name": "Budgets (Responsável pelo Budget)",
+        "type": "Link",
+        "system_name": "conexoes_reversas_budgets_responsavel_pelo_budget"
+      },
+      {
+        "id": "df28f423-04ab-41ca-9c79-ceae46488d21",
+        "name": "Budgets (Alinhado com)",
+        "type": "Link",
+        "system_name": "conexoes_reversas_budgets_alinhado_com"
+      },
+      {
+        "id": "c764a606-e86d-4aad-98fe-242daa3eeb40",
+        "name": "O que faz?",
+        "type": "String",
+        "system_name": null
+      }
+    ]
+  },
+  {
+    "sheet_id": "52deb192-b8fb-401f-b95f-4c397ba8e232",
+    "sheet_name": "Ciclos Mensais Performance Mensal",
+    "system_name": "performance_mensal_ciclos_mensais_sheet",
+    "default_view_id": "3e92c332-a65c-4b76-a30b-926ddef7fb8e",
+    "records_count": 9,
+    "fields": [
+      {
+        "id": "4ee8472c-f00a-492c-95ba-ea0a14760ade",
+        "name": "Data de Início",
+        "type": "Date",
+        "system_name": "bases_compartilhadas_performance_mensal_ciclos_mensais_sheet_performance_mensal_ciclos_mensais_data_de_inicio_field_c9a9"
+      },
+      {
+        "id": "86986f91-6c7d-4794-9e6f-5368a4723c80",
+        "name": "Insights",
+        "type": "Markdown",
+        "system_name": "bases_compartilhadas_performance_mensal_ciclos_mensais_sheet_performance_mensal_ciclos_mensais_insights_field_cff5"
+      },
+      {
+        "id": "de35239b-bd28-4e67-8622-86fd231d0cda",
+        "name": "É um ciclo de teste?",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_ciclos_mensais_sheet_e_um_ciclo_de_teste_9d51"
+      },
+      {
+        "id": "3a01626b-9d1c-425d-8be9-0bb565943f8f",
+        "name": "Título",
+        "type": "String",
+        "system_name": "bases_compartilhadas_performance_mensal_ciclos_mensais_sheet_performance_mensal_ciclos_mensais_titulo_field_cb8a"
+      },
+      {
+        "id": "9f730a09-d086-46cf-a04f-f0866de53ae4",
+        "name": "Envios",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_performance_mensal_ciclos_mensais_sheet_performance_mensal_ciclos_mensais_envios_field_ff3a"
+      },
+      {
+        "id": "873c11be-8b39-4311-a69d-645cc8711d8b",
+        "name": "Configurações",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_performance_mensal_ciclos_mensais_sheet_performance_mensal_ciclos_mensais_configuracoes_field_0acd"
+      },
+      {
+        "id": "58ae3f35-f3c5-4cd8-b056-a31e9ed768a8",
+        "name": "Relatórios Líder",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_performance_mensal_ciclos_mensais_sheet_performance_mensal_ciclos_mensais_relatorios_lider_field_8110"
+      },
+      {
+        "id": "3bb89097-1c95-4136-a0b2-defd7a91b078",
+        "name": "Compilado de todos os envios",
+        "type": "String",
+        "system_name": "bases_compartilhadas_performance_mensal_ciclos_mensais_sheet_performance_mensal_ciclos_mensais_compilado_de_todos_os_envios_field_0203"
+      },
+      {
+        "id": "dfc723f9-5c61-4b4f-aff5-9bb02f092c42",
+        "name": "Compilado de relatórios de lideres",
+        "type": "String",
+        "system_name": "bases_compartilhadas_performance_mensal_ciclos_mensais_sheet_performance_mensal_ciclos_mensais_compilado_de_relatorios_de_lideres_field_4d55"
+      },
+      {
+        "id": "2c20b160-0ca2-4fd8-b7f1-7ad427feab8b",
+        "name": "Andamento Colaboradores",
+        "type": "Number",
+        "system_name": "bases_compartilhadas_performance_mensal_ciclos_mensais_sheet_performance_mensal_ciclos_mensais_andamento_colaboradores_field_d206"
+      },
+      {
+        "id": "667c1914-ba56-4c6d-9382-f6687d8b1b7c",
+        "name": "Andamento Liderança",
+        "type": "Number",
+        "system_name": "bases_compartilhadas_performance_mensal_ciclos_mensais_sheet_performance_mensal_ciclos_mensais_andamento_lideranca_field_780e"
+      },
+      {
+        "id": "81a7c36e-09be-4f5b-903d-8e54f96ac336",
+        "name": "Colaboradores em aberto",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_performance_mensal_ciclos_mensais_sheet_performance_mensal_ciclos_mensais_colaboradores_em_aberto_field_9181"
+      },
+      {
+        "id": "68b27a8d-ecbb-4b7e-9dd6-b7d4742dc962",
+        "name": "Líderes em aberto",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_performance_mensal_ciclos_mensais_sheet_performance_mensal_ciclos_mensais_lideres_em_aberto_field_a3d3"
+      }
+    ]
+  },
+  {
+    "sheet_id": "d990678e-899e-47f1-a852-f8f25d3fe430",
+    "sheet_name": "Configurações de Sistema",
+    "system_name": "performance_mensal_configuracoes_de_sistema_sheet",
+    "default_view_id": "be63b409-d92a-4e07-8a6e-bbedb16b96a2",
+    "records_count": 1,
+    "fields": [
+      {
+        "id": "cd419799-78dd-4bab-999d-c82d86261da7",
+        "name": "Nome",
+        "type": "String",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_de_sistema_sheet_performance_mensal_configuracoes_de_sistema_nome_field_3982"
+      },
+      {
+        "id": "593b88c5-e2c5-4a05-b2c6-ea001e582dc3",
+        "name": "Sua empresa usa Slack?",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_de_sistema_sheet_performance_mensal_configuracoes_de_sistema_sua_empresa_usa_slack_field_c3af"
+      },
+      {
+        "id": "6258967b-6a98-4011-8df6-b4c65206786d",
+        "name": "Deseja importar pessoas automaticamente do Slack?",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_de_sistema_sheet_performance_mensal_configuracoes_de_sistema_deseja_importar_pessoas_automaticamente_do_slack_field_f6c3"
+      },
+      {
+        "id": "9c96ee43-9765-4cd6-96fb-77a3d9ab853b",
+        "name": "App configurado?",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_de_sistema_sheet_app_configurado_9f50"
+      },
+      {
+        "id": "0dfd36e5-e97a-4ab4-9921-72c91cc397b4",
+        "name": "Como você deseja importar as pessoas para a Zazos?",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_de_sistema_sheet_como_voce_deseja_importar_as_pessoas_para_a_zazos_fea4"
+      },
+      {
+        "id": "e9d3dc3e-8568-4370-a3d4-23bce2e5d2af",
+        "name": "Quantas pessoas colaboradoras a sua empresa possui atualmente?",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_de_sistema_sheet_workspace_configuracoes_de_sistema_quantas_pessoas_colaboradoras_a_sua_empresa_possui_atualmente_field_455f"
+      },
+      {
+        "id": "2ca28e2b-e9a3-4b1e-8570-9906eb145536",
+        "name": "Qual é o estágio de desenvolvimento da sua empresa?",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_de_sistema_sheet_workspace_configuracoes_de_sistema_qual_e_o_estagio_de_desenvolvimento_da_sua_empresa_field_159f"
+      },
+      {
+        "id": "6725507d-9b34-4ab8-bdaa-d9e01162c4b5",
+        "name": "Qual é o principal setor de atuação da sua empresa?",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_de_sistema_sheet_workspace_configuracoes_de_sistema_qual_e_o_principal_setor_de_atuacao_da_sua_empresa_field_c45e"
+      },
+      {
+        "id": "e2338c17-0f71-4707-9040-882e8a74ae99",
+        "name": "Qual é o modelo de receita predominante da sua empresa?",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_de_sistema_sheet_workspace_configuracoes_de_sistema_qual_e_o_modelo_de_receita_predominante_da_sua_empresa_field_fd40"
+      },
+      {
+        "id": "3f5b2cbe-0621-4c3a-bba1-cd3bee754848",
+        "name": "Qual é o faturamento anual médio da sua empresa?",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_de_sistema_sheet_workspace_configuracoes_de_sistema_qual_e_o_faturamento_anual_medio_da_sua_empresa_field_3051"
+      }
+    ]
+  },
+  {
+    "sheet_id": "c27721c7-41b1-42a5-8793-fd98ba44d690",
+    "sheet_name": "Configurações performance mensal",
+    "system_name": "performance_mensal_configuracoes_sheet",
+    "default_view_id": "7f855c8d-ff40-4465-9ae3-fc16a47da06a",
+    "records_count": 1,
+    "fields": [
+      {
+        "id": "4ba19229-d7b3-4d00-8d53-a112681e88d4",
+        "name": "Nome",
+        "type": "String",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_sheet_performance_mensal_configuracoes_nome_field_d4cd"
+      },
+      {
+        "id": "5412868b-0d7b-4799-b26b-5ac13fdf4fab",
+        "name": "Pergunta Líder - Liderado",
+        "type": "String",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_sheet_performance_mensal_configuracoes_pergunta_lider_liderado_field_c323"
+      },
+      {
+        "id": "03b20915-cfb0-46ce-a642-7e35d124fbde",
+        "name": "Pergunta Liderado - Líder",
+        "type": "String",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_sheet_performance_mensal_configuracoes_pergunta_liderado_lider_field_6909"
+      },
+      {
+        "id": "27c908f0-440c-42d5-ae71-28b674dad025",
+        "name": "Dia do mês para encerrar a pesquisa ",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_sheet_performance_mensal_configuracoes_dia_do_mes_para_encerrar_a_pesquisa_field_506c"
+      },
+      {
+        "id": "4178bd55-8182-4815-b0b5-0c607849a621",
+        "name": "Enviar automaticamente no primeiro dia do mês?",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_sheet_performance_mensal_configuracoes_enviar_automaticamente_no_primeiro_dia_do_mes_field_8286"
+      },
+      {
+        "id": "e57fda26-3d47-43bf-8d4b-8d3450eb1dd8",
+        "name": "Solicitar respostas por Slack ou por email?",
+        "type": "Select",
+        "system_name": "performance_mensal_configuracoes_performance_mensal_solicitar_respostas_por_slack_ou_por_email_field"
+      },
+      {
+        "id": "7e2df63e-72fd-4d7a-993c-e5bc1c13bc8d",
+        "name": "Solicitar confirmação da liderança por Slack ou email automaticamente no último dia do mês?",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_sheet_performance_mensal_configuracoes_solicitar_confirmacao_da_lideranca_por_slack_ou_email_automaticamente_no_ultimo_dia_do_mes_field_208a"
+      },
+      {
+        "id": "e5cdcac9-931a-4d98-8173-7db5493a7bd1",
+        "name": "Enviar cobrança após 7 dias sem resposta?",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_sheet_performance_mensal_configuracoes_enviar_cobranca_apos_7_dias_sem_resposta_field_86b1"
+      },
+      {
+        "id": "ea2c7fd1-2e50-4890-8d6f-a4ca1bd6534b",
+        "name": "Configuração inicial concluída?",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_sheet_configuracao_inicial_concluida_ce9d"
+      },
+      {
+        "id": "579be203-15b5-4049-82f8-2c8cf54a6079",
+        "name": "Você deseja enviar enviar o teste por Slack?",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_sheet_voce_deseja_enviar_enviar_o_teste_por_slack_f394"
+      },
+      {
+        "id": "9795d403-c1c8-4979-a114-011ea6913996",
+        "name": "Teste realizado?",
+        "type": "Select",
+        "system_name": "performance_mensal_configuracoes_performance_mensal_teste_realizado_field"
+      },
+      {
+        "id": "bd0c3a50-93a3-4362-a8d4-565c154c6903",
+        "name": "Envios - Checkpoint",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_sheet_performance_mensal_configuracoes_envios_checkpoint_field_1ed2"
+      },
+      {
+        "id": "bef799be-dc0c-400f-ba33-e18494346ba0",
+        "name": "Envios Mensais - Checkpoint",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_sheet_performance_mensal_configuracoes_envios_mensais_checkpoint_field_1b5e"
+      },
+      {
+        "id": "0fc26c35-cb9a-4c18-892a-33382da79cde",
+        "name": "Participantes do Teste",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_performance_mensal_configuracoes_sheet_participantes_do_teste_ca61"
+      }
+    ]
+  },
+  {
+    "sheet_id": "8f89092f-7137-4413-b7df-2bd622ea9bcb",
+    "sheet_name": "Envios",
+    "system_name": "performance_mensal_envios_sheet",
+    "default_view_id": "cc12d70a-e9a6-47e0-81e8-b94809798d06",
+    "records_count": 25,
+    "fields": [
+      {
+        "id": "bc983abc-3232-4f72-a9ce-6fb39b9f00b5",
+        "name": "Status - Líder",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_status_lider_field_13e0"
+      },
+      {
+        "id": "9cd460af-204e-46d8-aedf-8d234c912137",
+        "name": "Status Liderado",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_status_liderado_field_edcf"
+      },
+      {
+        "id": "c78bebea-76f1-4637-be96-a4c6c837e606",
+        "name": "Resposta Líder - Liderado",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_resposta_lider_liderado_field_ec13"
+      },
+      {
+        "id": "413f41a5-4cd4-44c7-83d5-7b242fa655ea",
+        "name": "Comentário Líder",
+        "type": "Markdown",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_comentario_lider_field_cea7"
+      },
+      {
+        "id": "749acbd3-cab1-4ad6-a3e9-b4c10357c661",
+        "name": "Resposta Liderado - Líder",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_resposta_liderado_lider_field_92db"
+      },
+      {
+        "id": "422a19d2-66f8-4693-a8e0-63fd541eccca",
+        "name": "Comentário Liderado",
+        "type": "Markdown",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_comentario_liderado_field_d384"
+      },
+      {
+        "id": "cba0b176-097d-4865-9db8-5bfb75ffd345",
+        "name": "Data de Resposta",
+        "type": "Date",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_data_de_resposta_field_22a7"
+      },
+      {
+        "id": "c01ba506-3562-4cb8-b4c8-0a8bfa6e2468",
+        "name": "Liderado",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_liderado_field_646d"
+      },
+      {
+        "id": "92e00b13-2669-4f56-868d-43f3d997afe3",
+        "name": "Ciclo Mensal",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_ciclo_mensal_field_ef8d"
+      },
+      {
+        "id": "c33860d3-9071-4cbc-9bae-30d4664d416d",
+        "name": "Data",
+        "type": "Date",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_data_field_517c"
+      },
+      {
+        "id": "877855a0-fc51-4012-87a0-e81d010868ff",
+        "name": "Título",
+        "type": "String",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_titulo_field_aa91"
+      },
+      {
+        "id": "52faa7ca-999b-4a8f-9aac-6addd3395ceb",
+        "name": "Configurações",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_configuracoes_field_1cbd"
+      },
+      {
+        "id": "4619e802-783e-4f78-9b68-eaf11ff9a5f8",
+        "name": "Líder",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_lider_field_b8d7"
+      },
+      {
+        "id": "349ec4ea-0eba-481c-bfb0-84ad19656eea",
+        "name": "Time",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_time_field_0b11"
+      },
+      {
+        "id": "0df5eced-5f97-42d0-85df-83e637680f63",
+        "name": "Pergunta Líder - Liderado",
+        "type": "String",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_pergunta_lider_liderado_3956"
+      },
+      {
+        "id": "33d5846c-0c6e-42e8-86f3-cc95fc1d9867",
+        "name": "Pergunta Liderado - Líder",
+        "type": "String",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_pergunta_liderado_lider_d4fb"
+      },
+      {
+        "id": "33f8047e-d321-40b7-9108-d2770f6558fb",
+        "name": "Pergunta Líder - Liderado",
+        "type": "Markdown",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_pergunta_lider_liderado_field_49a4"
+      },
+      {
+        "id": "45e80a22-3f31-432d-aa26-0090dbde51b6",
+        "name": "Pergunta Liderado - Líder",
+        "type": "Markdown",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_pergunta_liderado_lider_field_9d2e"
+      },
+      {
+        "id": "0639ce6b-e3df-40b0-a92b-1c2744cbfc32",
+        "name": "Resposta + Comentário  - Liderado",
+        "type": "Markdown",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_resposta_comentario_liderado_field_cf77"
+      },
+      {
+        "id": "d3204df8-2308-4bb5-bd85-454aefbc2e1d",
+        "name": "Status Final",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_status_final_field_d783"
+      },
+      {
+        "id": "ce662671-0798-4e9d-80db-34e2c768a1bc",
+        "name": "Compilado para Relatório geral",
+        "type": "String",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_compilado_para_relatorio_geral_field_7cf5"
+      },
+      {
+        "id": "a1aebe72-1169-44ce-a4fa-363981be879d",
+        "name": "Resultado",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_envios_sheet_performance_mensal_envios_resultado_field_de70"
+      }
+    ]
+  },
+  {
+    "sheet_id": "d544f84d-04ff-498d-942a-6cf264c5f9f8",
+    "sheet_name": "Relatórios Líder",
+    "system_name": "performance_mensal_relatorios_lider_sheet",
+    "default_view_id": "dbbf64a2-200c-499a-b238-8798a3ef2f80",
+    "records_count": 17,
+    "fields": [
+      {
+        "id": "04c94a82-3fe5-4b83-bccb-40e942e839f6",
+        "name": "Insights GPT",
+        "type": "Markdown",
+        "system_name": "bases_compartilhadas_performance_mensal_relatorios_lider_sheet_performance_mensal_relatorios_lider_insights_gpt_field_97c5"
+      },
+      {
+        "id": "91b856c1-fb8b-4ab0-ae0c-3747bee1f5d0",
+        "name": "Ciclo Mensal",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_performance_mensal_relatorios_lider_sheet_performance_mensal_relatorios_lider_ciclo_mensal_field_b219"
+      },
+      {
+        "id": "64d0ba5a-915f-423c-873a-07cf9d99dd42",
+        "name": "Líder",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_performance_mensal_relatorios_lider_sheet_performance_mensal_relatorios_lider_lider_field_2211"
+      },
+      {
+        "id": "641289d0-4797-422a-ab40-3d9c56054a4e",
+        "name": "Envios do Líder",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_performance_mensal_relatorios_lider_sheet_performance_mensal_relatorios_lider_envios_do_lider_field_582f"
+      },
+      {
+        "id": "4c296834-ef7e-442d-87f0-4ac3bf5d0a26",
+        "name": "Média Líder - Liderado",
+        "type": "Number",
+        "system_name": "bases_compartilhadas_performance_mensal_relatorios_lider_sheet_performance_mensal_relatorios_lider_media_lider_liderado_field_66c5"
+      },
+      {
+        "id": "9f90583b-1796-4946-a937-57373e0aa8d5",
+        "name": "Média Liderados - Líder",
+        "type": "Number",
+        "system_name": "bases_compartilhadas_performance_mensal_relatorios_lider_sheet_performance_mensal_relatorios_lider_media_liderados_lider_field_69bb"
+      },
+      {
+        "id": "50475f7a-0e50-4a0d-a267-beab9b6c12bd",
+        "name": "Quadrante médio",
+        "type": "Select",
+        "system_name": "bases_compartilhadas_performance_mensal_relatorios_lider_sheet_performance_mensal_relatorios_lider_quadrante_medio_field_f3ca"
+      },
+      {
+        "id": "50d2e9ad-2c5f-4330-99e9-c5e316bf2ced",
+        "name": "Percentual de respostas",
+        "type": "Number",
+        "system_name": "bases_compartilhadas_performance_mensal_relatorios_lider_sheet_performance_mensal_relatorios_lider_percentual_de_respostas_field_2ebf"
+      },
+      {
+        "id": "e43dc468-8f3b-4710-ba8f-219f49963105",
+        "name": "Pergunta Liderados",
+        "type": "String",
+        "system_name": "bases_compartilhadas_performance_mensal_relatorios_lider_sheet_performance_mensal_relatorios_lider_pergunta_liderados_field_2e33"
+      },
+      {
+        "id": "3efaed64-be9a-4c13-96e0-12443d9e2d89",
+        "name": "Respostas completas",
+        "type": "Markdown",
+        "system_name": "bases_compartilhadas_performance_mensal_relatorios_lider_sheet_performance_mensal_relatorios_lider_respostas_completas_field_5c2e"
+      },
+      {
+        "id": "0d44d869-c18e-4530-a24a-d59401351ad3",
+        "name": "Data do Ciclo",
+        "type": "Date",
+        "system_name": "bases_compartilhadas_performance_mensal_relatorios_lider_sheet_performance_mensal_relatorios_lider_data_do_ciclo_field_18dc"
+      },
+      {
+        "id": "40b5b1e7-1ddd-40f2-85e1-01026581a0d4",
+        "name": "Envios respondidos",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_performance_mensal_relatorios_lider_sheet_performance_mensal_relatorios_lider_envios_respondidos_field_79e2"
+      },
+      {
+        "id": "0f45d514-b030-4ad8-b921-337bfbc93d11",
+        "name": "Times Envolvidos",
+        "type": "String",
+        "system_name": "bases_compartilhadas_performance_mensal_relatorios_lider_sheet_performance_mensal_relatorios_lider_times_envolvidos_field_f8c8"
+      },
+      {
+        "id": "900d2f71-28f3-4afe-a77a-a16b93cb5056",
+        "name": "Compilado para relatório geral",
+        "type": "String",
+        "system_name": "bases_compartilhadas_performance_mensal_relatorios_lider_sheet_performance_mensal_relatorios_lider_compilado_para_relatorio_geral_field_670f"
+      }
+    ]
+  },
+  {
+    "sheet_id": "943350f6-925e-4f4d-b672-3e605e9aa8f5",
+    "sheet_name": "Relatórios",
+    "system_name": "performance_review_reports",
+    "default_view_id": "40948e91-b5f5-4ddc-ab52-59c23815e5c8",
+    "records_count": 0,
+    "fields": [
+      {
+        "id": "625eaf72-2457-4e75-8150-040297b976a4",
+        "name": "Nome",
+        "type": "String",
+        "system_name": "performance_review_reports_name"
+      },
+      {
+        "id": "07fe416a-e68e-4f29-b625-56cf5335d68a",
+        "name": "Ciclo",
+        "type": "Select",
+        "system_name": "performance_review_reports_cycle"
+      },
+      {
+        "id": "65cf3f19-6160-469e-a696-a1bfc8f2e446",
+        "name": "Nota Final",
+        "type": "Select",
+        "system_name": "performance_review_reports_grade"
+      },
+      {
+        "id": "cb236939-eb43-4eb8-a212-0a784d9b9c54",
+        "name": "Comentários finais",
+        "type": "Markdown",
+        "system_name": "performance_review_reports_comments"
+      },
+      {
+        "id": "3f179e74-71ee-4625-9014-c9e83a6cfb41",
+        "name": "Status",
+        "type": "Select",
+        "system_name": "performance_review_reports_status"
+      },
+      {
+        "id": "b89d96ea-ec6a-46d8-a28a-7aca26ff8dae",
+        "name": "Líder responsável",
+        "type": "Link",
+        "system_name": "performance_review_reports_manager"
+      },
+      {
+        "id": "e59ec73a-2d70-40df-a3c2-084ca4d5b75f",
+        "name": "Pessoa",
+        "type": "Link",
+        "system_name": "performance_review_reports_person"
+      },
+      {
+        "id": "2e7fd24f-98a2-40f5-a77d-cd923cafa9dd",
+        "name": "Avaliações",
+        "type": "Link",
+        "system_name": "performance_review_reports_reviews"
+      },
+      {
+        "id": "414aff2e-709b-4082-a8cc-fc2742657ae2",
+        "name": "Notas",
+        "type": "Lookup",
+        "system_name": "performance_review_reports_results_grades_field"
+      },
+      {
+        "id": "5caec828-ff22-4dea-8c86-a1eba10beda3",
+        "name": "Comentários",
+        "type": "Lookup",
+        "system_name": "performance_review_reports_results_comments_field"
+      },
+      {
+        "id": "67e844a6-c32e-4320-8176-2a3b3e42ffa6",
+        "name": "Notas",
+        "type": "Lookup",
+        "system_name": "performance_review_reports_competency_grades_field"
+      },
+      {
+        "id": "38f33c9b-e70c-41c8-ba63-01217d6d86af",
+        "name": "Comentários",
+        "type": "Lookup",
+        "system_name": "performance_review_reports_competency_comments_field"
+      },
+      {
+        "id": "70726cae-335c-4a8d-b36d-4ea32ea39d31",
+        "name": "Avg Performance",
+        "type": "Formula",
+        "system_name": "zazos_app_performance_review_performance_average"
+      },
+      {
+        "id": "b7ffb58e-58e2-473f-bd21-17b007b9c3ee",
+        "name": "Avg Competências",
+        "type": "Formula",
+        "system_name": "zazos_app_performance_review_competency_average"
+      }
+    ]
+  },
+  {
+    "sheet_id": "7489a4b8-cd5c-4703-bca7-5e508165f448",
+    "sheet_name": "Avaliações",
+    "system_name": "performance_review_reviews",
+    "default_view_id": "fb9678ec-5197-4992-be29-a0a7fb34b4bc",
+    "records_count": 2,
+    "fields": [
+      {
+        "id": "40e53261-56be-43e7-b7cb-65109a305e5f",
+        "name": "Tipo",
+        "type": "Select",
+        "system_name": "performance_review_reviews_kind"
+      },
+      {
+        "id": "ebdf46f9-7e51-4e6c-a1db-f2dee2f11a55",
+        "name": "Ciclo",
+        "type": "Select",
+        "system_name": "performance_review_reviews_cycle"
+      },
+      {
+        "id": "b5542541-249b-4c7d-af6d-c51752c83a1a",
+        "name": "Status",
+        "type": "Select",
+        "system_name": "performance_review_reviews_status"
+      },
+      {
+        "id": "bd6f2d86-2b9e-401c-893c-5bcb9b4818a6",
+        "name": "Nota",
+        "type": "Select",
+        "system_name": "performance_review_reviews_results_grade"
+      },
+      {
+        "id": "c6f98cf8-350f-4290-bf49-b5a7ab694d4a",
+        "name": "Comentários",
+        "type": "Markdown",
+        "system_name": "performance_review_reviews_results_comments"
+      },
+      {
+        "id": "b1b22b06-b6ca-4eb4-b708-1948ad0b99ca",
+        "name": "Nota",
+        "type": "Select",
+        "system_name": "performance_review_reviews_competency_grade"
+      },
+      {
+        "id": "2fc69e55-688b-4a2e-856c-10121647fd42",
+        "name": "Comentários",
+        "type": "Markdown",
+        "system_name": "performance_review_reviews_competency_comments"
+      },
+      {
+        "id": "a82f4f68-624a-4baf-9973-9e5b45d0a9f8",
+        "name": "Para",
+        "type": "Link",
+        "system_name": "performance_review_reviews_person"
+      },
+      {
+        "id": "684e923e-d09f-4d51-84a1-9a3f725cd978",
+        "name": "De",
+        "type": "Link",
+        "system_name": "performance_review_reviews_reviewer"
+      },
+      {
+        "id": "783c2174-b9bc-4744-be1b-f2505d4c86d9",
+        "name": "Relatório (Avaliações)",
+        "type": "Link",
+        "system_name": "performance_review_reviews_report"
+      },
+      {
+        "id": "914b1d9f-f7cc-4460-81ef-c5799260b805",
+        "name": "Líder atual",
+        "type": "Lookup",
+        "system_name": "performance_review_reviews_current_manager"
+      }
+    ]
+  },
+  {
+    "sheet_id": "b5c0406e-f33a-4217-8802-3f871b391461",
+    "sheet_name": "Reconhecimentos",
+    "system_name": "praises",
+    "default_view_id": "53d58844-cb37-4f93-b61f-7fb36a3a5f76",
+    "records_count": 0,
+    "fields": [
+      {
+        "id": "de5b8053-3276-4225-9d5f-80379d39bb0f",
+        "name": "Reconhecimento",
+        "type": "Markdown",
+        "system_name": "praises_text"
+      },
+      {
+        "id": "399dfe04-6909-436e-a1ed-032230682265",
+        "name": "Data",
+        "type": "Date",
+        "system_name": "praises_date"
+      },
+      {
+        "id": "edee7386-f333-4661-a0a6-4959b9353232",
+        "name": "Para",
+        "type": "Link",
+        "system_name": "praises_to"
+      },
+      {
+        "id": "54113eca-8221-4fc1-80b4-fb0a3f533fc0",
+        "name": "De",
+        "type": "Link",
+        "system_name": "praises_from"
+      },
+      {
+        "id": "4d95b769-8e22-4b9d-8617-197add9ad08e",
+        "name": "Valores",
+        "type": "Link",
+        "system_name": "praises_values"
+      }
+    ]
+  },
+  {
+    "sheet_id": "731caacf-4572-4132-98cc-1c690f4b60af",
+    "sheet_name": "Slack",
+    "system_name": "slack_integration",
+    "default_view_id": "09e0ebe9-9753-47eb-ad10-90332390ffa5",
+    "records_count": 671,
+    "fields": [
+      {
+        "id": "9f418f0d-b577-4bbb-be58-fd7b3b82144c",
+        "name": "Nome de usuário",
+        "type": "String",
+        "system_name": "slack_username"
+      },
+      {
+        "id": "4b7be4bb-09d4-4443-9853-2f62e054423a",
+        "name": "Nome",
+        "type": "String",
+        "system_name": "slack_name"
+      },
+      {
+        "id": "209e893f-8748-4990-a71d-64a89f055aab",
+        "name": "Email",
+        "type": "String",
+        "system_name": "slack_integration_match_field"
+      },
+      {
+        "id": "6acec953-d07e-4600-9e8e-e95ba0b69fdb",
+        "name": "External ID",
+        "type": "String",
+        "system_name": "slack_integration_external_id"
+      },
+      {
+        "id": "50819661-dc03-4313-852c-dd4b21cf5082",
+        "name": "Pessoa",
+        "type": "Link",
+        "system_name": "slack_person"
+      },
+      {
+        "id": "528fdff0-3b4b-4967-a2a4-70f8ff49c2f4",
+        "name": "URL da imagem de perfil",
+        "type": "String",
+        "system_name": "slack_integration_profile_picture_url"
+      },
+      {
+        "id": "37f00c7e-7cf2-4b3f-952a-5e9f77dc9d74",
+        "name": "Usuário deletado?",
+        "type": "String",
+        "system_name": "slack_integration_user_deleted"
+      },
+      {
+        "id": "41bfdd03-42c0-438a-8bba-28e8f0895a69",
+        "name": "is_admin",
+        "type": "String",
+        "system_name": "slack_integration_is_admin"
+      },
+      {
+        "id": "59b5a41b-9989-4ace-8943-1f794b4e1f8d",
+        "name": "is_app_user",
+        "type": "String",
+        "system_name": "slack_integration_is_app_user"
+      },
+      {
+        "id": "43b02244-d180-45fe-8d0d-3c403e5bb510",
+        "name": "is_bot",
+        "type": "String",
+        "system_name": "slack_integration_is_bot"
+      },
+      {
+        "id": "de61a042-8df5-41d1-a7b3-7ab884f4d3ba",
+        "name": "is_owner",
+        "type": "String",
+        "system_name": "slack_integration_is_owner"
+      },
+      {
+        "id": "fb7dfbea-b7d9-4fc7-bada-40d8cd9a426b",
+        "name": "is_primary_owner",
+        "type": "String",
+        "system_name": "slack_integration_is_primary_owner"
+      },
+      {
+        "id": "07c8a6fa-9baa-444d-866a-68a054e7d9d7",
+        "name": "is_restricted",
+        "type": "String",
+        "system_name": "slack_integration_is_restricted"
+      },
+      {
+        "id": "565172c7-1ba4-477b-940a-103647220ffb",
+        "name": "is_stranger",
+        "type": "String",
+        "system_name": "slack_integration_is_stranger"
+      },
+      {
+        "id": "31abc906-1b52-403b-b732-3133b22ec8c9",
+        "name": "is_ultra_restricted",
+        "type": "String",
+        "system_name": "slack_integration_is_ultra_restricted"
+      },
+      {
+        "id": "052c0af2-ce7c-4ef1-af72-0c91243126b8",
+        "name": "locale",
+        "type": "String",
+        "system_name": "slack_integration_locale"
+      },
+      {
+        "id": "7d7edbe4-9652-41fe-860b-6f48f4216349",
+        "name": "name",
+        "type": "String",
+        "system_name": "slack_integration_name"
+      },
+      {
+        "id": "db0c2845-965b-4b77-beb2-fad931bc7066",
+        "name": "tz",
+        "type": "String",
+        "system_name": "slack_integration_tz"
+      },
+      {
+        "id": "bd814106-ccc2-4a71-a540-32afc1777542",
+        "name": "tz_label",
+        "type": "String",
+        "system_name": "slack_integration_tz_label"
+      },
+      {
+        "id": "aebdee68-f504-484e-b0eb-afd59f5205fe",
+        "name": "tz_offset",
+        "type": "String",
+        "system_name": "slack_integration_tz_offset"
+      },
+      {
+        "id": "2f497119-b513-40e1-bdb7-d2da24352f41",
+        "name": "profile.first_name",
+        "type": "String",
+        "system_name": "slack_integration_profile_first_name"
+      },
+      {
+        "id": "e19c0f51-3a97-44cf-ba31-ede25a65dc97",
+        "name": "profile.last_name",
+        "type": "String",
+        "system_name": "slack_integration_profile_last_name"
+      },
+      {
+        "id": "a45e7db0-480b-4809-ae0c-92d714f0bd5f",
+        "name": "profile.phone",
+        "type": "String",
+        "system_name": "slack_integration_profile_phone"
+      },
+      {
+        "id": "52d587f2-630e-4e55-b358-b9ae043c2c11",
+        "name": "profile.pronouns",
+        "type": "String",
+        "system_name": "slack_integration_profile_pronouns"
+      },
+      {
+        "id": "1d706acf-df16-441d-bfb8-b6233eff68cd",
+        "name": "profile.skype",
+        "type": "String",
+        "system_name": "slack_integration_profile_skype"
+      },
+      {
+        "id": "7c1f3015-c3b9-4572-b450-baf63cc6f774",
+        "name": "profile.start_date",
+        "type": "String",
+        "system_name": "slack_integration_profile_start_date"
+      },
+      {
+        "id": "3e582668-181c-4273-990f-5782a2ba03fc",
+        "name": "profile.team",
+        "type": "String",
+        "system_name": "slack_integration_profile_team"
+      },
+      {
+        "id": "e8658d58-c686-4d3d-91e2-84c89a6e66d0",
+        "name": "profile.title",
+        "type": "String",
+        "system_name": "slack_integration_profile_title"
+      }
+    ]
+  },
+  {
+    "sheet_id": "e5581e1d-bc20-4c98-875d-34c407ffb690",
+    "sheet_name": "Chapter",
+    "system_name": "teams",
+    "default_view_id": "23b4bbe4-0bc5-45e8-9d6c-c6b4e0b5e5b6",
+    "records_count": 19,
+    "fields": [
+      {
+        "id": "14e5be0d-7c00-41a8-b9d0-65105f4a3404",
+        "name": "Nome",
+        "type": "String",
+        "system_name": "team_name"
+      },
+      {
+        "id": "694845f9-22dc-4d2d-b4a2-5b3e083f1217",
+        "name": "Chapter Lead",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "3f14882a-0bc9-49f1-839d-03095fec209d",
+        "name": "Membros",
+        "type": "Link",
+        "system_name": "team_members"
+      },
+      {
+        "id": "50745b6f-116a-46a3-bf6a-4531d7be601d",
+        "name": "Onboarding (Chapter)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "9324e282-30b6-4a66-8cbe-aa4d17f84133",
+        "name": "Contratos (Chapter)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "31bd0277-2556-4351-adea-4430cf286e16",
+        "name": "Gestão Admissões (Times)",
+        "type": "Link",
+        "system_name": "conexoes_reversas_gestao_admissoes_times"
+      },
+      {
+        "id": "1120df21-9b41-496a-ad2c-53e06f14b182",
+        "name": "Status",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "d364311f-6695-454a-9200-e6f729f0ad5e",
+        "name": "Importar pessoas manualmente (Time)",
+        "type": "Link",
+        "system_name": "ajustes_de_sistema_times_conexoes_reversas_importar_pessoas_manualmente_time_field"
+      },
+      {
+        "id": "da3481b6-39a0-4eee-bfbd-9cf620c9e7a5",
+        "name": "Diretor",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_teams_performance_mensal_times_diretor_field_4584"
+      },
+      {
+        "id": "c91b8485-e64d-4360-b733-9c0f4019095d",
+        "name": "Envios - Checkpoint (Time)",
+        "type": "Link",
+        "system_name": "bases_compartilhadas_teams_performance_mensal_times_conexoes_reversas_envios_checkpoint_time_field_bc25"
+      }
+    ]
+  },
+  {
+    "sheet_id": "f4646129-3331-4c8e-9f5c-225c92bc6987",
+    "sheet_name": "Temas",
+    "system_name": "workspace_temas_sheet",
+    "default_view_id": "8b78559f-dcf0-461b-9702-6e73c808d66f",
+    "records_count": 3,
+    "fields": [
+      {
+        "id": "60c68990-ada6-48f0-a6bf-398e71e3882b",
+        "name": "Nome do Tema",
+        "type": "String",
+        "system_name": "workspace_temas_nome_do_tema_field"
+      },
+      {
+        "id": "710877a2-4e7b-4f4e-b997-2e5f7753e6ab",
+        "name": "Impacta no 9-Box?",
+        "type": "Select",
+        "system_name": "avd_essencial_temas_impacta_no_9_box_field"
+      },
+      {
+        "id": "fea48041-b511-4cc5-83e7-c35a1af8f1d9",
+        "name": "Peso do Tema",
+        "type": "Number",
+        "system_name": "avd_essencial_temas_peso_do_tema_field"
+      },
+      {
+        "id": "1029a535-01a7-4c02-b2ad-01ff1aa84228",
+        "name": "Ordem do Tema",
+        "type": "Number",
+        "system_name": "workspace_temas_ordem_do_tema_field"
+      },
+      {
+        "id": "a849190f-7e68-42db-9ec9-aba6d723c1a0",
+        "name": "Perguntas (Tema)",
+        "type": "Link",
+        "system_name": "workspace_temas_conexoes_reversas_perguntas_tema_field"
+      },
+      {
+        "id": "cc839d15-ccac-4a09-bf44-a4b77928abc3",
+        "name": "Configuração de AvD",
+        "type": "Link",
+        "system_name": "workspace_temas_ciclo_field"
+      }
+    ]
+  },
+  {
+    "sheet_id": "a36f945c-ddf6-473a-bdf6-2245f3f46456",
+    "sheet_name": "Tipos de Avaliação",
+    "system_name": "workspace_tipos_de_avaliacao_sheet",
+    "default_view_id": "3cbbc46b-251c-4e65-ba21-8d8e3a25bd7b",
+    "records_count": 2,
+    "fields": [
+      {
+        "id": "2afd0350-7bbe-4e83-ad8b-304057d33af7",
+        "name": "Nome da Avaliação",
+        "type": "String",
+        "system_name": "workspace_tipos_de_avaliacao_nome_da_avaliacao_field"
+      },
+      {
+        "id": "f491c9cc-ebe6-4bb6-85b2-9f19c2fe3e4a",
+        "name": "Tipo",
+        "type": "Select",
+        "system_name": "workspace_tipos_de_avaliacao_tipo_field"
+      },
+      {
+        "id": "0f576435-43db-4fa9-8b00-3f0bf8cffdea",
+        "name": "Peso da Avaliação",
+        "type": "Number",
+        "system_name": "avd_essencial_tipos_de_avaliacao_peso_da_avaliacao_field"
+      },
+      {
+        "id": "30701c87-5c14-4eb5-86ef-60f4f550e932",
+        "name": "É considerada na média?",
+        "type": "Select",
+        "system_name": "workspace_tipos_de_avaliacao_e_considerada_na_media_field"
+      },
+      {
+        "id": "be4c3939-ac4b-4318-a489-94a8e7c59e6f",
+        "name": "Quem aloca?",
+        "type": "Select",
+        "system_name": "workspace_tipos_de_avaliacao_quem_aloca_field"
+      },
+      {
+        "id": "47070814-3bc4-47e3-a0dd-1c4af07730a6",
+        "name": "# de pares",
+        "type": "Number",
+        "system_name": "workspace_tipos_de_avaliacao_de_pares_field"
+      },
+      {
+        "id": "f320c4a5-d520-4bd2-b92a-e525859bf421",
+        "name": "Como deseja notificar as pessoas para a indicação de pares?",
+        "type": "Select",
+        "system_name": "avd_basica_tipos_de_avaliacao_como_deseja_notificar_as_pessoas_para_a_indicacao_de_pares_field"
+      },
+      {
+        "id": "f2821522-9c93-47b5-bfd7-ae352241eee0",
+        "name": "Avaliações (Tipo)",
+        "type": "Link",
+        "system_name": "workspace_tipos_de_avaliacao_conexoes_reversas_avaliacoes_tipo_field"
+      },
+      {
+        "id": "78ef3f58-b5cf-403b-8e59-92b54e910928",
+        "name": "Configuração de AvD",
+        "type": "Link",
+        "system_name": "workspace_tipos_de_avaliacao_ciclo_field"
+      },
+      {
+        "id": "cbda0dd6-e868-4c95-a6ed-0c06ce944054",
+        "name": "Perguntas",
+        "type": "Link",
+        "system_name": "workspace_tipos_de_avaliacao_perguntas_field"
+      },
+      {
+        "id": "22f03a13-7df0-4b34-9f80-680c185d65ee",
+        "name": "Ciclos de AvD (Tipos de Avaliações)",
+        "type": "Link",
+        "system_name": "avd_basica_tipos_de_avaliacao_conexoes_reversas_ciclos_de_avd_tipos_de_avaliacoes_field"
+      }
+    ]
+  },
+  {
+    "sheet_id": "175cf7b6-6334-468b-8e32-5afb6002db35",
+    "sheet_name": "Documentos",
+    "system_name": "zazos_signatures_documents",
+    "default_view_id": "7d732442-95f4-4140-b57a-bd05836016e5",
+    "records_count": 0,
+    "fields": [
+      {
+        "id": "a9f56e5c-125f-420c-b5db-60a495309168",
+        "name": "Nome",
+        "type": "String",
+        "system_name": "zazos_signatures_documents_name"
+      },
+      {
+        "id": "22e494f0-825f-42d0-846b-9ada5cc33af5",
+        "name": "Arquivo",
+        "type": "Attachment",
+        "system_name": "zazos_signatures_documents_file"
+      },
+      {
+        "id": "cbc187aa-9071-41c5-9645-bf94a550a808",
+        "name": "Modelo",
+        "type": "Attachment",
+        "system_name": "assinaturas_docusign_documentos_modelo_field"
+      },
+      {
+        "id": "59f9c684-d262-4bb3-a036-7a87dcfb7b98",
+        "name": "Signatários",
+        "type": "Link",
+        "system_name": "zazos_signatures_documents_people"
+      },
+      {
+        "id": "426e2533-6f43-4d3c-9624-76db0cb715ec",
+        "name": "Modelo de documento",
+        "type": "Link",
+        "system_name": "zazos_signatures_documents_document_template"
+      }
+    ]
+  },
+  {
+    "sheet_id": "2efdfd19-9d1d-4b49-b033-46832bd997a2",
+    "sheet_name": "Modelos de documentos",
+    "system_name": "zazos_signatures_documents_templates",
+    "default_view_id": "f7e510c8-f549-4b55-8350-2b36faddded9",
+    "records_count": 0,
+    "fields": [
+      {
+        "id": "52071a2a-65c8-4f41-9c7e-48001dda11e9",
+        "name": "Nome",
+        "type": "String",
+        "system_name": "zazos_signatures_documents_templates_name"
+      },
+      {
+        "id": "93c66f2b-d915-41c0-aa34-16b7f81830c5",
+        "name": "Documentos (Modelo de documento)",
+        "type": "Link",
+        "system_name": "zazos_signatures_documents_documents_templates"
+      }
+    ]
+  },
+  {
+    "sheet_id": "fe9082ab-282f-46bc-836f-f793ff45d3fd",
+    "sheet_name": "Times",
+    "system_name": null,
+    "default_view_id": "420ae51e-9063-42d8-96a8-1136ea008e75",
+    "records_count": 8,
+    "fields": [
+      {
+        "id": "f7266bf9-e817-47a5-b863-4c79df89af43",
+        "name": "Nome",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "ed4bbb9c-34b8-49bf-b347-ac1791eb7631",
+        "name": "Membros",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "79e3c8ac-c246-401f-b937-057da11e0d24",
+        "name": "Pessoas (Time)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "958bfe3d-ad6a-4d95-8647-e09eb4dcbb70",
+        "name": "Onboarding (Times)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "ebaa6ee2-e320-4241-8941-7d5c45de6f76",
+        "name": "Status",
+        "type": "Select",
+        "system_name": null
+      }
+    ]
+  },
+  {
+    "sheet_id": "77fcee9e-4f6c-49aa-be2c-67b964b85296",
+    "sheet_name": "Squads",
+    "system_name": null,
+    "default_view_id": "506db1c7-df7a-4335-87b1-0aef4fdf2e95",
+    "records_count": 11,
+    "fields": [
+      {
+        "id": "5d1af422-628f-4889-a385-3103b803968f",
+        "name": "Nome",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "b7e049b1-66a2-493b-8869-ce32ae940785",
+        "name": "Tribo",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "8964c8f3-fc83-4f5f-9e65-cafa86eca2ee",
+        "name": "Squad Lead",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "0a1efafd-60cc-4fc7-8f6c-4ca634b55666",
+        "name": "Tech Lead",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "68ab8408-03d8-4fd7-aee8-97e0b36091fb",
+        "name": "Membros",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "3dcba7a2-b141-412d-b1cc-16974ea6e9db",
+        "name": "Onboarding (Squad)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "4b0495e0-7f42-4e9b-bd67-c9b5750239d4",
+        "name": "Status",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "c5a00e5d-08a5-4e16-b9c6-f8aaa09827fa",
+        "name": "Contratos (Squad)",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "dadb1f15-2bb3-4504-b338-5bc9cd6fee86",
+        "name": "Pessoas (Squad (Cópia))",
+        "type": "Link",
+        "system_name": null
+      }
+    ]
+  },
+  {
+    "sheet_id": "4bffe12c-239b-4607-b158-d9827d4a6454",
+    "sheet_name": "Comissão",
+    "system_name": null,
+    "default_view_id": "6e19ec42-cb16-4f2c-bca5-c1a9d8048b9f",
+    "records_count": 1,
+    "fields": [
+      {
+        "id": "c5c5dad4-cfaa-48cf-a7a5-59e0f82a8abf",
+        "name": "Nome",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "573071c1-a76f-4137-bf10-f8c1b5179fe2",
+        "name": "Pessoa",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "ef6e70d9-6273-47d9-a6be-017e10c8d9ad",
+        "name": "Comissão Média",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "99938c49-59c7-414f-8cdc-a6f35ae1d5b8",
+        "name": "13 Pagamento (Comissão)",
+        "type": "Link",
+        "system_name": null
+      }
+    ]
+  },
+  {
+    "sheet_id": "6bb78905-1a62-44d6-8c0e-02bd2ce8f27a",
+    "sheet_name": "13 Pagamento",
+    "system_name": null,
+    "default_view_id": "ffe1eb02-ff7e-4068-bf98-bc4b10cd9fcd",
+    "records_count": 352,
+    "fields": [
+      {
+        "id": "1ded411e-621b-4549-a70d-d15a1a2a2317",
+        "name": "Contrato Referência",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "51a734eb-b730-4dfb-a6f0-9977477525a3",
+        "name": "Tem comissão?",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "218f89c9-72d4-4b82-8d66-a6cec87cf1f4",
+        "name": "Pessoa",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "f1a1eaa0-19f5-487d-8d12-c4bdeb919a5e",
+        "name": "Data de Admissão",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "942ef39a-378f-4989-8362-370890242ac2",
+        "name": "Proporcionalidade 1",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "bf79b9a6-ba7e-4f28-bddb-0a41d1935a04",
+        "name": "Salário Atual",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "5761b684-fe55-4300-9370-6bc444a304d3",
+        "name": "Título do 13º",
+        "type": "String",
+        "system_name": null
+      },
+      {
+        "id": "e6b9e1d1-fa7b-4bf3-8784-0cfb68130830",
+        "name": "Valor Comissão",
+        "type": "Lookup",
+        "system_name": null
+      },
+      {
+        "id": "92c5dabd-5049-43e6-8a1c-0855765d65f8",
+        "name": "Comissão",
+        "type": "Link",
+        "system_name": null
+      },
+      {
+        "id": "e3a1db47-5f47-4272-a082-d15296167b96",
+        "name": "Valor Final 13",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "0a7d241b-c3d7-48dc-beb7-38c04b5b49ee",
+        "name": "Valor 13º",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "ce3d1d30-2379-46c4-bbd7-7c12d747e428",
+        "name": "Dia de admissão",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "e32b6dde-aed5-4ca9-9115-c2061cb7a97e",
+        "name": "Mês de admissão",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "ee84c94e-f360-41e3-a594-326241681d14",
+        "name": "Ano de admissão",
+        "type": "Number",
+        "system_name": null
+      },
+      {
+        "id": "6da24ae9-10e7-4fcb-8ef4-9dda1cd874c7",
+        "name": "Status do Colaborador",
+        "type": "Select",
+        "system_name": null
+      },
+      {
+        "id": "528a20e4-77fd-4031-bc11-f857473678fe",
+        "name": "Adições",
+        "type": "Number",
+        "system_name": null
+      }
+    ]
+  }
+]

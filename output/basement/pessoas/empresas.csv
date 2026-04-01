@@ -1,0 +1,6 @@
+id,created_at,cnpj,razao_social,cnae_principal,nome_fantasia,cnae_secundario,data_abertura,logradouro,complemento,cep,bairro,cidade,uf,colaborador_id,banco_nome,banco_num,banco_tipo_conta,banco_agencia,banco_conta,banco_pix
+1,2026-03-31T13:28:34+00:00,59.508.669/0001-31,Dassi Inteligence LTDA,58.19-1-00,,,2025-02-17,Rua Amintas de Barros,,80045-155,Ahú,Curitiba,Paraná,,Nu Pagamentos S.A ,260,Conta corrente,0001,613150967-4,59508669000131
+2,2026-03-31T13:28:34+00:00,44.140.871/0001-86,A Alves de Sousa Serviços ,82.11-3-00 - Serviços combinados de escritório e apoio administrativo,,,2021-11-05,TV WE 72,,67140-520,Cidade Nova ,Ananindeua ,Pará,,Bradesco,237,Conta corrente,2831,68422-8,44140871000186
+3,2026-03-31T13:28:34+00:00,60.448.330/0001-76,FERNANDA PLASS RIZZO LTDA,70-20-4-00,,,2025-04-25,"Av. Diogenes Ribeiro de Lima 
+",apto 143,05469-900,Boaçava,São Paulo,SP,,Contabilizei Bank,301,Conta corrente,0001,31169672,
+4,2026-03-31T13:28:34+00:00,58753858000107,58.753.858 VITOR SOARES MARQUES,85.99-6-03 - Treinamento em informática,,,2025-01-10,RUA JOSE RODRIGUES DOS SANTOS,-,14.806-467,JARDIM INDAIA,ARARAQUARA,SP,,BANCO INTER,77,Conta corrente,0001,416132600,58753858000107

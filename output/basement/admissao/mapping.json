@@ -1,0 +1,41 @@
+{
+  "output_dir": "output/basement/admissao",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "profiles",
+      "view_id": "3644810e-3763-4acb-9fd5-f04ab9c0f7d2",
+      "_sheet": "Pessoas (100 records)",
+      "columns": {
+        "id":            { "default": "__record_id__" },
+        "nome_completo": { "field_id": "82ce1402-ce62-46ec-aa8a-cba78c0c0732", "extract": "string" },
+        "created_at":    { "default": "__timestamptz__" },
+        "updated_at":    { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "admissao",
+      "view_id": "b2d94ed1-a395-4aa9-8641-a89fec9bb191",
+      "_sheet": "Admissão (10 records)",
+      "columns": {
+        "id":                   { "default": "__record_id__" },
+        "pessoa_id":            { "field_id": "0a7b83f9-ee4d-4e99-b464-a68670ee4185", "extract": "link" },
+        "tipo_admissao_id":     { "field_id": null, "extract": null, "default": "" },
+        "tipo_contrato":        { "field_id": "f3fdf468-e88d-49c0-bb8e-32834bc0311a", "extract": "select" },
+        "n1_id":                { "field_id": null, "extract": null, "default": "" },
+        "n2_id":                { "field_id": null, "extract": null, "default": "" },
+        "n3_id":                { "field_id": null, "extract": null, "default": "" },
+        "responsavel_rh_id":    { "field_id": "12a40a9f-89f5-4f63-8f87-017f0e812b78", "extract": "link" },
+        "cargo_id":             { "field_id": null, "extract": null, "default": "" },
+        "beneficios_ids":       { "field_id": null, "extract": null, "default": "" },
+        "status_dados_pessoais":{ "field_id": "65bb93ce-968e-4682-a29c-14c05ebeda7d", "extract": "select" },
+        "etapa_atual_id":       { "field_id": null, "extract": null, "default": "" },
+        "observacao":           { "field_id": "512389c1-56f0-4d67-a2ef-b1811d36d7eb", "extract": "markdown" },
+        "gestor_id":            { "field_id": null, "extract": null, "default": "" },
+        "primeiro_emprego_clt": { "field_id": null, "extract": null, "default": "false" },
+        "created_at":           { "default": "__timestamptz__" },
+        "updated_at":           { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+id,nome,ativo,created_at,updated_at
+c1ec5862-1d76-4ae0-ba11-ffde77d394ba,Programa de indicação,true,2026-03-30T23:04:17+00:00,2026-03-30T23:04:17+00:00
+89f83e5d-efba-4c2f-bbe9-6118ba8c6926,Tecnologia,true,2026-03-30T23:04:17+00:00,2026-03-30T23:04:17+00:00
+e6d25ca5-8cc4-4bcd-b450-04db5d621ccc,Canal de Denuncia,true,2026-03-30T23:04:17+00:00,2026-03-30T23:04:17+00:00
+663ef417-2c6b-45f1-8fa8-f222f829c9bb,Políticas,true,2026-03-30T23:04:17+00:00,2026-03-30T23:04:17+00:00

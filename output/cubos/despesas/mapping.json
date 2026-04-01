@@ -1,0 +1,51 @@
+{
+  "output_dir": "output/cubos/despesas",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "budgets",
+      "view_id": "166ce57d-1025-4ee9-b7ef-9b60ea8b0cb5",
+      "_sheet": "Budgets (0 records — sheet empty)",
+      "columns": {
+        "id":                       { "default": "__record_id__" },
+        "name":                     { "field_id": "425fa668-a657-4079-8177-532599f833c9", "extract": "string" },
+        "responsible_profile_id":   { "field_id": null, "extract": null, "default": "" },
+        "aligned_with_profile_id":  { "field_id": null, "extract": null, "default": "" },
+        "cost_center":              { "field_id": null, "extract": null, "default": "" },
+        "budget_amount":            { "field_id": "857fdab4-91dc-419f-9eca-d9db63b6113c", "extract": "number" },
+        "consumed_amount":          { "field_id": "6077f9e3-18a8-4691-92e8-ca33dfc4cd65", "extract": "number" },
+        "balance_amount":           { "field_id": "de18e7e3-c4a0-44c5-a96a-f317151fe0e4", "extract": "number" },
+        "is_active":                { "field_id": "0a4c181b-d3d2-4d0b-83d6-cd164bf14947", "extract": "select" },
+        "start_date":               { "field_id": "95ed9d92-9ed4-44e1-b763-6b6c82a91e06", "extract": "date" },
+        "created_at":               { "default": "__timestamptz__" },
+        "updated_at":               { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "expenses",
+      "view_id": "f8645f6d-c756-4162-bc4b-e2cc6cc5e4c7",
+      "_sheet": "Despesas e Reembolsos (711 records)",
+      "columns": {
+        "id":                                                                        { "default": "__record_id__" },
+        "expense_description":                                                       { "field_id": "4d300552-f30d-4fcf-8e56-132f3a1f757a", "extract": "string" },
+        "tipo_de_lancamento":                                                        { "field_id": "e2fd42ce-c205-4bc0-bc76-43dcc7ffb6f9", "extract": "select" },
+        "expense_value_v2":                                                          { "field_id": "cd52b417-b784-45cc-a20a-a1f81ba8de2e", "extract": "number" },
+        "expense_date":                                                              { "field_id": "e253299f-d0b0-4f44-a6dc-5b345af00a3d", "extract": "date" },
+        "expense_person":                                                            { "field_id": null, "extract": null, "default": "" },
+        "expense_receipt":                                                           { "field_id": null, "extract": null, "default": "" },
+        "budget_id":                                                                 { "field_id": null, "extract": null, "default": "" },
+        "expense_status":                                                            { "field_id": "9caf671a-e17c-4960-b487-53ecc8297c7d", "extract": "select" },
+        "expense_refundable":                                                        { "field_id": "aff8fa77-a92d-41cb-bda8-307bef57e0b2", "extract": "select" },
+        "valor_reembolso_parcial":                                                   { "field_id": "3d686c37-c3a2-4dea-bdbf-44d5d237e0ec", "extract": "number" },
+        "expense_payment_date":                                                      { "field_id": "82a04bed-4003-45d6-83bc-d03460b60430", "extract": "date" },
+        "expense_notes":                                                             { "field_id": "26f49446-8dce-420f-8ee9-2470f9b06879", "extract": "string" },
+        "comentarios_lideranca":                                                     { "field_id": "aa80293e-9aab-4a23-8f14-c8c12f0ddbe4", "extract": "string" },
+        "deseja_alocar_o_reembolso_em_um_centro_de_custo_diferente_do_seu":         { "field_id": "9675b989-6d03-459d-9ba5-d77aabca87d2", "extract": "select" },
+        "centro_de_custo_realocacao":                                                { "field_id": "c3b33aa4-e9a7-4709-a50e-bffdf1394188", "extract": "select" },
+        "cost_center":                                                               { "field_id": null, "extract": null, "default": "" },
+        "created_at":                                                                { "default": "__timestamptz__" },
+        "updated_at":                                                                { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

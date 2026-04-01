@@ -1,0 +1,438 @@
+{
+    "name": "z_beneficios",
+    "version": "1.0",
+    "tables": {
+      "valor_beneficio": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "beneficio_id": {
+            "type": "text",
+            "required": false
+          },
+          "data_inicio": {
+            "type": "text",
+            "required": false
+          },
+          "data_fim": {
+            "type": "text",
+            "required": false
+          },
+          "faixa_etaria": {
+            "type": "text",
+            "required": false
+          },
+          "nome_plano": {
+            "type": "text",
+            "required": false
+          },
+          "status": {
+            "type": "text",
+            "required": false,
+            "default": "'ativo'::text"
+          },
+          "valor_vigente": {
+            "type": "numeric",
+            "required": false
+          },
+          "valor_dependente": {
+            "type": "numeric",
+            "required": false
+          },
+          "limitacao_niveis_hierarquia": {
+            "type": "text",
+            "required": false
+          },
+          "limitacao_tipos_contrato": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "valor_empresa": {
+            "type": "numeric",
+            "required": false
+          },
+          "id_ns": {
+            "type": "text",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "adesao_beneficio": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "beneficio_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_beneficios",
+              "table": "beneficio",
+              "column": "id"
+            }
+          },
+          "pessoa_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_beneficios",
+              "table": "profiles",
+              "column": "id"
+            }
+          },
+          "valor_beneficio_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_beneficios",
+              "table": "valor_beneficio",
+              "column": "id"
+            }
+          },
+          "data_termino": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "status_adesao": {
+            "type": "text",
+            "required": false,
+            "default": "'inativa'::text"
+          },
+          "observacoes": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "data_adesao": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "migracoes_programadas": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'[]'::jsonb"
+          },
+          "dependente_ids": {
+            "type": "uuid[]",
+            "required": false,
+            "default": "'{}'::uuid[]"
+          },
+          "dependentes": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'[]'::jsonb"
+          }
+        },
+        "metadata": {}
+      },
+      "fornecedores": {
+        "columns": {
+          "id": {
+            "type": "bigint",
+            "required": true,
+            "primaryKey": true
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "nome": {
+            "type": "text",
+            "required": false
+          },
+          "id_ns": {
+            "type": "text",
+            "required": false
+          },
+          "cadastro_federal": {
+            "type": "text",
+            "required": false
+          },
+          "subsidiaria_principal": {
+            "type": "text",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "profiles": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "primaryKey": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id"
+            }
+          },
+          "nome_completo": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "beneficio": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": false
+          },
+          "tipo": {
+            "type": "text",
+            "required": false
+          },
+          "aplicavel_dependentes": {
+            "type": "boolean",
+            "required": false
+          },
+          "descricao": {
+            "type": "text",
+            "required": false
+          },
+          "status": {
+            "type": "text",
+            "required": false,
+            "default": "'ativo'::text"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "fornecedor_id": {
+            "type": "bigint",
+            "required": false,
+            "references": {
+              "schema": "z_beneficios",
+              "table": "fornecedores",
+              "column": "id"
+            }
+          },
+          "icone": {
+            "type": "text",
+            "required": false
+          },
+          "obrigatorio": {
+            "type": "boolean",
+            "required": true,
+            "default": "false"
+          },
+          "pagina_publica_habilitada": {
+            "type": "boolean",
+            "required": false,
+            "default": "false"
+          },
+          "solicitacao_habilitada": {
+            "type": "boolean",
+            "required": false,
+            "default": "true"
+          },
+          "plano_unico": {
+            "type": "boolean",
+            "required": true,
+            "default": "false"
+          },
+          "carencia_habilitada": {
+            "type": "boolean",
+            "required": false,
+            "default": "false"
+          },
+          "dias_carencia": {
+            "type": "integer",
+            "required": false,
+            "default": "0"
+          }
+        },
+        "metadata": {}
+      },
+      "configs": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "features": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'[]'::jsonb"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "emails": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'{}'::jsonb"
+          }
+        },
+        "metadata": {}
+      },
+      "solicitacoes_beneficios": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "pessoa_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_beneficios",
+              "table": "profiles",
+              "column": "id"
+            }
+          },
+          "beneficio_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_beneficios",
+              "table": "beneficio",
+              "column": "id"
+            }
+          },
+          "tipo": {
+            "type": "text",
+            "required": false
+          },
+          "status": {
+            "type": "text",
+            "required": false
+          },
+          "valor_solicitado_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_beneficios",
+              "table": "valor_beneficio",
+              "column": "id"
+            }
+          },
+          "valor_anterior_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_beneficios",
+              "table": "valor_beneficio",
+              "column": "id"
+            }
+          },
+          "dependentes_id": {
+            "type": "bigint",
+            "required": false
+          },
+          "decidida_em": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "decidido_por": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_beneficios",
+              "table": "profiles",
+              "column": "id"
+            }
+          },
+          "motivo": {
+            "type": "text",
+            "required": false
+          },
+          "observacoes": {
+            "type": "text",
+            "required": false
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": false,
+            "default": "now()"
+          },
+          "adesao_beneficio_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_beneficios",
+              "table": "adesao_beneficio",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "motivo_rejeicao": {
+            "type": "text",
+            "required": false
+          }
+        },
+        "metadata": {}
+      }
+    },
+    "enums": {},
+    "jsonTypes": {}
+  }

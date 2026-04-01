@@ -1,0 +1,73 @@
+{
+    "schema": "cubos_principal",
+    "tables": {
+      "mural_avisos": {
+        "description": "Conteúdos editoriais do mural de avisos",
+        "columns": {
+          "id": "uuid",
+          "titulo": "text",
+          "imagem_url": "text",
+          "ultima_data_atualizacao": "date",
+          "aviso_md": "text",
+          "artigo_util": "integer",
+          "created_at": "timestamptz",
+          "updated_at": "timestamptz"
+        }
+      },
+      "calendario_cubos": {
+        "description": "Eventos do calendário cúbico",
+        "columns": {
+          "id": "uuid",
+          "nome": "text",
+          "ano": "text",
+          "tipo": "text",
+          "classificacao": "text",
+          "data_final": "date",
+          "data": "date",
+          "created_at": "timestamptz",
+          "updated_at": "timestamptz"
+        }
+      },
+      "diretrizes_jornada_trabalho": {
+        "description": "Conteúdo editorial de diretrizes da jornada de trabalho",
+        "columns": {
+          "id": "uuid",
+          "nome": "text",
+          "imagem_capa_url": "text",
+          "titulo_md": "text",
+          "descricao_md": "text",
+          "imagem_icone_url": "text",
+          "conteudo_regra_banco_horas_md": "text",
+          "conteudo_tique_taque_md": "text",
+          "conteudo_atestado_medico_md": "text",
+          "conteudos_folgas_licencas_md": "text",
+          "jornada_trabalho_md": "text",
+          "intervalo_intrajornada_md": "text",
+          "intervalo_interjornada_md": "text",
+          "horario_noturno_md": "text",
+          "banco_horas_md": "text",
+          "compensacao_horas_md": "text",
+          "conteudo_responsabilidade_colaboradores_md": "text",
+          "conteudo_responsabilidade_lideranca_md": "text",
+          "created_at": "timestamptz",
+          "updated_at": "timestamptz"
+        }
+      },
+      "tique_taque": {
+        "description": "Conteúdo editorial sobre o Tique Taque",
+        "columns": {
+          "id": "uuid",
+          "nome": "text",
+          "imagem_icone_url": "text",
+          "titulo_md": "text",
+          "app_tique_taque_md": "text",
+          "esquecimento_ajustes_md": "text",
+          "funcionalidade_web_md": "text",
+          "registro_ponto_md": "text",
+          "revisao_fechamento_ponto_md": "text",
+          "created_at": "timestamptz",
+          "updated_at": "timestamptz"
+        }
+      }
+    }
+  }

@@ -1,0 +1,13 @@
+id,nome,data,ano,tipo,origem,external_id,payload,created_at,updated_at
+6558ea98-e944-4a02-a33e-3c269f1e1c34,Quarta de Cinzas,2025-03-05,2025,Feriado,manual,,{},2026-03-31T16:10:29+00:00,2026-03-31T16:10:29+00:00
+45a530a1-9ca9-4fc6-a578-980e9d66a844,Emenda de Carnaval,2025-03-04,2025,Emenda,manual,,{},2026-03-31T16:10:29+00:00,2026-03-31T16:10:29+00:00
+070d7515-179d-4bab-a683-2233b982a97d,Emenda de Carnaval,2025-03-03,2025,Emenda,manual,,{},2026-03-31T16:10:29+00:00,2026-03-31T16:10:29+00:00
+67b5796b-28a0-41e7-b4e3-22d0c1a453fe,Tiradentes,2025-04-21,2025,Feriado,manual,,{},2026-03-31T16:10:29+00:00,2026-03-31T16:10:29+00:00
+bdb3f7b1-e933-40f7-af33-43e0a1393b88,Sexta-feira Santa,2025-04-18,2025,Feriado,manual,,{},2026-03-31T16:10:29+00:00,2026-03-31T16:10:29+00:00
+70a0c2e3-bfdc-4ebf-8318-ffeb5d93d35e,Dia do Trabalhador,2025-05-01,2025,Feriado,manual,,{},2026-03-31T16:10:29+00:00,2026-03-31T16:10:29+00:00
+00fbcd70-d126-4fbe-9da8-2f8edeaf80e2,Emenda de Dia do Trabalhador,2025-05-02,2025,Emenda,manual,,{},2026-03-31T16:10:29+00:00,2026-03-31T16:10:29+00:00
+51a95133-52e9-4b30-bd31-3123df6e97b4,Corpus Christi,2025-06-19,2025,Feriado,manual,,{},2026-03-31T16:10:29+00:00,2026-03-31T16:10:29+00:00
+6ebd333f-cd13-4d91-9d02-61a503f79634,Emenda de Corpus Christi,2025-06-20,2025,Emenda,manual,,{},2026-03-31T16:10:29+00:00,2026-03-31T16:10:29+00:00
+94eab199-7d80-4a8e-9eb0-a87a76f23ea1,Revolução Constitucionalista,2025-07-09,2025,Feriado,manual,,{},2026-03-31T16:10:29+00:00,2026-03-31T16:10:29+00:00
+daf15e5e-bfc9-48f9-9880-b3547c11f925,Consciência Negra,2025-11-20,2025,Feriado,manual,,{},2026-03-31T16:10:29+00:00,2026-03-31T16:10:29+00:00
+3abff7a6-1509-4709-89d8-fada70d5f340,Emenda de Consciência Negra,2025-11-21,2025,Emenda,manual,,{},2026-03-31T16:10:29+00:00,2026-03-31T16:10:29+00:00

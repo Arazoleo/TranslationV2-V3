@@ -1,0 +1,96 @@
+{
+  "output_dir": "output/cubos/ferias",
+  "uuid_remap": {
+    "enabled": false
+  },
+  "tables": [
+    {
+      "name": "vacation_segmentos_sheet",
+      "view_id": "2db3a348-328e-4635-991a-6a89a0bcd9f4",
+      "_sheet": "Segmentos (4 records)",
+      "columns": {
+        "id":         { "default": "__record_id__" },
+        "empresa":    { "field_id": "7c2ce442-54b9-4077-90ad-02cfeee04301", "extract": "string" },
+        "created_at": { "default": "__timestamptz__" },
+        "updated_at": { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "periodo_aquisitivo",
+      "view_id": "66f724bc-aedf-4ce4-b5d1-4cee5640fdc8",
+      "_sheet": "Período aquisitivo (371 records)",
+      "columns": {
+        "id":                    { "default": "__record_id__" },
+        "pessoa_profile_id":     { "field_id": null, "extract": null, "default": "" },
+        "lider_profile_id":      { "field_id": null, "extract": null, "default": "" },
+        "data_inicial":          { "field_id": "96d1a233-d0c5-400a-8ed9-bfc80dd27ba6", "extract": "date" },
+        "data_final":            { "field_id": "3e1916c6-fa0a-4e53-910a-c45b3b9aae05", "extract": "date" },
+        "fim_aquisitivo":        { "field_id": "975528f5-f405-4596-9f1a-93c972324e4e", "extract": "date" },
+        "inicio_periodo_gozo":   { "field_id": "3faa11d1-180d-452a-8f18-77afddaad9bc", "extract": "date" },
+        "fim_periodo_gozo":      { "field_id": "6d44fb37-7d46-4ada-a336-9353d1bfc004", "extract": "date" },
+        "status_periodo":        { "field_id": "31f802a2-1610-4511-a97c-dbc107d26bb1", "extract": "select" },
+        "classificacao":         { "field_id": "4c3a100e-6b80-4891-82ef-4510b567e9c5", "extract": "select" },
+        "saldo_dias":            { "field_id": "09f43825-6a62-4ffb-a389-588465bd0244", "extract": "number" },
+        "dias_usufruidos":       { "field_id": "1b5a0e80-8732-4e33-b131-1d780147e83a", "extract": "number" },
+        "total_dias_solicitados":{ "field_id": "7f1ffc99-8832-4cdd-abbf-0a5205a43c00", "extract": "number" },
+        "total_dias_vendidos":   { "field_id": "4dac7089-47bd-48bb-95aa-b946d58693c3", "extract": "number" },
+        "tipo_contrato":         { "field_id": "8eec739c-21ed-4c4d-8965-3c4c561876ad", "extract": "select" },
+        "observacoes":           { "field_id": null, "extract": null, "default": "" },
+        "created_at":            { "default": "__timestamptz__" },
+        "updated_at":            { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "ferias",
+      "view_id": "7c272bbd-8408-4ea3-a54b-05de2d8a74eb",
+      "_sheet": "Férias (648 records)",
+      "columns": {
+        "id":                     { "default": "__record_id__" },
+        "colaborador_profile_id": { "field_id": null, "extract": null, "default": "" },
+        "lider_profile_id":       { "field_id": null, "extract": null, "default": "" },
+        "periodo_aquisitivo_id":  { "field_id": "51175691-3952-4ebe-b0f0-978390debf7a", "extract": "link" },
+        "tipo_solicitacao":       { "field_id": "9c0697f9-63b7-4cd7-be58-e45a94e6911c", "extract": "select" },
+        "categoria_solicitacao":  { "field_id": "bb6986e0-c723-4713-ac5f-02bcc9489bbf", "extract": "select" },
+        "inicio_ferias":          { "field_id": "8fb72977-8a13-48d9-bb4e-70348e79f2e4", "extract": "date" },
+        "fim_ferias":             { "field_id": "dae88912-1f72-4129-9329-5e0ab8ca31da", "extract": "date" },
+        "data_solicitacao":       { "field_id": "fbe16668-2927-4a4a-af16-7e9d6a546cbb", "extract": "date" },
+        "dias_selecionados":      { "field_id": "1463de04-0b21-40c6-9fba-0347de96bb34", "extract": "number" },
+        "dias_uteis":             { "field_id": "e24d69d9-ecdc-4c65-a194-05cb20d0547f", "extract": "number" },
+        "status_solicitacao":     { "field_id": "432571c7-ff2d-4c5c-a987-dfbf6de3ce61", "extract": "select" },
+        "deseja_vender":          { "field_id": "f9a07678-7328-4639-883f-3a7901afd4cd", "extract": "bool_select" },
+        "dias_vendidos":          { "field_id": "264098ee-9510-44a1-b668-58017d012470", "extract": "number" },
+        "deseja_adiantamento_13": { "field_id": "80ce72b9-25d5-4174-b635-6fce4952b45b", "extract": "bool_select" },
+        "justificativa":          { "field_id": "3f779463-1468-4b45-8044-e5770dacdec4", "extract": "markdown" },
+        "aviso_ferias_path":      { "field_id": null, "extract": null, "default": "" },
+        "recibo_ferias_path":     { "field_id": null, "extract": null, "default": "" },
+        "inclusao_retroativa":    { "field_id": null, "extract": null, "default": "false" },
+        "aprovador_profile_id":   { "field_id": null, "extract": null, "default": "" },
+        "created_at":             { "default": "__timestamptz__" },
+        "updated_at":             { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "day_off",
+      "view_id": "322310c4-8a2f-44d6-b128-8d892b5629c5",
+      "_sheet": "Day-off (409 records)",
+      "columns": {
+        "id":                    { "default": "__record_id__" },
+        "colaborador_profile_id":{ "field_id": null, "extract": null, "default": "" },
+        "lider_profile_id":      { "field_id": null, "extract": null, "default": "" },
+        "tipo_day_off":          { "field_id": "76fc9804-58c3-485f-be80-4f5d56f86d80", "extract": "select" },
+        "data_solicitacao":      { "field_id": "3f221e1c-56d8-4fd3-afc8-fd10f16bc70e", "extract": "date" },
+        "data_inicio":           { "field_id": "591d414e-f98f-4d45-908f-cf4d09a451e8", "extract": "date" },
+        "data_fim":              { "field_id": "8d76c316-a242-494d-af70-68a5ec242ff9", "extract": "date" },
+        "data_retorno":          { "field_id": "1a4d43f6-f283-4680-b917-1dad5017ab63", "extract": "date" },
+        "descricao":             { "field_id": "b3aea7ec-da89-47c1-9f28-e13fe41eab96", "extract": "string" },
+        "referencia_feriado":    { "field_id": "2e7f8ff8-5444-4bd4-b553-02bdde3acc03", "extract": "string" },
+        "status_aprovacao":      { "field_id": "8fde4659-4926-4ebf-8948-ce2646c5540b", "extract": "select" },
+        "tipo_contrato":         { "field_id": "1b190db1-dfb5-46b0-ac22-09ce431fd9f1", "extract": "select" },
+        "motivo_cancelamento":   { "field_id": "afe2475e-5026-456c-bb38-7c41c2da1c4a", "extract": "string" },
+        "deseja_cancelar":       { "field_id": "c477f290-d0ad-408f-9cd4-456b8c502a4f", "extract": "bool_select" },
+        "created_at":            { "default": "__timestamptz__" },
+        "updated_at":            { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

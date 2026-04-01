@@ -1,0 +1,49 @@
+{
+    "schema": "lemonenergy_despesas",
+    "tables": {
+      "budgets": {
+        "description": "Budgets específicos para alocação de despesas",
+        "columns": {
+          "id": { "type": "uuid", "primaryKey": true },
+          "name": { "type": "text", "nullable": false },
+          "responsible_profile_id": { "type": "uuid", "references": "public.profiles.id" },
+          "aligned_with_profile_id": { "type": "uuid", "references": "public.profiles.id" },
+          "cost_center": { "type": "text" },
+          "budget_amount": { "type": "numeric(14,2)", "nullable": false },
+          "consumed_amount": { "type": "numeric(14,2)", "nullable": false },
+          "balance_amount": { "type": "numeric(14,2)", "nullable": false },
+          "is_active": { "type": "boolean", "nullable": false },
+          "start_date": { "type": "date" },
+          "created_at": { "type": "timestamptz", "nullable": false },
+          "updated_at": { "type": "timestamptz", "nullable": false }
+        }
+      },
+      "expenses": {
+        "description": "Despesas e reembolsos (compatível com import CSV)",
+        "columns": {
+          "id": { "type": "uuid", "primaryKey": true },
+          "expense_description": { "type": "text" },
+          "tipo_de_lancamento": { "type": "text" },
+          "expense_value_v2": { "type": "numeric(14,2)" },
+          "expense_date": { "type": "date" },
+          "expense_person": { "type": "uuid", "references": "public.profiles.id" },
+          "expense_receipt": { "type": "text" },
+          "budget_id": { "type": "uuid", "references": "lemonenergy_despesas.budgets.id" },
+          "expense_status": { "type": "text" },
+          "expense_refundable": { "type": "text" },
+          "valor_reembolso_parcial": { "type": "numeric(14,2)" },
+          "expense_payment_date": { "type": "date" },
+          "expense_notes": { "type": "text" },
+          "comentarios_lideranca": { "type": "text" },
+          "deseja_alocar_o_reembolso_em_um_centro_de_custo_diferente_do_seu": { "type": "text" },
+          "centro_de_custo_realocacao": { "type": "text" },
+          "cost_center": { "type": "text" },
+          "created_at": { "type": "timestamptz", "nullable": false },
+          "updated_at": { "type": "timestamptz", "nullable": false }
+        }
+      }
+    },
+    "sharedEntities": [
+      "people"
+    ]
+  }

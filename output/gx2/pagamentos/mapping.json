@@ -1,0 +1,49 @@
+{
+  "output_dir": "output/gx2/pagamentos",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "profiles",
+      "view_id": "dcc91c7c-4fb4-49c1-8ebe-c2f29f0a6ccf",
+      "_sheet": "Pessoas (288 records)",
+      "columns": {
+        "id":            { "default": "__record_id__" },
+        "nome_completo": { "field_id": "8e6e12a7-d7f3-4b02-937b-feb5b03a5b3c", "extract": "string" },
+        "created_at":    { "default": "__timestamptz__" },
+        "updated_at":    { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "_name_raw": "folha_raw",
+      "name": "folha_raw",
+      "view_id": "a50dcdb0-93bf-4c48-9c7d-520774ae0270",
+      "_sheet": "Folha (20 records) — post-processar em competencias.csv",
+      "columns": {
+        "id":              { "default": "__record_id__" },
+        "competencia":     { "field_id": "599b291a-3196-4c36-b767-03c6ec43c6a2", "extract": "date" },
+        "data_pagamento":  { "field_id": "f8f18fce-e9a4-4217-b1fd-0ac89f7eb39c", "extract": "date" }
+      }
+    },
+    {
+      "name": "pagamentos_p_j",
+      "view_id": "880b5906-ff15-4c76-bbdc-d83855937cba",
+      "_sheet": "Pagamentos (1118 records) — filtrar PJ em post-process",
+      "columns": {
+        "id":                  { "default": "__record_id__" },
+        "pessoa_id":           { "field_id": "2d5ff967-1887-41de-84b3-a95d0a10f40c", "extract": "link" },
+        "email":               { "field_id": "97fb54c5-5507-4851-862d-94243b92feb3", "extract": "string" },
+        "data_competencia":    { "field_id": "2c60cccd-feb8-4573-a977-c58957dae45d", "extract": "date" },
+        "data_vencimento":     { "field_id": "4637a075-9583-4f2d-ae17-8dfac08f8f8d", "extract": "date" },
+        "valor_mensal":        { "field_id": "5574074c-7f22-4e9c-9c68-58666b31648a", "extract": "number" },
+        "status_nota_fiscal":  { "field_id": "59d787ef-e99c-497c-b06d-6ff874fb4988", "extract": "select" },
+        "tipo_contrato":       { "field_id": "57c55db9-6165-43c4-9db3-93a361cb8bb0", "extract": "select" },
+        "ferias":              { "field_id": null, "extract": null, "default": "0" },
+        "plano_saude":         { "field_id": null, "extract": null, "default": "0" },
+        "dissidio":            { "field_id": null, "extract": null, "default": "0" },
+        "odonto_dependentes":  { "field_id": null, "extract": null, "default": "0" },
+        "created_at":          { "default": "__timestamptz__" },
+        "updated_at":          { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

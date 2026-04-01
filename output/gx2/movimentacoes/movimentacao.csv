@@ -1,0 +1,135 @@
+id,pessoa_id,tipo_movimentacao,data_solicitacao,data_efetivacao,valor_anterior,valor_novo,cargo_anterior_id,cargo_novo_id,marca_anterior_id,marca_nova_id,departamento_anterior_id,departamento_novo_id,unidade_negocio_anterior_id,unidade_negocio_nova_id,empresa_contratante_anterior_id,empresa_contratante_nova_id,tipo_contrato_anterior,tipo_contrato_novo,motivo_movimentacao,solicitante,aprovador,status,observacoes,manager_anterior_id,manager_novo_id,justificativa_rejeicao,created_at,updated_at
+6c47f47c-077e-439a-bb45-be236a78c5a2,f44a7f8c-abb8-4ef5-9c57-381e23fbc13d,Tipo 1: Mudança de Estrutura - Liderança e/ou Estrutura (sem envolver cargo e/ou salário),2024-12-12,2024-12-12,800000,,,,,,,,,,,,PJ,,,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,Efetivado,"O colaborador solicitou a alteração do vínculo contratual, de PJ para Cooperado.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+107a6545-2365-424d-91fb-86bfd1dbc53d,3245cae9-7f04-4795-a747-6b8e6bdc949e,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-01-03,2025-01-03,,250000,,,,,,,,,,,,,Promoção,38e4d267-ade2-4df0-a4e1-4613fbc017d4,,Efetivado,"Na última semana, a turma de Rockets Liferay passou pela avaliação trimestral de desempenho. Todos os avaliados foram considerados aptos a evoluir para a fase IV do programa Rocket Talents.
+
+Com essa evolução, os pagamentos dos participantes serão ajustados de R$ 2.200,00 para R$ 2.500,00.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+745f70f7-67b4-49a7-ac23-eb3d4958dac9,09ee4466-01a7-4f5d-826f-7bfe84a44e29,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-01-10,2025-01-10,950000,1300000,,,,,,,,,,,CLT,CLT,Mérito,33e309d3-818a-41e6-a03d-f3db795b8526,,Efetivado,"Teve um reajuste de salário para 13k na data de hoje dia 10 de janeiro de 2025. O reajuste se deu a uma contra proposta feita pelo GX2 afim de manter o colaborador.
+
+\---------------------------------------
+
+17/01/2025 - 16:27
+
+\- Jonatas Pedrozo
+
+Conforme alinhado com Gabriela E Stela, além do salário do colaborador a senioridade também vai mudar para sênior.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+c9794142-a570-41cf-894e-ab4b2103a0f8,aae1b62c-5a7f-4498-aea3-380295c26449,Tipo 1: Mudança de Estrutura - Liderança e/ou Estrutura (sem envolver cargo e/ou salário),2025-01-15,2025-01-23,1050000,,,,,,,,,,,,PJ,,,404333d5-77ed-4199-a54e-e1a97579ee48,,Efetivado,"Colaborador alterado do cliente (encerramento de contrato) para a Fábrica.
+
+  
+
+Jonatas Pedrozo (24/01/2025, 08:49)
+
+Cálculo para o novo salário do colaborador, que realizava no cliente 40:00 semanais:
+
+R$ 10.500,00 / 200:00 = R$ 52,50 por hora
+
+R$ 52,50 \* 220:00 = **R$ 11.550,00** (Novo salário)",,fff00eb7-f8f3-420e-9371-0303a1ec3449,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+919340b4-c353-4d02-93b8-a4a09cf28cc3,391cf0a3-612c-405f-a4a4-79573fb81f08,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-01-16,2024-11-01,800000,,,,,,,,,,,,CLT,,Mérito + Mudança de Cargo,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,Efetivado,"O Carlos teve uma promoção realizada em novembro. Por um equívoco, formalizamos como reconhecimento e não fizemos a alteração de cargo. O novo salário já está vigente desde novembro, precisamos apenas alterar o cargo no registro para ""Líder Técnico de Desenvolvimento"".
+
+17/01 - conforme alinhado com Jonatas e Stela, a modificação será somente realizada a alteração do cargo, uma vez que o salário já está atualizado.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+3fd013be-a196-4f15-b5d1-53f41f7f9199,083d4ebc-bd3b-4ef1-a0d7-fe54b8d21e6c,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-01-17,2025-01-01,1700000,1700000,,,,,,,,,,,PJ,PJ,Mérito,5bdac29a-1bce-4718-a9da-4de0604b887e,,Efetivado,Ajuste salarial por meritocracia,,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+e0a4da9f-4c04-45c0-afe7-49c1a9d2c3d6,5123bfeb-2173-4c45-bc8b-37229e8b6518,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-01-20,2025-01-01,250000,300000,,,,,,,,,,,CLT,,Mérito + Mudança de Cargo,27819bf0-f381-4422-833f-1ea307510333,,Efetivado,"O colaborador foi promovido para Analista Pleno no ano passado, e a alteração salarial foi divida em duas partes. Essa é a segunda parte da alteração salarial, passando para R$ 3000,00 a partir de janeiro, com pagamento na folha de fevereiro.
+
+Alterar também o auxílio home office para R$ 300,00, demais benefícios permanecem iguais.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+0b6a9fee-1b76-4472-a8bd-319c7eed38a5,ed570d56-4a8d-4731-b793-53503463bf8a,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-01-24,2025-01-31,,,,,,,,,,,,,,,Alteração de função,,,Efetivado,"Monique Cristielle Silva da Silva:
+
+Profissional já era profissional da GX2, alocado no Banco Digio. Após finalização do seu contrato com o Banco Digio, foi realocado na fábrica de software da GX2 e o coloquei no fluxo a fim de fomalização. Ele já possui acessos.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+8b9d86e2-3a32-4598-a496-057cd0e8168e,1ed4e6e3-13c2-4b5a-b6cf-c1497292223b,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-02-12,2025-02-17,2658062,1850000,,,,,,,,,,,PJ,PJ,Alteração de função,552c423b-38e0-4681-babd-421629c596a9,,Efetivado,O colaborador foi desalocado do cliente e será alocado na Fábrica.,,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+42ffeadb-9a27-453c-8bf9-5a3479b7628f,11cf48a3-c9f7-42af-8846-31581fe4dffe,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-02-18,2025-02-01,350000,400000,,,,,,,,,,,CLT,CLT,Promoção,27819bf0-f381-4422-833f-1ea307510333,,Efetivado,"No ano passado a colaboradora foi promovida para Analista SR, essa é a segunda etapa da promoção salarial, pois o cargo já alterado.
+
+O Auxílio Home office passa para R$ 400,00.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+cf83e600-3883-461e-80d1-42b3cc80d2aa,c9c36f30-9a2a-4096-88d3-362fbaa0974d,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-02-20,2025-02-01,312495,343744,,,,,,,,,,,PJ,,Mérito + Mudança de Cargo,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,Efetivado,Aumento de 10% em relação a remuneração atual. Competência fevereiro. Mudança de cargo para Desenvolvedora Fullstack Pleno.,,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+9ea61e7b-dc98-44d3-9269-f994d8c9ea17,f5936e9d-5e7c-42e5-858e-e7d21ea743ae,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-02-20,2025-02-01,360000,396000,,,,,,,,,,,PJ,,,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,Efetivado,Aumento de 10% em relação a remuneração atual. Competência fevereiro. Mudança de cargo para Desenvolvedor Fullstack Pleno.,,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+a574a4b1-8fc3-4e23-b752-292e0916491f,97f1b61f-d013-49dd-b9ab-ee49856d8382,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-03-07,2025-02-01,1666309,,,,,,,,,,,,,,Mérito,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,Efetivado,"**Reajuste Salarial**
+
+Aumento de 2,5% referente à competência fevereiro. Novo aumento de 2,5% na competência março.
+
+📌 Salários ajustados:
+
+Salário atual: R$ 16.663,09
+
+Salário em março: R$ 17.079,67
+
+Salário em abril: R$ 17.506,66",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+c7a30779-e6c7-42f0-8fe2-57e188a72fee,a1936b75-b955-44e3-9378-9e03931392c7,Tipo 1: Mudança de Estrutura - Liderança e/ou Estrutura (sem envolver cargo e/ou salário),2025-03-18,2025-03-24,520000,,,,,,,,,,,,CLT,,,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,Efetivado,Colaborador foi desligado da AgroBrasil (19/02) e estava cumprindo aviso prévio. Será realocado no cliente Essent (24/03).,,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+9d07c4a5-5d85-4865-953a-85b7d78c7c1e,0b1800ba-a7af-4851-a7b3-b25eeaf8dc1a,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-03-19,2025-03-24,859958,1146611,,,,,,,,,,,PJ,,Enquadramento Salarial,38e4d267-ade2-4df0-a4e1-4613fbc017d4,,Efetivado,"O colaborador Marcell da Silva fazia 6h diárias e a partir de 24/03/2025 vai passar a fazer 8h diárias, por esse motivo a solicitação de ajuste salarial foi aberta.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+ecdf9417-7306-46c7-9fcc-ccff2f33c500,23f6d03b-ad66-4c02-9b7e-1558ffaeb05f,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-04-02,2025-04-01,,300000,,,,,,,,,,,,PJ,Promoção,38e4d267-ade2-4df0-a4e1-4613fbc017d4,,Efetivado,"A promoção se refere aos 5 rockets talents (Nicolas Mikael Ferreira Fernandes, Nikolas Augusto De Paula Batista, Rafaela Mendes da Silva, Joseph Novy Quadri e Vinicio Salazar Barbosa), que serão promovidos a Desenvolvedores Júnior Liferay, onde a mudança de função e salário terá como mês base abril/2025, com efeito em maio/2025.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+a82d09e8-e76e-4c70-bdb4-848ad80ccebb,5123bfeb-2173-4c45-bc8b-37229e8b6518,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-04-22,2025-04-01,300000,400000,,,,,,,,,,,CLT,,Promoção,27819bf0-f381-4422-833f-1ea307510333,,Efetivado,"O colaborador foi promovido para Analista de RH SR (não marquei aqui no formulário que muda o cargo por que não apareceu o cargo dele para selecionar).
+
+Vale para abril, pagamento em maio.
+
+Sobre benefícios, o aux home office passa para R$ 400,00. Os demais permanecem os mesmo.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+51641a3a-0cbb-425f-a709-3051b9ad7d98,14357e29-ebde-4b3f-96cc-962562effc9b,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-05-05,2025-05-01,1500000,2000000,,,,,,,,,,,PJ,PJ,Mérito,38e4d267-ade2-4df0-a4e1-4613fbc017d4,,Efetivado,"A remuneração do colaborador vai passar de 15 mil reais para 20 mil reais por mês, mantendo a mesma modalidade de contrato e não tendo alteração de cargo, apenas de salário. A mudança se aplica a partir de 01/05/2025 com efeito no pagamento de 06/2025.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+6371b1c5-8efa-4502-899c-68140cbaa056,9b86841b-baca-49ba-963b-693eae63df43,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-05-05,2025-05-13,1568396,1000000,,,,,,,,,,,,CLT,Alteração de função,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,Efetivado,"O colaborador passará a atuar no cliente AgroBrasil, a partir do dia 13/05. O novo salário é de R$10.000 e os benefícios são: VA R$735 + Auxílio Home Office de R$500 + Saldo livre R$2.500.
+
+O exame admissional deverá ser agendado - preferencialmente - para quinta-feira a tarde, exceto entre 14:00 e 15:30 (Alinhar com o colaborador).",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+73cdc1a4-b8ac-4549-80a3-fa9353783626,49befea6-750e-4b8b-bd49-0946dc48d752,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-05-20,2025-05-22,1687600,750000,,,,,,,,,,,PJ,CLT,Celetização,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,Efetivado,O Renato será alocado na Agrobrasil. A nova remuneração ficou estipulada em R$7.500. Os benefícios são: VA - R$735; auxílio home office - R$3.000 e saldo livre de R$3.000.,,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+a46cc160-ef88-4bb2-8815-7f927f2b1b7c,f5936e9d-5e7c-42e5-858e-e7d21ea743ae,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-05-22,2025-06-01,396000,500000,,,,,,,,,,,PJ,,Mérito,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,Efetivado,"Reconhecimento válido a partir de 01/06, com reflexo na folha de julho.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+ccfeea2b-aa4b-46cc-962d-4c4258436675,c9c36f30-9a2a-4096-88d3-362fbaa0974d,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-05-22,2025-06-01,343744,500000,,,,,,,,,,,PJ,,Mérito,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,Efetivado,"Reconhecimento válido a partir de 01/06, com reflexo na folha de julho.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+45364683-1012-4ea4-ba5f-aa889a6b4e00,2aef803d-e3c3-4ddc-9edd-a000fec38a4e,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-06-18,2025-06-01,450000,600000,,,,,,,,,,,PJ,PJ,Promoção,38e4d267-ade2-4df0-a4e1-4613fbc017d4,,Efetivado,"O colaborador recebeu uma promoção, o novo salário será de R$6.000,00, a função permanece a mesma.
+
+O salário do mês de julho/2025 deverá ser com a nova remuneração.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+8889cc63-2405-4b80-bf39-619d03807eab,aadd589d-a307-4869-8a9e-0923e5087051,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-06-26,2025-06-02,1090000,,,,,,,,,,,,,PJ,Mérito,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,Efetivado,"Solicito um reconhecimento de 15% para o colaborador Alexandre Martins Klafke, válido a partir de 1/6, já refletindo no próximo pagamento. Este reconhecimento busca alinhar a remuneração à entrega do colaborador e à realidade de mercado.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+d496c44b-5af4-4f9d-aa49-e178aac7d621,,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-06-27,2025-06-01,1090000,,,,,,,,,,,,,PJ,Promoção,38e4d267-ade2-4df0-a4e1-4613fbc017d4,,Efetivado,"O cargo de PM não estava disponível para ajuste no início do mês.
+
+A alteração do contrato com o cargo e novo salário já foi realizado, ficou pendente apenas a mudança de função na Zazos",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+338f9555-fda4-4119-b692-668986b08b1e,2a173329-4e05-4f79-a101-2ffd2dbf0d2e,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-07-03,2025-07-07,1829795,1650000,,,,,,,,,,,,,Alteração de função,552c423b-38e0-4681-babd-421629c596a9,,Efetivado,"Irá para o projeto do Clube Paulistano, por isso a modificação.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+afb61f71-54e1-4ff1-acb4-726b6aecc863,81c771ed-60fb-4948-9f3d-de628df979fb,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-08-01,2025-07-01,785143,1000000,,,,,,,,,,,PJ,PJ,Promoção,38e4d267-ade2-4df0-a4e1-4613fbc017d4,,Efetivado,"Foi solicitado ao cliente Unimed Porto Alegre um reajuste na taxa do profissional Gabriel Chagas Machado, baseado na performance dele. Recebemos a aprovação e diante disso faremos o reconhecimento para o profissional, onde resultará na mudança de cargo e salário.
+
+A nova taxa será aplicada nas horas de julho, com efeito no pagamento de agosto.
+
+O novo salário do colaborador deverá ter efeito no pagamento de agosto/2025.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+e171dd59-d091-413a-a1e1-4c306bafa112,662a80c3-9f77-45b9-8cc1-6e7c987bb5a1,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-08-01,2025-07-01,1418513,1525000,,,,,,,,,,,,,Promoção,38e4d267-ade2-4df0-a4e1-4613fbc017d4,,Efetivado,"O cliente Unimed Porto Alegre aprovou o reajuste na taxa mensal do Jonathan e diante disso, também faremos um reconhecimento para ele, baseado em sua performance. Terá ajuste de salário, mas o cargo permanece o mesmo.
+
+O pagamento adicional de R$2.000,00 a cada 6 meses permanece, seguindo o mesmo período que já vinha sendo praticado.
+
+O novo salário já será aplicado para o pagamento de agosto.
+
+O campo ""Tipo de contrato"" não aparece a opção ""Coop"" que é o tipo de contrato atual do colaborador, pode manter a mesma modalidade.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+5f093ca9-880c-4ffe-a17d-dd9b487d2a4f,bc10861c-3310-4420-ab13-58c2dc81b972,Tipo 1: Mudança de Estrutura - Liderança e/ou Estrutura (sem envolver cargo e/ou salário),2025-08-08,2025-08-04,938140,,,,,,,,,,,,,,,38e4d267-ade2-4df0-a4e1-4613fbc017d4,,Efetivado,"O Evandro estava no projeto da fábrica na FIEP e agora está no projeto outsourcing da Zenital -novo ciente-.
+
+Projeto: Integração entre aplicativos e a plataforma Zendesk.
+
+Carga horária: 40h, verificar o contrato entre o colaborador e GX2 e manter a carga horária definida no contrato.",,552c423b-38e0-4681-babd-421629c596a9,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+f3e7081a-0f4a-4b12-95c6-ed96b0603341,4ed2097c-7b8d-41f8-a1b5-ae16fd285439,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-08-11,2025-08-01,910800,1000000,,,,,,,,,,,CLT,,Mérito,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,Efetivado,"* Remuneração: R$ 10.000,00 salário + R$ 2.500,00 em saldo livre + R$ 1.500,00 em auxílio home office
+* Benefícios: demais benefícios permanecem inalterados",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+da42c685-2f97-4153-9594-99e40004ad93,07ad22ae-98d6-4ede-970a-ddc3ab2b362e,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-08-28,2025-08-01,313679,400000,,,,,,,,,,,PJ,,Mérito,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,Efetivado,"O colaborador recebeu um reconhecimento monetário, aplicado a partir de 01/08/2025.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+180ed630-4961-4322-a3c8-05b08f9a4482,b7b2eeea-e9fc-4af7-a65e-315741b5e359,"Tipo 2: Movimentação Interna (Envolve cargo, salário, liderança, área, etc)",2025-08-29,2025-09-01,412963,600000,,,,,,,,,,,CLT,CLT,Promoção,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,Efetivado,"Reconhecimento e promoção para SR. Novo salário: R$6.000,00 + Saldo Livre de R$1.046,00. Os demais benefícios seguem os mesmos, R$735,00 de VR e R$390,00 de auxílio HO - Totalizando R$2.171,00 em benefícios.",,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+a4959eae-ff41-4be3-af82-33ae155d49b9,cfb111cd-eb5f-4425-bc6d-f88171535708,,2025-10-13,2025-10-01,1350000,1450000,,,,,,,,,,,,,,552c423b-38e0-4681-babd-421629c596a9,,Efetivado,"O colaborador recebeu uma **promoção**, passando do cargo de **Service Desk Manager** para **Service Delivery Manager**.
+
+O ajuste inclui uma **revisão salarial de R$ 13.500,00 para R$ 14.500,00**, reconhecendo seu desempenho e a ampliação de responsabilidades no novo papel.",fff00eb7-f8f3-420e-9371-0303a1ec3449,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+bed63698-8f24-47ff-b53b-cbda67dcf667,bc10861c-3310-4420-ab13-58c2dc81b972,,2025-11-04,2025-11-01,987160,1200000,,,,,,,,,,,,,,552c423b-38e0-4681-babd-421629c596a9,,Efetivado,"Olá, pessoal!
+
+Gostaria de registrar a **promoção do Evandro de Pleno para Sênior**, em reconhecimento aos **excelentes feedbacks recebidos tanto da Fábrica quanto do cliente**, que inclusive **renovou o contrato em razão da ótima atuação dele**. Podemos seguir com a atualização de cargo e salário, por favor?",8833a20c-b54e-4e39-bee1-71fc3bfbd092,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+3815e923-9516-4767-9b9b-684d2973d3c7,c76d1af4-fd6f-4a04-9a06-4f185e8350d3,,2025-11-11,2025-11-01,800000,1050000,,,,,,,,,,,PJ,,,552c423b-38e0-4681-babd-421629c596a9,,Efetivado,"Reconhecimento salarial passando de R$8.000,00 para R$10.500,00.",fff00eb7-f8f3-420e-9371-0303a1ec3449,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+e7d36e6e-9b4d-4137-9c8b-4d2844f528be,387aaa5f-9b07-429f-9f54-22862a793e95,,2025-11-11,2025-12-01,600000,700000,,,,,,,,,,,,,,552c423b-38e0-4681-babd-421629c596a9,,Efetivado,"Reconhecimento salarial indo de R$6.000,00 para R$7.000,00",fff00eb7-f8f3-420e-9371-0303a1ec3449,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+de73d9cc-752e-40c3-9b49-58c9b96fe4ea,2aef803d-e3c3-4ddc-9edd-a000fec38a4e,,2025-11-11,2025-12-01,600000,700000,,,,,,,,,,,PJ,,,552c423b-38e0-4681-babd-421629c596a9,,Efetivado,"Reconhecimento salarial indo de 6.000,00 para 7.000,00 BRL",fff00eb7-f8f3-420e-9371-0303a1ec3449,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+b40264cf-2d67-43de-ab5f-7bd2dd2ae4b7,aeff0554-a9ff-4107-8a9e-247e1951c6ce,,2025-11-19,2025-11-01,600000,800000,,,,,,,,,,,PJ,,,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,Efetivado,"Alteração da remuneração, com acréscimo de R$2.000. Competência novembro/2025.",5bdac29a-1bce-4718-a9da-4de0604b887e,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+6bec2e87-e336-4647-a01e-ca4cda8c3819,f5936e9d-5e7c-42e5-858e-e7d21ea743ae,,2025-12-02,2025-12-01,500000,700000,,,,,,,,,,,PJ,,,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,Efetivado,"Aumento de R$2.000,00 a partir desse mês, com reflexo na folha de janeiro.",ad5f8f0a-637a-4ff8-aa2a-2d66e269a2be,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+92b1a1d1-a01c-4eee-ae53-690b495bffd4,74c8978c-19fa-4e5c-9f2c-34ae952d59b2,,2025-12-03,2025-12-05,1042883,,,,,,,,,,,,PJ,,,552c423b-38e0-4681-babd-421629c596a9,,Efetivado,"O colaborador será desligado do cliente **Kenlo**, e o **último dia dele por lá será 04/12/2025**. Pedimos que a cobrança das atividades no cliente seja considerada somente até essa data. Depois disso, ele segue para a **Fábrica**, onde vai atuar no **Projeto Ouro e Prata**, **sem qualquer alteração de cargo ou salário neste momento**.
+
+Fico à disposição para qualquer ajuste ou dúvida!",8833a20c-b54e-4e39-bee1-71fc3bfbd092,ad5f8f0a-637a-4ff8-aa2a-2d66e269a2be,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+2b278fa2-6f87-4966-a46b-141d4bdfbcce,7d45c57f-40fa-4348-b867-fe3c43e4a374,,2026-02-02,2026-02-01,1028000,,,,,,,,,,,,CLT,,,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,Efetivado,"Será concedido o benefício de plano de saúde e plano odontológico a partir do mês de fevereiro, com coparticipação de 20% por parte do colaborador. Também haverá aumento do saldo livre, que passará dos atuais R$ 876,00 para R$ 1.300,00, além da inclusão de R$ 1.200,00 destinados à categoria de auxílio home office.",fff00eb7-f8f3-420e-9371-0303a1ec3449,,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+d0ad11cf-1433-4e1c-ac9c-b49e46d10aac,3245cae9-7f04-4795-a747-6b8e6bdc949e,,2026-02-20,2026-03-01,300000,600000,,,,,,,,,,,PJ,PJ,,fff00eb7-f8f3-420e-9371-0303a1ec3449,,Efetivado,Reconhecimento e mudança de cargo.,27819bf0-f381-4422-833f-1ea307510333,baf0b33b-cec8-4797-a578-c6c98e43d17c,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+3da8fbaf-ff85-45a3-9a2f-2a40d4e9d257,7ea0a6ba-aeb7-4a8a-a41f-623d360039fc,,2026-02-20,2026-03-01,300000,600000,,,,,,,,,,,PJ,PJ,,fff00eb7-f8f3-420e-9371-0303a1ec3449,,Efetivado,Reconhecimento e mudança de cargo,fff00eb7-f8f3-420e-9371-0303a1ec3449,fff00eb7-f8f3-420e-9371-0303a1ec3449,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+f377bd24-62eb-446b-ad58-e1bec474cbd5,07ad22ae-98d6-4ede-970a-ddc3ab2b362e,,2026-02-20,2026-03-01,400000,600000,,,,,,,,,,,PJ,PJ,,baf0b33b-cec8-4797-a578-c6c98e43d17c,,Efetivado,Colaborador vai receber um reconhecimento (competência março/pagamento abril). Seu cargo passa a ser Desenvolvedor Frontend Pleno (não consta na lista de cargos) - remuneração de 6k.,27819bf0-f381-4422-833f-1ea307510333,17b51972-bf27-4758-85bc-820154ddae31,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+e85c33e4-fe6b-40f2-8d26-dbb7efa55501,23f6d03b-ad66-4c02-9b7e-1558ffaeb05f,,2026-02-23,2026-03-01,300000,600000,,,,,,,,,,,PJ,PJ,,baf0b33b-cec8-4797-a578-c6c98e43d17c,,Efetivado,O Nícolas vai receber um reconhecimento (competência março/pagamento abril). Seu cargo passa a ser Desenvolvedor Frontend Pleno - remuneração de 6k. Colaborador já comunicado.,fff00eb7-f8f3-420e-9371-0303a1ec3449,5bdac29a-1bce-4718-a9da-4de0604b887e,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+58ce10c1-094f-4ee0-b3af-66e5ead0c91e,704b12ed-5123-4502-b60a-696778c8b05e,,2026-02-24,2026-03-01,1700000,1900000,,,,,,,,,,,PJ,PJ,,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,Efetivado,"A alteração ocorre em razão da descontinuidade da bonificação semestral. Com isso, o valor anteriormente pago nesse formato será incorporado à remuneração fixa mensal, passando para R$ 18.000,00.",687fcbba-29a2-476b-82fd-3433128dfea7,5bdac29a-1bce-4718-a9da-4de0604b887e,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+61925167-5e34-4143-86e8-0ccb4f5a8d00,cfb111cd-eb5f-4425-bc6d-f88171535708,,2026-03-12,2026-03-01,1450000,1600000,,,,,,,,,,,,,,552c423b-38e0-4681-babd-421629c596a9,,Efetivado,"Foi reforçado que o colaborador já vinha atuando como **Service Delivery Manager**, posição que havia sido reconhecida anteriormente pela GX2. Recentemente, também foi possível realizar um **ajuste salarial**, após alinhamento e renegociação com a Unimed.",fff00eb7-f8f3-420e-9371-0303a1ec3449,552c423b-38e0-4681-babd-421629c596a9,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+6c351809-8c82-410b-a9c4-12664207b445,b392faba-b463-487d-88ae-7b84f625fdae,,2026-03-24,2026-04-01,1000000,1500000,,,,,,,,,,,PJ,PJ,,baf0b33b-cec8-4797-a578-c6c98e43d17c,,Pendente,"Colaborador está recebendo uma promoção, o aumento é para 15k, a partir de abril - pagamento em maio. Sua nova função será Arquiteto DevOps - Sênior.",5bdac29a-1bce-4718-a9da-4de0604b887e,5bdac29a-1bce-4718-a9da-4de0604b887e,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+0a32dcd4-7e6b-4514-9fed-cd0957841c33,60e92109-8580-405c-95ed-2ab5d0dae517,,2026-03-26,2026-04-01,1095085,1350000,,,,,,,,,,,PJ,PJ,,27819bf0-f381-4422-833f-1ea307510333,,Pendente,"Segue email enviado pelo Bruno:
+
+Olá Armando, 
+
+Com muita alegria escrevo está mensagem para formalizar a conversa que tivemos de avaliação de desempenho na qual compartilhei com você nosso reconhecimento e agradecimento pelos serviços prestados, empenho, compromisso e resultados alcançados.
+
+É notória sua evolução profissional e pessoal nos últimos meses, especialmente no aspecto comportamental (soft skills). Parabéns!!!!
+
+Tenho certeza que é só o começo e que o futuro nos reserva grandes conquistas!!!! Como uma forma adicional de reconhecimento pelos resultados alcançados, fica ajustada a sua remuneração fixa mensal para o valor de **R$13.500,00** válida a partir de 01/04/2026 (refletindo na fatura de Maio/26).
+
+Obrigado pela confiança, parceria e dedicação!!!! 
+
+[@Victoria Becker de Avila](mailto:victoria.becker@gx2.com.br) você pode, por favor, formalizar o processo junto ao DP?
+
+Um forte abraço,",31204469-92da-4c01-bf05-c2d155714f63,31204469-92da-4c01-bf05-c2d155714f63,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+9df230ba-c8ea-4855-9953-b301765b588a,aeff0554-a9ff-4107-8a9e-247e1951c6ce,,2026-03-26,2026-03-01,800000,1000000,,,,,,,,,,,PJ,PJ,,baf0b33b-cec8-4797-a578-c6c98e43d17c,,Efetivado,"Colaborador recebera um reconhecimento financeiro alterando seu salário para 10k, mantendo a mesma estrutura atual de atuação. Processo de reconhecimento acontecerá na competência março, pagamento abril.",5bdac29a-1bce-4718-a9da-4de0604b887e,5bdac29a-1bce-4718-a9da-4de0604b887e,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00
+560b7d26-9027-4df2-b85d-74785b2be1ba,38f8ae80-8994-46c1-b57a-f00fcbc25882,,2026-03-27,2026-03-23,1029336,1029336,,,,,,,,,,,,,,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,Efetivado,Mudança de time.,5bdac29a-1bce-4718-a9da-4de0604b887e,5bdac29a-1bce-4718-a9da-4de0604b887e,,2026-03-31T23:28:40+00:00,2026-03-31T23:28:40+00:00

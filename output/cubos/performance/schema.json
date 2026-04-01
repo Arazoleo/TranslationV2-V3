@@ -1,0 +1,302 @@
+{
+    "name": "cubos_performance",
+    "version": "1.0",
+    "tables": {
+      "reviews": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "kind": {
+            "type": "text",
+            "required": true
+          },
+          "cycle": {
+            "type": "text",
+            "required": true
+          },
+          "person_profile_id": {
+            "type": "uuid",
+            "required": false
+          },
+          "reviewer_profile_id": {
+            "type": "uuid",
+            "required": false
+          },
+          "status": {
+            "type": "text",
+            "required": false,
+            "default": "'not_started'::text"
+          },
+          "desempenho_avaliacao": {
+            "type": "text",
+            "required": false
+          },
+          "desempenho_comentario_ciclo": {
+            "type": "text",
+            "required": false
+          },
+          "desempenho_comentario_melhorias": {
+            "type": "text",
+            "required": false
+          },
+          "evolucao_avaliacao": {
+            "type": "text",
+            "required": false
+          },
+          "evolucao_comentario": {
+            "type": "text",
+            "required": false
+          },
+          "impacto_avaliacao": {
+            "type": "text",
+            "required": false
+          },
+          "impacto_comentario": {
+            "type": "text",
+            "required": false
+          },
+          "impacto_comentario_lider": {
+            "type": "text",
+            "required": false
+          },
+          "farol_avaliacao": {
+            "type": "text",
+            "required": false
+          },
+          "farol_comentario": {
+            "type": "text",
+            "required": false
+          },
+          "confianca_avaliacao": {
+            "type": "text",
+            "required": false
+          },
+          "confianca_comentario": {
+            "type": "text",
+            "required": false
+          },
+          "proatividade_avaliacao": {
+            "type": "text",
+            "required": false
+          },
+          "proatividade_comentario": {
+            "type": "text",
+            "required": false
+          },
+          "valores_avaliacao": {
+            "type": "text",
+            "required": false
+          },
+          "valores_comentario": {
+            "type": "text",
+            "required": false
+          },
+          "report_id": {
+            "type": "uuid",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": false,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": false,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "reports": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "cycle": {
+            "type": "text",
+            "required": true
+          },
+          "person_profile_id": {
+            "type": "uuid",
+            "required": false
+          },
+          "manager_profile_id": {
+            "type": "uuid",
+            "required": false
+          },
+          "grade": {
+            "type": "text",
+            "required": false
+          },
+          "status": {
+            "type": "text",
+            "required": false,
+            "default": "'pending'::text"
+          },
+          "comments": {
+            "type": "text",
+            "required": false
+          },
+          "next_steps": {
+            "type": "text",
+            "required": false
+          },
+          "indication_status": {
+            "type": "text",
+            "required": false,
+            "default": "'pending'::text"
+          },
+          "peers": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'[]'::jsonb"
+          },
+          "liderados": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'[]'::jsonb"
+          },
+          "cargo": {
+            "type": "text",
+            "required": false
+          },
+          "departamento": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": false,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": false,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "cycle_notes": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "person_profile_id": {
+            "type": "uuid",
+            "required": false
+          },
+          "from_profile_id": {
+            "type": "uuid",
+            "required": false
+          },
+          "note_date": {
+            "type": "date",
+            "required": false,
+            "default": "CURRENT_DATE"
+          },
+          "feedback_note": {
+            "type": "text",
+            "required": false
+          },
+          "period": {
+            "type": "text[]",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": false,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "avd_guidelines": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "title": {
+            "type": "text",
+            "required": true
+          },
+          "description": {
+            "type": "text",
+            "required": false
+          },
+          "icon_image": {
+            "type": "text",
+            "required": false
+          },
+          "content_expectations": {
+            "type": "text",
+            "required": false
+          },
+          "content_evolution": {
+            "type": "text",
+            "required": false
+          },
+          "content_impact": {
+            "type": "text",
+            "required": false
+          },
+          "content_performance": {
+            "type": "text",
+            "required": false
+          },
+          "sort_order": {
+            "type": "integer",
+            "required": false,
+            "default": "0"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": false,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "configs": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "key": {
+            "type": "text",
+            "required": true,
+            "unique": true
+          },
+          "value": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": false,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      }
+    },
+    "enums": {},
+    "jsonTypes": {}
+  }

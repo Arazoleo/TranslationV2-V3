@@ -1,0 +1,95 @@
+{
+  "output_dir": "output/gx2/ferias_e_ausencias",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "pessoa",
+      "view_id": "dcc91c7c-4fb4-49c1-8ebe-c2f29f0a6ccf",
+      "_sheet": "Pessoas (288 records)",
+      "columns": {
+        "id":                   { "default": "__record_id__" },
+        "nome_completo":        { "field_id": "8e6e12a7-d7f3-4b02-937b-feb5b03a5b3c", "extract": "string" },
+        "cpf":                  { "field_id": "e760177b-9be5-420a-b0ca-88ed19421fbc", "extract": "string" },
+        "email_corporativo":    { "field_id": "f92cd022-853d-45a3-beb9-100dc9a2a410", "extract": "string" },
+        "email_pessoal":        { "field_id": "b4297ae2-9755-4d09-aaff-20d6999a3502", "extract": "string" },
+        "celular":              { "field_id": "d359a4b5-634f-4b2b-8e78-55b78b2cae36", "extract": "string" },
+        "data_nascimento":      { "field_id": "d0fb8f60-5efd-4a64-aebf-4b6daadc0591", "extract": "date" },
+        "genero":               { "field_id": "dd5fa029-ef9d-4aa7-9159-309b03bb05bb", "extract": "select" },
+        "estado_civil":         { "field_id": "00895456-5965-403e-a9d7-ace717ad388b", "extract": "select" },
+        "rg_numero":            { "field_id": "aefd750f-8465-4523-a1d2-fe027d35c78b", "extract": "string" },
+        "endereco_cep":         { "field_id": "ea183692-c1b1-495c-8263-2e08abf0aff0", "extract": "string" },
+        "endereco_logradouro":  { "field_id": "f808badc-fb44-4e6f-b5a6-cee006c2fe63", "extract": "string" },
+        "endereco_numero":      { "field_id": "dcb56220-111b-4650-93bb-9d0c00048c3d", "extract": "string" },
+        "endereco_complemento": { "field_id": "4b75a18c-73ee-46cb-8b5e-11ad70d0f119", "extract": "string" },
+        "endereco_bairro":      { "field_id": "b4b7b22e-3811-4c64-9f80-fd2510993ea9", "extract": "string" },
+        "endereco_cidade":      { "field_id": "490a60d3-dced-4706-b624-8b55b5194875", "extract": "string" },
+        "endereco_uf":          { "field_id": "d1b0bc71-ca54-4daa-b84e-2dcca4d9a320", "extract": "string" },
+        "banco":                { "field_id": "a6c71175-84f7-4eb2-8b15-3040828d73a5", "extract": "string" },
+        "agencia":              { "field_id": "a5b560b9-cd2f-4ffa-a201-fdccdac54040", "extract": "string" },
+        "numero_conta":         { "field_id": "90030c0e-9972-4822-817e-85b05e219e25", "extract": "string" },
+        "tipo_conta":           { "field_id": "9c5afd5e-d6b3-4a44-844c-b5b72922e820", "extract": "select" },
+        "chave_pix":            { "field_id": "fa65309e-e357-4fa7-8df7-49568a2f7e69", "extract": "string" },
+        "data_admissao":        { "field_id": "d68382da-aaf6-49a3-9e3b-4e95a774257e", "extract": "date" },
+        "status":               { "field_id": "0746a370-f84e-4661-9bf9-1646484db967", "extract": "select" },
+        "tipo_pessoa":          { "field_id": null, "extract": null, "default": "PJ" },
+        "created_at":           { "default": "__timestamptz__" },
+        "updated_at":           { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "periodo_aquisitivo",
+      "view_id": "3e2a054c-5838-4b82-a3d9-815403a689b7",
+      "_sheet": "Período aquisitivo (90 records)",
+      "_note": "pessoa_id not exposed by API view — populate post-import via solicitacao_ferias",
+      "columns": {
+        "id":                      { "default": "__record_id__" },
+        "pessoa_id":               { "field_id": null, "extract": null, "default": "" },
+        "data_inicio_aquisitivo":  { "field_id": "c168381b-adbf-4d50-aec0-1a8687505a58", "extract": "date" },
+        "data_fim_aquisitivo":     { "field_id": "7d403afd-8c35-4088-b013-ea6a85c20d8c", "extract": "date" },
+        "data_inicio_concessivo":  { "field_id": "c00caa63-7c10-4993-a41f-ae6d83737609", "extract": "date" },
+        "data_fim_concessivo":     { "field_id": "f0c2fc26-da0e-4030-b74c-4b2abef5e7c5", "extract": "date" },
+        "situacao_periodo":        { "field_id": "a410b148-3d8b-4f25-8508-f796b8b8f5b3", "extract": "select" },
+        "quantidade_dias_adquiridos": { "field_id": "19c339fa-a03e-48c1-9387-0d917ed14f5d", "extract": "number" },
+        "created_at":              { "default": "__timestamptz__" },
+        "updated_at":              { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "solicitacao_ferias",
+      "view_id": "9022c654-3d92-4c02-a92f-886eb2ed303a",
+      "_sheet": "Férias (252 records)",
+      "columns": {
+        "id":                    { "default": "__record_id__" },
+        "pessoa_id":             { "field_id": "37a407ad-cab7-4f6f-8f55-6190d8b33a5d", "extract": "link" },
+        "periodo_aquisitivo_id": { "field_id": "8f7b105e-891b-4255-bb4a-547a74074d26", "extract": "link" },
+        "tipo_solicitacao":      { "field_id": "8bf06741-ccf7-4d1e-9149-ce094b3f944a", "extract": "select" },
+        "titulo_ausencia":       { "field_id": "88b3401d-38c6-46e7-bbfd-1763bd39726c", "extract": "string" },
+        "inicio_ausencia":       { "field_id": "3b26f212-68e8-4234-a7e3-cd23fe6ea05a", "extract": "date" },
+        "fim_ausencia":          { "field_id": "ec1131db-d610-424f-b883-743e0a26e65d", "extract": "date" },
+        "data_retorno":          { "field_id": "87ca11c6-5f0c-422a-9b97-80477b3d46e6", "extract": "date" },
+        "dias_selecionados":     { "field_id": "e1fd570a-77eb-4c65-a577-4700e2d06501", "extract": "number" },
+        "dias_vendidos":         { "field_id": "5b67969a-002c-44f0-b1a1-2eb7c17b4c0d", "extract": "number" },
+        "adiantamento_13":       { "field_id": "1425048e-81d8-4776-8fe8-26fcd9bdcb6c", "extract": "bool_select" },
+        "status":                { "field_id": "fad3dd60-2db2-48bc-8cc2-1ebe502d814e", "extract": "select" },
+        "observacoes":           { "field_id": "74b71405-e5fd-43b5-9c5d-92808d33c722", "extract": "string" },
+        "created_at":            { "default": "__timestamptz__" },
+        "updated_at":            { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "feriados_nacionais",
+      "view_id": "e8b6a76a-4150-43eb-ac97-b5c7c2464f57",
+      "_sheet": "Feriados (11 records)",
+      "columns": {
+        "id":         { "default": "__record_id__" },
+        "nome":       { "field_id": "d71a6a21-928a-4638-ad18-863e630630a2", "extract": "string" },
+        "data":       { "field_id": "9d4d13c7-a0c2-4072-a316-75fb61bb580e", "extract": "date" },
+        "ano":        { "field_id": null, "extract": null, "default": "" },
+        "tipo":       { "field_id": null, "extract": null, "default": "national" },
+        "origem":     { "field_id": null, "extract": null, "default": "brasilapi" },
+        "created_at": { "default": "__timestamptz__" },
+        "updated_at": { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

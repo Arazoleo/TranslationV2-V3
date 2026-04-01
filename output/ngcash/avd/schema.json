@@ -1,0 +1,1156 @@
+{
+    "name": "z_avd",
+    "version": "1.0",
+    "tables": {
+      "grupos_calibragem": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": true
+          },
+          "ativo": {
+            "type": "boolean",
+            "required": true,
+            "default": "true"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "temas": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": false
+          },
+          "descricao": {
+            "type": "text",
+            "required": false
+          },
+          "ativo": {
+            "type": "boolean",
+            "required": false,
+            "default": "true"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "times": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "lideranca_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          }
+        },
+        "metadata": {}
+      },
+      "areas": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "ciclos": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": false
+          },
+          "data_inicio": {
+            "type": "text",
+            "required": false
+          },
+          "data_fim": {
+            "type": "text",
+            "required": false
+          },
+          "valor_min_nota_final": {
+            "type": "numeric",
+            "required": false
+          },
+          "valor_max_nota_final": {
+            "type": "numeric",
+            "required": false
+          },
+          "tempo_minimo_de_casa_meses": {
+            "type": "numeric",
+            "required": false
+          },
+          "tem_classificacao_final": {
+            "type": "boolean",
+            "required": false
+          },
+          "tem_nine_box": {
+            "type": "boolean",
+            "required": false
+          },
+          "nine_box_labels": {
+            "type": "text",
+            "required": false
+          },
+          "temas_selecionados": {
+            "type": "text",
+            "required": false
+          },
+          "classificacoes_finais": {
+            "type": "text",
+            "required": false
+          },
+          "tipos_avaliacao_config": {
+            "type": "text",
+            "required": false
+          },
+          "relatorio_config": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "nome_eixox": {
+            "type": "text",
+            "required": false,
+            "default": "'O QUÊ - Performance'::text"
+          },
+          "nome_eixoy": {
+            "type": "text",
+            "required": false,
+            "default": "'''COMO - Cultura''::text'::text"
+          },
+          "Status": {
+            "type": "status_ciclo",
+            "required": false
+          },
+          "data_fim_alinhamento": {
+            "type": "date",
+            "required": false
+          },
+          "data_inicio_alinhamento": {
+            "type": "date",
+            "required": false
+          },
+          "status_alinhamento": {
+            "type": "status_alinhamento",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "escalas": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": false
+          },
+          "ativo": {
+            "type": "boolean",
+            "required": false,
+            "default": "true"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "perfis_de_avaliacao": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": false
+          },
+          "descricao": {
+            "type": "text",
+            "required": false
+          },
+          "ativo": {
+            "type": "boolean",
+            "required": false,
+            "default": "true"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "profiles": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "nome": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "area_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "areas",
+              "column": "id"
+            }
+          },
+          "cargo": {
+            "type": "text",
+            "required": false
+          },
+          "data_admissao": {
+            "type": "date",
+            "required": false
+          },
+          "perfil_avaliacao_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "perfis_de_avaliacao",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "status": {
+            "type": "text",
+            "required": false,
+            "default": "'ativo'::text"
+          },
+          "time_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "times",
+              "column": "id"
+            }
+          },
+          "n1_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_shared",
+              "table": "n1",
+              "column": "id"
+            }
+          }
+        },
+        "metadata": {}
+      },
+      "opcoes_de_resposta": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "texto": {
+            "type": "text",
+            "required": false
+          },
+          "valor": {
+            "type": "numeric",
+            "required": false
+          },
+          "escala_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "escalas",
+              "column": "id"
+            }
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "descricao_tooltip": {
+            "type": "text",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "relatorio": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "avaliado_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "ciclo_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "ciclos",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "nota_final": {
+            "type": "numeric",
+            "required": false
+          },
+          "calibrado": {
+            "type": "boolean",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "classificacao_final": {
+            "type": "text",
+            "required": false
+          },
+          "perfil_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "perfis_de_avaliacao",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "classificacao_final_calibrado": {
+            "type": "text",
+            "required": false
+          },
+          "nota_eixox": {
+            "type": "numeric",
+            "required": false
+          },
+          "nota_eixoy": {
+            "type": "numeric",
+            "required": false
+          },
+          "nota_final_calibrado": {
+            "type": "numeric",
+            "required": false
+          },
+          "feedback_lideranca": {
+            "type": "text",
+            "required": false
+          },
+          "calibrado_nota_eixox": {
+            "type": "numeric",
+            "required": false
+          },
+          "calibrado_nota_eixoy": {
+            "type": "numeric",
+            "required": false
+          },
+          "feedback_colaboraodr": {
+            "type": "text",
+            "required": false
+          },
+          "status_relatorio": {
+            "type": "status_relatorio",
+            "required": false,
+            "default": "'Em aberto'::z_avd.status_relatorio"
+          },
+          "manager_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "feedback_RH": {
+            "type": "text",
+            "required": false
+          },
+          "grupo_calibragem_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "grupos_calibragem",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          }
+        },
+        "metadata": {}
+      },
+      "formularios": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "archived": {
+            "type": "boolean",
+            "required": false,
+            "default": "false"
+          }
+        },
+        "metadata": {}
+      },
+      "formularioperfil": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "perfil_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "perfis_de_avaliacao",
+              "column": "id"
+            }
+          },
+          "formulario_id": {
+            "type": "uuid",
+            "required": false,
+            "default": "gen_random_uuid()",
+            "references": {
+              "schema": "z_avd",
+              "table": "formularios",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "nome": {
+            "type": "text",
+            "required": true
+          },
+          "categoria": {
+            "type": "categoria",
+            "required": false
+          },
+          "ciclo_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "ciclos",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "data_fim": {
+            "type": "date",
+            "required": false
+          },
+          "data_incio": {
+            "type": "date",
+            "required": false
+          },
+          "max_pares": {
+            "type": "numeric",
+            "required": false
+          },
+          "min_pares": {
+            "type": "numeric",
+            "required": false
+          },
+          "quem_aloca": {
+            "type": "quem_aloca",
+            "required": false
+          },
+          "archived": {
+            "type": "boolean",
+            "required": false,
+            "default": "false"
+          }
+        },
+        "metadata": {}
+      },
+      "respostas": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "avaliacao_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "avaliacoes",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "pergunta_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "perguntas",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "resposta": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "resposta_seletor": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "opcoes_de_resposta",
+              "column": "id"
+            }
+          },
+          "resposta_pessoa": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "resposta_multiseletor": {
+            "type": "jsonb",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "perguntas": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "texto": {
+            "type": "text",
+            "required": false
+          },
+          "tema_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "temas",
+              "column": "id"
+            }
+          },
+          "tipo": {
+            "type": "tipo_pergunta",
+            "required": false
+          },
+          "escala_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "escalas",
+              "column": "id"
+            }
+          },
+          "ativa": {
+            "type": "boolean",
+            "required": false,
+            "default": "true"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "descricao": {
+            "type": "text",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "entregas": {
+        "columns": {
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamp",
+            "required": true,
+            "default": "now()"
+          },
+          "titulo": {
+            "type": "text",
+            "required": true
+          },
+          "relatorio": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "relatorio",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "pessoa_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "z_avd",
+              "table": "profiles",
+              "column": "id"
+            }
+          },
+          "papeis": {
+            "type": "text",
+            "required": true
+          },
+          "indicadores": {
+            "type": "text",
+            "required": true
+          },
+          "prazo": {
+            "type": "date",
+            "required": true
+          },
+          "andamento": {
+            "type": "boolean",
+            "required": true
+          },
+          "prioridade": {
+            "type": "prioridade_entrega",
+            "required": false
+          },
+          "experiementar": {
+            "type": "text",
+            "required": false
+          },
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          }
+        },
+        "metadata": {}
+      },
+      "configs": {
+        "columns": {
+          "id": {
+            "type": "bigint",
+            "required": true,
+            "primaryKey": true
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "features": {
+            "type": "jsonb",
+            "required": false
+          },
+          "app_access": {
+            "type": "jsonb",
+            "required": false
+          },
+          "custom_itens": {
+            "type": "jsonb",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "elementos": {
+        "columns": {
+          "id": {
+            "type": "bigint",
+            "required": true,
+            "primaryKey": true
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "tipo": {
+            "type": "tipos_elementos",
+            "required": false
+          },
+          "texto": {
+            "type": "text",
+            "required": false
+          },
+          "imagem": {
+            "type": "text",
+            "required": false
+          },
+          "pergunta_id": {
+            "type": "uuid",
+            "required": false,
+            "default": "gen_random_uuid()",
+            "references": {
+              "schema": "z_avd",
+              "table": "perguntas",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "formulario_id": {
+            "type": "uuid",
+            "required": false,
+            "default": "gen_random_uuid()",
+            "references": {
+              "schema": "z_avd",
+              "table": "formularios",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "descricao_texto": {
+            "type": "text",
+            "required": false
+          },
+          "pergunta_obrigatoria": {
+            "type": "boolean",
+            "required": false,
+            "default": "false"
+          },
+          "comentario_obrigatorio": {
+            "type": "boolean",
+            "required": false,
+            "default": "false"
+          },
+          "caracteres": {
+            "type": "numeric",
+            "required": false
+          },
+          "min_caracteres": {
+            "type": "boolean",
+            "required": false,
+            "default": "false"
+          },
+          "ordem_elemento": {
+            "type": "numeric",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "bu_n1": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "nome": {
+            "type": "text",
+            "required": false
+          },
+          "update_at": {
+            "type": "timestamptz",
+            "required": false,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "desenvolvimento": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamp",
+            "required": true,
+            "default": "now()"
+          },
+          "area_de_desenvolvimento": {
+            "type": "text",
+            "required": true
+          },
+          "relatorio": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "z_avd",
+              "table": "relatorio",
+              "column": "id"
+            }
+          },
+          "pessoa_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "z_avd",
+              "table": "profiles",
+              "column": "id"
+            }
+          },
+          "indicadores_de_desenvolvimento": {
+            "type": "text",
+            "required": true
+          },
+          "estrategias_de_aprendizagem": {
+            "type": "text",
+            "required": true
+          },
+          "prazo": {
+            "type": "date",
+            "required": true
+          },
+          "andamento": {
+            "type": "boolean",
+            "required": true
+          }
+        },
+        "metadata": {}
+      },
+      "avaliacoes": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "ciclo_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "ciclos",
+              "column": "id"
+            }
+          },
+          "avaliador_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "avaliado_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "relatorio_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "relatorio",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "tipo_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_avd",
+              "table": "formularioperfil",
+              "column": "id"
+            }
+          },
+          "status_avaliacao": {
+            "type": "status_avaliacao",
+            "required": false
+          }
+        },
+        "metadata": {}
+      }
+    },
+    "enums": {
+      "categoria": [
+        "Auto",
+        "Líder - Liderado",
+        "Liderado - Líder",
+        "Lateral",
+        "Outro"
+      ],
+      "prioridade_entrega": [
+        "Alta",
+        "Média",
+        "Baixa"
+      ],
+      "quem_aloca": [
+        "Pessoa colaboradora",
+        "Liderança",
+        "RH"
+      ],
+      "status_alinhamento": [
+        "Em aberto",
+        "Finalizado",
+        "Rascunho"
+      ],
+      "status_avaliacao": [
+        "Não Iniciada",
+        "Não Respondida",
+        "Rascunho",
+        "Finalizada",
+        "Esperando Aprovação do Líder"
+      ],
+      "status_ciclo": [
+        "Rascunho",
+        "Em andamento",
+        "Em calibração",
+        "Finalizado"
+      ],
+      "status_relatorio": [
+        "Em aberto",
+        "Em calibração",
+        "Liberado"
+      ],
+      "tipo_pergunta": [
+        "Pergunta Aberta",
+        "Seletor único com justificativa",
+        "Seletor único sem justificativa",
+        "Resposta é uma pessoa",
+        "Seletor múltiplo"
+      ],
+      "tipos_elementos": [
+        "Texto",
+        "Imagem",
+        "Pergunta"
+      ]
+    },
+    "jsonTypes": {}
+  }

@@ -1,0 +1,37 @@
+{
+  "output_dir": "output/cubos/desligamento",
+  "uuid_remap": {
+    "enabled": false
+  },
+  "tables": [
+    {
+      "name": "profiles",
+      "view_id": "03a1fbb5-40f2-41c0-8fd7-ad4737bb8429",
+      "_sheet": "Pessoas (384 records)",
+      "dedup_by": ["id"],
+      "columns": {
+        "id":           { "default": "__record_id__" },
+        "nome_completo":{ "field_id": "44d6098b-881e-4e16-b758-857a3ef53c3e", "extract": "string" },
+        "created_at":   { "default": "__timestamptz__" },
+        "updated_at":   { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "desligamentos",
+      "view_id": "0cab8bba-a9d1-4f12-a264-b8e4bdb9784a",
+      "_sheet": "Offboarding (23 records)",
+      "columns": {
+        "id":                  { "default": "__record_id__" },
+        "pessoa_id":           { "field_id": "a4c3877f-83e3-43af-976e-c0b4d4b913a3", "extract": "link" },
+        "tipo_desligamento":   { "field_id": "1a4ecc4a-55c9-4754-b05f-4920dbffe09d", "extract": "select" },
+        "comentarios":         { "field_id": "ad4cfc67-2f1f-44bd-9cbf-ba02d620bb3a", "extract": "markdown" },
+        "data_desligamento":   { "field_id": "4e9fb64d-f81c-40a4-8d5f-c21aab1f0613", "extract": "date" },
+        "responsavel_rh_id":   { "field_id": "a96019c9-72d0-4989-a5d9-d9937ac3e489", "extract": "link" },
+        "valor_rescisao":      { "field_id": null, "extract": null, "default": "" },
+        "etapa":               { "field_id": "57480f9f-1aca-4649-8f58-68c35bfe06a8", "extract": "select" },
+        "created_at":          { "default": "__timestamptz__" },
+        "updated_at":          { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

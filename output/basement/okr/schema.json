@@ -1,0 +1,1066 @@
+{
+    "name": "z_okr",
+    "version": "1.0",
+    "tables": {
+      "configs": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "features": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'[]'::jsonb"
+          },
+          "access": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'{}'::jsonb"
+          },
+          "settings": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'{}'::jsonb"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {},
+        "description": "App configuration settings (one row per installation)"
+      },
+      "profiles": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "primaryKey": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "app_role": {
+            "type": "text",
+            "required": false
+          },
+          "settings": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'{}'::jsonb"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {},
+        "description": "App user profiles (extends public.profiles with same id)"
+      },
+      "teams": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "name": {
+            "type": "text",
+            "required": true
+          },
+          "description": {
+            "type": "text",
+            "required": false
+          },
+          "leader_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "parent_team_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_okr",
+              "table": "teams",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "is_active": {
+            "type": "boolean",
+            "required": true,
+            "default": "true"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "cycles": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "name": {
+            "type": "text",
+            "required": true
+          },
+          "description": {
+            "type": "text",
+            "required": false
+          },
+          "start_date": {
+            "type": "date",
+            "required": true
+          },
+          "end_date": {
+            "type": "date",
+            "required": true
+          },
+          "status": {
+            "type": "cycle_status",
+            "required": true,
+            "default": "'planejando'::z_okr.cycle_status"
+          },
+          "duration_weeks": {
+            "type": "integer",
+            "required": true,
+            "default": "12"
+          },
+          "is_frozen": {
+            "type": "boolean",
+            "required": true,
+            "default": "false"
+          },
+          "settings": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'{}'::jsonb"
+          },
+          "created_by": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "objectives": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "title": {
+            "type": "text",
+            "required": true
+          },
+          "description": {
+            "type": "text",
+            "required": false
+          },
+          "owner_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "cycle_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "z_okr",
+              "table": "cycles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "team_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_okr",
+              "table": "teams",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "alignment_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_okr",
+              "table": "objectives",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "status": {
+            "type": "okr_status",
+            "required": true,
+            "default": "'rascunho'::z_okr.okr_status"
+          },
+          "health": {
+            "type": "health_status",
+            "required": true,
+            "default": "'verde'::z_okr.health_status"
+          },
+          "health_override": {
+            "type": "boolean",
+            "required": true,
+            "default": "false"
+          },
+          "progress": {
+            "type": "numeric",
+            "required": true,
+            "default": "0.00"
+          },
+          "stakeholders": {
+            "type": "uuid[]",
+            "required": false,
+            "default": "'{}'::uuid[]"
+          },
+          "created_by": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "is_top_down": {
+            "type": "boolean",
+            "required": true,
+            "default": "false"
+          },
+          "accepted_at": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "requires_manager_approval": {
+            "type": "boolean",
+            "required": true,
+            "default": "false"
+          },
+          "manager_approved_at": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "manager_approved_by": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "approval_partial_reason": {
+            "type": "text",
+            "required": false
+          },
+          "revision_requested_at": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "revision_requested_by": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "revision_request_comment": {
+            "type": "text",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "success_criteria": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "name": {
+            "type": "text",
+            "required": true
+          },
+          "description": {
+            "type": "text",
+            "required": false
+          },
+          "kr_type": {
+            "type": "kr_type",
+            "required": true
+          },
+          "thresholds": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'[{\"max\": 0.3, \"min\": 0, \"color\": \"red\", \"label\": \"Insuficiente\"}, {\"max\": 0.7, \"min\": 0.3, \"color\": \"yellow\", \"label\": \"Bom\"}, {\"max\": 1.0, \"min\": 0.7, \"color\": \"green\", \"label\": \"Excelente\"}]'::jsonb"
+          },
+          "is_default": {
+            "type": "boolean",
+            "required": true,
+            "default": "false"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "check_ins": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "owner_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "cycle_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "z_okr",
+              "table": "cycles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "objective_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_okr",
+              "table": "objectives",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "key_result_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_okr",
+              "table": "key_results",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "check_in_date": {
+            "type": "date",
+            "required": true,
+            "default": "CURRENT_DATE"
+          },
+          "progress": {
+            "type": "numeric",
+            "required": true,
+            "default": "0.00"
+          },
+          "previous_progress": {
+            "type": "numeric",
+            "required": false,
+            "default": "0.00"
+          },
+          "what_advanced": {
+            "type": "text",
+            "required": false
+          },
+          "blockers": {
+            "type": "text",
+            "required": false
+          },
+          "next_steps": {
+            "type": "text",
+            "required": false
+          },
+          "help_request_who": {
+            "type": "text",
+            "required": false
+          },
+          "help_request_what": {
+            "type": "text",
+            "required": false
+          },
+          "status": {
+            "type": "check_in_status",
+            "required": true,
+            "default": "'pendente'::z_okr.check_in_status"
+          },
+          "is_sensitive": {
+            "type": "boolean",
+            "required": true,
+            "default": "false"
+          },
+          "submitted_at": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "comments": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "check_in_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "z_okr",
+              "table": "check_ins",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "author_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "content": {
+            "type": "text",
+            "required": true
+          },
+          "is_private": {
+            "type": "boolean",
+            "required": true,
+            "default": "false"
+          },
+          "parent_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_okr",
+              "table": "comments",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "key_results": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "objective_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "z_okr",
+              "table": "objectives",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "title": {
+            "type": "text",
+            "required": true
+          },
+          "description": {
+            "type": "text",
+            "required": false
+          },
+          "type": {
+            "type": "kr_type",
+            "required": true,
+            "default": "'metrica'::z_okr.kr_type"
+          },
+          "baseline": {
+            "type": "numeric",
+            "required": false,
+            "default": "0"
+          },
+          "target": {
+            "type": "numeric",
+            "required": true
+          },
+          "current_value": {
+            "type": "numeric",
+            "required": false,
+            "default": "0"
+          },
+          "progress": {
+            "type": "numeric",
+            "required": true,
+            "default": "0.00"
+          },
+          "health": {
+            "type": "health_status",
+            "required": true,
+            "default": "'verde'::z_okr.health_status"
+          },
+          "health_override": {
+            "type": "boolean",
+            "required": true,
+            "default": "false"
+          },
+          "deadline": {
+            "type": "date",
+            "required": false
+          },
+          "unit": {
+            "type": "text",
+            "required": false
+          },
+          "success_criteria_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_okr",
+              "table": "success_criteria",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "dependencies": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'[]'::jsonb"
+          },
+          "tags": {
+            "type": "text[]",
+            "required": false,
+            "default": "'{}'::text[]"
+          },
+          "is_external_dependency": {
+            "type": "boolean",
+            "required": true,
+            "default": "false"
+          },
+          "external_dependency_owner": {
+            "type": "text",
+            "required": false
+          },
+          "sort_order": {
+            "type": "integer",
+            "required": true,
+            "default": "0"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "manager_approved_at": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "manager_approved_by": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          }
+        },
+        "metadata": {}
+      },
+      "change_logs": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "entity_type": {
+            "type": "text",
+            "required": true
+          },
+          "entity_id": {
+            "type": "uuid",
+            "required": true
+          },
+          "field_name": {
+            "type": "text",
+            "required": true
+          },
+          "old_value": {
+            "type": "text",
+            "required": false
+          },
+          "new_value": {
+            "type": "text",
+            "required": false
+          },
+          "author_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "justification": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "one_on_one_requests": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "leader_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "collaborator_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "reason": {
+            "type": "text",
+            "required": true
+          },
+          "status": {
+            "type": "one_on_one_status",
+            "required": true,
+            "default": "'solicitado'::z_okr.one_on_one_status"
+          },
+          "suggested_date": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "suggested_duration": {
+            "type": "integer",
+            "required": false,
+            "default": "30"
+          },
+          "generated_agenda": {
+            "type": "text",
+            "required": false
+          },
+          "related_objective_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_okr",
+              "table": "objectives",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "related_key_result_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_okr",
+              "table": "key_results",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "scheduled_at": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "completed_at": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "notes": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "notifications": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "user_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "type": {
+            "type": "text",
+            "required": true
+          },
+          "title": {
+            "type": "text",
+            "required": true
+          },
+          "message": {
+            "type": "text",
+            "required": false
+          },
+          "data": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'{}'::jsonb"
+          },
+          "is_read": {
+            "type": "boolean",
+            "required": true,
+            "default": "false"
+          },
+          "read_at": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "ai_actions": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "action_type": {
+            "type": "text",
+            "required": true
+          },
+          "requested_by": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "status": {
+            "type": "text",
+            "required": true,
+            "default": "'queued'::text"
+          },
+          "input": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'{}'::jsonb"
+          },
+          "output": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'{}'::jsonb"
+          },
+          "error": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "milestones": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "key_result_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "z_okr",
+              "table": "key_results",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "title": {
+            "type": "text",
+            "required": true
+          },
+          "description": {
+            "type": "text",
+            "required": false
+          },
+          "position_x": {
+            "type": "numeric",
+            "required": false,
+            "default": "0"
+          },
+          "position_y": {
+            "type": "numeric",
+            "required": false,
+            "default": "0"
+          },
+          "depends_on": {
+            "type": "uuid[]",
+            "required": false,
+            "default": "'{}'::uuid[]"
+          },
+          "is_completed": {
+            "type": "boolean",
+            "required": false,
+            "default": "false"
+          },
+          "completed_at": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "completed_by": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "sort_order": {
+            "type": "integer",
+            "required": false,
+            "default": "0"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      }
+    },
+    "enums": {
+      "check_in_status": [
+        "pendente",
+        "enviado"
+      ],
+      "cycle_status": [
+        "planejando",
+        "ativo",
+        "encerrado"
+      ],
+      "health_status": [
+        "verde",
+        "amarelo",
+        "vermelho"
+      ],
+      "kr_type": [
+        "metrica",
+        "milestone",
+        "binario"
+      ],
+      "okr_status": [
+        "rascunho",
+        "aguardando_aceite",
+        "ativo",
+        "pausado",
+        "concluido",
+        "cancelado"
+      ],
+      "one_on_one_status": [
+        "solicitado",
+        "agendado",
+        "cancelado",
+        "concluido"
+      ],
+      "user_role": [
+        "admin",
+        "lider",
+        "colaborador"
+      ]
+    },
+    "jsonTypes": {}
+  }

@@ -1,0 +1,20 @@
+{
+  "output_dir": "output/ngcash/academy",
+  "uuid_remap": {
+    "enabled": false
+  },
+  "tables": [
+    {
+      "name": "courses",
+      "view_id": "f0f26160-3cdf-4ec0-aa40-c08cf11b2262",
+      "_sheet": "Treinamentos (38 records)",
+      "columns": {
+        "id":       { "default": "__record_id__" },
+        "titulo":   { "field_id": "2af25471-0f61-4f72-abf1-d56322003ea2", "extract": "string" },
+        "descricao":{ "field_id": "181785c1-a915-4bb0-b3cb-f59056acb75c", "extract": "markdown" },
+        "created_at":{ "default": "__timestamptz__" },
+        "updated_at":{ "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "output_dir": "output/ngcash/avd",
+  "uuid_remap": {
+    "enabled": false
+  },
+  "tables": [
+    {
+      "name": "temas",
+      "view_id": "4bfe5458-3bb9-4636-9e71-56afcb31564b",
+      "_sheet": "Competências (10 records)",
+      "columns": {
+        "id":        { "default": "__record_id__" },
+        "nome":      { "field_id": "cb30b493-2f3f-42e1-8b09-486b0d718965", "extract": "string" },
+        "descricao": { "field_id": "456ba449-c6f0-4598-8f8b-f6d2ab28d003", "extract": "markdown" },
+        "created_at":{ "default": "__timestamptz__" },
+        "updated_at":{ "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

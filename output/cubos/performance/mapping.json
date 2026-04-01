@@ -1,0 +1,91 @@
+{
+  "output_dir": "output/cubos/performance",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "avd_guidelines",
+      "view_id": "501fa514-1980-416d-97a9-411f37313451",
+      "_sheet": "Orientações AvD (4 records)",
+      "columns": {
+        "id":                   { "default": "__record_id__" },
+        "title":                { "field_id": "593b5e88-1d50-4852-8bac-491497d5000b", "extract": "markdown" },
+        "description":          { "field_id": "69f38cba-b11c-404a-83ea-74d268610e0f", "extract": "markdown" },
+        "icon_image":           { "field_id": null, "extract": null, "default": "" },
+        "content_expectations": { "field_id": "822cde02-db18-4168-8e9a-754fa92c4a37", "extract": "markdown" },
+        "content_evolution":    { "field_id": "09a46cf3-bf30-4c31-96f5-ef10882a7712", "extract": "markdown" },
+        "content_impact":       { "field_id": "78e53e17-8700-4d01-bf9c-af0e4f609728", "extract": "markdown" },
+        "content_performance":  { "field_id": "2f2c4d92-06cc-4de9-a35d-0370d24c10e1", "extract": "markdown" },
+        "sort_order":           { "field_id": null, "extract": null, "default": "0" },
+        "created_at":           { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "reports",
+      "view_id": "8c72d14a-f91e-4b64-ba0c-24d16bcbd600",
+      "_sheet": "Relatórios (284 records)",
+      "columns": {
+        "id":                 { "default": "__record_id__" },
+        "cycle":              { "field_id": "664dff4d-b021-4fce-9e83-f22555a4e11a", "extract": "select" },
+        "person_profile_id":  { "field_id": null, "extract": null, "default": "" },
+        "manager_profile_id": { "field_id": null, "extract": null, "default": "" },
+        "grade":              { "field_id": "8c48dbec-c1d5-4066-a28b-65cf6f167c43", "extract": "select" },
+        "status":             { "field_id": "ccbdfe77-5168-4511-bf15-8139cfb5276c", "extract": "select" },
+        "comments":           { "field_id": "fa7a2ac3-e5b4-4cae-9df7-2aff529dedee", "extract": "markdown" },
+        "next_steps":         { "field_id": "89aa5efb-0ad2-4fa1-9dc0-15c5d9770416", "extract": "markdown" },
+        "indication_status":  { "field_id": "b4d1f3af-8846-4dfc-a391-3e46a1d2109f", "extract": "select" },
+        "peers":              { "field_id": null, "extract": null, "default": "[]" },
+        "liderados":          { "field_id": null, "extract": null, "default": "[]" },
+        "cargo":              { "field_id": "ab23abfb-00c7-4193-8e80-679b53d8ce6d", "extract": "select" },
+        "departamento":       { "field_id": "681e7edc-20e4-4dea-beea-438afaec463f", "extract": "string" },
+        "created_at":         { "default": "__timestamptz__" },
+        "updated_at":         { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "cycle_notes",
+      "view_id": "5437b1a2-0be9-4440-99ab-32f451b7aa30",
+      "_sheet": "Anotações do Ciclo (17 records)",
+      "columns": {
+        "id":                  { "default": "__record_id__" },
+        "person_profile_id":   { "field_id": null, "extract": null, "default": "" },
+        "from_profile_id":     { "field_id": null, "extract": null, "default": "" },
+        "note_date":           { "field_id": "edbee730-39c9-4bc6-80cb-7e6386d7d85a", "extract": "date" },
+        "feedback_note":       { "field_id": "37eddf91-dc00-4a9a-b959-b134fbf8e12b", "extract": "markdown" },
+        "period":              { "field_id": null, "extract": null, "default": "" },
+        "created_at":          { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "reviews",
+      "view_id": "4b2ab9d0-79da-4e03-8b5c-efcc966001ff",
+      "_sheet": "Avaliações (1049 records)",
+      "columns": {
+        "id":                              { "default": "__record_id__" },
+        "kind":                            { "field_id": "c0de78b3-5a91-4f43-aadb-378099d1ffb8", "extract": "select" },
+        "cycle":                           { "field_id": "2511c9ed-3e08-4b88-8e21-b6b98f71be7d", "extract": "select" },
+        "person_profile_id":               { "field_id": null, "extract": null, "default": "" },
+        "reviewer_profile_id":             { "field_id": null, "extract": null, "default": "" },
+        "status":                          { "field_id": "34228e9d-1752-4afd-b80c-15fe7e1e6ae6", "extract": "select" },
+        "desempenho_avaliacao":            { "field_id": "d0471ee0-f92f-4e5e-a163-25c9ffdba353", "extract": "select" },
+        "desempenho_comentario_ciclo":     { "field_id": "e099bda0-e270-4b1c-bca3-018998dbfef5", "extract": "markdown" },
+        "desempenho_comentario_melhorias": { "field_id": "f5ab04f0-ca0b-4805-a6b1-fe1bfd1f6c20", "extract": "markdown" },
+        "evolucao_avaliacao":              { "field_id": "cf9de1bf-2ee4-4d57-b6d4-e61ca72e99af", "extract": "select" },
+        "evolucao_comentario":             { "field_id": "5ffd0e27-4785-434c-8ee2-33519f563441", "extract": "string" },
+        "impacto_avaliacao":               { "field_id": "b9e307a2-d440-4667-bfd7-260aefdb37c1", "extract": "select" },
+        "impacto_comentario":              { "field_id": "eb2acf50-4243-44c9-998c-b1256e2b33df", "extract": "markdown" },
+        "impacto_comentario_lider":        { "field_id": "8750fed1-b4d7-4c0a-81f0-74ed9adc60f4", "extract": "markdown" },
+        "farol_avaliacao":                 { "field_id": "d5dae633-d7b6-4532-9a53-dea7b6405832", "extract": "select" },
+        "farol_comentario":                { "field_id": "eda6e924-af25-4eaf-b255-f79504490b21", "extract": "markdown" },
+        "confianca_avaliacao":             { "field_id": "64bfd2bd-c243-4819-b24e-c0d76e40cf4f", "extract": "select" },
+        "confianca_comentario":            { "field_id": "b8d82882-44fa-4fb0-8c47-8334e0dc3cc5", "extract": "markdown" },
+        "proatividade_avaliacao":          { "field_id": "a1c4d1c8-ece8-43b3-af50-8c40d3a423f1", "extract": "select" },
+        "proatividade_comentario":         { "field_id": "4e216fa5-fa74-4334-958e-67459648d4ec", "extract": "markdown" },
+        "valores_avaliacao":               { "field_id": "d679894b-7343-4d03-b63f-38b962beb9e6", "extract": "select" },
+        "valores_comentario":              { "field_id": "3a41b043-fc21-47fa-8c96-bd6d6e6ed0d9", "extract": "markdown" },
+        "report_id":                       { "field_id": "984ab933-b603-4fc6-96b8-9792d4bd00f7", "extract": "link" },
+        "created_at":                      { "default": "__timestamptz__" },
+        "updated_at":                      { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

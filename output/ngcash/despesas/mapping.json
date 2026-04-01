@@ -1,0 +1,34 @@
+{
+  "output_dir": "output/ngcash/despesas",
+  "uuid_remap": {
+    "enabled": false
+  },
+  "tables": [
+    {
+      "name": "expenses",
+      "view_id": "cd03f9ed-a58f-4753-8b6a-e20979e736cc",
+      "_sheet": "Despesas e Reembolsos (791 records)",
+      "columns": {
+        "id":                                                              { "default": "__record_id__" },
+        "expense_description":                                             { "field_id": "a97b553b-eb16-44ac-a498-194f1fb779af", "extract": "string" },
+        "tipo_de_lancamento":                                              { "field_id": "f61bdb5c-c76f-42a9-945d-670125543eae", "extract": "select" },
+        "expense_value_v2":                                                { "field_id": "57c5f11e-b7ad-49b6-af07-475e76efca84", "extract": "number" },
+        "expense_date":                                                    { "field_id": "07713604-4f07-4a94-ba75-0baf1957399c", "extract": "date" },
+        "expense_person":                                                  { "field_id": null, "extract": null, "default": "" },
+        "expense_receipt":                                                 { "field_id": "131998b0-aa04-4932-bed3-cc6b77a9c0ad", "extract": "attachment" },
+        "budget_id":                                                       { "field_id": null, "extract": null, "default": "" },
+        "expense_status":                                                  { "field_id": "8092aa27-1be5-4d39-8f59-87b8c1bf4a64", "extract": "select" },
+        "expense_refundable":                                              { "field_id": "0a5761e0-1d19-433d-8d59-8687f7edc16f", "extract": "select" },
+        "valor_reembolso_parcial":                                         { "field_id": "215514e5-2e4a-47ad-9599-5d5992eda7ac", "extract": "number" },
+        "expense_payment_date":                                            { "field_id": "9f380e8a-fec5-4d3c-adf8-b503f845f4d8", "extract": "date" },
+        "expense_notes":                                                   { "field_id": "1931a3ce-e4a9-4153-8ca6-0ca06f82c437", "extract": "string" },
+        "comentarios_lideranca":                                           { "field_id": "6a58d2b2-6761-46c2-bcaf-602299884654", "extract": "string" },
+        "deseja_alocar_o_reembolso_em_um_centro_de_custo_diferente_do_se": { "field_id": "860b17f4-6433-4e25-b196-aff8fbcb1923", "extract": "select" },
+        "centro_de_custo_realocacao":                                      { "field_id": "ef033aed-9ae8-4404-9dec-32aba9100f88", "extract": "select" },
+        "cost_center":                                                     { "field_id": "0d63c992-c5aa-443f-8330-06eb835ca88b", "extract": "formula" },
+        "created_at":                                                      { "default": "__timestamptz__" },
+        "updated_at":                                                      { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

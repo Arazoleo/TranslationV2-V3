@@ -1,0 +1,198 @@
+id,nome,faixa_salarial_inicio,faixa_salarial_centro,faixa_salarial_topo,senioridade_id,archived_at,created_at
+1,Backend - Desenvolvedor(a) Backend .Net - Junior,,,,,,2026-03-31T20:46:19+00:00
+2,Backend - Desenvolvedor(a) Backend .Net - Pleno,,,,,,2026-03-31T20:46:19+00:00
+3,Backend - Desenvolvedor(a) Backend .Net - Senior,,,,,,2026-03-31T20:46:19+00:00
+4,Backend - Desenvolvedor(a) Backend .Net - Especialista,,,,,,2026-03-31T20:46:19+00:00
+5,Backend - Desenvolvedor(a) Backend .Net Core - Junior,,,,,,2026-03-31T20:46:19+00:00
+6,Backend - Desenvolvedor(a) Backend .Net Core - Pleno,,,,,,2026-03-31T20:46:19+00:00
+7,Backend - Desenvolvedor(a) Backend .Net Core - Senior,,,,,,2026-03-31T20:46:19+00:00
+8,Backend - Desenvolvedor(a) Backend .Net Core - Especialista,,,,,,2026-03-31T20:46:19+00:00
+9,Backend - Desenvolvedor(a) Backend Java - Junior,,,,,,2026-03-31T20:46:19+00:00
+10,Backend - Desenvolvedor(a) Backend Java - Pleno,,,,,,2026-03-31T20:46:19+00:00
+11,Backend - Desenvolvedor(a) Backend Java - Senior,,,,,,2026-03-31T20:46:19+00:00
+12,Backend - Desenvolvedor(a) Backend Java - Especialista,,,,,,2026-03-31T20:46:19+00:00
+13,Backend - Desenvolvedor(a) Backend Node - Junior,,,,,,2026-03-31T20:46:19+00:00
+14,Backend - Desenvolvedor(a) Backend Node - Pleno,,,,,,2026-03-31T20:46:19+00:00
+15,Backend - Desenvolvedor(a) Backend Node - Senior,,,,,,2026-03-31T20:46:19+00:00
+16,Backend - Desenvolvedor(a) Backend Node - Especialista,,,,,,2026-03-31T20:46:19+00:00
+17,Backend - Desenvolvedor(a) Backend Ruby on Rails - Junior,,,,,,2026-03-31T20:46:19+00:00
+18,Backend - Desenvolvedor(a) Backend Ruby on Rails - Pleno,,,,,,2026-03-31T20:46:19+00:00
+19,Backend - Desenvolvedor(a) Backend Ruby on Rails - Senior,,,,,,2026-03-31T20:46:19+00:00
+20,Backend - Desenvolvedor(a) Backend Ruby on Rails - Especialista,,,,,,2026-03-31T20:46:19+00:00
+21,Backend - Desenvolvedor(a) Backend PHP - Junior,,,,,,2026-03-31T20:46:19+00:00
+22,Backend - Desenvolvedor(a) Backend PHP - Pleno,,,,,,2026-03-31T20:46:19+00:00
+23,Backend - Desenvolvedor(a) Backend PHP - Senior,,,,,,2026-03-31T20:46:19+00:00
+24,Backend - Desenvolvedor(a) Backend PHP - Especialista,,,,,,2026-03-31T20:46:19+00:00
+25,Backend - Desenvolvedor(a) Backend Python - Junior,,,,,,2026-03-31T20:46:19+00:00
+26,Backend - Desenvolvedor(a) Backend Python - Pleno,,,,,,2026-03-31T20:46:19+00:00
+27,Backend - Desenvolvedor(a) Backend Python - Senior,,,,,,2026-03-31T20:46:19+00:00
+28,Backend - Desenvolvedor(a) Backend Python - Especialista,,,,,,2026-03-31T20:46:19+00:00
+29,Backend - Desenvolvedor(a) Backend GoLang - Junior,,,,,,2026-03-31T20:46:19+00:00
+30,Backend - Desenvolvedor(a) Backend GoLang - Pleno,,,,,,2026-03-31T20:46:19+00:00
+31,Backend - Desenvolvedor(a) Backend GoLang - Senior,,,,,,2026-03-31T20:46:19+00:00
+32,Backend - Desenvolvedor(a) Backend GoLang - Especialista,,,,,,2026-03-31T20:46:19+00:00
+33,Frontend - Desenvolvedor(a) Frontend React.JS - Junior,,,,,,2026-03-31T20:46:19+00:00
+34,Frontend - Desenvolvedor(a) Frontend React.JS - Pleno,,,,,,2026-03-31T20:46:19+00:00
+35,Frontend - Desenvolvedor(a) Frontend React.JS - Senior,,,,,,2026-03-31T20:46:19+00:00
+36,Frontend - Desenvolvedor(a) Frontend React.JS - Especialista,,,,,,2026-03-31T20:46:19+00:00
+37,Frontend - Desenvolvedor(a) Frontend Angular - Junior,,,,,,2026-03-31T20:46:19+00:00
+38,Frontend - Desenvolvedor(a) Frontend Angular - Pleno,,,,,,2026-03-31T20:46:19+00:00
+39,Frontend - Desenvolvedor(a) Frontend Angular - Senior,,,,,,2026-03-31T20:46:19+00:00
+40,Frontend - Desenvolvedor(a) Frontend Angular - Especialista,,,,,,2026-03-31T20:46:19+00:00
+41,Full Stack - Desenvolvedor(a) Full Stack .Net + React.JS/Angular - Junior,,,,,,2026-03-31T20:46:19+00:00
+42,Full Stack - Desenvolvedor(a) Full Stack .Net + React.JS/Angular - Pleno,,,,,,2026-03-31T20:46:19+00:00
+43,Full Stack - Desenvolvedor(a) Full Stack .Net + React.JS/Angular - Senior,,,,,,2026-03-31T20:46:19+00:00
+44,Full Stack - Desenvolvedor(a) Full Stack .Net + React.JS/Angular - Especialista,,,,,,2026-03-31T20:46:19+00:00
+45,Full Stack - Desenvolvedor(a) Full Stack Java + React.JS/Angular - Junior,,,,,,2026-03-31T20:46:19+00:00
+46,Full Stack - Desenvolvedor(a) Full Stack Java + React.JS/Angular - Pleno,,,,,,2026-03-31T20:46:19+00:00
+47,Full Stack - Desenvolvedor(a) Full Stack Java + React.JS/Angular - Senior,,,,,,2026-03-31T20:46:19+00:00
+48,Full Stack - Desenvolvedor(a) Full Stack Java + React.JS/Angular - Especialista,,,,,,2026-03-31T20:46:19+00:00
+49,Full Stack - Desenvolvedor(a) Full Stack Node + React.JS/Angular - Junior,,,,,,2026-03-31T20:46:19+00:00
+50,Full Stack - Desenvolvedor(a) Full Stack Node + React.JS/Angular - Pleno,,,,,,2026-03-31T20:46:19+00:00
+51,Full Stack - Desenvolvedor(a) Full Stack Node + React.JS/Angular - Senior,,,,,,2026-03-31T20:46:19+00:00
+52,Full Stack - Desenvolvedor(a) Full Stack Node + React.JS/Angular - Especialista,,,,,,2026-03-31T20:46:19+00:00
+53,Full Stack - Desenvolvedor(a) Full Stack Ruby on Rails + React.JS/Angular - Junior,,,,,,2026-03-31T20:46:19+00:00
+54,Full Stack - Desenvolvedor(a) Full Stack Ruby on Rails + React.JS/Angular - Pleno,,,,,,2026-03-31T20:46:19+00:00
+55,Full Stack - Desenvolvedor(a) Full Stack Ruby on Rails + React.JS/Angular - Senior,,,,,,2026-03-31T20:46:19+00:00
+56,Full Stack - Desenvolvedor(a) Full Stack Ruby on Rails + React.JS/Angular - Especialista,,,,,,2026-03-31T20:46:19+00:00
+57,Full Stack - Desenvolvedor(a) Full Stack PHP + React.JS/Angular - Junior,,,,,,2026-03-31T20:46:19+00:00
+58,Full Stack - Desenvolvedor(a) Full Stack PHP + React.JS/Angular - Pleno,,,,,,2026-03-31T20:46:19+00:00
+59,Full Stack - Desenvolvedor(a) Full Stack PHP + React.JS/Angular - Senior,,,,,,2026-03-31T20:46:19+00:00
+60,Full Stack - Desenvolvedor(a) Full Stack PHP + React.JS/Angular - Especialista,,,,,,2026-03-31T20:46:19+00:00
+61,Mobile - Desenvolvedor(a) Mobile Flutter - Junior,,,,,,2026-03-31T20:46:19+00:00
+62,Mobile - Desenvolvedor(a) Mobile Flutter - Pleno,,,,,,2026-03-31T20:46:19+00:00
+63,Mobile - Desenvolvedor(a) Mobile Flutter - Senior,,,,,,2026-03-31T20:46:19+00:00
+64,Mobile - Desenvolvedor(a) Mobile Flutter - Especialista,,,,,,2026-03-31T20:46:19+00:00
+65,Mobile - Desenvolvedor(a) Mobile React Native - Junior,,,,,,2026-03-31T20:46:19+00:00
+66,Mobile - Desenvolvedor(a) Mobile React Native - Pleno,,,,,,2026-03-31T20:46:19+00:00
+67,Mobile - Desenvolvedor(a) Mobile React Native - Senior,,,,,,2026-03-31T20:46:19+00:00
+68,Mobile - Desenvolvedor(a) Mobile React Native - Especialista,,,,,,2026-03-31T20:46:19+00:00
+69,Mobile - Desenvolvedor(a) Mobile Kotlin - Junior,,,,,,2026-03-31T20:46:19+00:00
+70,Mobile - Desenvolvedor(a) Mobile Kotlin - Pleno,,,,,,2026-03-31T20:46:19+00:00
+71,Mobile - Desenvolvedor(a) Mobile Kotlin - Senior,,,,,,2026-03-31T20:46:19+00:00
+72,Mobile - Desenvolvedor(a) Mobile Kotlin - Especialista,,,,,,2026-03-31T20:46:19+00:00
+73,QA - Quality Assurance - Tester - Assistente de Testes de Software - Junior,,,,,,2026-03-31T20:46:19+00:00
+74,QA - Quality Assurance - Tester - Assistente de Testes de Software - Pleno,,,,,,2026-03-31T20:46:19+00:00
+75,QA - Quality Assurance - Tester - Assistente de Testes de Software - Senior,,,,,,2026-03-31T20:46:19+00:00
+76,QA - Quality Assurance - Tester - Assistente de Testes de Software - Especialista,,,,,,2026-03-31T20:46:19+00:00
+77,QA - Quality Assurance - Analista de Qualidade - Junior,,,,,,2026-03-31T20:46:19+00:00
+78,QA - Quality Assurance - Analista de Qualidade - Pleno,,,,,,2026-03-31T20:46:19+00:00
+79,QA - Quality Assurance - Analista de Qualidade - Senior,,,,,,2026-03-31T20:46:19+00:00
+80,QA - Quality Assurance - Analista de Qualidade - Especialista,,,,,,2026-03-31T20:46:19+00:00
+81,QA - Quality Assurance - Engenheiro de Qualidade/Automacao - Junior,,,,,,2026-03-31T20:46:19+00:00
+82,QA - Quality Assurance - Engenheiro de Qualidade/Automacao - Pleno,,,,,,2026-03-31T20:46:19+00:00
+83,QA - Quality Assurance - Engenheiro de Qualidade/Automacao - Senior,,,,,,2026-03-31T20:46:19+00:00
+84,QA - Quality Assurance - Engenheiro de Qualidade/Automacao - Especialista,,,,,,2026-03-31T20:46:19+00:00
+85,BI | Data Science | IA | IoT - Engenheiro(a) de Dados - Junior,,,,,,2026-03-31T20:46:19+00:00
+86,BI | Data Science | IA | IoT - Engenheiro(a) de Dados - Pleno,,,,,,2026-03-31T20:46:19+00:00
+87,BI | Data Science | IA | IoT - Engenheiro(a) de Dados - Senior,,,,,,2026-03-31T20:46:19+00:00
+88,BI | Data Science | IA | IoT - Engenheiro(a) de Dados - Especialista,,,,,,2026-03-31T20:46:19+00:00
+89,BI | Data Science | IA | IoT - Desenvolvedor(a) - Consultor(a) BI - Junior,,,,,,2026-03-31T20:46:19+00:00
+90,BI | Data Science | IA | IoT - Desenvolvedor(a) - Consultor(a) BI - Pleno,,,,,,2026-03-31T20:46:19+00:00
+91,BI | Data Science | IA | IoT - Desenvolvedor(a) - Consultor(a) BI - Senior,,,,,,2026-03-31T20:46:19+00:00
+92,BI | Data Science | IA | IoT - Desenvolvedor(a) - Consultor(a) BI - Especialista,,,,,,2026-03-31T20:46:19+00:00
+93,BI | Data Science | IA | IoT - Arquiteto(a) BI - Junior,,,,,,2026-03-31T20:46:19+00:00
+94,BI | Data Science | IA | IoT - Arquiteto(a) BI - Pleno,,,,,,2026-03-31T20:46:19+00:00
+95,BI | Data Science | IA | IoT - Arquiteto(a) BI - Senior,,,,,,2026-03-31T20:46:19+00:00
+96,BI | Data Science | IA | IoT - Arquiteto(a) BI - Especialista,,,,,,2026-03-31T20:46:19+00:00
+97,BI | Data Science | IA | IoT - Cientista de Dados - Junior,,,,,,2026-03-31T20:46:19+00:00
+98,BI | Data Science | IA | IoT - Cientista de Dados - Pleno,,,,,,2026-03-31T20:46:19+00:00
+99,BI | Data Science | IA | IoT - Cientista de Dados - Senior,,,,,,2026-03-31T20:46:19+00:00
+100,BI | Data Science | IA | IoT - Cientista de Dados - Especialista,,,,,,2026-03-31T20:46:19+00:00
+101,BI | Data Science | IA | IoT - Engenheiro(a) | Especialista em IoT - Junior,,,,,,2026-03-31T20:46:19+00:00
+102,BI | Data Science | IA | IoT - Engenheiro(a) | Especialista em IoT - Pleno,,,,,,2026-03-31T20:46:19+00:00
+103,BI | Data Science | IA | IoT - Engenheiro(a) | Especialista em IoT - Senior,,,,,,2026-03-31T20:46:19+00:00
+104,BI | Data Science | IA | IoT - Engenheiro(a) | Especialista em IoT - Especialista,,,,,,2026-03-31T20:46:19+00:00
+105,BI | Data Science | IA | IoT - Engenheiro(a) | Especialista em IA - Junior,,,,,,2026-03-31T20:46:19+00:00
+106,BI | Data Science | IA | IoT - Engenheiro(a) | Especialista em IA - Pleno,,,,,,2026-03-31T20:46:19+00:00
+107,BI | Data Science | IA | IoT - Engenheiro(a) | Especialista em IA - Senior,,,,,,2026-03-31T20:46:19+00:00
+108,BI | Data Science | IA | IoT - Engenheiro(a) | Especialista em IA - Especialista,,,,,,2026-03-31T20:46:19+00:00
+109,Analise | Produto - Designer UX/UI - Junior,,,,,,2026-03-31T20:46:19+00:00
+110,Analise | Produto - Designer UX/UI - Pleno,,,,,,2026-03-31T20:46:19+00:00
+111,Analise | Produto - Designer UX/UI - Senior,,,,,,2026-03-31T20:46:19+00:00
+112,Analise | Produto - Designer UX/UI - Especialista,,,,,,2026-03-31T20:46:19+00:00
+113,Analise | Produto - Analista de Negocios | Requisitos - Junior,,,,,,2026-03-31T20:46:19+00:00
+114,Analise | Produto - Analista de Negocios | Requisitos - Pleno,,,,,,2026-03-31T20:46:19+00:00
+115,Analise | Produto - Analista de Negocios | Requisitos - Senior,,,,,,2026-03-31T20:46:19+00:00
+116,Analise | Produto - Analista de Negocios | Requisitos - Especialista,,,,,,2026-03-31T20:46:19+00:00
+117,Analise | Produto - Analista de Sistemas - Junior,,,,,,2026-03-31T20:46:19+00:00
+118,Analise | Produto - Analista de Sistemas - Pleno,,,,,,2026-03-31T20:46:19+00:00
+119,Analise | Produto - Analista de Sistemas - Senior,,,,,,2026-03-31T20:46:19+00:00
+120,Analise | Produto - Analista de Sistemas - Especialista,,,,,,2026-03-31T20:46:19+00:00
+121,Analise | Produto - Product Owner (PO) - Junior,,,,,,2026-03-31T20:46:19+00:00
+122,Analise | Produto - Product Owner (PO) - Pleno,,,,,,2026-03-31T20:46:19+00:00
+123,Analise | Produto - Product Owner (PO) - Senior,,,,,,2026-03-31T20:46:19+00:00
+124,Analise | Produto - Product Owner (PO) - Especialista,,,,,,2026-03-31T20:46:19+00:00
+125,Arquitetura - Arquiteto(a) Cloud - Junior,,,,,,2026-03-31T20:46:19+00:00
+126,Arquitetura - Arquiteto(a) Cloud - Pleno,,,,,,2026-03-31T20:46:19+00:00
+127,Arquitetura - Arquiteto(a) Cloud - Senior,,,,,,2026-03-31T20:46:19+00:00
+128,Arquitetura - Arquiteto(a) Cloud - Especialista,,,,,,2026-03-31T20:46:19+00:00
+129,Arquitetura - Arquiteto(a) de Solucoes / Sistemas - Junior,,,,,,2026-03-31T20:46:19+00:00
+130,Arquitetura - Arquiteto(a) de Solucoes / Sistemas - Pleno,,,,,,2026-03-31T20:46:19+00:00
+131,Arquitetura - Arquiteto(a) de Solucoes / Sistemas - Senior,,,,,,2026-03-31T20:46:19+00:00
+132,Arquitetura - Arquiteto(a) de Solucoes / Sistemas - Especialista,,,,,,2026-03-31T20:46:19+00:00
+133,Arquitetura - Arquiteto(a) DevSecOps - Junior,,,,,,2026-03-31T20:46:19+00:00
+134,Arquitetura - Arquiteto(a) DevSecOps - Pleno,,,,,,2026-03-31T20:46:19+00:00
+135,Arquitetura - Arquiteto(a) DevSecOps - Senior,,,,,,2026-03-31T20:46:19+00:00
+136,Arquitetura - Arquiteto(a) DevSecOps - Especialista,,,,,,2026-03-31T20:46:19+00:00
+137,Infraestrutura - Analista de Infraestrutura - Junior,,,,,,2026-03-31T20:46:19+00:00
+138,Infraestrutura - Analista de Infraestrutura - Pleno,,,,,,2026-03-31T20:46:19+00:00
+139,Infraestrutura - Analista de Infraestrutura - Senior,,,,,,2026-03-31T20:46:19+00:00
+140,Infraestrutura - Analista de Infraestrutura - Especialista,,,,,,2026-03-31T20:46:19+00:00
+141,Infraestrutura - Analista de Banco de Dados / DBA - Junior,,,,,,2026-03-31T20:46:19+00:00
+142,Infraestrutura - Analista de Banco de Dados / DBA - Pleno,,,,,,2026-03-31T20:46:19+00:00
+143,Infraestrutura - Analista de Banco de Dados / DBA - Senior,,,,,,2026-03-31T20:46:19+00:00
+144,Infraestrutura - Analista de Banco de Dados / DBA - Especialista,,,,,,2026-03-31T20:46:19+00:00
+145,Infraestrutura - Engenheiro(a) DevOps - Junior,,,,,,2026-03-31T20:46:19+00:00
+146,Infraestrutura - Engenheiro(a) DevOps - Pleno,,,,,,2026-03-31T20:46:19+00:00
+147,Infraestrutura - Engenheiro(a) DevOps - Senior,,,,,,2026-03-31T20:46:19+00:00
+148,Infraestrutura - Engenheiro(a) DevOps - Especialista,,,,,,2026-03-31T20:46:19+00:00
+149,Gestao | Agilidade - Scrum Master (SM) - Junior,,,,,,2026-03-31T20:46:19+00:00
+150,Gestao | Agilidade - Scrum Master (SM) - Pleno,,,,,,2026-03-31T20:46:19+00:00
+151,Gestao | Agilidade - Scrum Master (SM) - Senior,,,,,,2026-03-31T20:46:19+00:00
+152,Gestao | Agilidade - Scrum Master (SM) - Especialista,,,,,,2026-03-31T20:46:19+00:00
+153,Gestao | Agilidade - Agile Coach - Junior,,,,,,2026-03-31T20:46:19+00:00
+154,Gestao | Agilidade - Agile Coach - Pleno,,,,,,2026-03-31T20:46:19+00:00
+155,Gestao | Agilidade - Agile Coach - Senior,,,,,,2026-03-31T20:46:19+00:00
+156,Gestao | Agilidade - Agile Coach - Especialista,,,,,,2026-03-31T20:46:19+00:00
+157,Gestao | Agilidade - Gerente de Projeto - Junior,,,,,,2026-03-31T20:46:19+00:00
+158,Gestao | Agilidade - Gerente de Projeto - Pleno,,,,,,2026-03-31T20:46:19+00:00
+159,Gestao | Agilidade - Gerente de Projeto - Senior,,,,,,2026-03-31T20:46:19+00:00
+160,Gestao | Agilidade - Gerente de Projeto - Especialista,,,,,,2026-03-31T20:46:19+00:00
+161,Gestao | Agilidade - Estrategista Digital - Junior,,,,,,2026-03-31T20:46:19+00:00
+162,Gestao | Agilidade - Estrategista Digital - Pleno,,,,,,2026-03-31T20:46:19+00:00
+163,Gestao | Agilidade - Estrategista Digital - Senior,,,,,,2026-03-31T20:46:19+00:00
+164,Gestao | Agilidade - Estrategista Digital - Especialista,,,,,,2026-03-31T20:46:19+00:00
+165,Low Code | Plataformas - Desenvolvedor(a) Genexus - Junior,,,,,,2026-03-31T20:46:19+00:00
+166,Low Code | Plataformas - Desenvolvedor(a) Genexus - Pleno,,,,,,2026-03-31T20:46:19+00:00
+167,Low Code | Plataformas - Desenvolvedor(a) Genexus - Senior,,,,,,2026-03-31T20:46:19+00:00
+168,Low Code | Plataformas - Desenvolvedor(a) Genexus - Especialista,,,,,,2026-03-31T20:46:19+00:00
+169,Hyperautomation - Desenvolvedor(a) Robtic Process Automation | RPA - Junior,,,,,,2026-03-31T20:46:19+00:00
+170,Hyperautomation - Desenvolvedor(a) Robtic Process Automation | RPA - Pleno,,,,,,2026-03-31T20:46:19+00:00
+171,Hyperautomation - Desenvolvedor(a) Robtic Process Automation | RPA - Senior,,,,,,2026-03-31T20:46:19+00:00
+172,Hyperautomation - Desenvolvedor(a) Robtic Process Automation | RPA - Especialista,,,,,,2026-03-31T20:46:19+00:00
+173,Hyperautomation - Analista de Negocios Robtic Process Automation | RPA - Junior,,,,,,2026-03-31T20:46:19+00:00
+174,Hyperautomation - Analista de Negocios Robtic Process Automation | RPA - Pleno,,,,,,2026-03-31T20:46:19+00:00
+175,Hyperautomation - Analista de Negocios Robtic Process Automation | RPA - Senior,,,,,,2026-03-31T20:46:19+00:00
+176,Hyperautomation - Analista de Negocios Robtic Process Automation | RPA - Especialista,,,,,,2026-03-31T20:46:19+00:00
+177,Hyperautomation - Arquiteto Robtic Process Automation | RPA - Junior,,,,,,2026-03-31T20:46:19+00:00
+178,Hyperautomation - Arquiteto Robtic Process Automation | RPA - Pleno,,,,,,2026-03-31T20:46:19+00:00
+179,Hyperautomation - Arquiteto Robtic Process Automation | RPA - Senior,,,,,,2026-03-31T20:46:19+00:00
+180,Hyperautomation - Arquiteto Robtic Process Automation | RPA - Especialista,,,,,,2026-03-31T20:46:19+00:00
+181,Microsoft - Desenvolvedor AX - Senior,,,,,,2026-03-31T20:46:19+00:00
+182,Microsoft - Desenvolvedor AX - Pleno,,,,,,2026-03-31T20:46:19+00:00
+183,Backend - Desenvolvedor(a) BackendSQL - Junior,,,,,,2026-03-31T20:46:19+00:00
+184,Backend - Desenvolvedor(a) BackendSQL - Pleno,,,,,,2026-03-31T20:46:19+00:00
+185,Backend - Desenvolvedor(a) BackendSQL - Senior,,,,,,2026-03-31T20:46:19+00:00
+186,BI | Data Science | IA | IoT - Analista - Junior,,,,,,2026-03-31T20:46:19+00:00
+187,BI | Data Science | IA | IoT - Analista - Pleno,,,,,,2026-03-31T20:46:19+00:00
+188,BI | Data Science | IA | IoT - Analista - Senior,,,,,,2026-03-31T20:46:19+00:00
+189,Gestao | Agilidade - Analista de Processos e Governanca - Senior,,,,,,2026-03-31T20:46:19+00:00
+190,Backend - Desenvolvedor(a) Backend - PHP + GoLang - Junior,,,,,,2026-03-31T20:46:19+00:00
+191,Backend - Desenvolvedor(a) Backend - PHP + GoLang - Pleno,,,,,,2026-03-31T20:46:19+00:00
+192,Backend - Desenvolvedor(a) Backend - PHP + GoLang - Senior,,,,,,2026-03-31T20:46:19+00:00
+193,Backend - Desenvolvedor(a) Backend - PHP + GoLang - Especialista,,,,,,2026-03-31T20:46:19+00:00
+194,Low Code | Plataformas - Desenvolvedor(a)  Liferay - Junior,,,,,,2026-03-31T20:46:19+00:00
+195,Product Manager - Júnior,,,,,,2026-03-31T20:46:19+00:00
+196,Product Manager - Pleno,,,,,,2026-03-31T20:46:19+00:00
+197,Product Manager - Sênior,,,,,,2026-03-31T20:46:19+00:00

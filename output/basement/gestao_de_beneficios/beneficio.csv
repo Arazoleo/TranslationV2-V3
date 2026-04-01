@@ -1,0 +1,79 @@
+id,nome,tipo,aplicavel_dependentes,descricao,status,fornecedor_id,icone,obrigatorio,pagina_publica_habilitada,solicitacao_habilitada,plano_unico,carencia_habilitada,dias_carencia,created_at,updated_at
+92c10d66-0ff1-4c54-a61f-2582afb181b6,Auxílio Home Office,,,"Uma grande parte do seu tempo é usado para trabalhar e por isso queremos garantir que você tenha um espaço confortável para trabalhar. Esse benefício pode ser utilizado após a completude do seu 3º mês na empresa.
+
+**O que inclui?**
+
+* Cadeira de escritório, Mesa de escritório, fone de ouvido para o escritório, teclado, mouse, mousepad, luminária para escritório.
+
+**O que não inclui?**
+
+* Impressora.
+* Poltrona.
+* Mesas e cadeiras que não sejam de escritório.",ativo,,,false,false,true,false,false,0,2026-03-31T15:42:07+00:00,2026-03-31T15:42:07+00:00
+370d6c9b-e642-4688-b3f1-9ce9a67d0fa4,Vale Cultura/Desenvolvimento,,,"Nós temos o mesmo objetivo aqui: te ajudar a se desenvolver, crescer com a gente e se tornar uma referência no seu trabalho!
+
+Aqui no Basement nós investimos no seu desenvolvimento! Você pode utilizar seu benefício após a completude do seu 3º mês na empresa. Esse valor reseta anualmente.
+
+_O ano vigente é considerado o da admissão + 3 meses_
+
+**O que inclui?**
+
+* Livros relacionados à sua função no Basement, autoajuda e/ou autoconhecimento.
+* Cursos focados na função você atua no Basement
+* Eventos relacionados à área que você atua no Basement",ativo,,,false,false,true,false,false,0,2026-03-31T15:42:07+00:00,2026-03-31T15:42:07+00:00
+4d505fbe-d703-4eee-83e1-05752f8c09b7,Auxílio Saúde,,,"Com uma vida saudável você pode ser sua melhor versão e focar no que importa!
+
+Você tem direito a um valor reservado para a contratação de um plano de saúde ou qualquer outro investimento em prol disso. Esse valor varia de acordo com a sua idade e pode ser solicitado mensalmente por meio de reembolso.
+
+**O que inclui?**
+
+* Plano de saúde de sua escolha.
+* Serviços de saúde particulares: consultas, exames, dentista.
+* Compra de produtos: medicamentos, vitaminas, suplementos.
+
+**O que não inclui?**
+
+* Academia
+* Itens esportivos
+
+**Valor depende da idade do colaborador, de acordo com a tabela abaixo:**
+
+* 0 a 18 anos - R$312,33
+* 19 a 23 anos - R$343,57
+* 24 a 28 anos - R$381,05
+* 29 a 33 anos - R$418,53
+* 34 a 38 anos - R$468,50
+* 39 a 43 anos - R$519,97
+* 44 a 48 anos - R$727,74
+* 49 a 53 anos - R$874,54
+* 54 a 58 anos - R$1.155,64
+* acima de 59 anos - R$1.686,61
+
+Benefício válido desde a admissão do colaborador.",ativo,,,false,false,true,false,false,0,2026-03-31T15:42:07+00:00,2026-03-31T15:42:07+00:00
+b6456478-d4d7-401c-b101-492fdfd80cda,Gympass/Wellhub,,,"O Wellhub conecta os colaboradores à melhor rede de parceiros para atividades físicas, mindfulness, terapia, nutrição e qualidade do sono, com uma única assinatura que custa menos e oferece muito mais.
+
+O Wellhub conta com um plano standart digital gratúito, e a pessoa pode optar ou não pela contratação de um plano. Qualquer que seja a contratação, é paga pela pessoa.
+
+A pessoa do time Basement tem direito a convidar familiares para o Wellhub para aproveitar a mesma tabela de valores.",ativo,,,false,false,true,false,false,0,2026-03-31T15:42:07+00:00,2026-03-31T15:42:07+00:00
+f6a3b54f-b59e-4c91-9707-18e1566874dd,Recesso remunerado,,,"Ter equilíbrio entre a vida pessoal e profissional e descansar é importantíssimo! E por isso, todos da empresa ganham 11 dias úteis a cada 6 meses de contrato para descansar. E o melhor: esses dias não são descontados do pagamento!",ativo,,,false,false,true,false,false,0,2026-03-31T15:42:07+00:00,2026-03-31T15:42:07+00:00
+2259c12a-d6d2-44e5-8332-33e7c36d6aba,Dayoff de aniversário,,,"Seu aniversário é um dia especial e que merece ser comemorado!
+
+Por isso, aqui no Basement, você pode tirar o Day Off na semana do seu aniversário, é só escolher o dia que você irá tirar para comemorar, avisar sua liderança e aproveitar!!",ativo,,,false,false,true,false,false,0,2026-03-31T15:42:07+00:00,2026-03-31T15:42:07+00:00
+b282a7de-fc6e-4622-b8ac-b5e5e47b9dfa,Short Friday,,,"Acreditamos que estar descansado e ter tempo para cuidar das responsabilidades da vida faz com que o tempo de trabalho seja com foco no trabalho, e deixe esse tempo muito mais proveitoso e produtivo.
+
+Por isso, nas sextas, nosso time trabalha apenas 6hrs.
+
+_\*\*O benefício não é válido para estags que já trabalham menos horas na semana._",ativo,,,false,false,true,false,false,0,2026-03-31T15:42:07+00:00,2026-03-31T15:42:07+00:00
+a532be44-50e8-4246-a1f2-3e05ef8343b0,Feriados emendados,,,"Acreditamos que estar descansado e ter tempo para cuidar das responsabilidades da vida faz com que o tempo de trabalho seja com foco no trabalho, e assim, deixe esse tempo muito mais proveitoso e produtivo.
+
+Aqui no Basement emendamos os feriados que acontecem de terça e quinta \\o/ São dias extra de descanso, sem descontos no pagamento ou nos seus dias de recesso, pra você aproveitar!",ativo,,,false,false,true,false,false,0,2026-03-31T15:42:07+00:00,2026-03-31T15:42:07+00:00
+9633e501-dd01-4110-bcfb-02cd4df9555d,Licença Maternidade e Paternidade,,,"Toda Basier grávida poderá ter sua licença maternidade concebida por 180 dias a partir do parto. Para os pais, é garantido a licença no período de 20 dias, para que os pais possam acompanhar essa fase inicial que exige cuidados e atenção. 
+
+Serão garantidas as licenças, na mesma proporção aos Basiers que adotarem ou obtiverem guarda judicial para fins de adoção de criança. A prorrogação da licença maternidade, no caso de adoção de criança, será garantida nos seguintes prazos: 
+
+1. por 60 dias, quando se tratar de criança de até 1 ano de idade;
+2. por 30 dias, quando se tratar de criança a partir de 1 até 4 anos de idade completos;
+3. por 15 dias, quando se tratar de criança a partir de 4 anos até completar 8 anos de idade.
+
+&gt; Comunique ao RH e ao seu time da gravidez e a previsão do parto para podermos ajudar o seu time a se programar para sua ausência.",ativo,,,false,false,true,false,false,0,2026-03-31T15:42:07+00:00,2026-03-31T15:42:07+00:00
+3c196871-96d4-4300-9134-f06214367abe,Home office e flexibilidade de jornada,,,,ativo,,,false,false,true,false,false,0,2026-03-31T15:42:07+00:00,2026-03-31T15:42:07+00:00

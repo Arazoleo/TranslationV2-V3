@@ -1,0 +1,430 @@
+id,pessoa_id,tipo_desligamento,comentarios,data_desligamento,responsavel_rh_id,valor_rescisao,etapa,created_at,updated_at
+ba8b090c-0664-4cd3-9148-0e247bda21a1,7c324e16-89e6-4005-b3df-0f4519c032dd,Involuntário (sem justa causa),,2024-11-06,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+72bd7d82-44eb-40b8-bd9f-da74a0999151,64a8e7ce-0476-4df5-8b40-1340f7d7b26b,Involuntário (sem justa causa),,2024-11-26,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+86205a04-2339-44a0-a334-249ee70da2a6,13425d9e-6e4c-4db1-9612-1dfe8e0efa80,Voluntário,"O colaborador cumprirá aviso até o dia 29/11. Recebemos a carta de dispensa do aviso, que está nesse link: https://drive.google.com/file/d/1gokVkeghCIIqjDOekGLekGc3vzdlpc12/view?usp=sharing",2024-11-29,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+bcc4a5c8-cdd5-41f3-a99c-80669c549351,c98819ad-3780-48a5-bb28-744bfc46faa2,Voluntário,"A colaboradora solicitou desligamento no dia 02/12 e cumprirá aviso até o dia 12/12. Faturar o cliente até dia 12/12. Carta de desligamento: [https://drive.google.com/file/d/1-WH5OpevvUVNl38xaHaWejr\_gM1gcWdI/view?usp=sharing](https://drive.google.com/file/d/1-WH5OpevvUVNl38xaHaWejr_gM1gcWdI/view?usp=sharing)
+
+Não descontar dias de aviso prévio não cumpridos.",2024-12-12,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+9095498f-aa3a-4cb2-b1c2-f602b7c98960,8c93f9ce-e5f6-42e1-8eb4-62bce2a26ad4,Término de contrato,"O colaborador foi desligado pela empresa no dia 03/12. Faturar o cliente até 03/12. Colaborador em período de experiência.
+
+Ontem o cliente o solicitou o desligamento do colaborador devido a suas ausências em horários comerciais sem justificativa. A Gabriela e eu falamos com ele ás 16:30 de ontem e comunicamos o seu desligamento.",2024-12-03,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+c7e13aa2-3cbd-4dbf-9833-f834854e7b63,02a69919-1407-4e41-a1c7-c85d353ea66b,Voluntário,"**Renato Messias da Cunha:** O profissional Mateus Lammel solicitou desligamento da empresa na última segunda-feira (25). O prazo do seu aviso prévio seria até dia 10/12 (terça-feira), no entanto vamos liberar ele na sexta-feira da próxima semana (06/12). Jonatas, apesar de liberar ele antes do término do aviso, combinamos com o Oswald que, excepcionalmente para o Mateus, esses dias não serão descontados do pagamento dele. Pode seguir com o pagamento integral, por favor.
+
+**Gabriela Alves da Silveira:** Jonatas, conforme falamos, vamos remunerar o colaborador até o dia 10/12, mesmo com a liberação antecipada. Os dias 07, 08, 09 e 10 serão considerados, excepcionalmente, descanso remunerado.",2024-12-10,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+a8ce02ae-fe9f-496c-802b-7fca2af82d0c,09e5149f-4777-404c-bea5-1d6c25a9b204,Voluntário,"O colaborador solicitou desligamento no dia 09/12/2024.O cumprimento do aviso prévio começa no dia 10/12/2024, mas o colaborador vai trabalhar até sexta-feira 13/12/2024, resultando em 11 dias de desconto de aviso prévio na rescisão.",2024-12-13,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+82dcb9fb-f775-4d13-bf0d-8b4a753a5cdc,b6a02be7-6149-4942-b3f2-b9be6035f003,Involuntário (sem justa causa),"O comunicado de desligamento ocorreu hoje e a decisão foi por parte da empresa, devido à não ter projeto para alocação do colaborador. O aviso prévio será trabalhado, de 15 dias, a partir de amanhã (18/12)",2025-01-01,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+5fae7458-f47d-4795-85ea-e7065a0e8f48,fd19ac05-863a-4fb2-92eb-ca06bec49a36,Voluntário,O colaborador iniciou no dia 16 de dezembro. Pediu desligamento ontem no dia 18. Um ponto de atenção é que no dia 18 o mesmo trabalhou apenas até o meio dia.,2024-12-18,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+15988df4-99d3-4f00-97be-dbcaefde4750,967febfe-7989-46ec-b107-f3bea41b3823,Voluntário,Colaborador esta em período de experiência,2024-12-30,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+c27b9944-c602-4565-8b73-47d273c3f2ed,dae73035-c292-446d-8c92-5abcb35b8c10,Involuntário (sem justa causa),"Boa tarde, pessoal,
+
+Gostaria de informar que o colaborador Eduardo Vieira recebeu ontem o aviso formal de desligamento. Ele continuará atuando no cliente até o dia **10/01/2025**, e, portanto, devemos faturar o cliente até essa data.
+
+Na GX2, o Eduardo permanecerá até **17/01/2025**, conforme previamente aprovado pela Stela.
+
+Seguiremos empenhados em buscar uma possível realocação para o colaborador. Caso consigamos uma oportunidade, informarei por aqui para que possamos cancelar o aviso prévio.
+
+Ressalto que não haverá substituição para a vaga.
+
+Atenciosamente,",2025-02-10,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+2fd2fa6c-2198-4d95-b535-90269fac1968,243bc428-cd64-434a-9bc5-3f262bedb340,Involuntário (sem justa causa),"O desligamento do colaborador se deu por iniciativa da empresa RHI, devido a questões orçamentárias para 2025.
+
+O colaborador vai trabalhar até o dia 17/01/2025, que também será o último dia de faturamento.",2025-01-17,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+6eb9ffd8-5145-41e5-8596-dceb855b9d53,fdf1aae1-9e90-4039-8ca3-d7a0d153080c,Involuntário (sem justa causa),"Realizamos o comunicado de desligamento do Vinicius, devido a baixa performance nos projetos em que está atuando. Foram realizados feedbacks com ele, sem melhora e foi pontuado isso no momento do comunicado.",2025-01-21,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+acabbb94-1ee4-435d-845b-597066110c96,224ccf8b-5fd2-44f7-b78b-775fbb825f5b,Involuntário (sem justa causa),"Boa tarde, pessoal,
+
+Gostaria de informar que o colaborador Ricardo Quintino recebeu o aviso formal de desligamento. Ele continuará atuando no cliente até o dia **22/01/2025**, e, portanto, devemos faturar o cliente até essa data.
+
+Seguiremos empenhados em buscar uma possível realocação para o colaborador. Caso consigamos uma oportunidade, informarei por aqui para que possamos cancelar o aviso prévio.
+
+Ressalto que não haverá substituição para a vaga.
+
+Atenciosamente,",2025-01-22,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+58342fa6-cd9f-498e-9107-b87017c9ba8b,042d5944-9bbb-4d8a-a2b7-93bf620a9dc0,Involuntário (sem justa causa),"Bom dia, pessoal,
+
+Gostaria de informar que a colaboradora Cristiane de Souza Melo recebeu o aviso formal de desligamento. Ela continuará atuando no cliente até o dia **31/01/2025**, e, portanto, devemos faturar o cliente até essa data.
+
+Seguiremos empenhados em buscar uma possível realocação para o colaborador. Caso consigamos uma oportunidade, informarei por aqui para que possamos cancelar o aviso prévio.
+
+Ressalto que não haverá substituição para a vaga.
+
+Atenciosamente,",2025-01-31,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+e40100ed-e8cc-47ff-a737-aac9dfbf2bda,94bdfd2a-4caa-4609-8c53-53bd748dde64,Voluntário,"Internalização do colaborador, aviso será pago pela GX2. Colaborador inicia no cliente dia 13",2025-01-10,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+47345c77-4cdb-4f8b-8499-7b30c2d0af0a,ed5fbb5e-c4bd-4838-9aad-d56895aa4cb5,Voluntário,"Internalização do colaborador, aviso será pago pela GX2. Colaborador inicia no cliente dia 13",2025-01-10,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+a6e843e0-b1ec-46cb-8711-924c235ec6ad,30ba8a65-4768-43f1-9408-d9aa338f0ff5,Involuntário (sem justa causa),"1. A reunião com o colaborador para o anúncio do desligamento está programada para 16/01/2025 às 10:30.
+2. Assim que encerrar a reunião, os acessos deverão ser alterados para que o colaborador não mais tenha acesso. Será enviada mensagem para Fernanda e Jonatas tão logo a reunião com o colaborador se encerre.
+3. O login deve ser mantido, porém com alteração da senha e passado para Marcos Melo, como Gestor Comercial, que passar\[a a monitorar o login (emails principalmente) até que tudo seja transferido e o login possa ser removido.
+4. As passagens de ida/volta, bem como estadia, do colaborador Regiane para o evento em POA em 03/fev/2025, a partir das 12h de 16/01/2025, podem ser transferidos para outro colaborador ou mesmo cancelado, conforme a melhor opção considerada pela GX2.
+5. Fazer o processo padrão que é esperar até 31/jan para apuração de todos pagamentos realizados no mês como base para o cálculo da comissão e combinar com a cooperativa que faça o último pagamento no início de fevereiro de 2025.
+6. Conforme a opção do aviso prévio, o colaborador não cumprirá o aviso e esse será dispensado e indenizado.",2025-01-16,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+aedf0f5b-6e45-486e-8c51-fd40113c7a47,0ff7ba0c-e051-4607-b5a8-e9298d5f5368,Involuntário (sem justa causa),"Bom dia, pessoal,
+
+Gostaria de informar que o colaborador Paulo Holanda recebeu o aviso formal de desligamento. Ele continuará atuando no cliente até o dia **15/01/2025**, e, portanto, devemos faturar o cliente até essa data.
+
+Na GX2, o Paulo permanecerá até **23/01/2025**, por conta do aviso prévio.
+
+Seguiremos empenhados em buscar uma possível realocação para o colaborador. Caso consigamos uma oportunidade, informarei por aqui para que possamos cancelar o aviso prévio.
+
+Ressalto que não haverá substituição para a vaga.
+
+Atenciosamente",2025-01-23,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+3917f6ae-affa-452b-a1d0-80db15d14d84,ca2eb51a-74fd-402d-8f6e-caf3bddd0a4f,Involuntário (sem justa causa),"Optamos pelo encerramento do contrato da Aline, em virtude dos feedbacks que foram passados e que a sua atuação hoje não está na expectativas do que exige a fábrica. Também não temos pessoas disponíveis atualmente, para poder colaborar com o seu desenvolvimento, no prazo que precisamos, por isso resolvemos seguir com o encerramento do contrato. O aviso prévio começa a contar a partir de amanhã (15/01), são 15 dias corridos, no total.",2025-01-29,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+de837d89-bc8b-4fc5-85dc-8317e852522a,56bd81b3-a0b1-4f69-a02f-3e4291fa7c7e,Voluntário,"Informações adicionais e instruções:
+
+1. Colaborador solicitou o desligamento por ter encontrado outra oportunidade que considerou ser melhor no momento
+2. colaborador notificou no dia 15/jan/2025 e sua última atuação na GX2 foi em 17/01/2025
+3. considerar a data de desligamento em 17/01, conforme a cronologia acima
+4. o cálculo para o pagamento deve ser até 17/01
+5. o aviso prévio deve ser descontado
+6. solicitar o recolhimento do notebook
+7. os acessos do colaborador já foram devidamente retirados",2025-01-17,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+1e97bd50-0f63-49e4-8cd9-ae85ebd6905f,3f38fa2f-bd6c-4773-af0e-fc9c03e9193e,Término de contrato,"Jonatas Pedrozo - 24/01/2025 às 14:50
+
+Colaborador atuou por prazo determinado, de 02/01 a 10/01/2025 conforme acordado. Estou realizando o processo de desligamento por aqui porque esta etapa ficou faltando.",2025-01-24,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+a7a52eca-835f-40c4-93d5-d2e682a806fe,d83f7630-8b01-4dae-8edc-721f378451e8,Involuntário (sem justa causa),"Boa tarde, pessoal,
+
+Gostaria de informar que o colaborador Herberth Nilsen recebeu o aviso formal de desligamento. Ele continuará atuando no cliente até o dia **14/02/2025**, e, portanto, devemos faturar o cliente até essa data.
+
+Seguiremos empenhados em buscar uma possível realocação para o colaborador. Caso consigamos uma oportunidade, informarei por aqui para que possamos cancelar o aviso prévio.
+
+Ressalto que não haverá substituição para a vaga.
+
+Atenciosamente,",2025-02-14,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+deb12669-4179-45a5-9979-42df3a81430c,33e309d3-818a-41e6-a03d-f3db795b8526,Involuntário (sem justa causa),"O aviso prévio, a contar do dia 30/01, será indenizado.",2025-01-29,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+cf34c831-6ccf-4f3f-b2d0-e44c7bd6a969,b93e3f79-65c3-4481-81de-28a904eb8109,Involuntário (sem justa causa),"Solicitação do cliente de desligamento por falta de assiduidade e e dificuldades comportamentais
+
+  
+
+Jonatas Pedrozo - 30/01/2025 às 17:23
+
+Desligamento de forma imediata por parte da GX2. Pagamento de 15 dias de aviso prévio.",2025-01-30,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+b7ffba6f-13a7-428e-a14f-73553e9e9193,8fb2de6f-39c3-4086-ae03-ed251ecca782,Involuntário (sem justa causa),"Aviso prévio indenizado, a contar do dia 31/01/2025.",2025-01-30,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+415bc10b-8d3d-4e3c-b513-ae05889dd741,cd737a88-cc07-4e1e-b2ad-fefc77d19b9a,Voluntário,"O colaborador solicitou o desligamento na sexta-feira (31/01/25) por volta das 19:30 e hoje segunda-feira (03/02/2025) falei com ele por vídeo, explicando todos os passos do desligamento e informei sobre o desconto dos 15 dias de aviso prévio (o colaborador não quis cumprir e está ciente que não receberá nada, pois trabalhou 2 semanas e terá 2 semanas de desconto do aviso prévio).",2025-02-03,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+3810f072-0e10-4a97-8d9a-7f17f5031696,aa617474-ecd0-4d0f-922d-90a2a81d2eb4,Voluntário,"Informamos que o colaborador Brunno Pezzini solicitou seu desligamento na data de hoje,14/02/2025, e cumprirá o período de aviso prévio de **15 dias**. Sendo assim, seu último dia de trabalho será 01/03/2025.
+
+Portanto o faturamento referente ao cliente, Banco Digio, será realizado até **01/03/2025.**",2025-03-01,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+181d20e9-51ac-4b1f-bb8b-ce007a7dc7b1,59632be8-b6ea-4ca3-b36c-c2d693b9590d,Involuntário (sem justa causa),,2025-02-17,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+b73cd0dd-0e8d-4cdb-8cb7-a43d6704cbae,44a70081-9a86-4c4c-a966-94c394d2e0e2,Involuntário (sem justa causa),,2025-02-17,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+018f4aff-8daa-4cd2-92df-f1dd191f595c,91171e69-130e-452c-8ee4-6ba36c4716b4,Involuntário (sem justa causa),"Jonatas Pedrozo - 20/02/2025 - 17:00
+
+Pagamento do saldo de 7 dias de descanso remunero.",2025-02-20,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+f070b771-6002-470c-8200-7aa26f85fb17,33ac8fb8-ba41-4a60-8959-03e2b64f8135,Involuntário (sem justa causa),"O colaborador foi desligado ontem de maneira imediata do cliente. No entanto, cumprirá aviso prévio pela GX2.",2025-03-14,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+0fc62f63-ebcf-4e35-a691-2580b1c02b58,94cbdf24-2302-495e-a067-d207078ed3df,Involuntário (sem justa causa),"Colaboradora desligada de maneira imediata do cliente, mas seguirá em cumprimento de aviso pela GX2.
+
+Jonatas - 24/02/2025 - 14:51
+
+Colaboradora optou por sair 7 dias antes do aviso finalizar.",2025-03-16,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+4b4cbf28-2c80-47ab-a95e-92b331e0a31b,1ed4e6e3-13c2-4b5a-b6cf-c1497292223b,Voluntário,"Bom dia, pessoal.
+
+Gostaria de informar que o colaborador Milton Fernandes formalizou sua solicitação de desligamento da GX2, com último dia de trabalho previsto para **07/03**, considerando o período de aviso prévio iniciado em **21/02**.
+
+Peço que sigam com os devidos procedimentos para a finalização do vínculo e demais trâmites necessários. Caso precisem de mais informações, estou à disposição.
+
+Atenciosamente,",2025-03-07,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+0a487a0a-fa2e-4bba-a9cc-d7d91f4e57a9,63f8a293-03c9-47df-a8d2-c28b91bfc1f1,Voluntário,Ele solicitou dia 20 e iniciou dia 21 o aviso prévio.,2025-03-07,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+ac172a92-8f06-49d6-8f8b-37ad2397101d,5eba2c1b-26f9-4f4b-a13d-07ab084c5b84,Término de contrato,"Hoje no dia 28/02/2025 encerra o contrato do colaborador com a UNIMED, o aviso foi trabalhado.
+
+O colaborador estará de férias de 03/03/2025 a 17/03/2025, durante esse período tentaremos buscar uma realocação para o colaborador.",,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+63d2bbb5-e0bb-4129-a447-38daea01cb22,2a32bbea-d3fa-40a3-8386-84ab02657e1c,Término de contrato,"Ela foi dispensada imediatamente. Ela terá descanso remunerado do dia 5 ao dia 12 de março, começando a contar o aviso prévio de 15 dias no dia 13 de março.
+
+A máquina precisa ser devolvida antes do pagamento, ela já foi informada disso. 
+
+Vi que ela já preencheu o registro de horários de fevereiro, e seu acesso já foi cortado.
+
+Por favor, comuniquem imediatamente a cooperativa, para que eles possam fazer o acolhimento com ela ainda hoje.",2025-03-27,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+4df5ee75-b73c-4e68-aa58-70af0bb96a1c,ed570d56-4a8d-4731-b793-53503463bf8a,Involuntário (sem justa causa),,,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+4322fabb-df4c-48f3-ba05-c9b8e140bed2,e2134cec-a106-4bc1-bbea-5813cf229e5b,Voluntário,"Foi o colaborador que solicitou desligamento e se dispôs a cumprir aviso até sexta-feira (14). Foi comentado que o ideal seria no mínimo 15 dias e que poderia ser descontado do acerto. Ele se dispôs a seguir cumprindo o aviso na próxima semana, até 21/03, porém, part-time apenas. O Oswald organizou a substituição dele no projeto e combinou com o Everton que ficaria apenas até 14/03.",2025-03-14,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+dae7db17-71b8-4064-8ea7-b47430afb041,57e017e1-f214-4ff6-ae56-330f8dfb28eb,Involuntário (sem justa causa),"O profissional já foi comunicado, favor entrar em contato com o mesmo para proceder os tramites",2025-03-20,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+5da01514-0237-458d-a693-8188a5314a45,e2f516a9-fa1a-4059-8e16-6efec957c965,Involuntário (sem justa causa),Desligamento de forma imediata.,2025-03-20,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+50f0636c-fd35-4bf7-8e1d-962d8e48d6d4,391cf0a3-612c-405f-a4a4-79573fb81f08,Involuntário (sem justa causa),"O colaborador Carlos Francisco Floriano Gonçalves será internalizado pela UNIMED e inicia na empresa no dia 14/04/2025.
+
+A posição do colaborador no cliente será reposta e o novo funcionário inicia no dia 27/03/2025.
+
+O aviso prévio não será descontado.",2025-04-11,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+e1cbe233-ebc2-460f-aaf0-57838fc20e6a,c22e7fe5-6d52-4dbe-85bf-9b4e374b36b1,Voluntário,A colaboradora solicitou desligamento no dia 18/03 e seu último dia de trabalho será dia 01/04. Não vamos descontar o aviso prévio que deveria ser cumprido até o dia 17/4. Qualquer dúvida estou a disposição.,2025-04-01,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+d7ce1eec-f3b6-42f2-afdd-32e7542c5433,b35074a1-03a5-4a7c-b2d1-9d4065bf3f11,Voluntário,"Olá, tudo bem?
+
+O pedido foi realizado no dia 27/03 e o aviso prévio foi cumprido de 28/03 a 31/03. Sendo assim, é necessário descontar os 11 dias não cumpridos do aviso, além de descontar R$ 500,00 referentes ao curso de IA. As horas extras devem ser pagas normalmente. Sobre a máquina e os acessos do colaborador, eles devem ser mantidos até que o Oswald nos informe sobre a necessidade de cancelamento e retirada.
+
+Qualquer dúvida, fico à disposição.
+
+Obrigada!",2025-03-31,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+c0643801-cc84-46c4-b22e-cf3055a77bfe,fcb5cd1a-df0b-485d-ba54-230ef11fdd3a,Involuntário (sem justa causa),"Olá, pessoal do DP!
+
+Venho informar que hoje, **07/04/2025**, comuniquei ao colaborador **Jorge Alexandre de Mattos** sobre o pedido de desligamento solicitado pelo cliente **Liber**. Diante disso, ele cumprirá o **aviso prévio de 15 dias** a partir da data de hoje.
+
+Peço, por gentileza, que seja realizado o controle desse período e que **cobremos o cliente até o dia 06/05/2025**, conforme alinhado.
+
+Fico à disposição para qualquer dúvida.
+
+Obrigada!",2025-04-22,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+b487379a-62bc-4423-8161-49a81185aefc,073331a5-396b-49cd-8413-3436e83c3e74,Involuntário (sem justa causa),Colaborador ainda vai cumprir aviso prévio até 22/04/2025.,2025-04-22,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+77d3b344-eccb-45d5-a104-1da467ea7b77,fa0f48ad-e2ea-4d19-9dc7-0ec3f2e29697,Involuntário (sem justa causa),"Olá, pessoal do DP!
+
+Venho informar que ontem, **07/04/2025**, comuniquei ao colaborador **Rafael Stati Murakami** sobre o pedido de desligamento solicitado pelo cliente **Digio**. Diante disso, ele cumprirá o **aviso prévio de 15 dias** a partir da data de ontem.
+
+Peço, por gentileza, que seja realizado o controle desse período e que **cobremos o cliente até o dia 22/04/2025**, conforme alinhado.
+
+Fico à disposição para qualquer dúvida.
+
+Obrigada!",2025-04-22,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+d352df8f-4d82-4165-8565-13c0ec710ba8,9d711dbc-84fa-462a-bd73-1d20130b9c40,Involuntário (sem justa causa),"A colaboradora foi desligada de forma imediata do cliente AgroBrasil, que deverá ser faturado até a data de hoje. O aviso prévio será cumprido, porém não será trabalhado, portanto os acessos podem ser cancelados.",2025-05-08,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+6a85c627-b159-420e-8c23-1575aeadfce1,666be368-c1e5-4e43-b83c-5e99f7540ac5,Involuntário (sem justa causa),"O Hans foi desligado hoje, por volta das 9h40. Foi uma definição da empresa, o aviso prévio será indenizado.",2025-04-16,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+f07c25d1-6743-44e5-9310-471c7c852608,a8b7e2dc-cf48-4bf9-99f3-b0f08bec169d,Involuntário (sem justa causa),A GX2 optou pelo desligamento do colaborador com o aviso prévio indenizado.,2025-04-16,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+4b2051ee-0888-4157-84ef-8cc868a10745,e63e601b-32a7-438b-a86b-c2ae59eee69d,Involuntário (sem justa causa),"Gostaria de informar que no dia 14/04/2025 comuniquei ao colaborador Antônio Leonardo sobre o pedido de desligamento solicitado pelo cliente Digio. Com isso, ele iniciou o cumprimento do aviso prévio de 15 dias, tendo como último dia de trabalho o dia **29/04/2025**.
+
+Peço, por gentileza, que realizem o controle desse período e que o cliente seja cobrado até a data mencionada, conforme alinhado previamente.
+
+Além disso, o colaborador possui **118 horas acumuladas em banco de horas**. Recebi a confirmação de que iremos **cobrar essas horas do cliente e efetuar o pagamento ao colaborador**. Solicito que este pagamento seja incluído, por favor.",2025-04-29,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+6e194b40-d6fe-4de9-88f3-172bc098f2c1,be37ee35-5275-45fb-b922-5f628540c9b0,Involuntário (sem justa causa),Srs. Assim que eu comunicar ao colaborador aviso ao Jonathan,2025-04-30,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+e80dca87-b80b-41f0-9a92-70062a55e7b3,1d65e3f9-1bff-46f1-a2ed-216eef18c173,Voluntário,Desligamento solicitado pelo colaborador.,2025-04-28,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+50e911b2-d21d-479d-984d-245cd0cb3c10,edb3dda0-4dd6-4472-9fc3-09fe70374652,Involuntário (sem justa causa),,2025-05-06,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+b0163535-8ec7-4680-9197-c6faa492db6a,b593a46f-7c94-48c9-b423-a8bc8a4c53f3,Involuntário (sem justa causa),"**Carolina Gimenez Pereira Tronquini:**
+
+Venho informar que a colaboradora **Naiara Neves Pereira** será **desalocada do Banco Digio**, tendo como **último dia de atuação o dia 30/04/2025, sem desconto do aviso prévio.** 
+
+A data de cobrança do cliente está pendente de aprovação pelo Luiz Garcia e avisarei logo que tiver uma definição. Ressalto que **não haverá reposição para essa posição**.
+
+Deixo registrado para controle e providências necessárias.",2025-04-30,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+3b46c42a-1008-4b25-a2e2-3826c6c7da99,beef5cea-ddf3-4f14-83c0-4387c217d607,Involuntário (sem justa causa),"O colaborador foi informado em 17/04 sobre a solicitação do cliente para a descontinuação da posição. Avisamos ele 15 dias antes, conforme previsto em contrato.",2025-05-02,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+7afadd44-ea6e-4cbe-9d3b-4752271ddc95,d26d0def-b285-406c-b311-cf241a2bff28,Voluntário,Colaborador solicitou desligamento devido a sua internalização na AgroBrasil. O mesmo não irá cumprir aviso e não será descontado.,2025-04-30,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+2125888e-65f9-41d3-9a4a-966ad3d4e9c6,502eb38d-f8cf-42d1-b917-73e7efecf7a5,Involuntário (sem justa causa),"O colaborador está sendo internalizado pela EstrelaBet e a vaga será resposta pelo Rodolpho.
+
+O último dia de trabalho pela GX2 será em 16/05/2025 e o primeiro dia de trabalho pela EstrelaBet será em 19/05/2025 -que será a mesma data em que o Rodolpho inicia pela GX2 dentro do cliente-.",2025-05-16,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+1b769d76-80ff-4710-99ae-52a0b81a291b,3c0170ff-9188-4de1-8915-7d2af3d362ed,Involuntário (sem justa causa),Cliente solicitou o desligamento do colaborador. Vamos indenizar os 15 dias.,2025-05-05,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+a1cfbccd-e976-4919-a637-e57230136c7e,93100472-17c4-47b6-a278-05ad577e96c5,Involuntário (sem justa causa),"Gostaria de informar que no dia 29/04/2025 comuniquei ao colaborador Gustavo Silva sobre o pedido de desligamento solicitado pelo cliente Digio. Com isso, ele iniciou o cumprimento do aviso prévio de 15 dias, tendo como último dia de trabalho o dia **14/05/2025**.
+
+Peço, por gentileza, que realizem o controle desse período e que o cliente seja cobrado até a data mencionada, conforme alinhado previamente.
+
+Além disso, o colaborador possui **48 horas acumuladas em banco de horas**.Podem verificar se tem mais alguma hora acumulada? Recebi a confirmação de que iremos **cobrar essas horas do cliente e efetuar o pagamento ao colaborador**. Solicito que este pagamento seja incluído, por favor.",2025-05-14,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+5a20d8df-a648-404d-b54c-954d16b551bc,32e09fe1-bb7a-4c4f-972b-4ce28014660e,Voluntário,"Os colaboradores serão pagos até o dia 18/05 (domingo) porque iniciam no cliente no dia 19/05 (segunda). Iremos considerar como pedido de desligamento, sem pagar ou descontar aviso - pagando os dias trabalhados. Como trata-se do encerramento da posição, além dos dias trabalhados deve ser cobrado a taxa de hunting.",2025-05-18,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+76615dfc-1ef3-4c45-9cf1-8f5b2e3bf565,fcf3b16e-a1af-4c9a-a9dc-df6e732854d5,Involuntário (sem justa causa),,2025-05-16,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+23224d14-f77e-4996-9a73-2e780600b532,9653ab1f-3dc4-463e-b0ed-bea866f8d8d3,Voluntário,O colaborador Ânderson da Rosa Ferreira solicitou o desligamento da GX2 e o aviso prévio será trabalhado até o dia 30/05/2025. O colaborador também tem 3 dias que férias restantes que deverão ser pagos na rescisão.,2025-05-30,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+ffcffe98-cd9a-4f0f-9b9c-fb30d6e939c1,6718b41f-b296-4f2a-af7d-35df4392cb6c,Voluntário,"O colaborador solicitou desligamento na segunda feira 12/05/25 e o aviso prévio começou a ser contado a partir do dia seguinte 13/05/25, o Marco nos informou que ficará conosco o período de 30 dias para fazer a passagem de bastão para o novo profissional (interno da Forluz) e seu último dia de trabalho será em 11/06/25.
+
+OBS: Não teremos reposição da vaga, resultando em um cliente a menos para a GX2.",2025-06-11,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+76f0ef96-5f55-4581-87ca-9abc26f236d3,ed8210d4-f8a7-44ed-a58f-4569bac108b5,Involuntário (sem justa causa),"O colaborador já foi substituído no cliente pelo Renato Messias da Cunha. ""Cumprindo os 30 dias internamente na GX2"" - porém os acessos já podem ser retirados.",2025-06-20,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+0dfba781-1fa6-48a3-80a7-215e18771e30,e738f775-0820-4d9e-b00c-06e583156881,Voluntário,"O colaborador pediu seu desligamento no dia 27/05/2025.
+
+  
+
+Jonatas Pedrozo: - Como tinha banco de horas acumulado, combinou com a Carol de folgar nos ultimos 3 dias para zerar.",2025-06-11,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+642f8902-0652-41be-89fb-d4c88aa3134a,b13c9dfe-4b2c-4c3b-bd87-dc9473b9ec64,Término de contrato,"Prezados, 
+
+Escrevo este e-mail para informar que na data de hoje iniciou o aviso prévio do Erildo.
+
+Podemos seguir com os demais trâmites de encerramento de contrato.
+
+Caso haja alguma demanda em que o perfil dele faça sentido, podemos reverter dentro do período de aviso.
+
+Não tenho certeza se preenchi todos os campos da forma correta. Se houver alguma dúvida, favor informar.",2025-06-19,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+da4f7e92-5d8e-44e8-8d0a-07f27f471276,2c10629a-89a9-4dd8-bd9b-4901617d0c83,Voluntário,"O colaborador solicitou desligamento no dia de ontem e hoje em reunião com o cliente foi definido que o aviso prévio não será cumprido, sendo hoje 17/06/2025 o último dia de atuação do profissional.
+
+O último dia de faturamento do cliente para essa posição será 17/06/2025 e o aviso prévio não será descontado do colaborador.
+
+A vaga de reposição já foi aberta.",2025-06-17,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+a8de8e86-4ed0-4f17-9b64-4a01d358ab66,57dbab40-b384-4f13-9896-f338a23435e3,Involuntário (sem justa causa),"O colaborador foi desligado a pedido do cliente por questões orçamentárias, o período de aviso prévio será trabalhando, se encerrando em 18/07/2025, sendo essa a data final que vamos faturar do cliente pela alocação dele.",2025-07-18,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+b4bca55f-ea1c-4e85-9933-da3bf2138f50,b5f68b41-43e7-4172-948a-0d4e2e7050f6,Voluntário,"A colaboradora Diana solicitou desligamento e o último dia de trabalho será em 24/06/2025, o aviso prévio foi trabalhado.
+
+O Johnny Tavares da Silva veio para substituir a Diana Acciarito Visentainer. Diante disso, vamos faturar do cliente apenas 1 posição no mês de junho para SDM, mesmo tendo ficado durante um período do mês com 2 alocações na mesma posição.",2025-06-24,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+141ce7c3-0d3e-484d-b831-5f57f2e97712,d339b0ed-8e54-4780-b1e6-5c7444eb6664,Voluntário,"A colaboradora já estava sem projetos e passou em outro processo seletivo, para não ficar 15 dias cumprindo aviso sem estar alocada, acordamos com a colaboradora dela trabalhar até o dia 23/06/2025.
+
+  
+
+Jonatas Pedrozo: O restante do aviso prévio não será descontado.",2025-06-23,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+dda20a10-cc25-4a5f-92e6-f64e1e8944c8,aae1b62c-5a7f-4498-aea3-380295c26449,Involuntário (sem justa causa),,2025-07-11,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+8a4fa2a2-3281-4499-8390-04b25b97fdb2,416b88d9-6407-4787-942c-a436f3f583d6,Voluntário,"No dia de ontem o André solicitou seu desligamento. Ele alega problemas pessoais (saúde mental) e que não tem outra oportunidade.
+
+Jonatas Pedrozo: Foi acordado pagamento dos dias trabalhados de junho, sem desconto do aviso.",2025-07-02,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+178ad51c-2508-421c-bacd-1946fd6fec06,b87fb5b2-0b3f-440d-979e-c91e5677298c,Involuntário (sem justa causa),,2025-07-30,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+c7de46a9-1c0c-4324-85dd-00ef4f897171,69734c3a-3880-45c5-93a5-41a0b3afe2b4,Involuntário (sem justa causa),"O Colaborador irá receber os 15 dias de aviso prévio, e deverá receber 3 dias de banco de horas totalizando 27 horas. Não terá cobrança de nenhum cliente.",2025-07-29,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+1e6b5814-bd9f-4258-97cd-287ccaff4672,72466a24-0c6a-4f4b-ad87-248365f48dd4,Voluntário,"Darlene Cristina Dantas da Silva solicitou desligamento na data de hoje, 18/07/2025, às 13:30 e não cumprirá o aviso. Por este motivo será descontado o valor do aviso prévio.
+
+Curso de inglês: Por falta de comunicação da GX2 das regras do curso, não será descontado o valor referente as aulas em que ela participou.",2025-07-18,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+fd8f7e45-e37c-4848-b3fd-33ad37b41506,6732ea7a-20b9-484b-bf52-5967d7b492b4,Voluntário,"O Douglas solicitou o desligamento. A proposta que fizemos ficou abaixo das expectativas dele para ficar na GX2.
+
+  
+
+Jonatas Pedrozo (28/07): Em conversa com o Oswald, informou que o colaborador precisa iniciar na empresa nova no dia 04/08/2025. Ou seja, vamos descontar 2 dias do aviso prévio (dias 04 e 05/08) e pagar o que tiver de banco acumulado.",2025-08-03,ad5f8f0a-637a-4ff8-aa2a-2d66e269a2be,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+7d1e5d9e-404c-4bc4-9324-0371c6d59b22,9f9add6f-ae82-4456-8afa-f4043df585f5,Voluntário,,2025-08-15,9f9add6f-ae82-4456-8afa-f4043df585f5,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+c9da23ef-09b3-4b46-b255-7a49d9386522,bf174faf-bc27-4afe-9e88-9375f997e8bb,Involuntário (sem justa causa),"O seu último dia seria 20/08, mas conversamos e entendemos que não faria sentido manter até a data inicial acordada, já que o mesmo não está engajado.
+
+Jonatas Pedrozo: Em conversa com a Gabriela, foi orientado que as horas do banco, serão pagas como horas normais e não HE.",2025-08-15,bf174faf-bc27-4afe-9e88-9375f997e8bb,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+1244d9d7-4469-4d5b-8e87-16cc6b829f1a,423a4df4-d0e9-4ad0-8bdb-826384838ae7,Involuntário (sem justa causa),,2025-09-02,fff00eb7-f8f3-420e-9371-0303a1ec3449,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+e4455b3e-c8e6-4122-b5b9-9a380505acec,69a2c20f-c1e2-4fa1-ba11-be274443903e,Voluntário,"Olá, situação onde o colaborador por problemas pessoais decidiu se afastar da gx2 no mesmo dia, não descontaremos aviso prévio. Último dia trabalhado foi dia 8/08/2025 e pediu afastamento dia 11/08/2025.",2025-08-08,552c423b-38e0-4681-babd-421629c596a9,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+c083e6dc-ad7b-4fa8-b3fc-2f7134889af0,0c05c6ac-ced3-4dce-aee0-fc7d8089a3c6,Voluntário,"A colaboradora foi liberada do aviso prévio de 15 dias, portanto não deverá ser descontada.",2025-08-25,27819bf0-f381-4422-833f-1ea307510333,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+fdd648f3-dcc8-45b4-8d24-1c57f020b86e,5b841585-51cd-435d-abdc-8034b22eb9d8,Voluntário,Iremos descontar 13 dias de aviso prévio não cumpridos.,2025-08-29,552c423b-38e0-4681-babd-421629c596a9,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+80bbf2c2-a1a4-47e8-b4b6-18d9b7541f4e,e1534a54-8b26-4752-8efc-9b982ba63349,Voluntário,,2025-08-18,552c423b-38e0-4681-babd-421629c596a9,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+843219d9-9cf4-4eeb-ad80-f454914510b4,330cc530-2e14-4dda-ae1b-ed570e06f8b3,Involuntário (sem justa causa),O colaborador está sendo desligado devido ao término do período de alocação. Está apto a ser realocado.,2025-09-10,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+990e230d-90b1-4f00-8127-9fedc23e9a49,14aa6438-a81c-4716-a15f-c9f9fca4912c,Voluntário,"O projeto que o profissional estava foi finalizado, a garantia de permanência no cliente era até 12/2025 e diante disso, com base na orientação do cliente, foi orientado que o profissional buscasse outras oportunidades.
+
+O aviso prévio não será descontado do profissinal, nem cobrado do cliente.
+
+O último dia de alocação e cobrança do cliente será 09/09/2025.
+
+Vou falar com o profissional hoje às 18h para explicar alguns detalhes do desligamento, mas ele já está ciente da data e foi orientado a preencher o registrado de horário até o dia 09/09/2025.",2025-09-09,38e4d267-ade2-4df0-a4e1-4613fbc017d4,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+cdb3fcd4-a552-4691-b5c6-be6ef1236f04,606b79b2-287c-47ac-8eda-fa7f7eff53bc,Voluntário,"O pedido de desligamento aconteceu por questões comportamentais e performance que foram sendo acompanhados nos últimos meses. O colaborador pediu desligamento no dia 12/09, o seu último dia de trabalho foi no dia 11/09. Não terá desconto do aviso, pois o mesmo se propôs a pagar, foi uma escolha interna e do cliente de não querer o cumprimento do aviso - por baixa performance.
+
+  
+
+Jonatas Pedrozo: Mariana autorizou o pagamento de meio turno do dia 15/09.
+
+11/09 - Último dia cheio trabalhado
+
+12/09 - Não trabalhou, não pagar
+
+15/09 - Considerar como trabalhado das 8:30 às 11:00",2025-09-11,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+7d30559a-5f2b-4064-9f49-6b010e96bba5,36e1e8ec-1397-4253-a940-037b3163b28e,Involuntário (sem justa causa),"Não haverá pagamento de descanso remunerado (conforme padrão).
+
+Sobre o pagamento das comissões (orientação do Bruno):
+
+O vendedor só recebe comissão quando o cliente paga a GX2. O fluxo é: prestação de serviço → faturamento → pagamento do cliente. Como cada cliente tem um prazo diferente, as comissões não caem mês a mês de forma regular.
+
+No desligamento, devemos pagar o proporcional do fixo e as comissões já liquidadas (clientes que já pagaram). As que ainda não foram pagas pelos clientes não devem ser antecipadas, para não corrermos risco de pagar sem ter recebido. A Jéssica já faz a cobrança de forma acelerada, mas mesmo assim a regra deve ser mantida: só paga após o cliente quitar.
+
+Sobre setembro, ele não tem direito a novas comissões, já que não faz mais o atendimento das contas. Esse ponto já foi alinhado diretamente com ele.",2025-09-18,27819bf0-f381-4422-833f-1ea307510333,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+9001b092-f182-4711-b86b-202631635763,26b324dd-bfbe-4894-906d-34e720cd57ee,Involuntário (sem justa causa),"Olá, tudo bem?
+
+Informamos que o aviso ao Departamento Pessoal foi realizado hoje, considerando que a saída da colaboradora era delicada e precisávamos garantir a passagem de bastão.
+
+Conforme acordado com a colaboradora que desde 22/09/2025, ela poderá usufruir dias de descanso remunerado, uma vez que sua atuação na Unimed encerrou-se em 19/09/2025 a pedido do cliente
+
+Dessa forma, o salário será pago normalmente até 26/09/2025. Qualquer duvida é só me chamar, pois sei que pode ficar confuso.",2025-09-26,552c423b-38e0-4681-babd-421629c596a9,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+a9311add-234c-4a38-9f45-31b5d5daad6f,66e227e9-e20c-4723-a58d-db7abdd5c4e1,Voluntário,"Profissional será internalizado no cliente. Aviso não será descontado.
+
+Para histórico: Profissional bem avaliado pelo cliente, tanto tecnicamente quanto na parte comportamental. Porém internamente tivemos alguns problemas de comunicação e engajamento com a cultura da GX2.",2025-09-30,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+206fd04e-e34b-4042-b4c0-559e2174632e,dd426649-aa13-4f2d-ac6f-874f62295ee7,Voluntário,"Profissional será internalizado pelo cliente. O aviso não será descontado, nem pago.
+
+Para histórico: Profissional muito bem avaliado no cliente, tanto na parte técnica quanto comportamental. Tivemos alguns problemas internos em relação a comunicação e cultura da GX2.",2025-09-30,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+f1e7dd3a-0d84-4bd0-afdf-287ca26c8b48,dc2ab883-317d-4bf1-8b44-3afb03bd5e04,Voluntário,"Colaborador muito bem avaliado pelo cliente.
+
+Para histórico: Excelente profissional, de fácil acesso e alinhado com a cultura da GX2.",2025-09-30,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+ce8748d8-a025-48ab-ad0a-0579d3f39bc6,03eb7907-3c3b-45f6-83f7-762fc3714ce7,Voluntário,"O Profissional recebeu de trabalho do exterior com remuneração bem acima do que recebe hoje. O aviso prévio foi trabalhado, e a data de final foi alinhada com o cliente.",2025-10-03,baf0b33b-cec8-4797-a578-c6c98e43d17c,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+1a193d01-799e-4c76-bd22-91c25bceceb9,4ed2097c-7b8d-41f8-a1b5-ae16fd285439,Involuntário (sem justa causa),"Irá cumprir aviso de 30 dias, enquanto buscamos realocação. Desligamento ocorreu devido a uma questão estratégica do cliente.
+
+Profissional indicadas para outras oportunidades.",2025-11-02,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+271bc72b-864d-4f51-be02-681b3c2fce31,9b86841b-baca-49ba-963b-693eae63df43,Involuntário (sem justa causa),Profissional desligado devido a performance. O mesmo irá cumprir aviso prévio de 30 dias.,2025-11-02,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+24e1ab33-c3f0-4188-9a34-62234feb804d,6032f2ba-175c-461a-89df-1ccac90b3ba6,Involuntário (sem justa causa),"O pagamento das comissões serão feitos com data de corte no dia do desligamento, 06/10.",2025-10-06,27819bf0-f381-4422-833f-1ea307510333,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+7eb0e224-bc9d-4e19-8a65-a0cab08e4408,9b5f1d95-33e2-4da5-a1fe-50e7cf4f8c29,Involuntário (sem justa causa),"Colaborador desligado devido a baixo desempenho no cliente (questões pessoais). O período de aviso prévio será ""cumprido, sem atuação de fato, porque estará usando o banco durante o período de aviso. Cobrar do cliente os dias de atuação + 15 dias de aviso prévio (até 23/10).",2025-10-23,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+18c86d73-3b71-4980-81c2-ff5a4d4fe92d,5123bfeb-2173-4c45-bc8b-37229e8b6518,Involuntário (sem justa causa),Comunicar o colaborador que as comissões serão pagas no mês de novembro referente as admissões de outubro/25 em que ele atuou,2025-10-08,77a91c03-b211-4e2f-a038-3d53db986360,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+da7a8ba0-2265-4509-9c65-f32c7c5cba8b,083d4ebc-bd3b-4ef1-a0d7-fe54b8d21e6c,Involuntário (sem justa causa),"Jonatas Pedrozo (28/10): Foi autorizado por Gabriela o pagamento dos 7 dias referentes a pausa programada. Sendo assim, estaremos considerando a data de desligamento 29/10 (antes estava 22/10)",2025-10-22,368015ad-6f7b-4062-8a01-13a465c8485e,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+90dd1534-b24b-4ce7-977f-a74e14a0232e,a3d7548e-7d70-4aee-ba58-8377b3460a73,Involuntário (sem justa causa),"Colaborador foi desligado por solicitação do cliente, onde informou que desempenho de senioridade não atingiu os objetivos esperados. Colaborador informou que não tem interesse no programa de recolocação/realocação.",2025-10-13,baf0b33b-cec8-4797-a578-c6c98e43d17c,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+3848f824-531a-48f4-a1f7-8bfca82a4d5e,49befea6-750e-4b8b-bd49-0946dc48d752,Involuntário (sem justa causa),"O aviso será cumprido com redução da jornada diária. O desligamento foi por decisão estratégica por parte do cliente, sem baixa performance relatada.",2025-11-16,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+e3f48f1d-9446-48c5-969b-9ea06a1cef11,f44a7f8c-abb8-4ef5-9c57-381e23fbc13d,Involuntário (sem justa causa),,2025-10-30,552c423b-38e0-4681-babd-421629c596a9,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+2c043078-b8e2-4ff2-a6c2-8fe4009a2540,ed570d56-4a8d-4731-b793-53503463bf8a,Involuntário (sem justa causa),"Frederico, por favor, pode enviar o e-mail apenas próximo do final dos 15 dias? Para conseguirmos dar andamento no processo de recolocação dele? Ou se for necessário enviar antes, me avise para eu falar com ele e dizer que as ações continuam mesmo com o e-mail do DP.
+
+  
+
+Jonatas (28/10): Conforme conversa com Carolina pelo chat, enviamos o email padrão de desligamento para formalização e ela vai avisar o colaborador que faz parte do procedimento, mesmo que seja realocado.",2025-11-08,552c423b-38e0-4681-babd-421629c596a9,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+8fee0baf-bb00-42a0-9e8a-74fb5a145559,1bd9a21b-1789-4b7f-9422-c3bc33ae1029,Voluntário,Ela que pediu o desligamento.,2025-10-27,552c423b-38e0-4681-babd-421629c596a9,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+d4bc3daf-c1e2-469b-bd98-a3f0a9bc09b1,3fd5747c-115c-4d13-8b2f-b5f4d02043f5,Involuntário (sem justa causa),"Colaborador ficará de ""sobreaviso"" durante o período do aviso.",2025-11-12,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+e7ec2e69-ca37-4f4d-819a-3c47b3184e46,cc136732-1618-4eb9-8ac9-dfb71e8a3c86,Voluntário,"Colaborador solicitou desligamento no dia 23/10 (encaminhou email solicitando o desligamento), alegando que as atividades estavam gerando problemas de saúde, nos dias 21/10 e 22/10 não trabalhou e possui 34,78 horas positivas em seu registro. Ficou combinado entre as partes que o mesmo não será descontado do aviso prévio e que os dois dias sem registros 21 e 22/10 mais o dia 23/10 serão descontados das horas positivas. Desta forma será realizado o pagamento dos dias trabalhados em outubro (até 23/10).",2025-10-23,baf0b33b-cec8-4797-a578-c6c98e43d17c,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+436ae4ce-fc68-4480-8d7b-891eac31fd88,41a67ff0-7f38-4031-b65a-108784e22169,Voluntário,"Colaborador solicitou no dia 06/11 seu desligamento, onde irá atuar até o dia 07/11. Desta forma precisaremos descontar os 15 dias de aviso prévio. Como período do aviso não será trabalhado, precisaremos realizar o desconto já nesta folha de pagamento (outubro).",2025-11-07,baf0b33b-cec8-4797-a578-c6c98e43d17c,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+60d61652-5ed8-4ba1-bb12-6521d19c50b4,f2dd2f0c-9c32-4699-b302-497af0003a1a,Voluntário,"Colaborador solicitou desligamento na data de 06/11/2025 (Já havia informado liderança em 27/10 que iria se desligar), tendo como seu último dia a data de 07/11/2025. Conforme conversado com a liderança, neste caso entendemos que não iremos descontar os 15 dias de aviso prévio (visto que o colaborador se colocou a disposição para trabalhar até a data de 07/11 tendo comunicado lá em outubro).",2025-11-07,baf0b33b-cec8-4797-a578-c6c98e43d17c,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+5324468a-ac65-40fb-a58e-2c7039d6ec14,5eba2c1b-26f9-4f4b-a13d-07ab084c5b84,Voluntário,"O colaborador não irá cumprir os 30 dias de aviso prévio, somente parcialmente (até o dia 25/11). Não iremos abonar os dias restantes.",2025-11-25,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+6b02a507-182c-4489-8e13-81ef696dbbd4,27ae1e45-827b-4704-9730-0d2371784c8e,Voluntário,"Colaborador Alexandre de Godoy Pereira solicitou no dia 14/11/25 através de email, seu desligamento. Irá cumprir seu aviso até a data de 28/11/25, sendo este seu último dia de atividade (Porém a gestão está avaliando uma continuidade part-time, com carga horária reduzida, ainda não tivemos um retorno sobre está continuidade)
+
+O aviso préviso seria até o dia 28/11, mas a pedido do Oswald foi prorrogado até 05/12/25",2025-12-05,baf0b33b-cec8-4797-a578-c6c98e43d17c,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+0378e249-f601-477a-b15d-dc4e95a06b6d,b8f73d4d-6b3e-4861-af36-8f4e73c4003f,Involuntário (sem justa causa),"Aviso prévio indenizado de 15 dias, a contar do dia 2/12, encerrando em 16/12.",2025-12-16,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+2d93122f-5fa7-4032-8ce8-971b4167d238,b279d7e2-93f7-4af6-9407-9fbd217ea314,Involuntário (sem justa causa),,2025-12-13,552c423b-38e0-4681-babd-421629c596a9,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+03d478f9-2c2f-4a06-a95a-4bc4e7238910,9f863dd2-27e9-4eb0-b195-a61e1257a610,Involuntário (sem justa causa),"Gestor solicitou desligamento na data de 01/12/25, avisando o colaborador sobre o período de aviso prévio, que será trabalhado. Último dia de atuação 05/12
+
+\*\*Ele tem 7 dias de descanso remunerados, previstos em contrato, com isso a atuação dele irá até o final desta semana(05/12), iniciando um período de descanso dentro do aviso e encerrando em definitivo o contrato dia 15/12/2025 (data definida entre o gestor e o colaborador).
+
+\*\*O Julio relatou que tinha mais um período de descanso remunerado pendente e que segundo ele não havia sido gozado. Então, lembramos que ele fez uma cirurgia esse ano, no início de junho onde ele ficou ausente usufruindo desse período.",2025-12-16,baf0b33b-cec8-4797-a578-c6c98e43d17c,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+ae40f393-96b2-4ef2-843b-709a3e7369a7,a1a3915c-e753-4dd9-a810-7ad119108ae1,Involuntário (sem justa causa),"Gestor solicitou desligamento na data de 01/12/25, avisando o colaborador sobre o período de aviso prévio, que será trabalhado. Último dia de atuação 02/12, tendo seu aviso sendo usufruído do descanso remunerado, e encerrando em definitivo o contrato dia 17/12.
+
+Fred: Foi acrescentado 1 dia a mais no desligamento (aviso prévio), para abater do saldo de horas.",2025-12-17,baf0b33b-cec8-4797-a578-c6c98e43d17c,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+9eafc844-90a9-4e88-849a-885071a7fe85,0475d1a5-e6f4-4941-a782-ddb5ed68ab5e,Involuntário (sem justa causa),,2025-12-18,552c423b-38e0-4681-babd-421629c596a9,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+5107aa62-d849-4664-8856-95ce762b4a7a,9aa56b24-b95b-466b-b606-3097f9cd9870,Involuntário (sem justa causa),"Os acessos já foram retirados. O aviso é indenizado, portanto, podemos prosseguir com a retirada de equipamentos. Descontar 2 dias e meio de ausência (2/12 meio período, 4 e 5/12 período integral.",2025-12-24,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+2f47f46a-a714-4f8e-9e5a-72afb26cb746,825f4c29-e589-4886-ac20-6e4c3d82b3b6,Involuntário (sem justa causa),,2025-12-25,552c423b-38e0-4681-babd-421629c596a9,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+adc310a4-5d1a-40ed-8492-4228b184622a,bb07e482-f0d9-40e6-abcb-323e10397923,Voluntário,Explicar para a Shirlene como funciona os descontos do desligamento. Nós não vamos indenizar o aviso prévio,2025-12-19,77a91c03-b211-4e2f-a038-3d53db986360,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+1b6cf932-9567-40ef-9d2a-63d717cf6faf,01489a6c-be81-4ee6-8576-fb1b4ff8fbbc,Involuntário (sem justa causa),"Acordo: Jonatas ficará com o computador da GX2 no valor 1730,00. O valor do empréstimo a pagar é de R$ 3000,00. Tudo será pago assim: 12 dias de aviso no valor de R$ 1896,32 que seriam pagos em janeiro, serão abatidos do empréstimo. Ficando assim o saldo de R$ 1.103,68 + o note a serem pagos até maio/26. Sendo pago em JAN, FEV, MARCO E ABRIL a parcela de R$ 208,42 e em MAIO R$ 2.000,00. Jonatas fará pix e o acordo deve estar em distrato com a condição de reaver o note caso o mesmo não pague o valor.",2025-12-12,368015ad-6f7b-4062-8a01-13a465c8485e,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+c8ea7327-e0cf-4d42-8340-1cc6ceffa25a,41edb67e-d00f-4980-9264-d5ce4bf5c7c4,Voluntário,"Não informar valores de pagamento antes de consultar a people partner, Mariana. Queremos, antes de comunicar o valor a ser descontado, garantir a retirada do equipamento. Remover acessos de maneira imediata. Ele não trabalhou nos dias 17 e 18 e serão descontados os 15 dias de aviso.",2025-12-16,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+6763d199-b2ef-45b1-b7a9-4d1068b1291f,0ca0da1a-d7af-4405-b987-768dfe5b7ebc,Voluntário,"Profissional optou por cumprir um aviso prévio de 30 dias.
+
+Não retirar os acessos até o fim do aviso\*",2026-01-11,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+e7da1aac-d2d6-40b2-ad07-0158c1d00c0f,f6e33400-9be2-490a-8824-f14a7fe1a17d,Involuntário (sem justa causa),O aviso prévio cobrado do cliente será de 15 dias,2026-01-20,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+e2be386c-a258-4f37-a211-74ec737edb8a,5d828488-97a9-4f8c-ad36-5ac68e2e588a,Involuntário (sem justa causa),,2026-02-05,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+624049b8-02cc-4f94-bacf-157473537123,2a173329-4e05-4f79-a101-2ffd2dbf0d2e,Involuntário (sem justa causa),"Como o aviso do cliente foi dia 26/11/2025, e o aviso prévio deles por contrato é de 60 dias, cobraremos do cliente até dia 25/01/2026",2026-01-24,552c423b-38e0-4681-babd-421629c596a9,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+f372aceb-c2dc-4013-96a0-ec7584e3eadd,c5e90520-f2f3-4cbc-aa91-e2acda5ecede,Involuntário (sem justa causa),Cliente comunicou sobre o desligamento com 30 dias de antecedência - O profissional irá cumprir o aviso trabalhando no cliente. O desligamento foi devido a descontinuidade do projeto de RPA na Frigelar. Vamos manter o acesso dele até o fim do aviso.,2026-02-11,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+e5d764d2-ac19-47b6-aa46-e3a4cb5e2005,99de066f-4d6c-48e7-925c-5002a426856f,Voluntário,"**Pessoal do DP, boa tarde,**
+
+Segue alinhamento sobre o colaborador Samir, para evitar qualquer divergência no faturamento e na folha:
+
+* O colaborador **formalizou o pedido de demissão em 13/01/2025 (terça-feira)**.
+* Porém, a cliente **Juliana** nos informou que o colaborador **não trabalhou nos dias 12/01/2025 (segunda-feira) e 13/01/2025**, não entrou em agenda e **não respondeu às mensagens**, caracterizando ausência.
+* Diante disso, definimos que **o cliente será faturado apenas até o dia 09/01/2025 (sexta-feira)**.
+* Da mesma forma, o **pagamento do colaborador será realizado somente até 09/01/2025**.
+* A cliente decidiu desligá-lo no mesmo momento que avisou, dia 13/01/2025, por estar ausente 2 dias.
+
+Reforço que tivemos **inconsistências anteriores no faturamento desse cliente**, e essa cobrança está sendo acompanhada de perto por eles, então é importante mantermos esse critério corretamente.
+
+Fico à disposição para qualquer ajuste ou dúvida.",2026-01-09,552c423b-38e0-4681-babd-421629c596a9,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+924576f9-8a1f-4d6a-8fe0-c1ff3f380818,59fe4bbd-e062-44b4-baab-906c567f7630,,,2024-10-30,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+67ad4f7e-538b-44b0-8154-c9fd28ce79f0,4570da5c-1316-4b84-a9cd-455452de0284,,,2025-05-05,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+54eaeff6-0727-431b-a3a1-883f04109e47,404333d5-77ed-4199-a54e-e1a97579ee48,,,2025-06-15,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+69f3b53d-9e2b-44ef-9e64-bb2b014a1dea,fefc032a-4a90-42c3-a373-882e16aeae6e,,,2024-09-30,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+196fc395-8c00-4cb2-b20f-6fd849480ed0,f6ff3883-b17e-48bf-ae6e-01b6acc58816,,,2024-11-01,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+1cf20726-cd7e-422e-b7e2-914869e92bf9,2c46954f-ab0b-4b17-86ac-86c4ea83a018,,,2024-11-13,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+b995a951-fa44-424a-a7ae-4deef62aaa24,decffad6-6959-42c9-987c-6d430a3a4fcb,Voluntário,,2024-10-08,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+6dd3fa2d-c08e-41d5-a70e-e2025326e936,1f804d29-d2a3-48e1-a6f3-728d5cca5093,,,2024-01-31,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+189f5a1d-a175-42de-970c-ef0578eee6b0,fe769c50-0eba-46d7-b572-d507c972f713,,,2024-11-08,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+e0d20cb4-2f20-48ff-9fc9-2b8ebb611057,7947a957-6104-488f-8987-b697b60e89d4,,,2024-10-04,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+e83398bc-cfa5-4bdb-8409-7e41431dfeea,b4a4fb59-4dd1-4d57-8eeb-f2fb9f479c22,,,2024-10-25,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+c6e0dc4e-53f7-4278-8a1c-82e578299926,6abb64a3-f057-4dd8-8b23-a6ebeb7e88fd,,,2024-10-02,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+da62c822-8765-4120-b1dc-ca0a1da18d35,41bdd330-841d-4d10-bc7f-3dbf8cac9f1f,,,2024-11-13,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+5f97659b-64ad-41c8-b592-239bc80964be,bd0223be-1fcd-451b-ab8d-614dded16a10,,,2025-03-05,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+52c91928-69c8-4b87-8356-e98ded291e2a,b2753f2b-ef9c-4ba0-82d0-3e583aa3d376,,,2025-08-27,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+7af7a928-c4eb-4b9a-a688-6765d83fe370,a4d11712-7d8e-4f5b-aecd-afe97776ac35,Voluntário,,2025-11-24,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+491e7107-39cd-43a2-a106-afd11c4fb6a7,831abdf0-a79b-4444-b244-3cbc26bb176c,Involuntário (sem justa causa),"Colaborador foi avisado no dia 29/01/26 sobre seu desligamento, ficando combinado que seu aviso prévio será indenizado contando a partir de 30/01/2026.",2026-02-13,baf0b33b-cec8-4797-a578-c6c98e43d17c,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+932eabb8-f55e-4912-81e9-3d4547966844,ad5f8f0a-637a-4ff8-aa2a-2d66e269a2be,Involuntário (sem justa causa),,2026-01-28,1ecd492c-6d85-4bc8-a4c8-393d1c705c4a,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+973b3966-d9ee-4c0e-b69a-9f2e775c9f35,387aaa5f-9b07-429f-9f54-22862a793e95,Voluntário,O colaborador pediu desligamento para o seu gestor Flávio.,2026-02-17,552c423b-38e0-4681-babd-421629c596a9,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+bc4700dc-6289-4750-a54b-4f8393f95bb5,f5be1b48-b306-465a-85e9-583198adb06b,Voluntário,"Profissional solicitou o seu desligamento no dia 09/02/26. Disse que gostou da GX2, porém entende que hj para o papel que foi contratado, é necessário um profissional com maior conhecimento.",2026-02-24,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+6f96456a-a238-443e-8caf-0c0a312ef7d7,18b09e8d-9d1d-4e29-b6a7-23f51a874125,Involuntário (sem justa causa),,2026-02-11,77a91c03-b211-4e2f-a038-3d53db986360,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+59123eb5-6d42-47f4-9356-9a11c3b3b3a2,32e09fe1-bb7a-4c4f-972b-4ce28014660e,Voluntário,"Os colaboradores serão pagos até o dia 18/05 (domingo) porque iniciam no cliente no dia 19/05 (segunda). Iremos considerar como pedido de desligamento, sem pagar ou descontar aviso - pagando os dias trabalhados. Como trata-se do encerramento da posição, além dos dias trabalhados deve ser cobrado a taxa de hunting.",2025-05-18,,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+2cce9040-36b4-4899-a2a8-1f94f0f0a607,9ea3c273-6fa4-47d3-9c43-aad2113c7e58,Involuntário (sem justa causa),"Cliente Equinox está em término de contrato com a GX2 em 28/02, colaborador foi avisado sobre a situação de fim de contrato, em relação ao aviso prévio será trabalhado entre os dias 14/02 à 28/02 (último dia trabalhado).",2026-02-28,baf0b33b-cec8-4797-a578-c6c98e43d17c,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+b241dcb4-5096-453b-aac0-cb8423283d5c,368015ad-6f7b-4062-8a01-13a465c8485e,Voluntário,,2026-02-13,1ecd492c-6d85-4bc8-a4c8-393d1c705c4a,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+66b21822-739a-4027-8225-6373dc830ad7,a1ee9bf8-f963-4cd5-a112-ece2c2b99834,Involuntário (sem justa causa),Decisão alinhada entre Stela e Gabi,2026-02-28,552c423b-38e0-4681-babd-421629c596a9,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+9ae5e984-5d28-4936-9f0d-ec36990a6948,e73c7045-9861-4367-845e-b08a8f44ea0e,Voluntário,O formato de atuação do Guil agora será como um consultor externo. Não faz mais parte do quadro de funcionários.,,1ecd492c-6d85-4bc8-a4c8-393d1c705c4a,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+cd21caa8-1ab2-4915-b790-655cdba2b24a,74c8978c-19fa-4e5c-9f2c-34ae952d59b2,Involuntário (sem justa causa),Profissional foi dispensado de cumprir o aviso prévio - será indicado para o programa de recolocação/realocação em outsourcing.,2026-03-13,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+29d0c16c-558e-4df5-860e-b6d128964dec,cfbf374b-3f92-4ddb-950c-f1dbf019b218,Involuntário (sem justa causa),"Colaborador comunicado de seu desligamento no dia 05/03/26, não será cumprido aviso prévio pois o mesmo será indenizado. Último dia de trabalho foi em 05/03.",2026-03-20,baf0b33b-cec8-4797-a578-c6c98e43d17c,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+52a51eba-d39f-4af1-b604-e5c39f7e8b66,c1232f7a-61be-4b28-bbee-c0ba3ee93c1f,Voluntário,"O colaborador solicitou desligamento por não concordar com o valor do salário e com os moldes do contrato proposto pela cooperativa. Considerando o cenário, optamos por **não** realizar a cobrança dos dois dias de atuação junto ao cliente. Ressalta-se também que o colaborador não chegou a formalizar a assinatura de contrato e nem aceitar o modelo PJ - Reiniciamos o processo de recrutamento para obtermos o mais rápido possível a realocação.",,552c423b-38e0-4681-babd-421629c596a9,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+ce5bb8d7-d517-44cf-8a78-abcfce6f4847,903c74a3-2e72-42be-8fc8-76aa367633bf,Involuntário (sem justa causa),O cliente (Rodoil) solicitou o encerramento do projeto. Não houve nenhuma questão de reclamação do profissional ou baixa performance. O mesmo foi indicado para o processo de realocação e irá participar de alguns processos - já em andamento com a Monique. (Último dia: 04/04/2026).,,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+cf7c5684-0afd-4f37-a491-f5e796fc2525,e9dd2228-5950-4e26-9a67-9153086e95a6,Involuntário (sem justa causa),"O desligamento do profissional ocorreu por término do projeto da Cantu, além de baixa performance. O mesmo não foi indicação para o processo de realocação em outro projeto (Último dia: 26/03/2026)",,fff00eb7-f8f3-420e-9371-0303a1ec3449,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+864da2cd-50c8-42f3-a9fa-93815149306c,c99147fe-501d-4a9c-a1cd-6e993684e4fd,Voluntário,"Profissional solicitou seu desligamento no dia 09/03/26 formalizando por email sua solicitação, irá cumprir o aviso prévio ( devido a já ter aceitado outra oportunidade o mesmo irá trabalhar até o dia 25/03, talvez dia 27/03, ainda a confirmar ) de 30 dias. OBS: Contrato do cliente se encerra com a GX2.(cliente formalizou por email o encerramento de contrato em 26/02).",,baf0b33b-cec8-4797-a578-c6c98e43d17c,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+fb6d7f92-9ed1-464f-a902-d1877da39b8b,0fa98fca-6c91-4c65-af57-83ace44a77ea,Voluntário,"Profissional solicitou seu desligamento no dia 10/03/26 formalizando por email sua solicitação, irá cumprir o aviso prévio ( devido a já ter aceitado outra oportunidade o mesmo irá trabalhar até o dia 25/03, talvez dia 27/03, ainda a confirmar ) de 30 dias. OBS: Contrato do cliente se encerra com a GX2.(cliente formalizou por email o encerramento de contrato em 26/02).",,baf0b33b-cec8-4797-a578-c6c98e43d17c,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+cfebedf4-b3d3-499b-8ce0-49e3b819db48,e384cf54-d6fa-45f9-93d7-2a8ff7c4de37,Involuntário (sem justa causa),"O cliente formalizou o aviso de desalocação do colaborador **Marcelo** em **03/03/2026**, mantendo o pagamento do período de **30 dias de aviso**, conforme acordo.
+
+Apesar disso, o cliente optou por **dispensar a atuação do Marcelo já a partir de 03/03/2026**, não havendo necessidade de continuidade nas atividades.
+
+O acordo com colaborador é de pagamento para ele até o dia 31/03/2026, pagando assim o mês de forma completa.",,0213c5e5-3578-48f4-89e7-2051a58086d8,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+3501ff70-e1d2-4636-9df4-99dca0c72912,4f315c4e-8b97-4c47-9e81-791e3a4130bd,Involuntário (sem justa causa),Profissional indicado para realocação em outros projetos. A desalocação no projeto ocorreu por encerramento do mesmo (Cantu). (Último dia: 31/03/2026),,fff00eb7-f8f3-420e-9371-0303a1ec3449,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+ffebad4f-8dca-4710-90bf-921fc7dfaf29,bc10861c-3310-4420-ab13-58c2dc81b972,Involuntário (sem justa causa),"**Pessoal, tudo bem? 😊**
+
+  
+
+Gostaria de formalizar as informações referentes à desalocação do colaborador **Evandro Motta**.
+
+  
+
+O cliente realizou a comunicação de desalocação no dia **12/03/2026**, a qual temos registrada por e-mail. No entanto, a comunicação oficial ao colaborador foi realizada hoje, dia **24/03/2026**.
+
+  
+
+Dessa forma, considerando o aviso prévio de 30 dias, o colaborador permanecerá em atividade até o dia **11/04/2026, terá um aviso maior que 15 dias**.
+
+  
+
+Fico à disposição caso precisem de mais informações ou algum ajuste nesse processo.
+
+  
+
+Obrigada!",,552c423b-38e0-4681-babd-421629c596a9,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+d0ceaa26-bb8c-4e19-8ee8-e1a7681670c7,7d45c57f-40fa-4348-b867-fe3c43e4a374,Involuntário (sem justa causa),"O cliente solicitou o encerramento do contrato em 26/02/2026. O último dia útil trabalhado pelo profissional é exatamente o último dia útil de faturamento do cliente, já considerando os 30 dias de aviso prévio. O Jubeny irá cumprir o aviso prévio trabalhando até o dia 27/03, após esse período, podemos encerrar os acessos.",,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+ec10de59-a8f7-4518-ad5f-aa90ed5a57c0,62cce8ff-38da-4542-a23e-1fba7298faac,Involuntário (sem justa causa),"Tratativa em relação ao pagamento do aviso e dias trabalhados para o colaborador, ainda está sendo validado e será confirmado.
+
+Não será cobrado do cliente nenhum valor, inclusive dos dias em que o profissional trabalhou.",,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+4ace4616-cc92-469d-87da-8b3ee792879e,4da8d182-f1c6-479e-8309-3f4cba31834b,Involuntário (sem justa causa),"O Leonardo foi comunicado de que o atual contrato está encerrado, mas está sendo considerado para uma realocação, então, é possível que inicie em um novo projeto. Portanto, os acessos devem permanecer ativos. Ele não possui máquina, utilizava equipamento cedido pelo cliente. Segurar o agendamento do exame demissional e considerar o cenário acima nas interações com o profissional. Qualquer dúvida, me acionar.",,8833a20c-b54e-4e39-bee1-71fc3bfbd092,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00
+d769d474-2a09-46c9-a956-733b3c4fe643,d94c93e8-43be-46f9-ae99-0615fb1f51c6,Voluntário,"A profissional avisou sobre o seu desligamento no dia 31/03 e irá trabalhar até o dia 02/04. O aviso será descontado.
+
+A posição de UX foi cancelada com o cliente, porém ele informou que abrirá outras duas posições conosco. Na próxima reunião essa semana, irá formalizar.",,3bfd8392-ac3f-4d1e-849f-ef581962c3b6,,,2026-03-31T23:43:45+00:00,2026-03-31T23:43:45+00:00

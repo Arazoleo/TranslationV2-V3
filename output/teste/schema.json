@@ -1,0 +1,215 @@
+{
+    "name": "z_despesas",
+    "version": "1.0",
+    "tables": {
+      "expenses": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "expense_description": {
+            "type": "text",
+            "required": false
+          },
+          "tipo_de_lancamento": {
+            "type": "text",
+            "required": false
+          },
+          "expense_value_v2": {
+            "type": "numeric",
+            "required": false
+          },
+          "expense_date": {
+            "type": "date",
+            "required": false
+          },
+          "expense_person": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "expense_receipt": {
+            "type": "text",
+            "required": false
+          },
+          "budget_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_despesas",
+              "table": "budgets",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "expense_status": {
+            "type": "text",
+            "required": false
+          },
+          "expense_refundable": {
+            "type": "text",
+            "required": false
+          },
+          "valor_reembolso_parcial": {
+            "type": "numeric",
+            "required": false
+          },
+          "expense_payment_date": {
+            "type": "date",
+            "required": false
+          },
+          "expense_notes": {
+            "type": "text",
+            "required": false
+          },
+          "comentarios_lideranca": {
+            "type": "text",
+            "required": false
+          },
+          "deseja_alocar_o_reembolso_em_um_centro_de_custo_diferente_do_se": {
+            "type": "text",
+            "required": false
+          },
+          "centro_de_custo_realocacao": {
+            "type": "text",
+            "required": false
+          },
+          "cost_center": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {},
+        "description": "Despesas e reembolsos (compatível com import CSV)"
+      },
+      "budgets": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "name": {
+            "type": "text",
+            "required": true
+          },
+          "responsible_profile_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "aligned_with_profile_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "cost_center": {
+            "type": "text",
+            "required": false
+          },
+          "budget_amount": {
+            "type": "numeric",
+            "required": true,
+            "default": "0"
+          },
+          "consumed_amount": {
+            "type": "numeric",
+            "required": true,
+            "default": "0"
+          },
+          "balance_amount": {
+            "type": "numeric",
+            "required": true,
+            "default": "0"
+          },
+          "is_active": {
+            "type": "boolean",
+            "required": true,
+            "default": "true"
+          },
+          "start_date": {
+            "type": "date",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {},
+        "description": "Budgets específicos para alocação de despesas"
+      },
+      "configs": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "features": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'{}'::jsonb"
+          },
+          "access": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'{}'::jsonb"
+          },
+          "settings": {
+            "type": "jsonb",
+            "required": false
+          }
+        },
+        "metadata": {}
+      }
+    },
+    "enums": {},
+    "jsonTypes": {}
+  }

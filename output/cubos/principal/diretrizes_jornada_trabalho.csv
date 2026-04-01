@@ -1,0 +1,395 @@
+id,nome,imagem_capa_url,imagem_icone_url,titulo_md,descricao_md,conteudo_regra_banco_horas_md,conteudo_tique_taque_md,conteudo_atestado_medico_md,conteudos_folgas_licencas_md,jornada_trabalho_md,intervalo_intrajornada_md,intervalo_interjornada_md,horario_noturno_md,banco_horas_md,compensacao_horas_md,conteudo_responsabilidade_colaboradores_md,conteudo_responsabilidade_lideranca_md,created_at,updated_at
+45a86174-0d21-41ed-b1b1-d232ad2ac1a9,,,,**💬 Conceitos Importantes**,Aqui você encontra conceitos importantes sobre “Jornada de Trabalho”,,,,,"![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/8de7c6a1-9558-4b08-b772-251b4d29bfb9?max-w=800&amp;s=999f72001584b192796d1bcccb4dd69b)A jornada de trabalho é o período diário em que o colaborador está à disposição da empresa, executando suas atividades.
+
+De acordo com a legislação brasileira (CLT, art. 58), a jornada padrão é de 8 horas por dia e 44 horas por semana, salvo regras específicas estabelecidas em acordo coletivo ou contrato de trabalho.
+
+**❗ Importante:** Esse total de horas que compreende a jornada de trabalho não contempla o intervalo para descanso [**(intervalo intrajornada)**.](https://www.notion.so/Intervalo-Intrajornada-Hor-rio-de-Almo-o-2002699e25588004b612d213cbf222a1?pvs=21)
+
+&gt; Ou seja, o tempo destinado ao intervalo não é considerado como parte da carga horária de trabalho, sendo uma pausa obrigatória para descanso e alimentação durante o expediente.","![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/aa123896-97cd-4eb3-a6d0-28da29354974?max-w=800&amp;s=7edbd09878b1e03bdf5ec4ba1ff53bb8)O intervalo intrajornada é a pausa obrigatória que todo colaborador deve realizar durante sua jornada diária de trabalho, com o objetivo de garantir descanso, alimentação e bem-estar ao longo do expediente.
+
+💡 **De acordo com a legislação trabalhista (CLT, art. 71):**
+
+&gt; 🚨 Sempre que a jornada diária for superior a 6 horas, é obrigatória a realização de um intervalo mínimo de 1 hora e, no máximo, de 2 horas.
+
+```
+🚫 É expressamente proibido trabalhar mais de 6 horas consecutivas sem realizar intervalo.
+```","![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/84944216-3087-4f63-8a87-b7c0196fed6e?max-w=800&amp;s=587012d1daccc7ad3df3ee3b402b77bf)O **intervalo interjornada** é o período mínimo de descanso que deve existir entre o fim de uma jornada de trabalho e o início da próxima.
+
+Esse intervalo tem como objetivo garantir que o colaborador tenha tempo suficiente para **descanso, repouso, atividades pessoais e recuperação física e mental** antes de retomar suas atividades laborais.
+
+De acordo com a legislação trabalhista (**CLT, art. 66**), o intervalo interjornada deve ser, obrigatoriamente, de **no mínimo 11 horas consecutivas entre uma jornada e outra.**
+
+**🚨 Atenção:**
+
+&gt; Esse descanso é obrigatório e deve ser integralmente cumprido por todos os colaboradores;
+
+&gt; O descumprimento desse intervalo compromete não só sua saúde e bem-estar, como também impacta a organização da jornada e pode gerar implicações trabalhistas para a empresa em casos de fiscalização;
+
+&gt; Trabalhar ou ser acionado dentro desse período, sem alinhamento prévio e sem caráter emergencial, não é permitido.
+
+```
+💡 Exemplo prático:
+
+Se você encerra sua jornada às 20h, só poderá iniciar a próxima jornada a partir das 7h do dia seguinte, respeitando o intervalo mínimo de 11 horas consecutivas de descanso.
+
+🚨Cumprir esse intervalo é essencial para manter um equilíbrio saudável entre vida profissional e pessoal, preservar sua saúde e garantir uma jornada de trabalho sustentável e produtiva.
+```","![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/9eafc5e2-3612-4607-8c4f-3e8ceb12e333?max-w=800&amp;s=1018773149d22202d0998902959a4f5d)A **jornada noturna** é considerada o período de trabalho compreendido entre **22h de um dia e 5h do dia seguinte**.
+
+&gt; O desempenho de atividades nesse horário não faz parte da nossa rotina regular e não é contabilizado no banco de horas, sendo obrigatoriamente registrado como horas extras, com o devido pagamento em folha de pagamento.
+
+&gt; Diante disso, reforçamos que é **expressamente proibido realizar atividades após as 22h sem solicitação prévia e autorização da liderança**.
+
+```
+🚨 Atenção:
+O trabalho no horário noturno somente será permitido em situações de necessidade imperiosa, ou seja, situações excepcionais, urgentes e previamente autorizadas pela liderança.
+﻿🚫 O trabalho após as 22h não pode ser utilizado para compensação de horas
+```","![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/cc8216bf-8e8c-4243-8bfe-70a285c312e5?max-w=800&amp;s=2e392948cad0ff7127855ac10659ee74)O **Banco de Horas** é um modelo de compensação de jornada de trabalho, admitido por lei (**CLT, art. 59, §2º**) e previsto em **convenção coletiva de trabalho**.
+
+Esse modelo permite que o colaborador trabalhe, **mediante aprovação formal de seu superior imediato**, mais de **8 (oito) horas em um dia, até o limite de 10 (dez) horas diárias**.
+
+```
+🚨Essas horas trabalhadas em excesso ficam disponíveis no seu histórico de jornada e deverão ser devidamente compensadas no prazo máximo de 1 (um) ano.
+```","![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/3ca2f81c-c6d8-49bc-a021-2810cc7d46b2?max-w=800&amp;s=8a5bd21e3b5e0369ee262f4d19967c38)A **compensação de horas** é o regime de banco de horas em que o colaborador **prorroga sua jornada diária em alguns dias e reduz a jornada em outros dias**, de forma que, no final, ele **obedeça à jornada semanal normal de trabalho**, sem que haja pagamento de horas extras quando há saldo positivo, **nem desconto do salário quando há saldo negativo**, desde que as horas sejam devidamente compensadas dentro do prazo.
+
+```
+🚨 Atenção:
+```
+
+&gt; Mesmo quando há compensação de horas, não é permitido, em nenhuma hipótese, trabalhar mais de 6 horas consecutivas sem realizar o intervalo para descanso.
+
+&gt; **_O intervalo intrajornada é obrigatório e deve ser respeitado_**_, independentemente do ajuste na jornada para compensações._",,,2026-03-31T02:49:01+00:00,2026-03-31T02:49:01+00:00
+a3bf128a-8a6e-4b10-ab10-dab407a00556,,,,**🤝 Responsabilidade das partes**,Responsabilidade dos empregados e lideranças,#,,,,,,,,,,"## ![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/245d975d-faf6-4c83-958b-c7a44f13bbf7?max-w=800&amp;s=0103555f73e7386f6d136ea037e30586)
+
+&gt; Orientar seus liderados quanto ao correto cumprimento das diretrizes estabelecidas neste manual;
+
+&gt; Acompanhar e controlar o banco de horas dos colaboradores sob sua gestão;
+
+&gt; Informar ao Time de Pessoas sempre que identificar colaboradores que necessitem de suporte ou orientação adicional sobre controle de jornada;
+
+&gt; Acompanhar e garantir o fiel cumprimento dos critérios para compensação de horas extras ou horas negativas, garantindo o cumprimento das regras de banco de horas;
+
+&gt; Validar e aprovar as solicitações de ajustes manuais sempre que necessário;
+
+&gt; Validar as horas trabalhadas fora da jornada regular, sempre que houver necessidade de serviço autorizada previamente.
+
+##","![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/de173c2b-bba9-4497-b316-3d364eff15ce?max-w=800&amp;s=2964f41832672ebe4ab08efafa2df620)
+
+&gt; Realizar diariamente os registros de ponto, marcando entrada, saída e pausas, conforme orientações da empresa, utilizando o sistema **TiqueTaque**;
+
+&gt; Apresentar justificativas formais para ausências ao trabalho, a fim de evitar que sejam consideradas faltas injustificadas;
+
+&gt; Comunicar à liderança imediata sempre que houver necessidade de se ausentar por um longo período de tempo;
+
+&gt; **Comunicar previamente à liderança qualquer necessidade de prorrogação de jornada**, seja ela para:
+
+1. Compensação de horas negativas;
+
+2\. Acionamento em caráter de emergência ou urgência do projeto e que não chegou a ser de conhecimento da liderança.;
+
+&gt; Acompanhar seus registros de frequência de forma contínua, assumindo responsabilidade pelo cumprimento de sua jornada regular de trabalho;
+
+&gt; Comunicar imediatamente ao Time de Pessoas qualquer falha no registro de ponto ou inconsistências no espelho de ponto;
+
+&gt; Assinar mensalmente os espelhos de ponto assim que forem disponibilizados para assinatura;",2026-03-31T02:49:01+00:00,2026-03-31T02:49:01+00:00
+ea176903-9ce6-49df-a299-9fb3fa5b8e55,,,,👩‍💻 **Tique Taque**,Informações sobre nosso sistema de registro de ponto,,"![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/867f764e-c56b-4aa5-95e4-25d5783de1ab?max-w=800&amp;s=bd772d1075ef3aabaae381472ce05e48)O controle de jornada da Cubos é realizado por meio do sistema **TiqueTaque**.
+
+Todas as marcações de ponto devem ser feitas diretamente pelo **Aplicativo** ou através do **Registro Web.**
+
+**🔘 Registro Aplicativo de Celular:**
+
+![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/09767672-5870-4de3-8c81-ce4045a29a05?max-w=800&amp;s=a36d6f77aaeb63dc32b2b00df10ddc3a)
+
+**🔘 Registro Web:**
+
+Outra forma de registro web disponível para você. Através desta opção, além do registro, você pode acessar informações sobre a jornada.
+
+🔗Acesse este [**link**](https://www.tiquetaque.app/login)
+
+![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/c3fa7adc-1c50-45fe-a097-ea2d3b07b8db?max-w=800&amp;s=6b4605e00d99637cfedf33e7897c841e)",,,,,,,,,,,2026-03-31T02:49:01+00:00,2026-03-31T02:49:01+00:00
+d4a253ff-b82a-49cf-b3ab-8afb0b5be4ea,,,,**🩺 Atestados Médicos**,Conheça aqui nos diferentes tipos de documentos utilizados para justificar a sua asência do trabalho por motivos médicos,#,,"# 🩺 Conhecendo os tipos de Atestado:
+
+![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/1ae4dcca-42f8-4639-bb65-14ebfd17c7a8?max-w=800&amp;s=7ee9d52cb69dc7aebee18d5c67bf91fe)Documento emitido por um médico que recomenda o afastamento do trabalhador por motivos de saúde. Pode cobrir 1 dia ou mais, e garante que a falta seja **justificada e sem desconto** no salário.
+
+**⏲️Prazo de Envio:**_O Atestado Médico deverá ser apresentado em até 01 dia útil, contada a data de início do afastamento;_
+
+**_📩 Por onde enviar:_**_O Envio deverá ser feito para o e-mail_**_dp@cubos.io_.**
+
+![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/256f463d-8309-4a64-a5fd-3d97495b8b76?max-w=800&amp;s=661203139cc3a947de5a764605e5f12c)Usado quando o trabalhador precisa se ausentar por algumas horas para consultas ou exames, mas continua **apto a trabalhar no mesmo dia**.
+
+**⏲️Prazo de Envio:**_O Atestado de comparecimento deverá ser apresentado no mesmo dia em que você precisou se ausentar ou em até um dia útil após a data;_
+
+**_📩 Por onde enviar:_**_O Envio deverá ser feito diretamente pelo app da TiqueTaque seguindo_[_essas instruções_](https://www.loom.com/share/9fd1fe5e03d0432f96e53b2079136c4a?sid=b1c87a70-8c24-4dc3-8639-de7788f9188a).
+
+![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/fff1005a-b85a-40e7-bb09-69d75e02ffca?max-w=800&amp;s=201f32f0695188d53b49607cee6c4bc9)Justifica a ausência do trabalhador para **acompanhar dependentes** (como filhos ou cônjuge) em consultas ou tratamentos médicos.
+
+É emitido por um profissional de saúde e comprova a necessidade de acompanhamento.
+
+**⏲️Prazo de Envio:**_O Atestado de comparecimento deverá ser apresentado no mesmo dia em que você precisou se ausentar ou em até um dia útil após a data;_
+
+**_📩 Por onde enviar:_**_O Envio deverá ser feito diretamente pelo app da TiqueTaque seguindo_[_essas instruções_](https://www.loom.com/share/9fd1fe5e03d0432f96e53b2079136c4a?sid=b1c87a70-8c24-4dc3-8639-de7788f9188a).
+
+#",,,,,,,,,,2026-03-31T02:49:01+00:00,2026-03-31T02:49:01+00:00
+fb0bf90a-546a-4d05-afc8-58b4b4fa1e58,,,,📵 **Folgas e Licenças Legais**,,,,,"![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/b34fe537-edb7-4e79-8d55-0e6632d2ce39?max-w=800&amp;s=42745403f5cbace845240f2a59ab15eb)
+
+Todos os colaboradores, sejam **celetistas, estagiários ou prestadores de serviços**, têm direito a **1 dia de folga no mês do seu aniversário**, podendo escolher o melhor dia para utilizá-lo, desde que **haja alinhamento e validação prévia com a liderança**.
+
+Essa folga pode ser utilizada no próprio dia do aniversário, na semana ou até o final do mês de nascimento.
+
+**⚠️ Regras Importantes:**
+
+* O **day off** é um benefício exclusivamente destinado à comemoração do aniversário.
+* **Não pode ser acumulado com férias, licenças ou convertido em dinheiro.**
+* Para **prestadores de serviços**, considerando a autonomia técnica e a flexibilidade contratual, o uso do day off pode ser organizado da forma que melhor se adeque à execução das atividades acordadas.
+
+**✅ Procedimento para Solicitação:**
+
+1. **Alinhar previamente com a sua liderança** o dia escolhido para utilização do day off;
+2. **Registrar a solicitação na Zazos através do link abaixo, seguindo as intruções:**
+
+**🔗**[Solicite aqui](https://app.zazos.com/t/cubos/m/b753881b-c187-4cc3-ba48-da0ce5fcd129)
+
+[**🔗**Tutorial de Solicitação](https://drive.google.com/file/d/1gCDMS7YOIIIDKVKR23-WZB08T01Gnl8H/view)
+
+![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/027e2d2c-a8b3-4eea-8078-1319327219c5?max-w=800&amp;s=49c2931a72aa2db097d3c3f6bc00e42d)📜 **O que diz a CLT?**
+
+A Consolidação das Leis do Trabalho (CLT) garante ao empregado 3 dias corridos de licença em virtude de casamento civil ou religioso.
+
+✨ **Como funciona na Cubos:**
+
+Pensando no seu bem-estar e na importância desse momento, concedemos 5 dias corridos de afastamento para empregados e estagiários que realizarem casamento civil ou religioso (não cumulativo).
+
+```
+👉 Importante:
+Se o casamento ocorrer no fim de semana, a contagem se inicia na segunda-feira seguinte.
+Ex.: Casamento no sábado → folga de segunda a sexta → total de 8 dias seguidos de descanso (sábado, domingo + 5 dias úteis).
+```
+
+**A licença não pode ser:**
+
+&gt; Acumulada com férias ou qualquer outro tipo de licença ou folga.
+
+&gt; É válida apenas para casamento civil ou religioso.
+
+**📝 Como solicitar a Licença Casamento:**
+
+## **📑 Para Empregados Celetistas:**
+
+&gt; Alinhe previamente com sua liderança o período em que utilizará a licença.
+
+&gt; Após o alinhamento, registre sua solicitação na Zazos, indicando os dias que serão utilizados.
+
+&gt; Anexe um comprovante prévio da cerimônia (ex.: convite, agendamento do cartório ou da cerimônia religiosa).
+
+&gt; Após a realização do casamento, é necessário enviar o documento oficial (certidão de casamento) como comprovação definitiva, para fins dos trâmites legais de alteração de status civil, bem como o registro no sistema de ponto referente a suas ausências;
+
+## **💼Prestadores de Serviços:**
+
+Dada a autonomia técnica e a flexibilidade contratual, os prestadores podem alinhar diretamente com a liderança responsável o período de afastamento, organizando-se da forma que melhor atenda à execução das atividades pactuadas no contrato.
+
+&gt; Após o alinhamento, registre sua solicitação na Zazos, indicando os dias que serão utilizados.
+
+&gt; Anexe um comprovante prévio da cerimônia (ex.: convite, agendamento do cartório ou da cerimônia religiosa).
+
+&gt; Após a realização do casamento, é necessário enviar o documento oficial (certidão de casamento);
+
+![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/f7f89b3a-93d4-4057-bb67-cce48f891f59?max-w=800&amp;s=d04e4d4a1b01f6b05bbedc98279cbb66)
+
+A vida não é feita só de casais monogâmicos, em uma relação heterossexual, composta de um homem e uma mulher. Sabe qual é a família boa? _A que te dá amor, respeito e suporte_, independentemente de como ela seja formada. A Cubos entende isso e incentiva que qualquer pessoa tenha direito a um suporte, independentemente de seu gênero ou de sua orientação.
+
+**Assim sendo, segue como vamos aplicar aqui na Cubos:**
+
+```
+Qualquer pessoa cúbica, independentemente do gênero com o qual se identifique, terá um suporte da Cubos para a sua licença parental. Ela é válida para gestação e também para adoção de crianças!
+```
+
+&gt; **Importante:** repassar a previsão de quando a adoção ou parto está previsto para que operacionalmente possamos organizar o time e garatir a realocação das atividades de forma tranquila
+
+* **Prazo Mínimo:** 06 meses
+
+## **Para mães:**
+
+Terão direito a 120 dias, sendo estendido para 180 dias de afastamento recebendo integralmente seu salário no período.
+
+## **Para pais:**
+
+Terão direito a 90 dias.
+
+* Não é proibido no caso de interesse de retorno antes do prazo final, desde que respeitado o prazo de 20 dias.
+
+&gt; Existe uma pluralidade de estruturas familiares e desejos pessoais. Algumas têm rede de suporte familiar que permita à pessoa optar por realizar o trabalho, neste período, enquanto outras têm um tempo mais prolongado com a criança e as demais pessoas envolvidas neste núcleo familiar. Assim o objetivo desta diretriz é ofertar uma possibilidade que faça sentido para sua situação.
+
+```
+💼Prestadores de Serviços:
+No ano de utilização da licença, a interrupção contratual será permitida de forma proporcional, sendo deduzido 7 dias da interrupção.
+```
+
+![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/1a884a93-048f-4a14-8ea2-f8a3da896923?max-w=800&amp;s=2bd30b20df115435d8c33d3f330f5395)
+
+**_Animais de estimação trazem inúmeros benefícios e fazem toda a diferença na nossa vida! Além de todo o carinho e fofura, eles contribuem diretamente para a nossa saúde física, emocional e bem-estar._**
+
+&gt; Ter um pet pode:
+
+🧠 Reduzir estresse, ansiedade e depressão.
+
+❤️ Ajudar na redução da pressão arterial, colesterol e triglicérides.
+
+🐕‍🦺 Estimular um estilo de vida mais ativo, especialmente com passeios regulares.
+
+💬 Fortalecer a empatia, comunicação e percepção.
+
+💪 Melhorar a autoestima e o senso de responsabilidade.
+
+🏡 Reduzir o estresse, inclusive no ambiente de trabalho.
+
+👶 Ajudar no desenvolvimento infantil, reduzindo riscos de asma em crianças.
+
+😴 Contribuir para um sono mais leve e tranquilo.
+
+🐱 No caso dos gatinhos, o ronronar auxilia até na cicatrização e redução de problemas cardíacos!
+
+```
+Pensando nisso, a Cubos oferta para todas as pessoas cúbicas um dia de folga para se dedicar exclusivamente ao seu novo bichinho!
+```
+
+**🎯 O que é a Licença Pet?**
+
+Um dia de folga para que você possa se dedicar à chegada de um novo bichinho na sua vida. É um tempo para organizar sua casa, acolher o pet e garantir uma recepção cheia de amor e cuidado.
+
+**📋 Regras para utilização:**
+
+* A Licença Pet pode ser utilizada uma única vez, no momento da adoção ou chegada de um novo pet.
+* É válida para qualquer tipo de pet doméstico (cachorro, gato, coelho, calopsita, etc.).
+* O uso deve ser alinhado previamente com a liderança.
+* Apresente um comprovante da adoção ou da chegada do bichinho (pode ser contrato de adoção, nota fiscal, termo de responsabilidade, ou outro documento equivalente);
+* Esta data precisa ser **combinada com sua liderança com antecedência**, de modo a não prejudicar o andamento de suas atividades ou entregas para os clientes
+* Opcional: quando adotar o bichinho, poste um monte de fotos no [#cubos\_pets](https://cubos.slack.com/archives/C01CZ3PQMMZ) porque já estamos morrendo de amor por ele!
+
+**📋 Como Solicitar:**
+
+**🔗**[Solicite aqui](https://app.zazos.com/t/cubos/m/b753881b-c187-4cc3-ba48-da0ce5fcd129)
+
+**📹**[Tutorial de Solicitação](https://drive.google.com/file/d/1FTg0rjko9Ha7i4_OJQwX3uHI3epoAboH/view?usp=sharing)
+
+**_Lembre-se que ter um pet não é só benefício para um humano, o pet também tem necessidades e vai demandar responsabilidade de sua parte!_**
+
+**_Não é só adotar por adotar, o pet precisa de amor e cuidados._**
+
+**💟Um último recado:** a preferência pelo animalzinho vai de cada um, mas sugerimos adotar, não comprar.
+
+![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/2e236f4a-10d9-440e-b7db-c070a55d17f2?max-w=800&amp;s=a4e6b42b19a571830a2fcb7e6b158a03)
+
+📜**Do benefício pela prestação de serviços a Justiça Eleitoral:**
+
+Eleitoras e eleitores podem ser nomeados para prestar serviços à Justiça Eleitoral, atuando nas eleições para compor as mesas receptoras de votos, as mesas receptoras de justificativa e as juntas eleitorais ou ainda para trabalhar como apoio logístico. A essas pessoas é assegurada a concessão de dois dias de folga a cada dia que estiverem à disposição da Justiça Eleitoral.
+
+✨**Das folgas:**
+
+A cada 1 dia trabalhado como mesária(o), a pessoa terá direito a 2 dias de folga do serviço. 
+
+&gt; O treinamento (presencial ou pela internet), desde que concluído, também contará como 1 dia de convocação e dará direito a 2 outros dias de folga, proibida a cumulação em virtude de participação em mais de uma modalidade (ou seja, se você realizar dois treinamentos, presencial e pela internet, ambos contarão, juntos, apenas 1 dia de convocação).
+
+Assim, por exemplo, se uma pessoa for convocada para ser mesária(o) e realizar o treinamento + trabalhar no 1º turno + trabalhar no 2º turno terá, no total, direito a **6 (seis) dias de folga**.
+
+**📋Declaração de Participação:**
+
+Todas as pessoas convocadas têm direito à Declaração de Participação fornecida pela Justiça Eleitoral. É um documento com validade legal e deve ser aceito pelos empregadores, sejam instituições públicas ou privadas, conforme artigo 98 da [**Lei n. 9.504/97**](https://www.tse.jus.br/legislacao/codigo-eleitoral/lei-das-eleicoes/lei-das-eleicoes-lei-nb0-9.504-de-30-de-setembro-de-1997). 
+
+O documento também é aceito como atividade curricular complementar pelas [**universidades conveniadas**](https://www.tre-sc.jus.br/eleitor/mesarios/convenios-firmados) com a Justiça Eleitoral. 
+
+**Orientações:**
+
+&gt; O benefício da folga é devido tanto pelos dias de treinamento quanto pelos dias trabalhados nos locais de votação, nos cartórios eleitorais e nos tribunais eleitorais, de acordo com a convocação e a atividade a serem realizadas.
+
+&gt; A participação em treinamento da Justiça Eleitoral equivale a um dia de trabalho, o que corresponde a dois dias de folga no serviço, independentemente da duração do treinamento e de sua modalidade – se presencial ou virtual. • Não é permitida a cumulação de dias de folga em virtude de participação em mais de uma modalidade de treinamento (presencial e virtual).
+
+&gt; Além dos dias de folga, as pessoas nomeadas para atuarem como mesárias, como apoio logístico ou nas juntas eleitorais serão dispensadas do serviço nos dias de atuação, inclusive no dia em que participarem do treinamento presencial ou virtual síncrono.
+
+&gt; A trabalhadora ou o trabalhador não terá prejuízo de salário, vencimento ou qualquer outra vantagem, devendo ser consideradas todas as parcelas que decorram da relação de trabalho, sejam elas de natureza remuneratória ou não (geralmente tudo que integra o salário). •
+
+&gt; As folgas por prestação de serviço à Justiça Eleitoral não poderão ser convertidas em dinheiro.
+
+**🔗**Links úteis:
+
+&gt; [Manual de Orientações](https://www.justicaeleitoral.jus.br/eleicoes/mesario/assets/arquivos/folderes_eleicoes_empregadores_web_SEPREVOK_final.pdf)
+
+&gt; [Perguntas Frequentes](https://www.tse.jus.br/servicos-eleitorais/mesario/perguntas-frequentes-canal-do-mesario)
+
+&gt; [Canal do Mesário](https://www.justicaeleitoral.jus.br/eleicoes/mesario/index.html)
+
+```
+Esse benefício foi instituído pelo art. 98 da Lei n. 9.504/1997 e regulamentado pelas Resoluções-TSE n. 22.747/2008 e 23.736/2024.
+  
+```",,,,,,,,,2026-03-31T02:49:01+00:00,2026-03-31T02:49:01+00:00
+527b0203-6ec5-4a39-a0a5-951463709da7,,,,**🕐 Regras Banco de Horas**,Explicação de regras e funcionamento do Banco de Horas,"# ![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/191e4f9b-7d59-4618-a734-4df7dd351071?max-w=800&amp;s=e8b9d4f1873a5ed8a99747a9ebb3dee7)
+
+**O banco de horas é um mecanismo que permite flexibilizar a jornada, mas precisa de organização e comprometimento de todos.**
+
+**O acúmulo excessivo de horas positivas ou negativas pode trazer impacto na rotina e dificultar a compensação, por isso a gestão frequente é essencial.**
+
+**O controle do banco de horas será realizado pelo Departamento Pessoal com base nos registros de ponto. É responsabilidade do colaborador manter o registro correto e acompanhar seu saldo.**
+
+![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/058aa447-7cb7-48c3-b27c-c0b2d2200d74?max-w=800&amp;s=4712cee1242aae95cc37e50d9e8980f3)
+
+```
+08 horas por dia/40 horas por semana/200 horas mensais;
+```
+
+![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/f573b379-5c33-443b-87ab-a8d5e1c408da?max-w=800&amp;s=df76f21b16d40109389240023d507098)
+
+```
+Máximo de 10 horas por dia, considerando até 2 horas além da jornada normal de 8 horas
+```
+
+## ![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/d17ec142-ac17-4765-9398-c35048c585d4?max-w=800&amp;s=ec751aba3186c9dba8f20da7091a9e74)
+
+```
+Obrigatório: Respeitar o intervalo de no mínimo 1 hora a cada seis horas de trabalho; 
+    ⚠ ️ Nunca trabalhar mais de 6 horas consecutivas sem intervalo.
+```
+
+## **![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/cae4dbe1-dbeb-4c77-a102-3f803bfe7b7e?max-w=800&amp;s=8c09594e65f76491db2b9f01bc91a059)**
+
+```
+Considera-se jornada noturna o período trabalhado entre 22h de um dia e 5h do dia seguinte. 
+```
+
+&gt; O trabalho nesse horário não faz parte da nossa rotina regular.
+
+&gt; Não é contabilizado no banco de horas e deve ser, obrigatoriamente, registrado como horas extras, com pagamento em folha.
+
+&gt; Não podem ser utilizado como compensação de horas
+
+## **![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/4dd8a97d-b08c-4d1a-8fa2-37691fa269ae?max-w=800&amp;s=000991e2653b1a953c378173c892b9d2)**
+
+```
+Qualquer tempo trabalhado além das 8 horas deve ser previamente autorizado pela liderança.
+```
+
+## **![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/65b787b5-75ae-4aa0-8768-bb15e725b6ee?max-w=800&amp;s=57cc49a13cb9a6a3f76ea3d88d448dfd)**
+
+```
+Horas extras realizadas sem autorização são expressamente proibidas e podem gerar advertência e não serão consideradas no banco;
+```
+
+## **![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/0edf0cbd-554b-44bc-bbcc-826d4179441f?max-w=800&amp;s=0da549dc9c550cf25d9f13eacfbdce17)**
+
+```
+De 01/06 a 31/05 de cada ano;
+```
+
+## **![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/aae7cf9d-8a05-4adb-84a4-a1b715f30e45?max-w=800&amp;s=4be7be3f4eed65d792884368f730d00f)**
+
+```
+O banco de horas da Cubos está organizado em duas janelas semestrais dentro do período de validade anual: 
+De 01/06 a 31/12 de cada ano; 
+De 01/01 a 31/05 de cada ano 
+```
+
+👉 Portanto, todas as horas acumuladas, sejam positivas ou negativas, devem obrigatoriamente ser compensadas até o encerramento do ciclo vigente.
+
+## **![](https://zazos.imgix.net/93d0ed7c-f542-4d86-89f4-a76c123c9f51/ec97d697-e4e9-4ee4-8a5a-59c8c93383fa?max-w=800&amp;s=e2a600df48df967fc8070c911a989ee1)**
+
+```
+Máximo permitido: +8h (positivo) ou -8h (negativo).
+```",,,,,,,,,,,,2026-03-31T02:49:01+00:00,2026-03-31T02:49:01+00:00
+4f33398e-229c-4963-b561-b836426b5b44,,,,**❓ Perguntas Frequentes**,Dúvidas mais comuns com respostas claras e diretas,,,,,,,,,,,,,2026-03-31T02:49:01+00:00,2026-03-31T02:49:01+00:00

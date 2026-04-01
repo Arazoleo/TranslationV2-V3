@@ -1,0 +1,82 @@
+id,nome,colaborador,tipo_de_relacao,dependente_direto,data_de_nascimento,created_at,rg,cpf,sexo,possui_deficiencia,declarar_ir,plano_saude,salario_familia,pensao_alimenticia
+1,Maria Adélia Bezerra Morais,3ad59819-e7a9-4086-95d1-a171db853e80,Pai/Mãe,Não,1947-03-05,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+2,Fabiana Santiago dos Santos,dd44ebe3-e56a-4f86-a533-a0388204d396,Pai/Mãe,Não,1982-07-31,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+3,Thierre Andrade,dd44ebe3-e56a-4f86-a533-a0388204d396,Namorado/Namorada,Não,1997-07-24,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+4,Giselle Santiago dos Santos,dd44ebe3-e56a-4f86-a533-a0388204d396,Irmão/Irmã,Não,2006-11-26,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+5,Cristiano Silva,dd44ebe3-e56a-4f86-a533-a0388204d396,Pai/Mãe,Não,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+6,Laís Santiago,dd44ebe3-e56a-4f86-a533-a0388204d396,Irmão/Irmã,Não,2005-07-15,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+7,Rita Maria dos Santos Borges,b6391b45-336a-4c02-bb7f-7d5ffd336202,Pai/Mãe,Não,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+8,Milena da Silva Costa,b6391b45-336a-4c02-bb7f-7d5ffd336202,Namorado/Namorada,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+9,João Pedro Deçordi dos Reis,e39191be-bea9-4c9f-8ecc-66cb81b1330c,Filho/Filha,Sim,2008-05-19,2026-03-30T23:39:21+00:00,,,,false,false,false,false,false
+10,Juarez Alves dos Reis,e39191be-bea9-4c9f-8ecc-66cb81b1330c,Cônjuge,Não,1967-03-19,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+11,VALDINEWTON DINIZ CAMPOS,cbec5a8b-9cf4-40c4-879d-1b3e41241b02,Pai/Mãe,Não,1959-05-19,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+12,,03c13257-b434-4f76-a263-a6c7ec051de1,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+13,Rayane Holanda da Silva Gadelha,64053570-9e62-4d63-ae5f-ab74720ae9ed,Cônjuge,Não,1999-11-05,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+14,Lucileia Santos,d314d68e-0982-442f-a8d4-9efd9c52af7c,Pai/Mãe,Sim,1979-07-07,2026-03-30T23:39:21+00:00,,06031557665,,,false,false,false,false
+15,,d314d68e-0982-442f-a8d4-9efd9c52af7c,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+16,,d314d68e-0982-442f-a8d4-9efd9c52af7c,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+17,,d314d68e-0982-442f-a8d4-9efd9c52af7c,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+18,,d314d68e-0982-442f-a8d4-9efd9c52af7c,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+19,,d314d68e-0982-442f-a8d4-9efd9c52af7c,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+20,,d314d68e-0982-442f-a8d4-9efd9c52af7c,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+21,,d314d68e-0982-442f-a8d4-9efd9c52af7c,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+22,Alexandra Esteves Leopoldo,6734b2bd-69b0-4d85-8a3e-accbfbbf2a11,União Estável,Sim,1998-05-11,2026-03-30T23:39:21+00:00,21829793,17640672740,,,false,false,false,false
+23,Maria Lurdes Souza Venâncio,54c88d87-bc37-451a-8d0e-73783cb4e4f6,Pai/Mãe,Não,1982-05-06,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+24,Gonçalo Ribeiro Neto,54c88d87-bc37-451a-8d0e-73783cb4e4f6,Pai/Mãe,Não,1966-09-17,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+25,Larissa Fernanda Gomes Porto,54c88d87-bc37-451a-8d0e-73783cb4e4f6,Namorado/Namorada,Não,2004-02-05,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+26,Renata de Moraes,41a9fe78-3b2a-439d-9ff1-358996309659,Pai/Mãe,Não,1980-11-27,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+27,Marco Antonio,41a9fe78-3b2a-439d-9ff1-358996309659,Pai/Mãe,Não,1972-07-31,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+28,Maria Madalena Marques da Silva,90f1f57f-3343-4fe2-a6e5-570f88c06027,Pai/Mãe,Sim,1977-07-22,2026-03-30T23:39:21+00:00,,79476155353,,,false,false,false,false
+29,Antonio Reis Araújo Costa,90f1f57f-3343-4fe2-a6e5-570f88c06027,Pai/Mãe,Sim,1975-01-05,2026-03-30T23:39:21+00:00,,68522100306,,,false,false,false,false
+30,,90f1f57f-3343-4fe2-a6e5-570f88c06027,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+31,Sergio Matos,c7516f99-595b-409d-be42-edd8631b17c8,Pai/Mãe,Não,1963-03-04,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+32,,c7516f99-595b-409d-be42-edd8631b17c8,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+33,,c7516f99-595b-409d-be42-edd8631b17c8,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+34,,c7516f99-595b-409d-be42-edd8631b17c8,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+35,,c7516f99-595b-409d-be42-edd8631b17c8,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+36,,c7516f99-595b-409d-be42-edd8631b17c8,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+37,Margarida Santos,c7516f99-595b-409d-be42-edd8631b17c8,Pai/Mãe,Não,1968-04-24,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+38,,c7516f99-595b-409d-be42-edd8631b17c8,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+39,,c7516f99-595b-409d-be42-edd8631b17c8,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+40,,c7516f99-595b-409d-be42-edd8631b17c8,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+41,,c7516f99-595b-409d-be42-edd8631b17c8,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+42,Raimunda Solange Cafe Ferreira,b04b21a0-2549-42ad-88a3-31a43bdc9dd9,Pai/Mãe,Sim,1974-05-28,2026-03-30T23:39:21+00:00,1681688,04472767430,,,false,false,false,false
+43,Beatriz Rodrigues de Oliveira,97f4480e-0ad9-4265-a9b4-aa011b4ebcae,Namorado/Namorada,Não,1994-05-01,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+44,Kenneth Pedro Piccoli,97f4480e-0ad9-4265-a9b4-aa011b4ebcae,Pai/Mãe,Não,1958-03-23,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+45,,97f4480e-0ad9-4265-a9b4-aa011b4ebcae,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+46,,97f4480e-0ad9-4265-a9b4-aa011b4ebcae,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+47,,97f4480e-0ad9-4265-a9b4-aa011b4ebcae,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+48,,c7516f99-595b-409d-be42-edd8631b17c8,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+49,,4a79766d-d953-4afc-a93e-5d05d0800c9c,Cônjuge,Não,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+50,,4a79766d-d953-4afc-a93e-5d05d0800c9c,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+51,,4a79766d-d953-4afc-a93e-5d05d0800c9c,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+52,,4a79766d-d953-4afc-a93e-5d05d0800c9c,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+53,,4a79766d-d953-4afc-a93e-5d05d0800c9c,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+54,Denise Maria Vilela Cardoso,b8beac8e-4f37-4faf-9b35-a75113dbf4b2,Cônjuge,,1985-03-20,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+55,,4a79766d-d953-4afc-a93e-5d05d0800c9c,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+56,Alexon Ysath Presilla,26ce87b0-397f-4e08-87f8-d9331ba226a5,Filho/Filha,Sim,2015-06-06,2026-03-30T23:39:21+00:00,186521,70869736299,,,false,false,false,false
+57,Lilian Monique André Cainelli,a0c4fae8-fde3-419c-982e-5af5f791a4a3,Cônjuge,Sim,1999-11-29,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+58,Aparecida dos Santos Batista,e7e8ccf1-d2c3-40b5-95d4-2a4028b76166,Pai/Mãe,Não,1962-12-24,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+59,Isabelli Cristina Mocci,e7e8ccf1-d2c3-40b5-95d4-2a4028b76166,Namorado/Namorada,Não,1999-08-31,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+60,Arthur dos Santos Batista,e7e8ccf1-d2c3-40b5-95d4-2a4028b76166,Irmão/Irmã,Não,1996-12-12,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+61,Gabriel dos Santos Batista,e7e8ccf1-d2c3-40b5-95d4-2a4028b76166,Irmão/Irmã,Não,1986-08-11,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+62,Gabriela dos Santos Batista,e7e8ccf1-d2c3-40b5-95d4-2a4028b76166,Irmão/Irmã,Não,1988-03-28,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+63,Wilian Ramos de Freotas,4de5c4b5-9e57-4216-8fb9-c1557487a96e,Cônjuge,Sim,1990-05-31,2026-03-30T23:39:21+00:00,,04127557508,,,false,false,false,false
+64,Danubia Lorenne Batista Pereira Oliveira,154519a5-fa50-495c-962c-aa701101fb13,Pai/Mãe,Não,1986-08-30,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+65,Fernanda Almeida Ramos,5c86eb05-3c94-4337-b956-864e8e7a9de3,União Estável,Sim,1996-04-07,2026-03-30T23:39:21+00:00,17411419,104939296-57,,,false,false,false,false
+66,Erick Alvim De Souza Nascimento ,5c86eb05-3c94-4337-b956-864e8e7a9de3,Filho/Filha,Sim,2017-12-24,2026-03-30T23:39:21+00:00,,16701635636,,,false,false,false,false
+67,Gusttavo Malone Ramos de Souza Nascimento ,5c86eb05-3c94-4337-b956-864e8e7a9de3,Filho/Filha,Sim,2022-01-23,2026-03-30T23:39:21+00:00,,19077478698,,,false,false,false,false
+68,,5c86eb05-3c94-4337-b956-864e8e7a9de3,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+69,Sandra Cristina Alves Matos,8a03471f-523e-4a42-88e3-131f4193aa2b,Pai/Mãe,Sim,1982-03-13,2026-03-30T23:39:21+00:00,451172565,34387565870,,,false,false,false,false
+70,Carlos Alberto Bacalhau de Oliveira,53773b5a-dc37-4e4e-8c11-ad7749b732f0,Pai/Mãe,Não,1965-08-17,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+71,Maria Adjane Batista Bacalhau,53773b5a-dc37-4e4e-8c11-ad7749b732f0,Pai/Mãe,Não,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+72,Yasmin da Silva Sampaio,1240e173-7e7e-415a-b998-2cb07191086e,Cônjuge,Não,1997-04-23,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+73,,,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+74,,d1d843cd-b08c-420b-b5fd-6013b90998f3,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+75,,d1d843cd-b08c-420b-b5fd-6013b90998f3,,,,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+76,Robson dos Santos Almeida,619758ab-e49d-4e3d-a1aa-e0e22237353e,Namorado/Namorada,Não,1991-09-17,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+77,Lara de Oliveira Pascoal,673b4511-229a-4829-b2ac-811c76a48af6,Filho/Filha,Sim,2013-10-18,2026-03-30T23:39:21+00:00,20231701726,10477471382,,,false,false,false,false
+78,Lucas de Oliveira Pascoal,673b4511-229a-4829-b2ac-811c76a48af6,Filho/Filha,Sim,2016-02-26,2026-03-30T23:39:21+00:00,20231701742,10477433375,,,false,false,false,false
+79,Claudetiza Benício de Oliveira,673b4511-229a-4829-b2ac-811c76a48af6,União Estável,Não,1986-04-11,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+80,Matheus Alves da Silva Pascoal,673b4511-229a-4829-b2ac-811c76a48af6,Irmão/Irmã,Não,2003-01-31,2026-03-30T23:39:21+00:00,,,,,false,false,false,false
+81,Eliedil Cléa Bitencourt Lobo,1e87f8d2-e991-459f-ab4c-9a11f4ce6374,Pai/Mãe,Não,1965-12-26,2026-03-30T23:39:21+00:00,,,,,false,false,false,false

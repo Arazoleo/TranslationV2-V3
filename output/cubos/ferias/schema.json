@@ -1,0 +1,423 @@
+{
+    "name": "cubos_ferias",
+    "version": "1.0",
+    "tables": {
+      "vacation_segmentos_sheet": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "empresa": {
+            "type": "text",
+            "required": true
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "periodo_aquisitivo": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "pessoa_profile_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "lider_profile_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "data_inicial": {
+            "type": "date",
+            "required": true
+          },
+          "data_final": {
+            "type": "date",
+            "required": false
+          },
+          "fim_aquisitivo": {
+            "type": "date",
+            "required": false
+          },
+          "inicio_periodo_gozo": {
+            "type": "date",
+            "required": false
+          },
+          "fim_periodo_gozo": {
+            "type": "date",
+            "required": false
+          },
+          "status_periodo": {
+            "type": "text",
+            "required": true,
+            "default": "'ativo'::text"
+          },
+          "classificacao": {
+            "type": "text",
+            "required": true,
+            "default": "'ativo'::text"
+          },
+          "saldo_dias": {
+            "type": "numeric",
+            "required": true,
+            "default": "30"
+          },
+          "dias_usufruidos": {
+            "type": "numeric",
+            "required": true,
+            "default": "0"
+          },
+          "total_dias_solicitados": {
+            "type": "numeric",
+            "required": true,
+            "default": "0"
+          },
+          "total_dias_vendidos": {
+            "type": "numeric",
+            "required": true,
+            "default": "0"
+          },
+          "tipo_contrato": {
+            "type": "text",
+            "required": false
+          },
+          "observacoes": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "ferias": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "colaborador_profile_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "lider_profile_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "periodo_aquisitivo_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "cubos_ferias",
+              "table": "periodo_aquisitivo",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "tipo_solicitacao": {
+            "type": "text",
+            "required": true,
+            "default": "'ausencia'::text"
+          },
+          "categoria_solicitacao": {
+            "type": "text",
+            "required": true,
+            "default": "'individual'::text"
+          },
+          "inicio_ferias": {
+            "type": "date",
+            "required": true
+          },
+          "fim_ferias": {
+            "type": "date",
+            "required": true
+          },
+          "data_solicitacao": {
+            "type": "date",
+            "required": true,
+            "default": "CURRENT_DATE"
+          },
+          "dias_selecionados": {
+            "type": "numeric",
+            "required": true,
+            "default": "0"
+          },
+          "dias_uteis": {
+            "type": "numeric",
+            "required": false
+          },
+          "status_solicitacao": {
+            "type": "text",
+            "required": true,
+            "default": "'aprovacao_gestor'::text"
+          },
+          "deseja_vender": {
+            "type": "boolean",
+            "required": true,
+            "default": "false"
+          },
+          "dias_vendidos": {
+            "type": "numeric",
+            "required": true,
+            "default": "0"
+          },
+          "deseja_adiantamento_13": {
+            "type": "boolean",
+            "required": true,
+            "default": "false"
+          },
+          "justificativa": {
+            "type": "text",
+            "required": false
+          },
+          "aviso_ferias_path": {
+            "type": "text",
+            "required": false
+          },
+          "recibo_ferias_path": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "inclusao_retroativa": {
+            "type": "boolean",
+            "required": true,
+            "default": "false"
+          },
+          "aprovador_profile_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          }
+        },
+        "metadata": {}
+      },
+      "day_off": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "colaborador_profile_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "lider_profile_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "tipo_day_off": {
+            "type": "text",
+            "required": true
+          },
+          "data_solicitacao": {
+            "type": "date",
+            "required": true,
+            "default": "CURRENT_DATE"
+          },
+          "data_inicio": {
+            "type": "date",
+            "required": true
+          },
+          "data_fim": {
+            "type": "date",
+            "required": false
+          },
+          "data_retorno": {
+            "type": "date",
+            "required": false
+          },
+          "descricao": {
+            "type": "text",
+            "required": false
+          },
+          "referencia_feriado": {
+            "type": "text",
+            "required": false
+          },
+          "status_aprovacao": {
+            "type": "text",
+            "required": true,
+            "default": "'pendente'::text"
+          },
+          "tipo_contrato": {
+            "type": "text",
+            "required": false
+          },
+          "motivo_cancelamento": {
+            "type": "text",
+            "required": false
+          },
+          "deseja_cancelar": {
+            "type": "boolean",
+            "required": true,
+            "default": "false"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "interrupção_contratual": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "colaborador_profile_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "lider_profile_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "periodo_aquisitivo_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "cubos_ferias",
+              "table": "periodo_aquisitivo",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "inicio_interrupção": {
+            "type": "date",
+            "required": true
+          },
+          "fim_interrupção": {
+            "type": "date",
+            "required": true
+          },
+          "dias_solicitados": {
+            "type": "numeric",
+            "required": true,
+            "default": "0"
+          },
+          "status_solicitacao": {
+            "type": "text",
+            "required": true,
+            "default": "'aprovacao_gestor'::text"
+          },
+          "justificativa": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      }
+    },
+    "enums": {},
+    "jsonTypes": {}
+  }
