@@ -1,0 +1,17 @@
+UPDATE z_shared.dependentes SET data_de_nascimento = '2018-03-21' WHERE id = 14;
+UPDATE z_shared.dependentes SET data_de_nascimento = '2013-05-07' WHERE id = 49;
+UPDATE z_shared.dependentes SET data_de_nascimento = '2003-10-10' WHERE id = 50;
+UPDATE z_shared.dependentes SET data_de_nascimento = '2016-12-23' WHERE id = 68;
+UPDATE z_shared.dependentes SET data_de_nascimento = '2006-05-06' WHERE id = 79;
+UPDATE z_shared.dependentes SET data_de_nascimento = '2012-08-12' WHERE id = 81;
+UPDATE z_shared.dependentes SET data_de_nascimento = '2014-03-29' WHERE id = 82;
+UPDATE z_shared.dependentes SET data_de_nascimento = '2017-08-26' WHERE id = 85;
+UPDATE z_shared.dependentes SET data_de_nascimento = '2020-06-07' WHERE id = 87;
+UPDATE z_shared.dependentes SET data_de_nascimento = '2021-04-25' WHERE id = 91;
+UPDATE z_shared.dependentes SET data_de_nascimento = '2024-01-20' WHERE id = 96;
+UPDATE z_shared.dependentes SET data_de_nascimento = '2014-07-02' WHERE id = 99;
+UPDATE z_shared.dependentes SET data_de_nascimento = '2023-08-02' WHERE id = 100;
+UPDATE z_shared.dependentes SET data_de_nascimento = '2009-09-24' WHERE id = 119;
+UPDATE z_shared.dependentes SET data_de_nascimento = '2017-10-11' WHERE id = 120;
+UPDATE z_shared.dependentes SET data_de_nascimento = '2011-12-02' WHERE id = 134;
+UPDATE z_shared.dependentes SET data_de_nascimento = '2024-02-28' WHERE id = 136;

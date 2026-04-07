@@ -1,0 +1,157 @@
+id,nome,created_at
+1,Gerente de Marketing,2026-04-01T15:33:09+00:00
+2,Coordenadora de Marketing,2026-04-01T15:33:09+00:00
+3,Head de Relacionamento Comercial,2026-04-01T15:33:09+00:00
+4,Head de Parcerias Comerciais e Vendas,2026-04-01T15:33:09+00:00
+5,Gerente de Projetos,2026-04-01T15:33:09+00:00
+6,Especialista de Projetos,2026-04-01T15:33:09+00:00
+7,Analista de Projetos,2026-04-01T15:33:09+00:00
+8,Assistente de Projetos,2026-04-01T15:33:09+00:00
+9,Auxiliar de Projetos,2026-04-01T15:33:09+00:00
+10,Account Manager,2026-04-01T15:33:09+00:00
+11,Especialista de Contas,2026-04-01T15:33:09+00:00
+12,Analista de Contas,2026-04-01T15:33:09+00:00
+13,Assistente de Contas,2026-04-01T15:33:09+00:00
+14,Assistente comercial,2026-04-01T15:33:09+00:00
+15,Head de Conteúdo,2026-04-01T15:33:09+00:00
+16,Especialista de Conteúdo ,2026-04-01T15:33:09+00:00
+17,Analista de Conteúdo ,2026-04-01T15:33:09+00:00
+18,Analista de Conteúdo e Perfomance,2026-04-01T15:33:09+00:00
+19,Assistente de contéudo,2026-04-01T15:33:09+00:00
+20,Auxiliar de Contéudo,2026-04-01T15:33:09+00:00
+21,Estagiária de Conteúdo,2026-04-01T15:33:09+00:00
+22,Coordenador de Projetos e Estratégia,2026-04-01T15:33:09+00:00
+23,Head de Rede Sociais /Mídias sociais,2026-04-01T15:33:09+00:00
+24,Especialista de Rede Sociais /Mídias sociais,2026-04-01T15:33:09+00:00
+25,Analista de Redes Sociais/Mídias sociais,2026-04-01T15:33:09+00:00
+26,Assitente de Rede Sociais /Mídias sociais,2026-04-01T15:33:09+00:00
+27,Auxiliar de Rede Sociais /Mídias sociais,2026-04-01T15:33:09+00:00
+28,Analista de Redes Sociais/Mídias sociais,2026-04-01T15:33:09+00:00
+29,Head de Arte e Criação,2026-04-01T15:33:09+00:00
+30,Diretor de Criação e Design,2026-04-01T15:33:09+00:00
+31,Coordenador de Criação e Design,2026-04-01T15:33:09+00:00
+32,Analista de Criação e Design,2026-04-01T15:33:09+00:00
+33,Designer,2026-04-01T15:33:09+00:00
+34,Designer,2026-04-01T15:33:09+00:00
+35,Designer,2026-04-01T15:33:09+00:00
+36,Assistente de Criação e Design,2026-04-01T15:33:09+00:00
+37,Auxiliar de Criação e Design,2026-04-01T15:33:09+00:00
+38,Produtor de Roteiros,2026-04-01T15:33:09+00:00
+39,CEO,2026-04-01T15:33:09+00:00
+40,Diretor,2026-04-01T15:33:09+00:00
+41,Sócio,2026-04-01T15:33:09+00:00
+42,CFO,2026-04-01T15:33:09+00:00
+43,Gerente de controladoria,2026-04-01T15:33:09+00:00
+44,Coordenador de Controladoria,2026-04-01T15:33:09+00:00
+45,Especialista de Controladoria,2026-04-01T15:33:09+00:00
+46,Analista de Controladoria,2026-04-01T15:33:09+00:00
+47,Assistente de Controladoria,2026-04-01T15:33:09+00:00
+48,Auxiliar de controladoria,2026-04-01T15:33:09+00:00
+49,Gerente de Financeiro,2026-04-01T15:33:09+00:00
+50,Especialista Financeiro,2026-04-01T15:33:09+00:00
+51,Analista Financeiro,2026-04-01T15:33:09+00:00
+52,Assistente Financeiro,2026-04-01T15:33:09+00:00
+53,Auxiliar Financeiro,2026-04-01T15:33:09+00:00
+54,Estagiário de Planejamento,2026-04-01T15:33:09+00:00
+55,Gerente de Business Intelligence,2026-04-01T15:33:09+00:00
+56,Coordenador de Business Intelligence,2026-04-01T15:33:09+00:00
+57,Especialista de Business Intelligence,2026-04-01T15:33:09+00:00
+58,Analista de Business Intelligence,2026-04-01T15:33:09+00:00
+59,Assistente de Business Intelligence,2026-04-01T15:33:09+00:00
+60,Auxiliar de Business Intelligence,2026-04-01T15:33:09+00:00
+61,Gerente de Financeiro,2026-04-01T15:33:09+00:00
+62,Head Jurídico,2026-04-01T15:33:09+00:00
+63,Coordenador Jurídico,2026-04-01T15:33:09+00:00
+64,Especialista Jurídico,2026-04-01T15:33:09+00:00
+65,Analista Jurídico,2026-04-01T15:33:09+00:00
+66,Assistente Jurídico,2026-04-01T15:33:09+00:00
+67,Auxiliar Jurídico,2026-04-01T15:33:09+00:00
+68,Estagiária Jurídico,2026-04-01T15:33:09+00:00
+69,Gerente de Processos,2026-04-01T15:33:09+00:00
+70,Consultor de Processos,2026-04-01T15:33:09+00:00
+71,Analista de Processos,2026-04-01T15:33:09+00:00
+72,Assistente de Processos,2026-04-01T15:33:09+00:00
+73,Auxiliar de Processos,2026-04-01T15:33:09+00:00
+74,Relações públicas,2026-04-01T15:33:09+00:00
+75,Head de Recursos Humanos,2026-04-01T15:33:09+00:00
+76,Coordenador em DHO,2026-04-01T15:33:09+00:00
+77,Especialista em DHO,2026-04-01T15:33:09+00:00
+78,Analista de DHO,2026-04-01T15:33:09+00:00
+79,Assistente de DHO,2026-04-01T15:33:09+00:00
+80,Auxiliar de DHO,2026-04-01T15:33:09+00:00
+81,Coodernador de Remuneração e Benefícios,2026-04-01T15:33:09+00:00
+82,Especialista de Remuneração e Benefícios,2026-04-01T15:33:09+00:00
+83,Analista de Remuneração e Benefícios,2026-04-01T15:33:09+00:00
+84,Assistente de Remuneração e Benefícios,2026-04-01T15:33:09+00:00
+85,Auxiliar de Remuneração e Benefícios,2026-04-01T15:33:09+00:00
+86,Head de Facilities,2026-04-01T15:33:09+00:00
+87,Coordenador(a) de Facilities,2026-04-01T15:33:09+00:00
+88,Especialista de Facilities,2026-04-01T15:33:09+00:00
+89,Analista de Facilities,2026-04-01T15:33:09+00:00
+90,Assistente de Facilities,2026-04-01T15:33:09+00:00
+91,Auxiliar de Facilities,2026-04-01T15:33:09+00:00
+92,Head de TI e Infraestrutura,2026-04-01T15:33:09+00:00
+93,Especialista em TI e Infraestrutura,2026-04-01T15:33:09+00:00
+94,Coordenador de TI e Infraestrutura,2026-04-01T15:33:09+00:00
+95,Analista de TI e Infraestrutura,2026-04-01T15:33:09+00:00
+96,Assistente de TI e Infraestrutura,2026-04-01T15:33:09+00:00
+97,Auxiliar de TI e Infraestrutura,2026-04-01T15:33:09+00:00
+98,Head de Produtos,2026-04-01T15:33:09+00:00
+99,Coordenador de Produtos,2026-04-01T15:33:09+00:00
+100,Especialista de produtos,2026-04-01T15:33:09+00:00
+101,Analista de Produtos,2026-04-01T15:33:09+00:00
+102,Assistente de Produtos,2026-04-01T15:33:09+00:00
+103,Auxiliar de produtos,2026-04-01T15:33:09+00:00
+104,Estagiária de produtos,2026-04-01T15:33:09+00:00
+105,Analista Performance,2026-04-01T15:33:09+00:00
+106,Consultor de Viagens,2026-04-01T15:33:09+00:00
+107,Fisioterapeuta,2026-04-01T15:33:09+00:00
+108,Head de Perfomance,2026-04-01T15:33:09+00:00
+109,Médico,2026-04-01T15:33:09+00:00
+110,Preparadora física,2026-04-01T15:33:09+00:00
+111,Pscicóloga ,2026-04-01T15:33:09+00:00
+112,Treinador comportamental (Coach),2026-04-01T15:33:09+00:00
+113,Editor de Produções Audiovisuais,2026-04-01T15:33:09+00:00
+114,Editor de Produções Audiovisuais,2026-04-01T15:33:09+00:00
+115,Editor de Produções Audiovisuais,2026-04-01T15:33:09+00:00
+116,Head de Produção Audiovisual,2026-04-01T15:33:09+00:00
+117,Produtor de Fotografia e Vídeo ,2026-04-01T15:33:09+00:00
+118,Produtora executiva audiovisual,2026-04-01T15:33:09+00:00
+119,Tradutor e Intérprete,2026-04-01T15:33:09+00:00
+120,Agile Head ,2026-04-01T15:33:09+00:00
+121,Agile Manager,2026-04-01T15:33:09+00:00
+122,Agile Expert (especialista),2026-04-01T15:33:09+00:00
+123,Agile Coach (analista),2026-04-01T15:33:09+00:00
+124,Head de Ecommerce,2026-04-01T15:33:09+00:00
+125,Coordenador de Ecommerce,2026-04-01T15:33:09+00:00
+126,Especialista de Ecommerce,2026-04-01T15:33:09+00:00
+127,Analista de Ecommerce,2026-04-01T15:33:09+00:00
+128,Assistente de Ecommerce,2026-04-01T15:33:09+00:00
+129,Auxiliar de Ecommerce,2026-04-01T15:33:09+00:00
+130,Head de Planejamento Estratégico,2026-04-01T15:33:09+00:00
+131,Coordenador de Planejamento Estratégico,2026-04-01T15:33:09+00:00
+132,Especialista de Planejamento Estratégico,2026-04-01T15:33:09+00:00
+133,Analista de Planejamento Estratégico,2026-04-01T15:33:09+00:00
+134,Assistente de Planejamento Estratégico,2026-04-01T15:33:09+00:00
+135,Auxiliar de Planejamento Estratégico,2026-04-01T15:33:09+00:00
+136,Head de Eventos,2026-04-01T15:33:09+00:00
+137,Coordenador de Eventos,2026-04-01T15:33:09+00:00
+138,Especialista de Eventos,2026-04-01T15:33:09+00:00
+139,Analista de Eventos,2026-04-01T15:33:09+00:00
+140,Assistente de Eventos,2026-04-01T15:33:09+00:00
+141,Auxiliar de Eventos,2026-04-01T15:33:09+00:00
+142,Analista de Processos 2 Pesquisa,2026-04-01T15:33:09+00:00
+143,Coordenador de Diversidade e Inclusão ,2026-04-01T15:33:09+00:00
+144,Head de Diversidade e Inclusão ,2026-04-01T15:33:09+00:00
+145,Coordenador de Produção Audiovisual,2026-04-01T15:33:09+00:00
+146,Arquiteto de Soluções,2026-04-01T15:33:09+00:00
+147,"Engenheiro de Soluções 
+",2026-04-01T15:33:09+00:00
+148,Assistente Contábil,2026-04-01T15:33:09+00:00
+149,"Coord. de Produtos Visuais e Artísticos 
+",2026-04-01T15:33:09+00:00
+150,Analista de Operações de Viagens,2026-04-01T15:33:09+00:00
+151,Operations Manager US,2026-04-01T15:33:09+00:00
+152,Marketing Manager,2026-04-01T15:33:09+00:00
+153,Analista de Social Media 2025,2026-04-01T15:33:09+00:00
+154,Designer 2025,2026-04-01T15:33:09+00:00

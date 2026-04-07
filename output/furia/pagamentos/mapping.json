@@ -1,0 +1,43 @@
+{
+  "output_dir": "output/furia/pagamentos",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "profiles",
+      "view_id": "c3bda2f4-7811-4046-aa15-07cee1b79d0e",
+      "_sheet": "Pessoas (536 records)",
+      "columns": {
+        "id":            { "default": "__record_id__" },
+        "nome_completo": { "field_id": "66cae0a9-def7-4945-b478-eb7256b180ca", "extract": "string" },
+        "created_at":    { "default": "__timestamptz__" },
+        "updated_at":    { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "pagamentos_p_j",
+      "view_id": "f06809b2-1032-4089-bfec-34118752ce0d",
+      "_sheet": "Pagamentos (5407 records) — filtered to PJ in post-processing",
+      "columns": {
+        "id":                    { "default": "__record_id__" },
+        "email":                 { "field_id": "29e5e1dc-1927-4b8c-9041-3950789ed564", "extract": "string" },
+        "cnpj":                  { "field_id": "800db016-bc99-4edc-b4b5-b5df26627b90", "extract": "string" },
+        "pessoa_id":             { "field_id": "f928bfde-80be-4383-824c-6a6f94b118f8", "extract": "link" },
+        "data_admissao":         { "field_id": "9bffcdb9-67cb-48b2-8d10-92a2c9fc4e28", "extract": "string" },
+        "valor_mensal":          { "field_id": "91de30e4-604f-46a9-b093-07bf2a38fa3a", "extract": "number" },
+        "ferias":                { "field_id": null, "extract": null, "default": "0" },
+        "plano_saude":           { "field_id": null, "extract": null, "default": "0" },
+        "dissidio":              { "field_id": null, "extract": null, "default": "0" },
+        "total":                 { "field_id": "bba7b7ab-d27e-4bd2-b8db-ba3ade3c83fb", "extract": "number" },
+        "data_competencia":      { "field_id": "f45dfbb2-dead-401b-8e66-a79926e48d1c", "extract": "date" },
+        "data_vencimento":       { "field_id": "803955a4-1783-4003-a913-66a3f75b1e29", "extract": "date" },
+        "odonto_dependentes":    { "field_id": null, "extract": null, "default": "0" },
+        "nota_fiscal_url":       { "field_id": null, "extract": null, "default": "" },
+        "status_nota_fiscal":    { "field_id": "7e03f1c3-a8c2-4eb4-9bd4-f9bc8e283644", "extract": "select" },
+        "nota_fiscal_data_envio":{ "field_id": null, "extract": null, "default": "" },
+        "_categoria":            { "field_id": "485569b8-c8f0-4f9d-b1b3-d13e3ad22892", "extract": "string" },
+        "created_at":            { "default": "__timestamptz__" },
+        "updated_at":            { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

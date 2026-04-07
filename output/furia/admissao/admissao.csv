@@ -1,0 +1,292 @@
+id,pessoa_id,tipo_contrato,status_dados_pessoais,observacao,created_at,updated_at
+b49972c2-854c-4814-880b-bdc74b5bffc6,65c57deb-aac8-402f-8968-b3c4e579ed44,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+538fa29a-393c-4612-8854-63faa8ff2650,435d9a71-2648-4f79-853c-fda116d72b37,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+cdcd6851-ac9c-4762-aa66-8433b5aa8dd2,3a191e34-5f2a-4723-845e-b176d13fb9f4,PF,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+17eae15a-d6ea-4a30-8438-cd195c396a73,abe5cb46-e225-4d97-b88a-4cb3f1242df4,PF,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+99565809-5c95-4846-b371-337702734c86,11fda986-4102-4ec7-8f1f-e6f3e31363e1,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+71fe4334-f8ea-407e-8ce5-94b9a5e7f1f3,0d9f9314-e1fc-46c2-b402-b7572d0bbd80,PF,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+aa8f751f-5d8c-485e-a62b-ce047054e6b7,e0da3c06-639e-4029-b0bc-fa6f29cef6dd,PF,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+115e4afd-bcdf-42e1-af01-7efc7fae5b27,9bd2cf4f-da8f-488d-9f51-5ffc8f8b0b2f,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+4a5fa6e1-5a2c-4105-a1ed-a9aabde62b46,ca07f948-000a-43b1-920b-b1ab3fd4878f,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+8d991cc2-cb0b-409e-80e3-e70783910f9f,1d409171-9bf1-4d88-a8ac-2c5948417c35,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+ef0e162a-798c-4856-b809-766bbecce304,8ca43666-82b9-4251-b057-035f0b082961,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+b28e59d6-ec6b-494e-9092-4442ddd6a88a,660c4e4c-a78b-456b-804a-f322c5551d5d,PJ,Aguardando Preenchimento,"Remuneração iniciando a partir do dia 04/03, pois já foi acionado pelo Cris Guedes.",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+9cd9a3cb-bb03-4cd7-b902-52db2ad22a40,da912003-1ac4-4d83-81fb-5a7749207f24,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+a33cf096-5ba2-4bae-89fe-a48c38f99a24,adb8240e-d7a7-40fa-b63b-9e6dbe404210,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+82d13e45-04b0-4abf-9b62-307f707bef1b,79449dfc-1f0c-4cb4-aa47-4ecfc568bb44,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+92d72640-c04f-4503-a17e-2d584a6213c9,e7c3aedb-e4da-492a-b527-649107116b00,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+9e9cf611-83c1-4966-ab51-331e063a90e0,7f080033-463e-4af2-bae9-b1b0934723a9,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+220af94c-eefd-405e-83ad-fb59aec7895f,02764938-6a46-410f-a761-9d1087a11251,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+f230d803-08da-4398-bc73-82fdb005a6f2,13476d2c-075a-431e-85ba-739d5dcf0a60,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+3a471555-9939-476a-8f9d-ac15babf8ed3,46c68942-d7a6-4642-983f-743d7de164b1,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+e4450f6c-3cae-4475-bf85-bd62c706fb9d,6f6e2c95-4a57-4bc2-824c-2652f18a2c38,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+ff0a9970-f5c9-4932-9009-a96ce61ca131,661df14e-db5a-41b3-9d7d-bf053206942a,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+30d9c240-67b2-45a2-b732-20753d7b3ee0,d87711dc-a483-48d1-aa3a-c1dcdee24d3d,PJ,Aguardando Preenchimento,Adicionei o contrato no W8 por não ter essa informação.,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+4c20becc-06eb-4a6e-b6cc-6d2584ddd61c,94343579-dcf2-4e13-b3ef-60207c4e363e,PJ,Preenchido,Adicionei o contrato no lugar do W8 por não ter essa informação.,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+68e21504-473f-4318-9b0f-41cf8666d58e,0e759b91-b3b9-42ac-a76c-dbe2349f8342,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+f6a48a78-5ffd-42e6-822e-8e5640900d71,2cd12278-07fa-4b84-b541-533da8234778,Estágio,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+5d365455-b52a-438a-a05b-f91e9c5e4e46,bec23785-f20c-4a38-9b60-dca449c84c12,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+6c3f76c6-9306-48c2-ab1d-a8a0ca4d735b,9a6b8853-7ba8-4142-a0eb-45bc52bd38a5,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+0a59132e-f52d-4468-92a4-7632e11d76c3,7c237eca-6660-41ea-859d-ccf7ff6c6095,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+646d359d-24f3-460a-9fef-44fbf35f42c3,4476ce9c-70b2-41c6-a5e0-d3078bbddac8,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+a9e93eeb-aa0d-405d-b577-dc36625e6e2d,e7f4ce14-fa07-4414-a301-4ceae5bd8f84,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+9269b502-e8b9-4154-b1f4-e0d17fda7071,edcd9bcc-adbf-41de-86ed-6e2131e5f449,Estágio,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+16ff27c1-d936-453e-a35a-68428e23ca31,b5c26951-a90c-48ba-82f5-be507e87e0e3,Estágio,Preenchido,"Horário de Estágio:
+
+Seg a Sexta - 14h às 20h",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+a12dd2f4-fb45-4a10-b0f7-b2066290f67c,c32db80a-64f9-4a77-8ce2-a7c3e3c63921,Estágio,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+457e0847-6c6c-48f3-bec4-676b0de42a56,8510555e-9480-481f-ab84-fac463f47289,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+c0755654-6432-4b52-a514-a638e6a6195b,0da7fc95-df5a-46a5-95ab-dac20ec79042,PJ,Preenchido,"é importante não ser um email nominal, assim como temos o psicologia@furia.gg, pois em caso de alteração do profissional, o histórico de atividades se mantém.",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+e0a5aad3-7611-456d-bca3-9f5d27cc97a9,b95cd78d-fc4b-4363-9fed-e1a68b5a35b4,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+8aca6fc5-efb6-481e-ad21-2d34a38d7218,bc1784e1-5bca-42d6-ae3c-74579638a506,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+631e7b44-8468-4e27-95e4-266b6ca1e1da,46667a2b-f026-4d62-9f59-6a538709966d,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+000772da-e277-4a07-a5b5-59d7da4e20db,c336fce3-6ddd-43bc-8e74-0a98201945b6,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+0d00697e-a225-497a-aa55-84484d9b8ade,2e2bac4b-465e-4b3e-b4ce-7ca41de97032,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+9774741a-a0c9-487c-882c-8eeca2377eb8,958da449-c5c5-45ca-b692-eaf0bae2f95f,W8,Aguardando Preenchimento,"Parcial Maio: $3.466,66 usd (16 dias)",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+84382bec-cf01-41ad-9328-36056170af0f,c8308eb1-faa0-432c-b029-4c9fac8c957b,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+e085780d-cbed-482e-9c81-c05f46718f05,153e0800-ddad-464d-9733-2ee7cc8a1a6d,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+ac9c0298-c8f2-46ed-9e66-3183c0bbf739,3ae52a54-c57d-49ee-89cc-241674468e90,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+8679195e-f541-46c9-905e-32eb21a9ef94,e2bbe43a-ba1a-43e8-8410-b14b01644f55,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+45c90f99-45ac-4486-8da3-40d57c98eba7,7090edf0-2077-479e-b5d0-49ae8547dcd3,PJ,Aguardando Preenchimento,"Só recebi o formulário w8 do criador hoje, e temos o pagamento de Maio e Junho para fazer. Como podemos seguir nesse caso?",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+f9b18d44-0bd3-483a-b1cf-e4f8e324c1d0,658349aa-de64-4883-b3dc-812e83408112,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+3a2007d2-fa05-4870-b3a3-daffca50009f,fa54dbd2-36da-4386-8e5c-a6c81d448784,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+37109ac7-2556-4366-a8a7-92216c4b0a0a,0cd9a02a-1d9a-46bc-b715-e4b1ffd085a2,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+72c6cd58-f36e-4911-9041-c4a891ea97da,307e672c-084a-43e8-8608-31660170a98b,PJ,Preenchido,Aumento da remuneração para R$5.500 após 3 meses.,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+ea0a258f-40dc-4829-97a0-0fea1862750b,e267681b-9e6a-42cb-810a-6e8e8b7e94e6,PJ,Preenchido,"**Condições Contratuais:**
+
+Período de teste - Cargo: Supervisora de Psicologia, sendo de 01/07/2024 até 08/09/2024:
+
+Buffs e Poderes: Não haverá contratação de Buffs no período de testes.
+
+Forma de Prestação de Serviços. Os serviços serão prestados em até 08 (oito) horas semanais, distribuídas em no máximo 6 (seis) dias da semana, conforme acordado previamente por escrito entre as Partes. A FURIA reconhece e concorda que a contratada mantém contrato com a Fluxo e MIBR até o dia 08/09/2024 e não constituí quebra de contrato pela contratada.
+
+**A partir de 09/09/2024:**
+
+Cargo: Coordenadora de Psicologia
+
+Nova remuneração: R$ 14.000.
+
+Forma de Prestação de Serviços. Os serviços serão prestados em até 40 (quarenta) horas semanais, distribuídas em no máximo 6 (seis) dias da semana, conforme acordado previamente por escrito entre as Partes
+
+ Buffs e Poderes: Vigente",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+fa042032-679e-41d4-ae5c-71ae16a3bb10,11d41b7b-ea98-4491-aea2-e6775b4401b9,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+45115ccb-d987-4b49-9f11-269b67cd1d51,8a23a84a-bcaa-4ec1-9952-e59755f58921,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+7bd2edd1-b1c7-40e5-91ad-4cba0f5ef90f,fa25f99d-759b-4f5d-bb17-f62433f82532,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+850d1954-9682-4e61-9548-53013e839643,2b31a637-aa41-4421-8a24-c8050041cc40,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+7f716f8c-d578-4a0c-accb-c74a06a91a33,1476e819-9c10-4cd9-881f-ed6068ffc7e8,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+de75a23e-d3d1-4490-86c3-323956336388,4ed09d86-afbb-432a-b04b-d0858441827b,W2,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+f164ad5e-9f27-4fdb-baf8-23b8952d5ad7,8cbeb6ce-33c8-4c96-80c9-be95c1da735e,1099,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+42e33421-6c33-4d77-8eac-81f4cae0c773,efec03ca-824a-40bc-9bdb-29f23ebdd742,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+add50541-cb5d-46ae-abad-a263e5572cfe,17c5c071-6011-4d42-8818-93f529a73267,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+a45d4131-57d9-4a73-9e03-58db2cd311d1,1fac90f4-b164-459e-9c35-86edd9cd41f1,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+23aad280-8b80-421f-8d0a-909ee633430f,c9c5e4b1-a9d3-4a7e-80df-e2efb52cea5f,PJ,Aguardando Preenchimento,"O atleta constituiu PJ só recentemente, até o momento com 2 meses de trabalho na FURIA mas sem recebimentos. Esse mês será o primeiro que ele irá receber com a emissão de duas notas.",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+0d955550-f453-48dd-9150-5ddcb48fa932,dbf3fa1c-b331-4c21-ad7c-974974960dbe,Estágio,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+9c0734f5-ee7f-4166-bcdd-bac4fad5dc31,f1272f63-54a7-4e83-a2ed-07b976dce86d,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+d988b386-06bb-4b39-b53f-36964be2db4d,bd8dacfb-94f9-4edf-afdf-6cecb326ac24,PJ,Aguardando Preenchimento,"O pagamento do primeiro mes ja foi efetuado em 10/07. Estarão pendentes os pagamentos de 10/08 em diante, sendo pago todo dia 10 de cada mês",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+226b44f6-6c77-4c3a-9a7e-df26d9fd5dd8,ddb2379a-0339-4e17-8166-294595c78d4d,PJ,Aguardando Preenchimento,"O pagamento do primeiro mes ja foi efetuado em 10/07. Estarão pendentes os pagamentos de 10/08 em diante, sendo pago todo dia 10 de cada mês",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+0eec5d70-ed3e-4dc0-a0ec-8bc1d6eb1081,03dae940-b6aa-4d8a-bfcd-109c0c4e0252,PJ,Aguardando Preenchimento,"O pagamento do primeiro mes ja foi efetuado em 10/07. Estarão pendentes os pagamentos de 10/08 em diante, sendo pago todo dia 10 de cada mês",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+b532c38f-d5c0-4643-8cc6-80b1db6345fb,9ab21919-d038-40d3-b976-d7c7addd8a54,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+32a2dd1c-d123-4f8e-837a-24c8235b1fe2,4bc961e4-9860-408a-ba48-499df85365d9,PJ,Preenchido,\*Irá iniciar no dia 02/09 caso tenha o CNPJ aberto.,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+2e016ba9-db8a-4c3a-8ecd-23f13baff4e0,17fd42fc-a017-44cb-b5d4-967fe64436f3,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+96976d8c-b9ff-41ba-86b9-1c64e0dd6e38,a745cb8c-44e3-4acd-bba1-1a130d7e69c9,Estágio,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+600fc84b-ebd4-4807-bb99-458833937f48,896898d2-5194-49bc-87b8-59a30b61322e,Estágio,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+f5b86817-9c1a-4e4f-8962-e6ee0eaa2a56,b0787ca6-034b-4207-bce8-09f4568de600,Estágio,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+8dea5c13-49c4-4141-8a70-4e32255a78dc,c449b877-eb0a-4915-9cdd-38a95498ae41,PJ,Aguardando Preenchimento,"foi acordado um salario que não é exatamente fixo, ele varia de acordo com a equipe estar in season ou off season, vide contrato",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+bf2c7c83-e136-433e-890e-87756bf160e8,4f1794a1-a0ab-43f1-a147-0f9cf0a5ede2,PF,Aguardando Preenchimento,"foi acordado um salario que não é exatamente fixo, ele varia de acordo com a equipe estar in season ou off season, vide contrato.",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+c950cff7-149d-4b06-9431-a721dd59241c,049091d3-e95c-40fa-b033-9f12c14dffca,PJ,Aguardando Preenchimento,O jogador ira receber no Brasil até a ida do mesmo para Los Angeles em janeiro.,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+5f16145c-cf31-4cf7-9a14-8259f8a6bf21,91598728-937c-45ce-9eae-8f8ba91f3464,PJ,Aguardando Preenchimento,O treinardor recebe no Brasil ate o mesmo ir para Los Angeles em janeiro,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+3ea2b169-1b11-4bd4-9583-bc38d0c3fdfd,37869172-e387-45a2-9c11-acc7604e4881,W2,Aguardando Preenchimento,"O jogador recebe no Brasil o valor de USD 2.000 ate a competencia de dezembro, após isso o jogador tera o salario modificado para o valor que consta em contrato a partir do dia 01/01/2025.",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+7b35205a-1116-4c4a-a421-5f6ccb4b9e6e,650f2490-2087-4d3a-9e6d-bc6e72d26c96,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+bfb74658-b822-40d6-aa6e-955f0177dae0,49ea536b-4ced-42cd-8548-47a446932c50,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+255bf4ab-4185-40b8-abce-4a32f88b2511,1e01c8e8-2311-4387-8ff0-f1bb5b659e34,Estágio,Preenchido,Programa de Estágio - Cruzeiro do Sul,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+9f89814d-bf18-48e0-ba41-7c5a1d15cc5a,de98f546-0534-47b9-813a-62e1758fca43,Estágio,Preenchido,Programa de Estágio - Cruzeiro do Sul,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+3f78be03-20b1-456c-b293-755d4b139eb1,e4a2a8d9-4735-436f-bdfc-b2ef2837082f,Estágio,Preenchido,Programa de Estágio - Cruzeiro do Sul,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+9aaef6fb-5638-4bd6-ab17-6ee10b48eb09,b45ac0ce-b769-4f79-989e-1bfea907a486,Estágio,Preenchido,Programa de Estágio - Cruzeiro do Sul,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+9e40d519-ec3e-439c-a41d-cc6b0dda08eb,35041f86-bbbd-412f-8a05-0926018fcd78,Estágio,Preenchido,Programa de Estágio - Cruzeiro do Sul,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+54273849-8561-4d1e-94d6-6d2394e1f394,fc3ae28d-9d1e-411a-92aa-c2595bfcbc55,Estágio,Preenchido,Programa de Estágio - Cruzeiro do Sul,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+5c65f240-8abf-4541-b9b3-0122820dfea1,affb8bba-e888-46f3-9b20-b5d0443762ff,Estágio,Preenchido,Programa de Estágio - Cruzeiro do Sul,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+026b6d9c-917a-401e-b948-533f259d85e0,d3bcf35b-d4e2-4ded-889c-ce447216197d,Estágio,Preenchido,Programa de Estágio - Cruzeiro do Sul,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+e36a1eb9-77cb-4b1f-b2c5-884db02c8824,98ecfbf7-d038-4250-a8aa-1cfa10193276,Estágio,Preenchido,Programa de Estágio - Cruzeiro do Sul,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+dbc4b859-3041-4e1b-9266-bf123de68491,66235247-1528-445b-b36f-63fa596940eb,W8,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+a2b4a0aa-d579-484e-9b5a-dffe9e17e622,cb5dff49-ee75-438c-825a-23bb3e3bcf0f,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+ed824c33-24fd-4e8c-bde5-903b76cd2eff,437f8f7c-d129-470b-b704-a8dbad296240,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+df7c855a-201b-43f3-9edd-4c0b648f0a59,faf9d04d-71b8-4b1f-bbb4-3c2cceaf512d,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+7b6bf8ab-b5b8-419d-98f2-577cd42fd188,aeaa27f0-49bf-45a2-9572-a1d061abd4c6,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+f55fd2fd-846a-4c8b-a048-579c27f75f1d,601652e3-843b-41bf-903b-d2d71e52b3a5,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+6d63ac11-2ca2-48f0-a41e-e3a65c8f392c,04176573-30e1-45fe-bc32-c41e0ded4475,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+b3e5245e-1680-486d-aa55-33c7c1a529ed,70cce09e-7dc7-4f3a-af7b-fc0b8d74c076,PJ,Aguardando Preenchimento,O jogador ira ficar apenas o primeiro mes no Centro de custo do valorant,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+0b32e648-8555-4e1d-8356-e9fcc6323a54,ae85ce82-e74b-4313-a018-c2a7196c74bd,PJ,Preenchido,Substituição Cris,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+fbe85f22-27ce-459b-a56e-5060b8bc6fe1,8b0e5626-ced8-424d-ab2b-ef942264d8bd,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+aa8043ac-abfd-467a-a338-8f39b775a1ee,34653eba-de12-42e3-99bc-73e662e3ec7c,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+f48e22f4-fcbe-4c95-8b0a-1901a4d51ac6,85d8c90b-52b4-4bd6-9ce4-bb21b9b32087,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+f1c80e95-2ac6-471d-a23a-f6a8d184b8bc,699b4858-9db0-4050-8f27-4e4d5dd53ad9,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+07562692-87e3-4ac2-ac45-53335997b424,50bfad6b-5c65-4462-ae94-6f34283086ab,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+71e903e8-5a97-419d-8542-d850b9b060a5,82e308b1-b4d4-454b-ac9a-d5763ca49673,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+d8674728-e621-434b-9202-8f05da00cb2f,6e263069-5145-403d-9936-26e1a60fc855,PF,Aguardando Preenchimento,"Após a assinatura do contrato, o peT enviará junto com o W8.",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+9e320a15-8c3a-444c-9824-a387540f9e2d,9f020c51-4688-46be-87a2-25a653816519,PJ,Aguardando Preenchimento,"Após a assinatura do contrato, o peT irá enviar junto com o W8.",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+7278fc31-8797-40f7-b36f-8ef9899e5aad,bf4e47f5-5411-4c56-9ee0-355dd201f088,PJ,Preenchido,Cartão CNPJ BRUNO DAVID DE OLIVEIRA 39954034846,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+47b39e4c-41b6-4409-9154-da6c9e3c7dd1,915be2c0-614c-4e2e-b74b-13526ce4068f,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+f9a820ea-f930-4486-828f-6b44e8007d4c,5460c9e4-11c5-4e74-aa27-135cfb2dce5d,W2,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+8ef6d0af-82dc-45a9-bd80-dcfa3bf64987,55980637-5552-4b6f-ad62-eec239875b6d,PJ,Preenchido,"Remuneração nos primeiros 3 meses - 4.5k
+
+Após 3 meses - 5k",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+64ad02c9-b089-4312-a0db-fe7e2191c72a,92cc4ca3-851c-4d5a-b406-278aac88005c,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+e8302141-3fa0-4c40-b924-17335b725429,87803f2f-d855-463e-b59f-31abce740659,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+308a8e5f-dae9-4040-a87f-6e4624e9961a,def123c4-a8f6-4c83-94e9-28c297e250d4,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+aa48a007-6153-4efb-900f-069e28e8d3e1,723dab90-aec7-4e8c-85ff-c12fcfe655ef,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+4ebb41f2-d99f-4e98-8e99-ab4303dc955a,390399e0-2b86-4f5a-8f32-dc2961c21295,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+ec1b145a-2a45-4145-87c0-b15b5ed10dd1,09b5d637-ae5f-4c98-a4ae-a2f26891caaa,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+d6344230-a05c-4d4a-890f-95b5e1560faa,d73f980d-5951-4167-8840-782c7e745bd9,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+fd4d335c-e1a1-4b56-be12-95a6c9331abb,058a9b24-ade9-4eb4-bbe1-3df06cb20e94,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+8e75aa25-e33a-4e24-8f09-6f7ef3be69f0,17cce6b2-81f6-467e-b1f2-d3d14d86aad3,W2,Aguardando Preenchimento,"O jogador tem duas remuneraçoes diferentes em contrato.
+
+Durante o periodo que o treinador estiver no Brasil a remuneraçao é de: $1.800,00
+
+Durante o periodo que o treinador estiver em Los Angeles a remuneraçao é de: $6.000,00",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+9c0086be-e020-4e13-b337-16b3635813ad,e3105e4a-465b-4794-9899-e8b2b74dd897,PJ,Aguardando Preenchimento,O analista tem duas remuneraçao distintas em contrato para quando estiver no Brasil e outra quando estiver em Los Angeles,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+4f436d6b-0055-4837-992a-cba14559c307,dc2878df-73f2-4851-b849-b9575303b1cd,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+625412ad-f2cb-4bd8-8919-89f6e3a3139e,085824f9-2880-488d-a77b-ca8338e74688,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+4a0c819f-1ac6-4273-a4cf-fe643da7b242,d43f7037-d99e-47e3-b883-c37e0e531ad0,W2,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+b870e3d4-67e0-471d-8f46-9ea51b10969e,55d46ff3-66ad-4347-b8b4-82156ff485f1,W2,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+ed61a1e0-a981-4411-9d43-bc5be14b7196,c4b7df54-bcbd-4026-abf5-6b09d1d49e16,W2,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+87189cd8-0abc-415b-a0dc-41dde70344b5,dbd0b92c-109c-4ec8-b3e1-9bae530cbdcc,W2,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+7c7a7d16-2391-4efc-af2c-f2dbcdd23c6c,314a8d79-77ca-4cc2-a6af-d7a12aad0703,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+e0d59966-edd7-4a69-b862-f57e3ab35acd,5de1bcb4-e420-42eb-843b-466a5e9d4557,PJ,Preenchido,"Remuneração inicial - R$ 3.800,00
+
+Após 3 meses (período de experiência) - R$ 4.200,00",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+636d1f32-3c2d-40ec-ad41-19e1ecfbca9e,6a763efd-a582-4237-8647-5e9b4aea1adf,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+31c42de1-93fd-4c36-871c-791a5823bbd5,201a74e0-510d-459d-a95e-483406df9146,PJ,Preenchido,Pedro irá entrar no time de lifestyle.,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+ea2dcc8f-117f-4f09-995a-faf8ce2d41ac,81cd6c11-0872-457d-ae2a-f335d2b071a5,Estágio,Preenchido,"Pedro entrará como estagiário no time do Marco e Élcio.
+
+Foi alinhado que ele receberia a bolsa auxilio no valor de R$ 2.000,00
+
+Contrato já solicitado ao CIEE",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+56022bd5-344b-4d87-a86f-60bbffdb9fa5,b2ed6153-3cd5-4f58-8e65-7d5a8f0a593b,Estágio,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+da8172f2-6921-4cb4-a4e7-dd7530a9da8a,95a49884-1df9-49ad-a1e9-cfcc727045a9,PJ,Preenchido,"Contratamos o serviço do captador durante 4 meses para testar o profissional e ele se saiu muito bem, dia 24/08/2025 acaba o freela e seria necessário a contratação via staff FURIA. Qualquer dúvida, ou se precisar de mais detalhes estou a disposição. Obrigada.",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+f937fe23-32ef-400c-af02-86f639a84140,b9916c2a-ed2f-4006-b128-1eb2723c7203,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+5b58bc38-caa3-494a-b5d8-aa1af4354b48,37fc242c-d1ca-4000-9384-95fecfd80d42,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+a29cf88d-82a7-4721-a1ac-4ec024e4e415,aa3ec5a5-dbfe-4f97-bae9-63adbb33b0d9,PF,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+cda53a89-f952-43f1-ad60-2a3d34969a29,52a1f959-09c8-41f8-ada7-340dced8d24a,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+0aa3f41f-f47e-4287-8f66-48a863eb0de6,fdac927e-fea4-4453-b2d3-05a66f7c6a1a,PF,Aguardando Preenchimento,"Jogador menor de idade , formulario W8 feito em nome do responsavel",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+00c267d2-68fe-4f1c-bd3c-9837a8b77fe5,8989eecf-fae2-4cae-8831-8172ae1c8971,PF,Preenchido,"Jogador menor de idade, formulario w8 em nome do responsavel",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+54d78929-4384-45cb-b014-ccb7c92f05ad,77ad14dd-bd78-44ef-8535-b439c5ba2e16,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+b232bfcc-312c-4e66-b478-ffe33107eeb0,b2b543ed-0efb-4d56-9146-0922f9f30b5b,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+87abc73a-a563-4b4f-9e06-6bd882229ecb,fd2c3caf-a896-4024-a825-4ceee9709742,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+9deb47ad-0e53-442a-91c5-6b2f5d5c5c83,0871b62f-6e67-40ab-aa37-ea54c81f7afd,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+ae10febc-76ca-4a61-b699-0cd15788d507,c297fa36-97c6-483a-b862-dd3681027741,W8,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+3e4e4c0d-b78f-4d7c-b8e3-7a49cffc9ca5,10274c7a-bde0-4a2a-b2d2-d60c3457556e,W8,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+3ba0fcbf-0753-4f03-9d80-40d539e22aff,2479a8d8-0694-4a0b-bec2-0e16929175a3,PJ,Aguardando Preenchimento,O Chequer disse que criaria o email para ela.,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+f9fc1d59-eeb2-42d0-a0d5-4aa09f680bba,d91c4652-05fb-49c0-80c8-0fe5e054b89f,PJ,Preenchido,"Após 3 meses, aumentar remunração para 5.000",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+2911d4ef-130f-4244-b5f2-c238a078ac0d,fbb38b3e-9808-46f9-b5fe-c491c3aee390,PJ,Preenchido,"Tony era freela, com o bom desempenho vamos fazer a efetivação dele.",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+c9de0a0a-0945-4cfd-851b-3d45377f6262,db300b3f-b178-49da-b75d-7bbf43de78c3,PJ,Preenchido,Remuneração inicial: 7.5k após 3 meses 8k,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+43e96508-8346-4d69-9b6c-8574d84b3858,659509dd-7d30-4e4e-a68a-11cc25a9a39f,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+96b4c359-dfa1-4941-b4e7-59147e15cd0d,f60bde98-08dd-434e-bb9c-0ed91f71f9fa,PJ,Aguardando Preenchimento,Duração do contrato: 01/10/2025 à 31/12/2027,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+078a3ae0-ad4e-4876-a0e9-051511713ead,84fa33fe-5727-42e5-8607-7638767ecab2,PF,Preenchido,"pagamento de R$ 1.200,00 por 3 meses de experiencia (outubro , novembro e dezembro)
+
+Janeiro pra frente
+
+pagamento de R$ 1.800,00",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+3e89865a-1dc7-4ca7-a8fe-bc3b12ca91b9,dac274f5-0f68-42e2-b498-62740fbd7b8d,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+723f7360-9481-4743-8e46-66d7322cecdd,33c42dcf-1ac6-455e-812e-08796256bd47,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+0d49b06a-1d56-419c-8c86-dd02cc23498d,42feb227-b58a-45f6-a8ac-213f695bd194,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+a4459f7a-4b21-42bf-b68c-d2ea4f388a6c,ab20bdfe-84eb-45e3-bf44-a227a406bb62,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+d4718fb7-d173-4c71-9140-dce2bcb943d5,922fa4d5-ed3a-4dba-a77f-d2dd59b770e8,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+964b11ad-8069-4557-acbf-4c1bf0edb974,4d95d817-42dc-4933-9f3d-857667d1d86e,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+e9aa37aa-b400-44d6-a0af-db0d005c0c78,57ce2901-8482-4445-9e64-89e017b7e349,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+12f006c9-a69f-425d-a63a-dd936a942fa8,581d0c44-4eff-4645-b3b1-17b8884a001a,PF,Preenchido,"Apos 3 meses de experiencia, o pagamento dele altera para R$ 1.800,00",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+4de27d7d-f28a-4a24-9683-42b943559b36,614f2c2a-b748-4891-ab16-254bbb6d87e9,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+6224b942-8ead-4be1-8952-baf12b1b14d2,915e753a-af75-4a47-a2da-c13680d978ed,PJ,Preenchido,"Tryout 4 meses - R$7000, pós tryout R$7500
+
+serão 4 meses, por conta do recesso de fim de ano",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+30b610cd-7d6e-4f36-8407-436a17f611a2,999859b6-9db6-40f3-afa0-7379c61c3b48,PJ,Preenchido,"**Remuneração Mensal**
+
+três mil dólares (US$ 3.000,00) da Data de Início a 31 de dezembro de 2026; e quatro mil dólares (US$ 4.000,00) durante o restante da Vigência.
+
+  
+
+Obs: W8 em andamento.",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+20c6ed4f-4515-4d14-b059-dd2add4843c2,5dd6c886-6b48-4085-80c8-341bbf4f4cc8,PF,Preenchido,"**Remuneração Mensal de Elenco Principal**
+
+US$ 4.000,00 (quatro mil dólares americanos).
+
+**Mensal de Elenco Substituto:** USD 2,000,00 (dois mil dólares americanos).
+
+  
+
+Obs: Player menor de idade. O pai está providenciando o W8 em seu nome.",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+eed63372-edd5-4064-9321-3a99cc81c5c3,2e03a3ca-87a5-437b-a5b3-d32604161691,PF,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+a539bfc9-0e68-42a6-bcc1-c0e785fd9161,1f43e6cd-d2e6-4351-924d-03bfc0e58266,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+ed294799-d0fb-4b9f-911a-c8f44fca681d,543fe330-8731-4bcf-aea0-79117fca49dc,W8,Aguardando Preenchimento,Day esse jogador fica recebendo pelo brasil ate o I797 dele da FURIA estar ativo para o visto de trabalho dele.,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+0dfe7b13-9611-408a-b119-78e88448a979,e7b9db14-1a78-47e7-87b4-73b0aa04df2f,PJ,Aguardando Preenchimento,N/A,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+73a95193-4c14-4e6f-9438-396b085c4c82,7926ac4e-77ff-4bb7-aba6-39a038cfbe48,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+66760bd8-d062-44bd-a651-380e936b2ec7,c66452f8-78b1-4d96-a8ec-96465fd0d667,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+9a99013c-0034-429f-bb47-df86e0d9917c,335694c6-409a-469c-a5bf-186e52cec28e,PJ,Preenchido,"Essa contratação é da MadHouse e o contrato já está assinado, não precisa passar pelo jurídico.",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+5caa2a8f-57b4-4940-a4a4-3dac93129b6e,7f00298a-eb73-44e1-bacf-2e96107ddb3e,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+126d47d5-b685-41a5-b3e8-199f90ef8087,846096bf-562f-46a0-b510-93f233966835,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+36065add-ce06-4b6b-a395-943bf98e3539,50a845af-141f-4346-8482-94b5f102a65f,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+e431c7f4-0931-4c3f-9f56-8d147cbc6115,abdef848-4585-4318-86aa-6dc8a7d4c708,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+bef75b96-b551-40fa-b24a-2d7f3f28e79b,f5609994-7d0d-4e23-8074-1d5562ed6449,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+1db38783-68ae-4968-a862-22551eeb66aa,0f8ed08b-8e18-44fd-bbc7-a80d1cf550ab,PJ,Preenchido,"essa contratação é para MadHouse TV, a isa já tem contrato, não precisa passar pelo jurídico.
+
+reembolso de até R$ 1.795,00",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+31f8845f-665e-48a1-9079-ba1b4d3c7adb,197f9126-656d-43dc-8319-afd5c933c758,PJ,Preenchido,"Ele era Coach da nossa equipe de CS Inclusivo, iremos rescindir esse contrato dele e contratá-lo como Analista de Performance.
+
+Informações pro contrato:
+
+* Remuneração = R$ 5.500,00
+* Período de Teste: 3 meses
+* Após o período de teste o contrato renova automaticamente por mais 21 meses e a remuneração será de R$ 6.000,00.",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+d01ee432-cf44-448b-b9de-2db0df42fcea,55e9531f-1bc2-408c-af3e-e268a71041e3,PF,Aguardando Preenchimento,Encaminharei o W8 dele ainda hoje 26/01.,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+575717c7-58f4-47c1-b02a-26ea9b85a913,ab897e47-2e61-478d-9a2f-0bdb868b6d18,PJ,Aguardando Preenchimento,"Essa contratação é da MadHouse TV, o Biel já tem contrato e foi assinado por todas as partes, não precisa passar pelo jurídico.",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+e8c72e25-bce4-44c0-af55-521d71cadd8c,4980c175-ac9a-4dbc-944c-7655f7485b9d,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+764af67b-d9b5-4314-954a-487725f07b19,71407be1-7272-46c4-adbf-7d44ff5af9ed,W8,Preenchido,"Valor de ajuda de custo: R$ 2.500,00
+
+Valor do bônus se a equipe estiver classificada para os campeonatos Six Invitational ou Esports World Cup: R$ 3.500,00",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+d0f96f63-7077-4c63-9e39-ccbff0857307,a7014f83-517e-4815-9060-d0d19267a8a7,W8,Preenchido,"Valor de ajuda de custo: R$ 2.500,00
+
+Valor do bônus caso a equipe esteja qualificada para Six Invitational ou Esports World Cup: R$ 1.500,00",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+e9e5d231-29a3-47e7-967c-3383693e54a1,d1807470-08f8-4c70-9646-643dd0cc5451,W8,Preenchido,"Valor de ajuda de custo: R$ 2.500,00
+
+Valor do bônus caso a equipe esteja qualificada para Six Invitational ou Esports World Cup: R$ 1.000,00",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+34b6db6a-9c54-40bc-88fd-7356771ed5bf,02382faf-4b7b-4383-8514-688c8f088843,PJ,Preenchido,"Contratação da MadHouse TV. Atualmente a Ana é freelancer e será staff a partir de 23/02.
+
+Contrato em andamento com o jurídico.",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+0cf0ec65-fa05-4cd8-9b3f-a4603a843923,56138b83-ed22-4407-8326-cc1da81dcb0b,1099,Aguardando Preenchimento,"Valor de ajuda de custo: USD 558,06
+
+Valor de bônus caso a equipe esteja qualificada para o Six Invitational ou Esports World Cup: USD 930,09",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+a1f089e1-2d65-445f-9a4b-c35792563763,fe97b836-a76b-407a-b4fd-8cb673ce6ec5,PJ,Aguardando Preenchimento,"Contratação do Lucas, para a vaga de Analista de PR &amp; Creators",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+652e287e-c1d2-464f-b6f4-4ad1a14e326a,48464ca8-a47b-4b80-8277-ba88ca0bc19d,PF,Preenchido,W8 está em confecção,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+ebcd5cbb-0463-43af-8df6-17d5d8bd1e57,4e89e88b-cc47-4cec-9736-3a6dc668eb91,PJ,Preenchido,"Valor de Ajuda de custo = R$ 2.500,00
+
+Valor do bônus se o time estiver qualificado para o Six Invitational ou Esports World Cup = R$ 3.000,00",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+33209cce-4da1-4810-aea2-356387b59eb8,38467513-bb55-4e95-a659-7cbadf8eb832,W2,Preenchido,"Valor de ajuda de custo = USD 500.00
+
+Valor do bônus caso o time se qualifique para Six Invitational ou Esports World Cup = USD 1,000.00",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+a684b3af-300d-45fe-ad91-540098c1f4c4,ec33da36-8c16-4f6f-8f6e-82783a24011a,PF,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+2ff901db-a7e5-4980-9a54-34074d0319da,258b0336-aa5d-4d21-a2b4-29869251df44,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+56ff69f4-c4c9-4730-ad98-17ff75b5a685,d128fb6b-0bca-42bc-83b7-d0a9ee390f83,PF,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+633d79f2-0f3b-4548-b7de-6029ff8550e9,c1427c4a-507a-4a40-b8ca-fadcd897fcea,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+c7b9275b-31d4-4466-a808-f5e247fa40d5,67375a4f-4e8e-4960-ba19-2b6e9d49f3ef,PF,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+6a20d9a1-24fb-40f8-952c-d2a33e50c986,4f971877-a130-4d4f-b934-93f7a417fbb4,PF,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+13f984de-a258-48d3-9348-36e66fef803b,15b4b44a-4fa9-4ac2-a4cb-632bd4fe4519,PF,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+1917f1f7-62b5-430e-bc8c-63ff096662f6,2ed67ef6-ab2f-42a5-ae22-930e932e262b,PJ,Aguardando Preenchimento,"Contratação da Dani, nova psicóloga da FURIA.
+
+Try out de 3 meses e reajuste de remuneração após 6 meses, para R$ 8.000,00.",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+40dd8fd0-5706-41c9-88ba-a0cab95e19c0,2b0511f7-0b77-4377-8fa2-6742778c880f,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+b5b7dea3-b490-4eb5-b340-f4dc534a7a22,d1a71211-bfc0-4fd5-8455-e5533d543288,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+75d678a9-6952-44f7-9dd8-ba9a50372e36,ad879827-2178-4dda-83de-11983ae7e572,PJ,Preenchido,"Remuneneração inicial de R$ 3.500 após período de teste R$ 4.000
+
+Razão Social: 59.221.844 Flavio Santos Cardozo de Campos
+
+CNPJ: 59.221.844/0001-05",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+05fab373-5fe5-4e0d-a1b2-88a7ebbbff93,357606b8-24a9-432d-ae9d-22f060d2c75e,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+c5a558fa-c070-4688-970d-c9e65743ac4c,96137d21-5127-4fe6-a0bc-21b0df3616b7,PJ,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+d4765d31-f92e-4e90-bf98-edf9b272d98a,9bbd6a19-144d-42db-9616-e0cfa5642842,PJ,Aguardando Preenchimento,N/A,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+7ef510b9-01eb-499b-868d-5f9967add105,3a6fee8a-4dc0-4d60-b9fb-52a1619605c5,W2,Aguardando Preenchimento,"* $6,000/month - 2026
+* $6,500/month - 2027
+
+Performance bonus of $250 added to your monthly salary for each title the team wins (Riot Tournament) during the contract period.",2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+d038d5a7-786c-4db3-9e16-dd7f80bd1b80,ab55b8ce-ed54-4f6d-8693-1d0cc0ed25bb,PJ,Aguardando Preenchimento,Contratação equipe técnica de transmissão - MADHOUSE TV,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+714bd202-39dc-4481-8eab-d8ab0539788d,1b602f3f-6638-4d0a-8f7b-04d098969864,PJ,Aguardando Preenchimento,Contratação talento - CS,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+2ab8a4e3-e0d1-407a-bf5c-54ef237b2f2a,a09e16c2-fbdb-495a-b6ce-44f132c637e1,PJ,Preenchido,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00
+2cf37238-2b46-4b64-b399-34ce43a7fa7e,2717c770-d366-4e11-a754-52bac52e2775,W8,Aguardando Preenchimento,,2026-04-07T14:01:43+00:00,2026-04-07T14:01:43+00:00

@@ -1,0 +1,33 @@
+{
+  "output_dir": "output/furia/admissao",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "profiles",
+      "view_id": "c3bda2f4-7811-4046-aa15-07cee1b79d0e",
+      "_sheet": "Pessoas (536 records)",
+      "columns": {
+        "id":            { "default": "__record_id__" },
+        "nome_completo": { "field_id": "66cae0a9-def7-4945-b478-eb7256b180ca", "extract": "string" },
+        "created_at":    { "default": "__timestamptz__" },
+        "updated_at":    { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "admissao",
+      "view_id": "c6d4d3f2-c65f-4e69-bdde-7ffb7a173fbd",
+      "_sheet": "Onboarding (218 records)",
+      "_dropped": "tipo_admissao_id, n1_id, n2_id, n3_id, cargo_id, beneficios_ids, etapa_atual_id, gestor_id (FK public.profiles), primeiro_emprego_clt",
+      "columns": {
+        "id":                   { "default": "__record_id__" },
+        "pessoa_id":            { "field_id": "ba273230-cb91-40e6-8e02-28dbede8dabb", "extract": "link" },
+        "tipo_contrato":        { "field_id": "2e756618-52c9-4546-9755-d9fa4b337a3f", "extract": "select" },
+        "responsavel_rh_id":    { "field_id": "b9e83c81-2831-4bb7-9132-3265b26a0b9a", "extract": "link" },
+        "status_dados_pessoais":{ "field_id": "e220b8c6-e140-4b40-ae3f-034b1e27799e", "extract": "select" },
+        "observacao":           { "field_id": "8dd63c42-e750-471b-8437-d1403d24c4c4", "extract": "markdown" },
+        "created_at":           { "default": "__timestamptz__" },
+        "updated_at":           { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

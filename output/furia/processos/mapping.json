@@ -1,0 +1,81 @@
+{
+  "output_dir": "output/furia/processos",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "area",
+      "view_id": "bd10b212-4c7c-4339-b037-5f34c15640bd",
+      "_sheet": "Área (71 records)",
+      "columns": {
+        "id":         { "default": "__record_id__" },
+        "nome":       { "field_id": "e33f8716-2adb-40cf-8ab9-8f523228e6b4", "extract": "string" },
+        "created_at": { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "centro_de_custo",
+      "view_id": "0e6d8254-914d-4e9d-b73e-8ffd7c10c312",
+      "_sheet": "Centro de Custo (48 records)",
+      "columns": {
+        "id":         { "default": "__record_id__" },
+        "nome":       { "field_id": "c40c3b1a-8330-4d2c-8f1e-3be1120d86a3", "extract": "string" },
+        "created_at": { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "softwares",
+      "view_id": "09bcf150-9ff0-4853-af2a-39f78f5684c9",
+      "_sheet": "Softwares (7 records)",
+      "columns": {
+        "id":         { "default": "__record_id__" },
+        "nome":       { "field_id": "e8a50542-c641-4b18-bc3e-6e92d1cab52a", "extract": "string" },
+        "created_at": { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "admissoes",
+      "view_id": "c6d4d3f2-c65f-4e69-bdde-7ffb7a173fbd",
+      "_sheet": "Onboarding (218 records)",
+      "_dropped": "solicitante_id, pessoa_id, lider_id, responsavel_rh_id (FK public.profiles BLOQUEADO); lista_de_acessos, lista_de_softwares, lista_de_equipamentos, beneficios_contratados, contratos_checklist (text[] sem extractor); andamento_geral (smallint formula)",
+      "columns": {
+        "id":                          { "default": "__record_id__" },
+        "primeiro_nome":               { "field_id": "4f8830d2-3871-4240-a56b-4dd62f790b0b", "extract": "string" },
+        "nome_completo":               { "field_id": "a617fa2c-0443-464f-a49a-ce05ef822e37", "extract": "string" },
+        "email":                       { "field_id": "df50d016-1e9e-4c2d-8101-d5abefd82f2b", "extract": "string" },
+        "telefone":                    { "field_id": "1296c1e7-3531-46a5-980e-be53bbb1268e", "extract": "string" },
+        "data_inicio":                 { "field_id": "0f027e37-47dd-49c6-adcb-a0f686361ca5", "extract": "date" },
+        "sugestao_email":              { "field_id": "cb603ebc-ac56-44ca-8744-c79f6e0607fb", "extract": "string" },
+        "modelo_contratacao":          { "field_id": "2e756618-52c9-4546-9755-d9fa4b337a3f", "extract": "select" },
+        "tipo_movimentacao":           { "field_id": "2bfa64bb-c104-42e4-996c-c36c57158254", "extract": "select" },
+        "categoria_colaborador":       { "field_id": "071eb8df-8ed6-4443-a234-3b9fe9d78f1e", "extract": "select" },
+        "organizacao_furia":           { "field_id": "7d980c18-9163-4425-8d4f-7305514e838e", "extract": "select" },
+        "modelo_atuacao":              { "field_id": "0d8cf9c6-45b4-4d89-95c5-8d9a412917dd", "extract": "select" },
+        "sede":                        { "field_id": "1ae5160d-3908-4b9f-9ca0-ee00f3475862", "extract": "select" },
+        "cargo":                       { "field_id": "d05d965e-4787-4bc5-ad07-43132f55cc42", "extract": "select" },
+        "nivel":                       { "field_id": "c9c242ee-0d8d-48a1-ad7c-09c346793fcc", "extract": "select" },
+        "moeda":                       { "field_id": "fad13cc3-efaa-4440-bd3c-13f1caee1236", "extract": "select" },
+        "valor_contrato":              { "field_id": "9a68344e-7a90-45f5-b116-80d497ceec94", "extract": "number" },
+        "atividade":                   { "field_id": "3dd61a46-fa53-446f-a717-a4e8b82e50fc", "extract": "string" },
+        "status":                      { "field_id": "03352d4b-014a-4faa-bb1e-e67b6fcb2688", "extract": "select" },
+        "area_id":                     { "field_id": "d6d974fc-6111-4da3-9e5f-dbfb47dff307", "extract": "link" },
+        "centro_de_custo_id":          { "field_id": "6f63f8c7-7ffb-48c6-869c-5ad32230b94c", "extract": "link" },
+        "status_beneficios":           { "field_id": "cee8ec84-ad82-4c97-aa7f-7560c7237274", "extract": "select" },
+        "status_contratos":            { "field_id": "0334ac37-16a4-4090-acfa-2f05a7d525f3", "extract": "select" },
+        "status_equipamentos":         { "field_id": "df40c6bb-af97-4edc-9bca-29f1c78af87d", "extract": "select" },
+        "status_acessos":              { "field_id": "7d4dd08a-fbc6-426a-bc0a-08f40f7870a3", "extract": "select" },
+        "status_envio_terceiros":      { "field_id": "8c1886cc-3443-4b6b-883d-7cef2e57d628", "extract": "select" },
+        "observacoes":                 { "field_id": "bbf61684-15ce-4780-ab9f-25c48c75e127", "extract": "string" },
+        "beneficios_solicitados":      { "field_id": "8dd63c42-e750-471b-8437-d1403d24c4c4", "extract": "markdown" },
+        "job_description":             { "field_id": "12e3ce7c-3d9f-4abe-88b0-d43736b0ef21", "extract": "markdown" },
+        "status_envio_juridico":       { "field_id": "6b867864-6445-4c30-83d2-93c8c37fd00b", "extract": "select" },
+        "envio_dados_pessoais":        { "field_id": "e220b8c6-e140-4b40-ae3f-034b1e27799e", "extract": "select" },
+        "envio_documentacao_pessoal":  { "field_id": "26e4c53f-b0d5-4161-81ab-f250a165c4d8", "extract": "select" },
+        "envio_dados_pj":              { "field_id": "569cf28f-9754-4c97-a027-92c3c76a3d5c", "extract": "select" },
+        "envio_dependentes":           { "field_id": "3ad64bd8-d2c5-469a-8b18-3dac7312c39b", "extract": "select" },
+        "todas_informacoes_conferidas":{ "field_id": "f53b68ce-ccb5-4bad-84da-0e57261098b3", "extract": "select" },
+        "created_at":                  { "default": "__timestamptz__" },
+        "updated_at":                  { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

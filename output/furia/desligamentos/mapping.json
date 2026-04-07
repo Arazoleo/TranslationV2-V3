@@ -1,0 +1,34 @@
+{
+  "output_dir": "output/furia/desligamentos",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "profiles",
+      "view_id": "c3bda2f4-7811-4046-aa15-07cee1b79d0e",
+      "_sheet": "Pessoas (536 records)",
+      "columns": {
+        "id":            { "default": "__record_id__" },
+        "nome_completo": { "field_id": "66cae0a9-def7-4945-b478-eb7256b180ca", "extract": "string" },
+        "created_at":    { "default": "__timestamptz__" },
+        "updated_at":    { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "desligamentos",
+      "view_id": "c3bda2f4-7811-4046-aa15-07cee1b79d0e",
+      "_sheet": "Pessoas (536 records) — filtered post-processing to records with data_desligamento",
+      "columns": {
+        "id":                { "default": "__record_id__" },
+        "pessoa_id":         { "default": "__record_id__" },
+        "tipo_desligamento": { "field_id": "a7393331-17d2-44d7-939f-b8e274a50e9a", "extract": "select" },
+        "comentarios":       { "field_id": "611c7832-3254-40ff-bea3-5ee4163645a6", "extract": "select" },
+        "data_desligamento": { "field_id": "6166545f-9dc0-4cd8-a4ea-fc52076c3145", "extract": "date" },
+        "responsavel_rh_id": { "field_id": null, "extract": null, "default": "" },
+        "valor_rescisao":    { "field_id": null, "extract": null, "default": "" },
+        "etapa":             { "field_id": null, "extract": null, "default": "" },
+        "created_at":        { "default": "__timestamptz__" },
+        "updated_at":        { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

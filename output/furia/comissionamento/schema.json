@@ -1,0 +1,347 @@
+{
+    "name": "furia_comissionamento",
+    "version": "1.0",
+    "tables": {
+      "centro_de_custo": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": true
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "solicitacoes": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "vendedor_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "responsavel_rh_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "responsavel_cmo_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "responsavel_financeiro_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "responsavel_juridico_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "status": {
+            "type": "text",
+            "required": true,
+            "default": "'solicitado'::text"
+          },
+          "moeda": {
+            "type": "text",
+            "required": false,
+            "default": "'BRL'::text"
+          },
+          "data_prevista_pagamento": {
+            "type": "date",
+            "required": false
+          },
+          "data_emissao_nf": {
+            "type": "date",
+            "required": false
+          },
+          "nome_projeto": {
+            "type": "text",
+            "required": false
+          },
+          "tipo_contrato": {
+            "type": "text",
+            "required": false
+          },
+          "tipo_comissionamento": {
+            "type": "text",
+            "required": false
+          },
+          "empresa_furia_pagadora": {
+            "type": "text",
+            "required": false
+          },
+          "valor_bruto": {
+            "type": "numeric",
+            "required": false
+          },
+          "valor_liquido": {
+            "type": "numeric",
+            "required": false
+          },
+          "data_fechamento": {
+            "type": "date",
+            "required": false
+          },
+          "prazo_contratual": {
+            "type": "text",
+            "required": false
+          },
+          "condicao_pagamento": {
+            "type": "text",
+            "required": false
+          },
+          "datas_pagamento": {
+            "type": "text",
+            "required": false
+          },
+          "perc_comissionamento": {
+            "type": "text",
+            "required": false
+          },
+          "perc_licenciamento": {
+            "type": "text",
+            "required": false
+          },
+          "perc_midia": {
+            "type": "text",
+            "required": false
+          },
+          "perc_patrocinio": {
+            "type": "text",
+            "required": false
+          },
+          "intermediario_externo": {
+            "type": "text",
+            "required": false
+          },
+          "nome_intermediario": {
+            "type": "text",
+            "required": false
+          },
+          "url_contrato": {
+            "type": "text",
+            "required": false
+          },
+          "nome_cliente": {
+            "type": "text",
+            "required": false
+          },
+          "cnpj_cliente": {
+            "type": "text",
+            "required": false
+          },
+          "nome_representante": {
+            "type": "text",
+            "required": false
+          },
+          "telefone_representante": {
+            "type": "text",
+            "required": false
+          },
+          "email_representante": {
+            "type": "text",
+            "required": false
+          },
+          "de_acordo_cmo": {
+            "type": "text",
+            "required": false
+          },
+          "data_validacao_cmo": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "comentarios_cmo": {
+            "type": "text",
+            "required": false
+          },
+          "justificativa_cmo": {
+            "type": "text",
+            "required": false
+          },
+          "de_acordo_rh": {
+            "type": "text",
+            "required": false
+          },
+          "data_validacao_rh": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "comentarios_rh": {
+            "type": "text",
+            "required": false
+          },
+          "justificativa_rh": {
+            "type": "text",
+            "required": false
+          },
+          "valor_nf": {
+            "type": "numeric",
+            "required": false
+          },
+          "moeda_rh": {
+            "type": "text",
+            "required": false
+          },
+          "parcela_paga": {
+            "type": "text",
+            "required": false
+          },
+          "data_pagamento_rh": {
+            "type": "date",
+            "required": false
+          },
+          "status_nf": {
+            "type": "text",
+            "required": false
+          },
+          "url_nota_fiscal": {
+            "type": "text",
+            "required": false
+          },
+          "numero_nf": {
+            "type": "text",
+            "required": false
+          },
+          "data_limite_envio_nf": {
+            "type": "date",
+            "required": false
+          },
+          "data_competencia": {
+            "type": "date",
+            "required": false
+          },
+          "de_acordo_financeiro": {
+            "type": "text",
+            "required": false
+          },
+          "data_validacao_financeiro": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "comentarios_financeiro": {
+            "type": "text",
+            "required": false
+          },
+          "justificativa_financeiro": {
+            "type": "text",
+            "required": false
+          },
+          "valor_recebido_cliente": {
+            "type": "numeric",
+            "required": false
+          },
+          "data_recebimento": {
+            "type": "date",
+            "required": false
+          },
+          "parcela_financeiro": {
+            "type": "text",
+            "required": false
+          },
+          "moeda_financeiro": {
+            "type": "text",
+            "required": false
+          },
+          "data_envio_juridico": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "url_termo_juridico": {
+            "type": "text",
+            "required": false
+          },
+          "observacoes_vendedor": {
+            "type": "text",
+            "required": false
+          },
+          "url_planilha_extra": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "configs": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "features": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'[]'::jsonb"
+          },
+          "settings": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'{}'::jsonb"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      }
+    },
+    "enums": {},
+    "jsonTypes": {}
+  }

@@ -1,0 +1,396 @@
+{
+    "name": "furia_processos",
+    "version": "1.0",
+    "tables": {
+      "admissoes": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "solicitante_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "pessoa_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "lider_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "responsavel_rh_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "primeiro_nome": {
+            "type": "text",
+            "required": false
+          },
+          "nome_completo": {
+            "type": "text",
+            "required": false
+          },
+          "email": {
+            "type": "text",
+            "required": false
+          },
+          "telefone": {
+            "type": "text",
+            "required": false
+          },
+          "data_inicio": {
+            "type": "date",
+            "required": false
+          },
+          "sugestao_email": {
+            "type": "text",
+            "required": false
+          },
+          "modelo_contratacao": {
+            "type": "text",
+            "required": false
+          },
+          "tipo_movimentacao": {
+            "type": "text",
+            "required": false
+          },
+          "categoria_colaborador": {
+            "type": "text",
+            "required": false
+          },
+          "organizacao_furia": {
+            "type": "text",
+            "required": false
+          },
+          "modelo_atuacao": {
+            "type": "text",
+            "required": false
+          },
+          "sede": {
+            "type": "text",
+            "required": false
+          },
+          "cargo": {
+            "type": "text",
+            "required": false
+          },
+          "nivel": {
+            "type": "text",
+            "required": false
+          },
+          "moeda": {
+            "type": "text",
+            "required": false
+          },
+          "valor_contrato": {
+            "type": "numeric",
+            "required": false
+          },
+          "atividade": {
+            "type": "text",
+            "required": false
+          },
+          "status": {
+            "type": "text",
+            "required": true,
+            "default": "'solicitado'::text"
+          },
+          "area_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "furia_processos",
+              "table": "area",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "centro_de_custo_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "furia_processos",
+              "table": "centro_de_custo",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "lista_de_acessos": {
+            "type": "text[]",
+            "required": true,
+            "default": "'{}'::text[]"
+          },
+          "lista_de_softwares": {
+            "type": "text[]",
+            "required": true,
+            "default": "'{}'::text[]"
+          },
+          "lista_de_equipamentos": {
+            "type": "text[]",
+            "required": true,
+            "default": "'{}'::text[]"
+          },
+          "beneficios_contratados": {
+            "type": "text[]",
+            "required": true,
+            "default": "'{}'::text[]"
+          },
+          "contratos_checklist": {
+            "type": "text[]",
+            "required": true,
+            "default": "'{}'::text[]"
+          },
+          "status_beneficios": {
+            "type": "text",
+            "required": false
+          },
+          "status_contratos": {
+            "type": "text",
+            "required": false
+          },
+          "status_equipamentos": {
+            "type": "text",
+            "required": false
+          },
+          "status_acessos": {
+            "type": "text",
+            "required": false
+          },
+          "status_envio_terceiros": {
+            "type": "text",
+            "required": false
+          },
+          "andamento_geral": {
+            "type": "smallint",
+            "required": true,
+            "default": "0"
+          },
+          "observacoes": {
+            "type": "text",
+            "required": false
+          },
+          "beneficios_solicitados": {
+            "type": "text",
+            "required": false
+          },
+          "job_description": {
+            "type": "text",
+            "required": false
+          },
+          "status_envio_juridico": {
+            "type": "text",
+            "required": false
+          },
+          "envio_dados_pessoais": {
+            "type": "text",
+            "required": false
+          },
+          "envio_documentacao_pessoal": {
+            "type": "text",
+            "required": false
+          },
+          "envio_dados_pj": {
+            "type": "text",
+            "required": false
+          },
+          "envio_dependentes": {
+            "type": "text",
+            "required": false
+          },
+          "todas_informacoes_conferidas": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "configs": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "features": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'[]'::jsonb"
+          },
+          "settings": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'{}'::jsonb"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "tasks_internas": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": true
+          },
+          "status": {
+            "type": "text",
+            "required": true,
+            "default": "'pendente'::text"
+          },
+          "descricao": {
+            "type": "text",
+            "required": false
+          },
+          "responsavel_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "data_inicio": {
+            "type": "date",
+            "required": false
+          },
+          "data_conclusao_prevista": {
+            "type": "date",
+            "required": false
+          },
+          "checklist_furia": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'[]'::jsonb"
+          },
+          "checklist_zazos": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'[]'::jsonb"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "centro_de_custo": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": true
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "softwares": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": true
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "area": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome": {
+            "type": "text",
+            "required": true
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      }
+    },
+    "enums": {},
+    "jsonTypes": {}
+  }

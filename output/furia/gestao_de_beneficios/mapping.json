@@ -1,0 +1,70 @@
+{
+  "output_dir": "output/furia/gestao_de_beneficios",
+  "uuid_remap": { "enabled": false },
+  "tables": [
+    {
+      "name": "profiles",
+      "view_id": "c3bda2f4-7811-4046-aa15-07cee1b79d0e",
+      "_sheet": "Pessoas (536 records)",
+      "columns": {
+        "id":            { "default": "__record_id__" },
+        "nome_completo": { "field_id": "66cae0a9-def7-4945-b478-eb7256b180ca", "extract": "string" },
+        "created_at":    { "default": "__timestamptz__" },
+        "updated_at":    { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "fornecedores",
+      "view_id": "cbd60055-5bdb-4deb-9bb0-4a3691714f11",
+      "_sheet": "Fornecedores (1 record)",
+      "columns": {
+        "id":                    { "default": "__seq__" },
+        "nome":                  { "field_id": "b605b3b2-4cd7-43a3-8930-c7df2dd81f35", "extract": "string" },
+        "cadastro_federal":      { "field_id": "d15a5caf-74e9-4fa7-a749-6e4680a289c0", "extract": "string" },
+        "id_ns":                 { "field_id": null, "extract": null, "default": "" },
+        "subsidiaria_principal": { "field_id": null, "extract": null, "default": "" },
+        "created_at":            { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "beneficio",
+      "view_id": "20ef4fa3-9e5f-46a9-975d-53c1e6f1b1b9",
+      "_sheet": "Buffs e Poderes FURIA (19 records)",
+      "columns": {
+        "id":                        { "default": "__record_id__" },
+        "nome":                      { "field_id": "f23d0be8-a0ae-4e45-a2f2-10120bcc06c3", "extract": "string" },
+        "tipo":                      { "field_id": "9b0a8c7f-2d79-4020-834a-0440f1ab46e5", "extract": "select" },
+        "aplicavel_dependentes":     { "field_id": null, "extract": null, "default": "false" },
+        "descricao":                 { "field_id": "3cfff49f-156e-49da-9924-d62f72fa8aeb", "extract": "markdown" },
+        "status":                    { "field_id": "ece3f244-7fb1-43ff-8e5b-db3220d41864", "extract": "select" },
+        "fornecedor_id":             { "field_id": null, "extract": null, "default": "" },
+        "icone":                     { "field_id": null, "extract": null, "default": "" },
+        "obrigatorio":               { "field_id": null, "extract": null, "default": "false" },
+        "pagina_publica_habilitada": { "field_id": null, "extract": null, "default": "false" },
+        "solicitacao_habilitada":    { "field_id": null, "extract": null, "default": "true" },
+        "plano_unico":               { "field_id": null, "extract": null, "default": "false" },
+        "carencia_habilitada":       { "field_id": null, "extract": null, "default": "false" },
+        "dias_carencia":             { "field_id": null, "extract": null, "default": "0" },
+        "created_at":                { "default": "__timestamptz__" },
+        "updated_at":                { "default": "__timestamptz__" }
+      }
+    },
+    {
+      "name": "adesao_beneficio",
+      "view_id": "657c4624-dfdc-475f-a6ba-801d88848397",
+      "_sheet": "Adesão ao Buffs e Poderes FURIA (120 records)",
+      "columns": {
+        "id":                 { "default": "__record_id__" },
+        "beneficio_id":       { "field_id": "ba21a46c-77f0-4f48-9c7d-06a1d0f3132c", "extract": "link" },
+        "pessoa_id":          { "field_id": "72dc8158-0feb-4939-b424-a79c26efd6e6", "extract": "link" },
+        "valor_beneficio_id": { "field_id": null, "extract": null, "default": "" },
+        "data_termino":       { "field_id": null, "extract": null, "default": "" },
+        "status_adesao":      { "field_id": "cf29570a-e11b-49d9-a11a-0cac17d54d7c", "extract": "select" },
+        "observacoes":        { "field_id": "3effe914-4b56-4ffd-8f1e-547668668d21", "extract": "markdown" },
+        "data_adesao":        { "field_id": "7c6b020f-a5e1-4d73-a931-6834f86da1d8", "extract": "date" },
+        "created_at":         { "default": "__timestamptz__" },
+        "updated_at":         { "default": "__timestamptz__" }
+      }
+    }
+  ]
+}

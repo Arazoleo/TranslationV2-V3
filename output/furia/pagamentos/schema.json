@@ -1,0 +1,321 @@
+{
+    "name": "z_pagamentospj",
+    "version": "1.0",
+    "tables": {
+      "pagamentos_p_j": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "email": {
+            "type": "text",
+            "required": false
+          },
+          "cnpj": {
+            "type": "text",
+            "required": false
+          },
+          "pessoa_id": {
+            "type": "uuid",
+            "required": false
+          },
+          "data_admissao": {
+            "type": "text",
+            "required": false
+          },
+          "valor_mensal": {
+            "type": "numeric",
+            "required": false
+          },
+          "ferias": {
+            "type": "numeric",
+            "required": false,
+            "default": "0"
+          },
+          "plano_saude": {
+            "type": "numeric",
+            "required": false,
+            "default": "0"
+          },
+          "dissidio": {
+            "type": "numeric",
+            "required": false,
+            "default": "0"
+          },
+          "total": {
+            "type": "numeric",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "data_competencia": {
+            "type": "date",
+            "required": false
+          },
+          "data_vencimento": {
+            "type": "date",
+            "required": false
+          },
+          "odonto_dependentes": {
+            "type": "numeric",
+            "required": false,
+            "default": "0"
+          },
+          "nota_fiscal_url": {
+            "type": "text",
+            "required": false
+          },
+          "status_nota_fiscal": {
+            "type": "text",
+            "required": false,
+            "default": "'pendente'::text"
+          },
+          "nota_fiscal_data_envio": {
+            "type": "timestamptz",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "profiles": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome_completo": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "pagamentos_clt": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "competencia_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "z_pagamentospj",
+              "table": "competencias",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "pessoa_id": {
+            "type": "uuid",
+            "required": false
+          },
+          "tipo": {
+            "type": "text",
+            "required": false
+          },
+          "pagina_numero": {
+            "type": "integer",
+            "required": false
+          },
+          "pdf_holerite_url": {
+            "type": "text",
+            "required": false
+          },
+          "nome_extraido": {
+            "type": "text",
+            "required": false
+          },
+          "cpf_extraido": {
+            "type": "text",
+            "required": false
+          },
+          "status_match": {
+            "type": "text",
+            "required": false,
+            "default": "'pendente'::text"
+          },
+          "confianca_match": {
+            "type": "integer",
+            "required": false
+          },
+          "valor_bruto": {
+            "type": "numeric",
+            "required": false
+          },
+          "valor_liquido": {
+            "type": "numeric",
+            "required": false
+          },
+          "status_documento": {
+            "type": "text",
+            "required": false,
+            "default": "'rascunho'::text"
+          },
+          "status_financeiro": {
+            "type": "text",
+            "required": false,
+            "default": "'pendente'::text"
+          },
+          "lote_numero": {
+            "type": "text",
+            "required": false
+          },
+          "lote_exportado_em": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "lote_tipo_arquivo": {
+            "type": "text",
+            "required": false
+          },
+          "observacoes": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "competencias": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "mes": {
+            "type": "integer",
+            "required": true,
+            "unique": true
+          },
+          "ano": {
+            "type": "integer",
+            "required": true,
+            "unique": true
+          },
+          "data_pagamento": {
+            "type": "date",
+            "required": false
+          },
+          "status": {
+            "type": "text",
+            "required": false,
+            "default": "'rascunho'::text"
+          },
+          "pdf_consolidado_url": {
+            "type": "text",
+            "required": false
+          },
+          "total_documentos": {
+            "type": "integer",
+            "required": false,
+            "default": "0"
+          },
+          "documentos_vinculados": {
+            "type": "integer",
+            "required": false,
+            "default": "0"
+          },
+          "documentos_pendentes": {
+            "type": "integer",
+            "required": false,
+            "default": "0"
+          },
+          "created_by": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "configs": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamp",
+            "required": false
+          },
+          "features": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'[]'::jsonb"
+          },
+          "access": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'{}'::jsonb"
+          },
+          "settings": {
+            "type": "jsonb",
+            "required": true,
+            "default": "'{}'::jsonb"
+          }
+        },
+        "metadata": {}
+      }
+    },
+    "enums": {},
+    "jsonTypes": {}
+  }

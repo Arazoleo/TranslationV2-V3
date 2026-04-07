@@ -1,0 +1,327 @@
+id,nome,tipo,aplicavel_dependentes,descricao,status,icone,obrigatorio,pagina_publica_habilitada,solicitacao_habilitada,plano_unico,carencia_habilitada,dias_carencia,created_at,updated_at
+c1308be8-ec81-4f44-9426-a7024187d753,Plano de Saúde - Amil,saude,false,"Pensando na saúde do nosso time, nós oferecemos o plano de saúde **AMIL S750 R2 Quarto Privativo Nacional**, que possui cobertura nos principais hospitais e laboratórios do Brasil.
+
+A FURIA é responsável pelo pagamento do plano, **e cada colaborador(a) paga por sua coparticipação**. Além desse ponto, o plano de saúde não é extensivo para familiares e outros dependentes.
+
+**Regras para inclusão:**
+
+*   PJ em condições de Sociedade Empresária Limitada: A inclusão no plano de saúde Amil é imediata, contemplando o prazo de movimentação da operadora.
+*   PJ em condições de Empresário Individual (MEI ou ME) e superior a 180 dias de ativação do CNPJ: A inclusão no plano de saúde Amil é imediata, contemplando o prazo de movimentação da operadora.
+*   PJ em condições de Empresário Individual (MEI ou ME) e inferior a 180 dias de ativação do CNPJ: Necessário aguardar carência de 180 dias exigida pela ANS (agência nacional de saúde).
+
+**Coparticipação:** É o valor que o beneficário paga pela utilização do plano de saúde, isto é, após a realização de algum procedimento, como consultas e exames.
+
+**Desconto de coparticipação:** A cobrança de coparticipação poderá ocorrer no mês de utilização do plano de saúde ou em data posterior, não havendo um mês certo para cobrança de desconto pela FURIA. Tudo dependerá do fechamento do faturamento do hospital, clínica, laboratório e etc. A Amil repassa o valor para a FURIA e o desconto é efetuado em pagamento. Por isso é importante a utilização consciente do plano de saúde.
+
+[**Tabela de valores de coparticipação**](https://drive.google.com/file/d/1jgXyEMZk7Cc94q7N1pv-7qMia8ENAbdc/view)
+
+**Reembolso:** Se um beneficiário optar por consultar um médico fora da rede credenciada AMIL, será necessário o pagamento da consulta integral para posteriormente solicitar um reembolso à Amil via [**APP Clientes**](https://play.google.com/store/apps/details?id=br.com.amil.beneficiarios&amp;hl=pt_BR&amp;gl=US).
+
+Em algumas consultas, a Amil pode oferecer a opção de reembolsar parte ou a totalidade desses custos, sujeito a certas condições e limitações (vide tabela acima).
+
+**IMPORTANTE**: Só tem direito ao reembolso no caso de **consultas médicas**. Não tem reembolso FORA DA REDE CREDENCIADA para **exames, cirurgias ou atendimento em pronto socorro**. Nesses casos, utilizar a rede credenciada.
+
+**Valor Reembolso:** O valor a ser reembolsado em consultas, fora da rede credenciada, é de até R$ 208,04 mês, sendo em especialidade diferentes.",ativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00
+741f22c3-f0c4-40a7-b7df-049ba1977f96,Seguro de Vida,saude,false,"O seguro de vida tem como objetivo a proteção econômica e financeira do segurado e de sua família, onde garante uma indenização ao beneficiário **em caso de falecimento do segurado**.
+
+**Coberturas Contrada**
+
+*   Morte natural
+*   Morte acidental
+*   invalidez total / parcial por acidente
+
+**Assistência Funeral:** Caso o segurado vier a óbito, a seguradora **indenizará seus beneficiários** com uma quantia financeira de: R$ 150.000,00.
+
+**Benefeciários Legais**
+
+*   Filhos
+*   Conjugê
+*   Pais
+*   Irmãos
+
+**Certificado de Seguro de vida:**
+
+O certificado de seguro é um documento individual do funcionário onde constam todas as condições do seguro, incluindo o número da apólice e as instruções para utilização do seguro, caso precise acionar.
+
+Prazo para recebimento: 45 dias",ativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00
+8bf8a201-eb9c-424b-9607-848efddfd9b5,Cartão Ifood,outro,false,"Para os FURIOSOS que possuem o modelo de atuação **HÍBRIDO** ou **PRESENCIAL**, disponibilizamos o BUFF do cartão IFOOD!
+
+O IFOOD é um cartão de benefícios flexíveis e de crédito. Você escolhe como usar seu saldo!
+
+**Modalidade**
+
+* Alimentação
+* Bem - estar
+* Conveniência
+* Cultura
+* Educação
+* Mobilidade
+* Refeição
+* Saúde
+
+Baixando o app, você confere o seu saldo, quando será a próxima recarga e aproveita as parcerias de até 80% de descontos! 🤑
+
+E, você possui mais algumas vantagens!
+
+* Você fará parte do **Clube iFood**
+* **5 Cupons** mensais de até 25% off
+* Entrega grátis ilimitada para pedidos a partir de R$ 65,00 em restaurantes selecionados
+* Experiências especiais com parcerias dentro e fora do app
+
+Modelo Presencial: É oferecido R$ 1.155,00 mensalmente - Obritgatório ida ao Office presencialmente todos os dias, sendo de segunda a sexta.
+
+Modelo híbrido (3x2): É oferecido R$ 715,00 mensalmente - Obritgatório ida ao Office 3x por semana.
+
+Data de disponibilização: todo dia 01 de cada mês.
+
+Acesse o [APP IFOOD](https://play.google.com/store/apps/details?id=br.com.ifood.benefits&amp;hl=pt_BR&amp;gl=US&amp;pli=1)
+
+Para dúvidas referente aos tópicos abaixo, acesse o [Manual do Colaborador iFood](https://drive.google.com/file/d/1f4KSQpWEwU_Ge2RWDVxlDelpt0HrFe1m/view?usp=sharing):
+
+* Login com o cartão;
+* Criação de senha:
+* Entrega do seu cartão;
+* Alteração de senha;
+* Desbloqueio do cartão;
+* Vínculo de cartão não nominal (para 2ª do cartão após implantação);
+* Conectar contas: APP do iFood Delivery;
+* Conectar contas: APP do iFood Benefícios;
+* Comunicação entre Saldos;
+* Cartão virtual;
+* Como criar seu cartão virtual?;
+* Pagamento com Qr Code;
+* Pagamento por aproximação;
+* Acompanhe seu extrato;
+* Alteração de dados cadastrais;
+* Alteração de senha;
+* Como pedir ajuda no app?;
+* Como ativar o Clube iFood?;
+* Como acessar vantagens exclusivas?",ativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00
+65d37cb9-db6e-47ee-987c-00869cd09a40,No Dress Code,outro,false,"**Na FURIA você pode deixar as suas skins de lado e ser quem você é!**
+
+Sinta-se a vontade para ir ao escritório da forma que você preferir. Aqui prezamos por um ambiente mais informal, no entanto o bom senso é F2P, então bora utilizar!",ativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00
+ceb60f86-d534-4f15-a9f5-72da817145f8,Licença Parental,outro,false,"**Yaaaaaay, temos um baby chegando! 👶**​
+
+Esse é um momento mágico e queremos que nossos FURIOSOS aproveitem ao máximo, por isso oferecemos a licença parentalidade. Isso vale também para adoção.
+
+  
+
+São dispostos **4 meses de licença remunerada após o parto ou adoção,** para mãe/pai que tiveram seu período gestacional ou também como tutor(a) no caso de adoção, podendo ainda solicitar mais 60 dias (2 meses), mas estes com 50% da remuneração.
+
+  
+
+São dispostos **20 dias de licença remunerada após o nascimento** para mãe/pai que não tiveram seu período gestacional e são **parceria ativa**, podendo assim solicitar mais 10 dias, sendo estes não remunerados.",ativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00
+84e7132f-f4b0-4d11-be3a-b604a15dcced,Desconto Lifestyle,outro,false,"**Desconto para os furiosos e furiosas? TEMOS!**
+
+Torcer para a FURIA é vestir a camisa e, para isso, disponibilizamos descontos especiais para o nosso time!
+
+**Todos os meses** é por e-mail um cupom pessoal e intransferível de **15% off** para compras no nosso site oficial.
+
+E assim que for enviado, avisaremos por slack também!",ativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00
+48d68be9-ebcd-483d-bcd7-e0f1b37e57b5,Licença Casamento e União Estável,outro,false,"  
+
+Para os FURIOSOS celebrarem seus casamentos ou uniões estáveis, é oferecido **3 dias de suspensão remunerada dos serviços**.
+
+  
+
+Conversem com suas lideranças e escolham os dias, podendo ser os 3 antes ou após o evento!",ativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00
+ef58d177-01bf-4a14-b5bc-43ce619429e6,Day OFF ,outro,false,"Aqui na FURIA vivemos para celebrar e isso não poderia ser diferente no seu dia mais especial do ano!
+
+No mês do seu **aniversário você ganha um day off** para aproveitar o seu dia. ​
+
+Combine a data com a sua gestão e curta muito!
+
+Além disso, você também ganha um **dia no dia de aniversário de contrato** furioso!
+
+  
+
+Ah e não esqueça de inserir o seu Day Off na página de ausência na zazos.",ativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00
+2aa4f35c-bed6-46a7-8674-eb8ecc40448c,Descanso Remunerado,outro,false,"## **Descanso:**
+
+Visando o bem-estar e qualidade de vida, a FURIA autoriza os seus prestadores de serviços (“Colaboradores”) a requisitarem a suspensão remunerada dos seus contratos e dos seus serviços, nas seguintes condições:
+
+Colaborador recém-contratado:
+
+* Após 3 meses de contrato: período de 05 dias.
+* Após 6 meses de contrato: período de 15 dias.
+* Após 10 meses de contrato: período de 20 dias.
+
+**Colaborador com mais de 12 meses de contrato vigente:**
+
+* Período de 20 dias.
+
+O Colaborador poderá usufruir dos períodos de descanso a qualquer momento após completar os períodos mencionados acima. Para que não restem dúvidas, os períodos não são cumulativos.
+
+**O Colaborador poderá usufruir dos períodos de descanso da seguinte forma:**
+
+* Descanso de 5 dias: próximo período deverá ser de 15 dias consecutivos
+* Descanso de 15 dias: o próximo período deverá ser de 5 dias consecutivos
+* Descanso de 20 dias: possível dividir em 10 + 10 dias ou 15 + 5 dias
+
+Não são permitidos períodos distintos dos acima listados, exceto mediante ciência e concordância do gestor/líder do setor e RH.
+
+**Exemplo:** Colaborador com 6 meses de contrato se ausenta por 15 dias. O próximo descanso será de 5 dias e só poderá ser usufruído depois de concluídos os 4 meses subsequentes, ou seja, a partir do 10° mês de contrato.
+
+**Ano Calendário do Contrato:** Atente-se ao seu Ano Calendário para não perder essa vantagem!
+
+**Você sabe o que é isso?** O ano calendário corresponde aos 12 meses consecutivos de vigência do contrato de prestação de serviços, contados a partir da data de início do seu contrato.
+
+**Exemplo:** Data de Contratação: 02/05/2026
+
+Ano 2026-2027 - Ano Calendário 02/05/2026 a 01/05/2027 – 12 meses
+
+Como nossa relação é de prestação de serviços por profissionais autônomos, **não há vínculo empregatício**, portanto, **não se aplicam direitos trabalhistas e, consequentemente, indenização por dias de descanso não usufruídos ou banco de horas.**
+
+Entretanto, valorizamos o equilíbrio e o bem-estar de todos os nossos Colaboradores. Por isso, oferecemos um **período de descanso** anual, acordado previamente com o gestor/líder do setor, considerando a continuidade das entregas e o planejamento dos setores.
+
+**Importante:**
+
+* Nesse formato, o contrato de prestação de serviços será suspenso e o Colaborador continuará recebendo sua remuneração normalmente durante o período de descanso.
+* Em caso de encerramento do contrato, antes da utilização do descanso, não há saldo ou indenização a serem pagos, uma vez que se trata de uma pausa contratual acordada para fins de organização e bem-estar, e não de férias legais.
+* A solicitação de descanso deverá ser efetuada com o prazo mínimo de 20 dias de antecedência da data pretendida, desde que aprovado previamente pelo gestor/líder do setor.
+* A FURIA concederá 20 dias de descanso a ser planejado pelo Colaborador durante o Ano-Calendário.
+* A FURIA suspenderá suas atividades pelo período de 10 dias no final do ano (entre Natal e Ano Novo), momento em que o Colaborador terá suspensão de suas atividades de forma remunerada.
+* Em caso de mudança ou cancelamento do período de descanso solicitado, o Colaborador deve avisar o gestor/líder do setor e time de RH no **mínimo com 20 dias de antecedência.**
+
+Caso o Colaborador não utilize da oportunidade de descanso concedida dentro do Ano Calendário de contrato, os dias de descanso são cancelados automaticamente a partir do Ano Calendário seguinte, sem direito a indenizações ou compensações de horas.
+
+Na hipótese de urgências a serem demandadas durante a suspensão das atividades da FURIA, o gestor/líder do setor deverá informar o RH.
+
+**A _prerrogativa de suspensão remunerada dos serviços não se acumula para o próximo ano e tampouco é indenizável_**.
+
+Para que não haja dúvidas, como não se trata de uma relação trabalhista, **_não há descanso proporcional ao tempo de contrato ou indenização para a suspensão dos serviços não usufruída em caso de rescisão antecipada._**
+
+**Exceções:** Quaisquer exceções às regras acima expostas deverão ser autorizadas por escrito pelo gestor/líder responsável pelo setor.
+
+## Fluxo de aprovação | Descanso
+
+## ![](https://zazos.imgix.net/5b917fb3-0a99-4cbc-9afa-c92eb9ceb6b3/c6f8febd-40c6-4813-9401-e12324692e5a?max-w=800&amp;s=61659041f6e54220eb8c946d7a4cb3b2)",ativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00
+260d2246-10b1-4fc6-a804-e3c984b511f0,Plano Amil - Dental,saude,false,"Pensando na saúde odontológica do nosso time, nós oferecemos o plano **AMIL Dental 205**, com cobertura nacional.
+
+A FURIA é responsável pelo pagamento do plano (mensalidade) e esse plano **não possui coparticipação**. Além desse ponto, o plano dental não é extensivo para familiares e outros dependentes.
+
+Cuidar da saúde bucal ficou ainda mais fácil! Com cobertura completa, o plano oferece desde consultas (inclusive aos sábados) até tratamentos mais avançados, garantindo um sorriso saudável.
+
+🦷 **Confira tudo o que o plano cobre:**
+
+✅ **Urgência/Emergência**
+
+✅ **Consultas** (inclusive aos sábados)
+
+✅ **Limpeza, prevenção e aplicação de flúor** (profilaxia)
+
+✅ **Raio X** (panorâmicos e periapicais)
+
+✅ **Tratamento de gengiva** (periodontia)
+
+✅ **Tratamento de canal** (endodontia)
+
+✅ **Tratamento para crianças** (odontopediatria)
+
+✅ **Restauração** (dentística)
+
+✅ **Cirurgias e extrações** (incluindo o dente do siso/incluso)
+
+✅ **Próteses** (conforme Rol de Procedimentos vigentes na ANS)
+
+✅ **Documentação ortodôntica básica**
+
+📍 **Atendimento com dentistas de alta qualidade**, na rede credenciada **Amil Dental Dental 205**, com **mais de 230 procedimentos odontológicos** disponíveis!
+
+#FuriaSaudável #SorrisoDeCampeão #CuidandoDosFuriosos
+
+#",ativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00
+bddf33df-26a8-4326-b730-449e0fa89097,Seguro de Vida - Estágio,saude,false,"O ESTAGIÁRIO durante a vigência do presente Termo de Compromisso de Estágio estará segurado contra **acidentes pessoais** conforme apólice nº 850.579 no valor de **R$ 16.500,00**, da seguradora **BRADESCO VIDA E PREVIDENCIA S/A.**
+
+O CIEE oferece como benefício o **FAE - Fundo de assistência** ao ESTAGIÁRIO que é o **reembolso das despesas** médicas em decorrência de um **acidente**, até o valor limite de **R$ 600,00**.",ativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00
+4981ddc4-ef8a-4af6-bf86-9b07ad09b870,1 - Organograma,outro,false,"OI, FURIOSO (A)!
+
+Como você está se sentindo sabendo que entrou para a maior Organização de Esports do Brasil?
+
+Para você já se sentir em casa, aqui está nosso organograma com muita gente bacana para você ir se familiarizando. Assim, pode ficar por dentro do pessoal e vai entender melhor sobre o que cada um faz aqui. Maneiro, né? Esperamos que curta muito a sua jornada nesse time furioso!
+
+Acesse [aqui](https://drive.google.com/file/d/1JE5eEdL2x2-u6DbST-YdI_8VJFyqEcDc/view) nosso Organograma FURIOSO!",inativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00
+13911813-89b1-4915-8ecc-c0efa0f96279,2 - Buffs e Poderes,outro,false,"HMMMM, ALGUÉM FALOU EM BUFFS POR AQUI?
+
+Aqui na nossa organização temos os famosos Buffs e Poderes, mas o que raios é isso?!  Pensando na melhor forma de impulsionar nossos furiosos nessa jornada, nós oferecemos alguns buffs, como cartão flash, plano de saúde, seguro de vida, entre outros.
+
+Para entender melhor sobre todos eles e como cada um funciona, apresentamos um material repleto de informações.
+
+Leia com atenção, mate a curiosidade e, se tiver alguma dúvida, teremos um espaço no onboarding justamente para você esclarecer! Eai, já tem um buff favorito?
+
+[Acesse aqui e confira!](https://drive.google.com/file/d/17CWzmar-oixqDM0CjED-OHhBpiiz5lN-/view)",inativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00
+87306d34-7768-48a2-8dc8-c893ab5b81a7,3 - Nossas Conquistas,outro,false,"ORA, ORA, ORA! Parece que temos alguém querendo conhecer mais ainda a nossa Org, tudo que construímos até aqui e se sentir da equipe, não é mesmo?
+
+Nós te entendemos, e com o intuito de mostrar os principais pontos dessa missão que foi trilhada até aqui, e mais uma vez, te convidar para fazer parte dela, estamos te enviando um material com a ilustríssima TIMELINE FURIA! Esperamos que agora, mais do que nunca, você vista a camisa e faça história com a gente!
+
+[Acesse aqui e confira!](https://drive.google.com/file/d/1gobmf5X-sNNrIOaG2ADtR-LKkzUdhWhy/view)",inativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00
+c8aa3e29-7806-4b30-84a1-5121945101f5,4 - Nosso Time de People,outro,false,"FALA, FURIOSO(A)!
+
+Aqui na FURIA nós temos um time incrível de Pessoas e Cultura que é responsável pela nossa (advinha?) cultura organizacional e tudo relacionado ao bem estar e desenvolvimento de nossos furiosos!
+
+Agora que você já viu nosso organograma e conhece um pouco mais sobre a equipe como um todo, que tal saber um pouco mais sobre esse time de People que vai te dar todo o apoio necessário nesta nova missão?!
+
+[Acesse aqui e confira!](https://drive.google.com/file/d/1MlyYOVQMQXNWHkUvrtTnOdl8rikZmQE_/view)",inativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00
+e1150fb0-c317-4ab4-b0ca-b93071cec316,5 - Guia de Onboarding,outro,false,"**AGORA SIM VOCÊ FAZ PARTE DO MOVIMENTO DOS FURIOSOS! &lt;3**
+
+Preparado para embarcar nessa missão maravilhosa com a gente?
+
+Eu sei, eu sei, nós também estamos ansiosos para te receber e te mostrar tudo que vai acontecer daqui em diante!
+
+Pensando no seu início de jornada, queremos que você se sinta acolhido e parte do nosso dia a dia, afinal, a casa também é sua. Para isso, preparamos um material que vai te deixar por dentro do que vai rolar nos seus primeiros dias. Queremos que você inicie essa missão mergulhando no nosso onboarding e desejamos que a sua recepção seja a melhor possível!
+
+Vamos lá?!
+
+[Acesse aqui e confira!](https://drive.google.com/file/d/1ZXBMCaikcqwVOzjYmAjSA9F0rrKdRhjV/view)",ativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00
+1c34fcee-4426-41aa-8aed-0ff89749cd7f,6 - Cartão de Acesso TI,outro,false,"Olá, FURIOSO(A)!
+
+Agora que você já está familiarizado com alguns pontos importantes da nossa organização, já conhece os buffs, um pouco do time e nossa história, que tal começar a se integrar em nossas plataformas e como acessá-las? Achamos importante que, assim que receber seus equipamentos e periféricos, já tenha contexto de como utilizá-los da melhor forma e tenha mais facilidade com todos os acessos, por isso preparamos esse material cheio de informações e esperamos que te ajude muito nesse início furioso!
+
+Preparado (a) pra começar essa missão?!
+
+[Acesse aqui e confira!](https://drive.google.com/file/d/17DG3xJRl0x5rRSq8ivuyWgKAjz0aiHc6/view)",ativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00
+fcd8f064-6e19-4ecb-9256-57515d4f8c65,Cartão Flash,outro,false,"Para os FURIOSOS que possuem o modelo de atuação **HÍBRIDO** ou **PRESENCIAL**, disponibilizamos o BUFF do cartão FLASH!
+
+O FLASH é um cartão de benefícios flexíveis e pré-pago. Você escolhe como usar seu saldo!
+
+**Modalidade**
+
+* Alimentação
+* Bem - estar
+* Conveniência
+* Cultura
+* Educação
+* Mobilidade
+* Refeição
+* Saúde
+
+Baixando o app, você confere seu saldo, quando será a próxima recarga e aproveita as parcerias de até 80% de descontos! 🤑
+
+Modelo Presencial: É oferecido R$ 880,00 mensalmente
+
+Modelo híbrido (3x2): É oferecido R$ 540,00 mensalmente
+
+Data de disponibilização: todo dia 01 de cada mês.
+
+Acesse o [APP Flash](https://play.google.com/store/apps/details?id=br.com.flashapp&amp;hl=pt_BR&amp;gl=US)",inativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00
+e58698a2-41ce-4bf2-ba33-a73ebc858365,Wellhub (Gympass),saude,false,"**Cuidar da Sua Saúde e Bem-Estar Nunca Foi Tão Fácil!**
+
+Pensando no bem-estar e na saúde dos nossos colaboradores apresentamos o **Gympass**, uma plataforma completa que vai ajudar a cuidar da sua saúde física e mental.
+
+Com o Gympass, você tem acesso a uma rede incrível de academias, atividades físicas e bem-estar, tudo isso de forma prática e acessível!
+
+Confira as vantagens exclusivas que o Wellhub - (Gympass) oferece:
+
+**Acesso a Milhares de Academias e Estúdios:** Escolha onde e como se exercitar! O Gympass oferece acesso a academias e estúdios parceiros em diversas modalidades, como musculação, pilates, ioga, dança e muito mais.
+
+**Flexibilidade Total:** Treine no seu tempo e no lugar que for mais conveniente para você. Com o Gympass, é fácil encaixar o exercício na sua rotina.
+
+**Modalidades Online:** Além do acesso presencial, você também pode aproveitar aulas online para se exercitar onde estiver.
+
+**Cuidado com a Saúde Mental:** O Gympass vai além do físico e oferece opções de meditação, terapias e práticas voltadas para o equilíbrio emocional.
+
+**Estilo de Vida Saudável e Equilibrado:** Com o Gympass, fica muito mais fácil adotar hábitos saudáveis, aumentar sua energia e melhorar sua qualidade de vida.
+
+**Planos Personalizados:** Escolha o plano que mais se adapta às suas necessidades, com valores acessíveis e a flexibilidade de mudar conforme sua rotina.
+
+Acesse aqui e confira todos os planos - [Wellhub (Gympass)](https://www.gympass.com/sign-up/company-search?user_country=br&amp;utm_source=sfmc&amp;utm_medium=email&amp;utm_campaign=latam-br_b2b2c_we-resolutions-2025_______0125&amp;utm_content=none&amp;utm_term=we-global&amp;utm_source=sfmc&amp;utm_medium=email&amp;utm_campaign=latam-br_b2b2c_weservices-reinforcement__0125&amp;utm_content=weservices&amp;utm_term=we-global)",ativo,,false,false,true,false,false,0,2026-04-01T20:02:26+00:00,2026-04-01T20:02:26+00:00

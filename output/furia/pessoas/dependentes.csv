@@ -1,0 +1,142 @@
+id,nome,colaborador,tipo_de_relacao,rg,cpf,sexo,possui_deficiencia,declarar_ir,plano_saude,salario_familia,pensao_alimenticia,created_at
+1,Joana D'arc de Freitas Almeida,fea52e3c-ca35-4df1-9fab-03f3ef1403ee,Pai / Mãe,10141729-3,033.850.447-82,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+2,Hermes Messias de Andrade Sousa,4f4efdd7-3d1a-4149-ac9a-3889f10b95d5,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+3,Gabriel Mello de Mattos,c9b33660-fbdf-49bc-9b3a-7db12c071b6f,União Estável,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+4,Júlia de Sá Mattos,c9b33660-fbdf-49bc-9b3a-7db12c071b6f,Filho / Filha,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+5,Luciano Pontes de Almeida,fea52e3c-ca35-4df1-9fab-03f3ef1403ee,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+6,Felipe Cheida,6258a304-9034-44d1-88dc-d904ade63f07,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+7,Henrique Hickmann Sperb,636092ec-f326-4835-9678-5d9059450df8,Outra,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+8,Carlos Jacinto Marques Leal,3723eee1-a0ba-44a2-95a7-283899bb7f69,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+9,Karla Anacleto de Vasconcelos,b3473270-b8e4-4eda-86e0-513989cfa75e,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+10,Sandra Avelino de Souza,ab7bfb0d-8b5f-4b16-be0e-189da59656ff,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+11,Carlos Antonio Dias Carletto,b3473270-b8e4-4eda-86e0-513989cfa75e,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+12,Caio Bastos Noel dos Santos,b3473270-b8e4-4eda-86e0-513989cfa75e,Outra,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+13,Heuzana Soares da Silva,dd9464f9-5bc1-49e8-a572-9aebdc3694fa,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+14,,e893122b-7c18-4428-aba2-b7e87f9c1919,,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+15,Nicholas Fettback,45a589ec-9002-4f6a-bf50-607b7543f761,União Estável,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+17,Elaine Mamede Takahashi,ecc8dba7-abf0-48c9-b891-2fd6c5c87e65,Outra,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+18,Lucinete Farias de Queiroz Coelho,00f71b01-c55c-4437-a0a7-d95da6ebd5b2,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+19,Marcia Gonçalves,ddf3a8ab-b56a-4b7d-8f08-07a88c53a14f,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+20,Letícia Alves da Silva,46dbdd56-2340-450b-adba-3dfa7b8b26f7,União Estável,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+21,Juliana Bastos Boia,a610aa08-d0fe-4689-8c77-a0bfe715e63d,Outra,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+22,Maria Goretti de Lima Neris,a610aa08-d0fe-4689-8c77-a0bfe715e63d,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+23,Selma Silva Oliveira Silva,d9e9531a-f801-4c2c-b0ae-1e7214804e0e,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+24,Alexandre Brady Soares Sabino,d9e9531a-f801-4c2c-b0ae-1e7214804e0e,Outra,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+25,Rosangela Ramos,938ef664-3376-4bda-b002-0af0efc192b5,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+26,José Carlos dos Santos,938ef664-3376-4bda-b002-0af0efc192b5,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+27,Jéssica de Freitas Almeida,03782c49-64d5-465e-8d9a-18e4e559d140,União Estável,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+28,Antonio Carlos Ribeiro,750b4f8b-1fb8-4228-b961-26a5e4885c55,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+29,Camila de Carvalho Ribeiro,750b4f8b-1fb8-4228-b961-26a5e4885c55,Outra,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+30,Camila Nonato Ravanelli,413f7cfe-9ca0-4146-b73d-0626f6de047a,União Estável,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+31,Luciane Rodrigues de Souza,e4b67eae-94bf-42d2-a5d1-0c0a38f67472,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+32,Edna Doi,625e5c21-dded-44a6-9a57-acfbf851ef1b,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+33,Elenice Rosana Alves,14242913-6060-4ef2-8d3b-24a1317be7ce,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+34,José Roberto Neves,14242913-6060-4ef2-8d3b-24a1317be7ce,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+35,paulo fernando castilho silva,2a60e42c-d6a3-49bc-84ea-e9bb062de328,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+36,luzia mara chudis,2a60e42c-d6a3-49bc-84ea-e9bb062de328,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+37,Sandra Regina Sacramento Soares,b0057206-0765-49bb-9095-d46a352d6081,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+38,Jacquelina primo de Sousa Alves ,69ab530e-315f-419d-b854-77e705d46e1c,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+39,Alan Sulino,50e523a5-f90c-473e-9383-e6ceec700971,Outra,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+40,Eliana Bezerra de Carvalho,1aaf143f-e171-45ce-a5f6-a25e5a59c558,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+41,Anderson Fidelis,1aaf143f-e171-45ce-a5f6-a25e5a59c558,Outra,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+42,Cláudio Riggo,fdc8adea-23b0-483f-9530-6fd6301a6e1f,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+43,Marcelo Bretas,fdc8adea-23b0-483f-9530-6fd6301a6e1f,Outra,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+44,Cláudia H. O. Barbosa Gandra Neves,0b68af5f-14c9-4620-a98f-bd54f2d8d3be,Pai/Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+45,Roque Gandra Neves Junior,0b68af5f-14c9-4620-a98f-bd54f2d8d3be,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+46,Elenice Rosana Alves,114d9a4d-44ae-4245-8a9b-e3683752b125,Pai/Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+47,José Roberto Neves,114d9a4d-44ae-4245-8a9b-e3683752b125,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+48,Silvio Seiki Kasahaya,960f9030-7a96-4660-a72a-9dd6abbf8b08,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+49,,4127bd17-592c-46ba-8c70-c1a84a4ca079,,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+50,,4127bd17-592c-46ba-8c70-c1a84a4ca079,,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+51,Jacquelina Primo de Sousa Alves,39dc5842-6e64-4d8e-a2f4-c8a13a34fed5,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+52,Jacquelina Primo de Sousa Alves,39dc5842-6e64-4d8e-a2f4-c8a13a34fed5,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+53,Joyce Rebeca Primo Soares Felizardo,39dc5842-6e64-4d8e-a2f4-c8a13a34fed5,Irmão/Irmã,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+54,Sonia Maria Primo Soares Felizardo,39dc5842-6e64-4d8e-a2f4-c8a13a34fed5,Irmão/Irmã,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+55,Isabelle Gonçales Dias,660c4e4c-a78b-456b-804a-f322c5551d5d,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+56,Isabelle Gonçales Dias,660c4e4c-a78b-456b-804a-f322c5551d5d,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+57,Pablo Silva Almeida,fea52e3c-ca35-4df1-9fab-03f3ef1403ee,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+58,Julia Cordeiro Martins,d87711dc-a483-48d1-aa3a-c1dcdee24d3d,União Estável,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+59,Rodrigo Caetano Belchior Simões,d87711dc-a483-48d1-aa3a-c1dcdee24d3d,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+60,alexandre zizi,4476ce9c-70b2-41c6-a5e0-d3078bbddac8,Namorado/Namorada,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+61,Bruno Habitzreuter,7c237eca-6660-41ea-859d-ccf7ff6c6095,União Estável,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+62,Maria Luciene de Lima Almeida,e7f4ce14-fa07-4414-a301-4ceae5bd8f84,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+63,Patricia de Lima Almeida,e7f4ce14-fa07-4414-a301-4ceae5bd8f84,Irmão/Irmã,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+64,Henrique Naoki Matsumoto,c32db80a-64f9-4a77-8ce2-a7c3e3c63921,Irmão/Irmã,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+65,Danielle da Fonseca Ribeiro ,f5fadcb3-e59c-4a8e-959b-17531ab398af,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+66,Eduardo Luiz Moura Campos Gugoni,f5fadcb3-e59c-4a8e-959b-17531ab398af,Namorado/Namorada,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+67,Pedro Bueno,b5c26951-a90c-48ba-82f5-be507e87e0e3,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+68,Henry Jacob Kleist,c8308eb1-faa0-432c-b029-4c9fac8c957b,Filho / Filha,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+69,Carla Santos Nascimento,c8308eb1-faa0-432c-b029-4c9fac8c957b,Outra,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+70,João de Paulo Neto,3ae52a54-c57d-49ee-89cc-241674468e90,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+71,Joaquim Martins Cardoso,e2bbe43a-ba1a-43e8-8410-b14b01644f55,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+72,Silvia Cobaixo Cardoso,e2bbe43a-ba1a-43e8-8410-b14b01644f55,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+73,Maria Luísa Nascimento,658349aa-de64-4883-b3dc-812e83408112,Namorado/Namorada,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+74,João de Paulo Neto,fa54dbd2-36da-4386-8e5c-a6c81d448784,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+75,Marina Sulino Brito,50e523a5-f90c-473e-9383-e6ceec700971,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+76,Rayssa Braga,11d41b7b-ea98-4491-aea2-e6775b4401b9,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+77,Karen Almeida Germano,307e672c-084a-43e8-8608-31660170a98b,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+78,Maurizio Minopoli,e267681b-9e6a-42cb-810a-6e8e8b7e94e6,Outra,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+79,,307e672c-084a-43e8-8608-31660170a98b,,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+80,Adelaide Minopoli,e267681b-9e6a-42cb-810a-6e8e8b7e94e6,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+81,,307e672c-084a-43e8-8608-31660170a98b,,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+82,,307e672c-084a-43e8-8608-31660170a98b,,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+83,Renata Minopoli,e267681b-9e6a-42cb-810a-6e8e8b7e94e6,Outra,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+84,Elaine Zappa dos Santos,2b31a637-aa41-4421-8a24-c8050041cc40,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+85,,4ed09d86-afbb-432a-b04b-d0858441827b,,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+86,Natalia Britvina,4ed09d86-afbb-432a-b04b-d0858441827b,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+87,,4ed09d86-afbb-432a-b04b-d0858441827b,,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+88,Koda Gabriel Faria Melo,efec03ca-824a-40bc-9bdb-29f23ebdd742,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+89,Patricia Lopes Belini Zanfolin,dbf3fa1c-b331-4c21-ad7c-974974960dbe,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+90,Rosangela Ramos,f1272f63-54a7-4e83-a2ed-07b976dce86d,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+91,,4bc961e4-9860-408a-ba48-499df85365d9,,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+92,FELIPE MESQUITA DA SILVA,4bc961e4-9860-408a-ba48-499df85365d9,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+93,Kélcio de Lima Gurgel,896898d2-5194-49bc-87b8-59a30b61322e,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+94,Rafael Yukio Yada,b0787ca6-034b-4207-bce8-09f4568de600,Irmão/Irmã,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+95,Nathally da Silva Gomes,03dae940-b6aa-4d8a-bfcd-109c0c4e0252,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+96,,03dae940-b6aa-4d8a-bfcd-109c0c4e0252,,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+97,Rafaela dos santos ,ddb2379a-0339-4e17-8166-294595c78d4d,União Estável,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+98,Sthefany Cristina Pereira Aguiar,c449b877-eb0a-4915-9cdd-38a95498ae41,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+99,Marcia Damiana Barbosa de Oliveira ,4f1794a1-a0ab-43f1-a147-0f9cf0a5ede2,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+100,,650f2490-2087-4d3a-9e6d-bc6e72d26c96,,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+101,Diego Santana E Jesus ,650f2490-2087-4d3a-9e6d-bc6e72d26c96,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+102,Josicleide Ramos Ferreira,affb8bba-e888-46f3-9b20-b5d0443762ff,Pai/Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+103,Aretha Cristina Ferreira da Silva,affb8bba-e888-46f3-9b20-b5d0443762ff,Tio/Tia,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+104,Arthur Ramos Cordeiro,affb8bba-e888-46f3-9b20-b5d0443762ff,Irmão/Irmã,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+105,Jane Gregorio da Silva,de98f546-0534-47b9-813a-62e1758fca43,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+106,Josefa Rineuda Berto de Melo,e4a2a8d9-4735-436f-bdfc-b2ef2837082f,,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+107,Célia Cordeiro dos Santos,98ecfbf7-d038-4250-a8aa-1cfa10193276,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+108,Iraildes Lopes Medeiros,1e01c8e8-2311-4387-8ff0-f1bb5b659e34,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+109,Ana Lucia Ventura Grigorio,fc3ae28d-9d1e-411a-92aa-c2595bfcbc55,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+110,Sandra Silva de França,437f8f7c-d129-470b-b704-a8dbad296240,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+111,Renato Coelho Brito,437f8f7c-d129-470b-b704-a8dbad296240,Namorado/Namorada,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+112,Jucinéia Pires de Almeida da Silva,d3bcf35b-d4e2-4ded-889c-ce447216197d,Pai/Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+113,Jailson Santana da Silva,d3bcf35b-d4e2-4ded-889c-ce447216197d,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+114,Luciana Gonçalves Ferreira Bueno ,55980637-5552-4b6f-ad62-eec239875b6d,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+115,David Correa Bueno ,55980637-5552-4b6f-ad62-eec239875b6d,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+116,Kélcio de Lima Gurgel,71eb6eaf-93a7-4ca8-ab37-e8b7575ce5ec,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+117,João Gabriel Ferreira Bueno,55980637-5552-4b6f-ad62-eec239875b6d,Irmão/Irmã,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+118,Caio Camargo Constantino,92cc4ca3-851c-4d5a-b406-278aac88005c,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+119,,6e263069-5145-403d-9936-26e1a60fc855,,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+120,,6e263069-5145-403d-9936-26e1a60fc855,,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+121,Zaruf Fontenele Bevilaqua,87803f2f-d855-463e-b59f-31abce740659,Irmão/Irmã,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+122,Pedro Bueno,aedaf720-2ea4-4b3e-9ed4-d4ea3dac5cf7,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+123,Jhonata Rocha,6a763efd-a582-4237-8647-5e9b4aea1adf,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+124,Jarbas Eduardo Martins,201a74e0-510d-459d-a95e-483406df9146,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+125,Willian Gabarrona Diniz Nascimento,b9916c2a-ed2f-4006-b128-1eb2723c7203,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+126,Humberto Costa,37fc242c-d1ca-4000-9384-95fecfd80d42,União Estável,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+127,Ambrozina de Andrade Jacob,c8308eb1-faa0-432c-b029-4c9fac8c957b,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+128,Rosana Leonel Ferreira,659509dd-7d30-4e4e-a68a-11cc25a9a39f,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+129,Adriana da Silva Bento,db300b3f-b178-49da-b75d-7bbf43de78c3,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+130,Adriana da Silva Bento,db300b3f-b178-49da-b75d-7bbf43de78c3,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+131,SOPHIE OROSA FRANÇA,d91c4652-05fb-49c0-80c8-0fe5e054b89f,Filho / Filha,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+132,Athos Nilo Bier Greco Jr ,915e753a-af75-4a47-a2da-c13680d978ed,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+133,Ruth Anne Elaine Johnson Greco ,915e753a-af75-4a47-a2da-c13680d978ed,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+134,,7926ac4e-77ff-4bb7-aba6-39a038cfbe48,,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+135,Maryelen Costa Carvalho,7926ac4e-77ff-4bb7-aba6-39a038cfbe48,Cônjuge,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+136,,c66452f8-78b1-4d96-a8ec-96465fd0d667,,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+137,José Luis Blanco Lorenzo,c66452f8-78b1-4d96-a8ec-96465fd0d667,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+138,Roxana Lujan Otero,846096bf-562f-46a0-b510-93f233966835,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+139,Rafael Felipe da Silva Lima,fbb38b3e-9808-46f9-b5fe-c491c3aee390,Irmão/Irmã,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+140,Aldenora Lima da Silva,fbb38b3e-9808-46f9-b5fe-c491c3aee390,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+141,Sebastião Coelho Filho,2ed67ef6-ab2f-42a5-ae22-930e932e262b,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
+142,Marta Elide Ghirotti Coelho,2ed67ef6-ab2f-42a5-ae22-930e932e262b,Pai / Mãe,,,,false,false,false,false,false,2026-04-01T15:33:11+00:00
