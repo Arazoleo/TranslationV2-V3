@@ -1,0 +1,375 @@
+{
+    "name": "z_feedbacks",
+    "version": "1.0",
+    "tables": {
+      "one_on_ones": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "requester_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "participant_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "linked_feedback_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_feedbacks",
+              "table": "feedbacks",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "title": {
+            "type": "text",
+            "required": false
+          },
+          "agenda": {
+            "type": "text",
+            "required": false
+          },
+          "location": {
+            "type": "text",
+            "required": false
+          },
+          "status": {
+            "type": "text",
+            "required": true,
+            "default": "'requested'::text"
+          },
+          "scheduled_at": {
+            "type": "timestamptz",
+            "required": true
+          },
+          "requested_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "completed_at": {
+            "type": "timestamptz",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "outcome_summary": {
+            "type": "text",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "configs": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "features": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'[]'::jsonb",
+            "description": "Feature flags array"
+          },
+          "access": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'{}'::jsonb",
+            "description": "Access control settings"
+          },
+          "settings": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'{}'::jsonb",
+            "description": "App-specific settings"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {},
+        "description": "App configuration settings (one row per installation)"
+      },
+      "profiles": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "primaryKey": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "app_role": {
+            "type": "text",
+            "required": false,
+            "description": "User role in the app (admin, member, etc.)"
+          },
+          "settings": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'{}'::jsonb",
+            "description": "User-specific settings"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {},
+        "description": "App user profiles (extends public.profiles with same id)"
+      },
+      "feedback_requests": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "requester_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "responder_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "subject_user_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "title": {
+            "type": "text",
+            "required": false
+          },
+          "context": {
+            "type": "text",
+            "required": false
+          },
+          "request_type": {
+            "type": "text",
+            "required": true,
+            "default": "'general'::text"
+          },
+          "status": {
+            "type": "text",
+            "required": true,
+            "default": "'pending'::text"
+          },
+          "responded_feedback_id": {
+            "type": "uuid",
+            "required": false
+          },
+          "due_date": {
+            "type": "date",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "feedbacks": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "sender_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "recipient_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "request_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "z_feedbacks",
+              "table": "feedback_requests",
+              "column": "id",
+              "onDelete": "SET NULL"
+            }
+          },
+          "feedback_type": {
+            "type": "text",
+            "required": true,
+            "default": "'general'::text"
+          },
+          "title": {
+            "type": "text",
+            "required": false
+          },
+          "content": {
+            "type": "text",
+            "required": true
+          },
+          "visibility": {
+            "type": "text",
+            "required": true,
+            "default": "'private_to_recipient'::text"
+          },
+          "origin": {
+            "type": "text",
+            "required": true,
+            "default": "'manual'::text"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "reaction": {
+            "type": "text",
+            "required": false
+          },
+          "response_status": {
+            "type": "text",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "feedback_replies": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "feedback_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "z_feedbacks",
+              "table": "feedbacks",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "author_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "content": {
+            "type": "text",
+            "required": true
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      }
+    },
+    "enums": {},
+    "jsonTypes": {}
+  }

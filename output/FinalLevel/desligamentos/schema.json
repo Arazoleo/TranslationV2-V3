@@ -1,0 +1,238 @@
+{
+    "name": "z_desligamento",
+    "version": "1.0",
+    "tables": {
+      "profiles": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome_completo": {
+            "type": "text",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "configs": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "nome_empresa": {
+            "type": "text",
+            "required": false
+          },
+          "features": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'[]'::jsonb"
+          },
+          "access": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'{}'::jsonb"
+          },
+          "settings": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'{}'::jsonb"
+          },
+          "timezone": {
+            "type": "text",
+            "required": false,
+            "default": "'America/Sao_Paulo'::text"
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "desligamentos": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "pessoa_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id"
+            }
+          },
+          "etapa": {
+            "type": "etapa_desligamento",
+            "required": false,
+            "default": "'Triagem'::z_desligamento.etapa_desligamento"
+          },
+          "tipo_desligamento": {
+            "type": "tipo_desligamento",
+            "required": false
+          },
+          "comentarios": {
+            "type": "text",
+            "required": false
+          },
+          "data_desligamento": {
+            "type": "date",
+            "required": false
+          },
+          "responsavel_rh_id": {
+            "type": "uuid",
+            "required": false,
+            "references": {
+              "schema": "public",
+              "table": "profiles",
+              "column": "id"
+            }
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "valor_rescisao": {
+            "type": "numeric",
+            "required": false
+          }
+        },
+        "metadata": {}
+      },
+      "template_email": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          },
+          "nome": {
+            "type": "text",
+            "required": false
+          },
+          "assunto": {
+            "type": "text",
+            "required": false
+          },
+          "corpo_email": {
+            "type": "text",
+            "required": false
+          },
+          "status": {
+            "type": "text",
+            "required": false
+          },
+          "destinatario": {
+            "type": "text",
+            "required": false
+          },
+          "updated_at": {
+            "type": "timestamptz",
+            "required": false,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      },
+      "historico_desligamento": {
+        "columns": {
+          "id": {
+            "type": "uuid",
+            "required": true,
+            "default": "gen_random_uuid()",
+            "primaryKey": true
+          },
+          "desligamento_id": {
+            "type": "uuid",
+            "required": true,
+            "references": {
+              "schema": "z_desligamento",
+              "table": "desligamentos",
+              "column": "id",
+              "onDelete": "CASCADE"
+            }
+          },
+          "tipo": {
+            "type": "text",
+            "required": true
+          },
+          "descricao": {
+            "type": "text",
+            "required": true
+          },
+          "detalhes": {
+            "type": "jsonb",
+            "required": false,
+            "default": "'{}'::jsonb"
+          },
+          "criado_por": {
+            "type": "uuid",
+            "required": false
+          },
+          "created_at": {
+            "type": "timestamptz",
+            "required": true,
+            "default": "now()"
+          }
+        },
+        "metadata": {}
+      }
+    },
+    "enums": {
+      "etapa_desligamento": [
+        "Triagem",
+        "Coleta de Dados",
+        "Comunicação",
+        "Preparação",
+        "Desligado",
+        "Arquivado"
+      ],
+      "tipo_desligamento": [
+        "Voluntário",
+        "Involuntário (sem justa causa)",
+        "Involuntário (com justa causa)",
+        "Acordo",
+        "Término de contrato"
+      ]
+    },
+    "jsonTypes": {}
+  }

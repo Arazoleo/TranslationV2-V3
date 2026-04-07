@@ -1846,7 +1846,7 @@
     "sheet_name": "Adesão a benefícios",
     "system_name": "benefits_adhesion",
     "default_view_id": "9f4f5b69-de22-4897-910b-f04c7556bb74",
-    "records_count": 119,
+    "records_count": 129,
     "fields": [
       {
         "id": "0b19c696-042a-4cdd-9fce-af28d422efc9",
@@ -2155,7 +2155,7 @@
     "sheet_name": "Empresas",
     "system_name": "companies",
     "default_view_id": "58761980-f447-443a-873b-e2a25cf2ad1f",
-    "records_count": 97,
+    "records_count": 98,
     "fields": [
       {
         "id": "bb27cff1-3c6e-4c81-beda-9890370d5fa1",
@@ -2353,7 +2353,7 @@
     "sheet_name": "Contratos",
     "system_name": "contracts",
     "default_view_id": "2020990a-2803-402e-a8b0-63036bdaa564",
-    "records_count": 302,
+    "records_count": 303,
     "fields": [
       {
         "id": "593125a7-49b5-4457-8503-13c4a45daade",
@@ -2674,7 +2674,7 @@
     "sheet_name": "Despesas e Reembolsos",
     "system_name": "expenses",
     "default_view_id": "ff322b9d-39e6-4db7-b9e1-b2cc97022db6",
-    "records_count": 2162,
+    "records_count": 2178,
     "fields": [
       {
         "id": "e6c5f731-747a-46e5-981b-a1cf10540f29",
@@ -4156,7 +4156,7 @@
     "sheet_name": "Movimentações",
     "system_name": "movimentacoes_movimentacoes_sheet",
     "default_view_id": "5a3e3445-e616-4b32-b0bf-674110ebfc2b",
-    "records_count": 157,
+    "records_count": 158,
     "fields": [
       {
         "id": "f1941a78-b16f-4db1-a197-8f4aafcd117d",
@@ -4549,7 +4549,7 @@
     "sheet_name": "Admissão",
     "system_name": "onboarding",
     "default_view_id": "b2d94ed1-a395-4aa9-8641-a89fec9bb191",
-    "records_count": 10,
+    "records_count": 11,
     "fields": [
       {
         "id": "cb4dce14-4113-4f86-9fc0-6985cbe1fa9e",
@@ -4984,7 +4984,7 @@
     "sheet_name": "Ausências",
     "system_name": "paid_time_off",
     "default_view_id": "e90523fc-f3c9-4d22-9d40-25e630e71161",
-    "records_count": 702,
+    "records_count": 703,
     "fields": [
       {
         "id": "e47a225a-2cfa-434c-948e-b5bb0aa3c6a9",
@@ -5089,7 +5089,7 @@
     "sheet_name": "Pagamentos",
     "system_name": "payments",
     "default_view_id": "2a6d725a-a8b3-479e-aa23-e88351afcc71",
-    "records_count": 850,
+    "records_count": 893,
     "fields": [
       {
         "id": "890e1fe6-f015-44d9-9916-5fc18dccca84",
@@ -5236,7 +5236,7 @@
     "sheet_name": "Pessoas",
     "system_name": "people",
     "default_view_id": "3644810e-3763-4acb-9fd5-f04ab9c0f7d2",
-    "records_count": 100,
+    "records_count": 101,
     "fields": [
       {
         "id": "82ce1402-ce62-46ec-aa8a-cba78c0c0732",
@@ -6784,7 +6784,7 @@
     "sheet_name": "Pesquisa de Sentimentos",
     "system_name": "sentimentos_pesquisa_de_sentimentos_sheet",
     "default_view_id": "492eccdb-449d-407e-8f5e-34186c3a9e6b",
-    "records_count": 1555,
+    "records_count": 1593,
     "fields": [
       {
         "id": "4f71dcb9-93f0-4e06-9c6d-314e0ede9bfc",
@@ -7270,7 +7270,7 @@
     "sheet_name": "Respostas eNPS",
     "system_name": "zazos_apps_enps_answers",
     "default_view_id": "d09c7e1c-9cdd-4105-b7a3-ff83fcd7d8b6",
-    "records_count": 699,
+    "records_count": 733,
     "fields": [
       {
         "id": "e403dd28-f5a1-4d9a-9c28-b47bf4968589",
@@ -7996,7 +7996,7 @@
     "sheet_name": "Competências Reembolsos",
     "system_name": null,
     "default_view_id": "e3613ce7-17dd-4c5f-8b88-352c0192b719",
-    "records_count": 553,
+    "records_count": 593,
     "fields": [
       {
         "id": "68955eb5-cabd-40cb-a6be-98b31d1c7efa",
